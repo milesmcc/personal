@@ -36,6 +36,11 @@ p {
   font-size: 125%;
 }
 
+a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+}
+
 .content {
   align-self: center;
   width: 100%;
