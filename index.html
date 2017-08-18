@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+
+  Hi, welcome to the internals of my website. Konami?
+  It's pretty cool that you're viewing the source,
+  practically a l33t hacker already. All this stuff
+  is hand written on a saturday night at 2 AM
+  (I guess that's technically sunday morning),
+  so please forgive any bad conventions or atrocious
+  lack of quality. I promise my other projects are better.
+  I'll be the first to admit that I'm not a web designer,
+  although I think that this page turned out alright.
+
+  I hope you get what you need out of this site. If you're
+  trying to dig on me, good luck. I try to keep a
+  minimal online profile but I haven't been entirely successful.
+  Part of the point of this site is to consolidate
+  and control what information is available about me online,
+  so I've kept it intentionally minimal. I mean, just look
+  at the 'about me' page. There's practically nothing there.
+
+  Also, I do more stuff than is just listed on this site.
+  I also like flying airplanes, tinkering with electronics,
+  physics, studying mental health (check out PSADI.org),
+  and I hate psychology with a passion (sorry- hate is a strong
+  word and I don't actually hate psychology but I'm not fond
+  of it either). There's other stuff that I do too. I just
+  thought that I'd say that as a little bonus perk for
+  looking at the source of this web page.
+
+  Anyway, have fun, and I hope you enjoyed this terribly written
+  and ineloquent 'bonus perk' that I've included in the source.
+
+-->
+<script src="js/jquery.js"></script>
+<script src="js/konami.js"></script>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+
+
+<style>
+#expand{
+  font-size: 72px;
+}
+
+hr {
+  border: none;
+  height: 7px;
+  /* Set the hr color */
+  color: #E8E8E8; /* old IE */
+  background-color: #E8E8E8; /* Modern Browsers */
+}
+
+#expand, h1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 75px;
+  vertical-align: middle;
+}
+
+h2, h3, h4, h5 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#hidden{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#expand {
+  border-style: dashed;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content {
+  align-self: center;
+  width: 100%;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+
+  /* thanks Stack Overflow! */
+}
+
+#hidden {
+  display: none;
+  font-size: 15px;
+}
+
+#moreinfo {
+  display: none;
+}
+
+
+a {
+  text-decoration: underline;
+}
+.fullpage{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+#easteregg{
+  background-color: blue;
+  z-index: 1000;
+}
+#message{
+  font-family: Courier;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  z-index: 20000;
+}
+#camera{
+  z-index: 10000;
+}
+#everything{
+  z-index: 99999999;
+}
+.horizontal-center{
+  display: flex;
+  align-items: center;
+}
+</style>
+
+<script>
+var expanded = false;
+function toggleExpanse(){
+  if(expanded){
+    $("#hidden").slideUp();
+    $("#expand").html("&nbsp;+&nbsp;")
+    $(".super").fadeTo(400, 1)
+    expanded = false;
+  }else{
+    $("#hidden").slideDown();
+    $("#expand").html(" &nbsp;-&nbsp; ")
+    $(".super").fadeTo(400, 0.3)
+    expanded = true;
+  }
+}
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+function say(hello){
+  alert(hello)
+}
+
+function resume(){
+  alert("For privacy concerns, this is not available publically. Please email to inquire.")
+}
+
+function onLoad(){
+  var easter_egg = new Konami(function() {
+    window.setInterval(function(){
+      flashIntros()
+    }, 140);
+    $("#everything").fadeOut(3000, function(){
+      $("#everything").hide(function(){
+        var myAudio = new Audio('sounds/creepy.mp3');
+        myAudio.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+          }, false);
+        myAudio.play();
+        window.setInterval(function(){
+          flashLoop()
+        }, 100);
+      });
+    });
+    $("#easteregg").css("background-color", "black").delay(500).css("background-color", "white");
+  });
+}
+var intros = [
+  "Be careful...",
+  "Your warranty is void.",
+  "Don't blink.",
+  "Hear that?",
+  "Here we go!",
+  "What?",
+  "Now.",
+  "Why?",
+  "Quiet!"
+]
+var currentIntro = 0;
+function flashIntros(){
+  if(currentIntro >= intros.length){
+    currentIntro = 0;
+  }
+  $("#big").text(intros[currentIntro]);
+  currentIntro += 1;
+}
+var messages = [
+  "I think the N.S.A. is awesome.",
+  "I just reread “Nineteen Eighty-Four”—it actually has a lot of good ideas in it!",
+  "There’s no such thing as a “bad” drone.",
+  "Sure am glad that I never talk to any foreigners.",
+  "I wouldn’t know the first thing about any 'surveillance.'",
+  "The Fourth Amendment is overrated.",
+  "Just changed my Facebook status from “Single” to “In a Relationship with America.”",
+  "I’m pretty sure my neighbor is cheating on his taxes.",
+  "Don't you just love surveillance?",
+  "We're all safe now!",
+  "What's that?",
+  "Yeah! Me too!",
+  "She can hear us",
+  "I'm listening!",
+  "I love surveillance!",
+  "Don't be paranoid!",
+  "If you've got nothing to hide,",
+  "Why do you even care?"];
+var currentMessage = 0;
+var untilNext = 5;
+
+function flashLoop(){
+    // adapted from http://www.newyorker.com/humor/borowitz-report/useful-phrases-for-the-surveillance-state
+  var color = $("#easteregg").css("background-color");
+  if(color == "rgb(0, 0, 0)"){
+    if(untilNext == 0){
+      if(currentMessage >= messages.length){
+        currentMessage = 0;
+      }else{
+        currentMessage = currentMessage + 1;
+      }
+      untilNext = 5;
+    }else{
+      untilNext -= 1;
+    }
+    $("#message").text(messages[currentMessage]);
+    $("#easteregg").css("background-color", "white");
+  }else{
+    $("#easteregg").css("background-color", "black");
+  }
+}
+
+window.onload = onLoad();
+</script>
+<title>Miles McCain - home</title>
+</head>
+<body>
+  <div class="container vertical-center" id="everything">
+    <div class="content">
+      <div id="header" class="super">
+        <h1 id="big">Miles McCain</h1>
+      <hr>
+      </div>
+      <div id="hidden" class="container">
+        <div class="row">
+	  <p>I'm a student, transparency and privacy advocate, computer engineer, and writer who is trying to stay informed and contribute to society in a meaningful way. I've done a few things to that end, and made a few things along the way.</p>
+          <div class="col-md-3">
+            <p><h3>Information</h3></p>
+            <p>&emsp;<a href="/about">about me</a></p>
+            <p>&emsp;<a href="/identities">online identities</a></p>
+            <p>&emsp;<a href="/contact">contact info</a></p>
+            <p>&emsp;<a onclick="resume()">resume</a></p>
+            <p>&emsp;<a href="https://github.com/milesmcc">my open-source projects</a></p>
+          </div>
+          <div class="col-md-3">
+            <p><h3>Secure Contact</h3></p>
+            <p>&emsp;<a href="/secure#pgp">via PGP</a></p>
+            <p>&emsp;<a href="/secure#ricochet">via Ricochet</a></p>
+            <p>&emsp;<a href="/contact#keybase">via Keybase</a> <small><i>recommended</i></small></p>
+          </div>
+          <div class="col-md-3">
+            <p><h3>Pay Me</h3></p>
+            <p>&emsp;<a href="https://paypal.me/milesmccain">via PayPal</a></p>
+            <p>&emsp;<a href="https://cash.me/$milesmccain">via Square</a></p>
+            <p>&emsp;or buy my <a href="https://itunes.apple.com/us/album/mesonoxian/id1217975467">album</a></p>
+          </div>
+          <div class="col-md-3">
+            <p><h3>Initiatives</h3></p>
+            <p>&emsp;<a onclick="alert('referral and affiliate links will published as soon as I am sure that this would not be a violation of a terms of service somewhere')">free money</a></p>
+            <p>&emsp;<a href="/hackme">hack me</a></p>
+          </div>
+        </div>
+        <small><span onclick="say('I have included as much as is personally responsible of me in this website, however if you feel that something is missing or you have any other questions, feel free to email me.')">...other</span></small>
+      </div>
+      <span onclick="toggleExpanse()" id="expand" class="expand super" style="font-family: 'Roboto', sans-serif;">&nbsp;+&nbsp;</span>
+    </div>
+  </div>
+  <div class="fullpage" id="easteregg">
+    <div class="vertical-center horizontal-center">
+        <img src="https://i.imgur.com/fops1t3.png">
+        <br>
+        <p><div id="message">
+          they are watching you
+        </div></p>
+    </div>
+    <div id="white" class="fullpage">
+    </div>
+    <div id="black" class="fullpage">
+    </div>
+  </div>
+
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(101062642); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101062642ns.gif" /></p></noscript>
+</body>
+</html>
