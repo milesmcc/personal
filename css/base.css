@@ -30,10 +30,11 @@ h2, h3, h4, h5 {
   border-style: dashed;
 }
 
-p {
+p, li {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 125%;
+  letter-spacing: 0.3px;
 }
 
 a {
@@ -109,4 +110,10 @@ blockquote {
 
 .code {
   font-family: "Courier New", Courier, monospace;
+}
+
+@media only screen and (min-width: 1025px) {
+  .morereadable {
+    max-width: 55%;
+  }
 }
