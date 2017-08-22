@@ -22,6 +22,14 @@ h2, h3, h4, h5 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.rounded {
+  border-radius: 4px;
+}
+
+.small {
+  max-height: 150px;
+}
+
 #hidden {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
