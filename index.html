@@ -204,12 +204,12 @@
           <div class="col-md-3">
             <p>
               <h3>Initiatives</h3></p>
-              <p>&emsp;<a href="https://politiwatch.org">Politiwatch</a></p>
-              <p>&emsp;<a href="http://openwi.re">openwi:re</a></p>
-              <p>&emsp;<a href="https://tbij.dronescout.org">DroneScout</a></p>
-              <p>&emsp;<a href="https://github.com/milesmcc">open-source projects</a></p>
-              <p>&emsp;<a href="https://itunes.apple.com/us/album/mesonoxian/id1217975467">album</a></p>
-              <p>&emsp;<i><small>This is not a complete list.</small></i></p>
+            <p>&emsp;<a href="https://politiwatch.org">Politiwatch</a></p>
+            <p>&emsp;<a href="http://openwi.re">openwi:re</a></p>
+            <p>&emsp;<a href="https://tbij.dronescout.org">DroneScout</a></p>
+            <p>&emsp;<a href="https://github.com/milesmcc">open-source projects</a></p>
+            <p>&emsp;<a href="https://itunes.apple.com/us/album/mesonoxian/id1217975467">album</a></p>
+            <p>&emsp;<i><small>This is not a complete list.</small></i></p>
           </div>
           <div class="col-md-3">
             <p>
@@ -240,13 +240,27 @@
     </div>
   </div>
 
-  <script src="//static.getclicky.com/js" type="text/javascript"></script>
+  <!-- Piwik -->
   <script type="text/javascript">
-    try {
-      clicky.init(101062642);
-    } catch (e) {}
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u = "//analytics.rmrm.io/";
+      _paq.push(['setTrackerUrl', u + 'piwik.php']);
+      _paq.push(['setSiteId', '1']);
+      var d = document,
+        g = d.createElement('script'),
+        s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript';
+      g.async = true;
+      g.defer = true;
+      g.src = u + 'piwik.js';
+      s.parentNode.insertBefore(g, s);
+    })();
   </script>
-  <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101062642ns.gif" /></p></noscript>
+  <!-- End Piwik Code -->
 </body>
 
 </html>
