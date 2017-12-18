@@ -70,7 +70,6 @@ Most of the research that I do is related to either computer science, political 
 ## Projects
 Various projects that I have created, listed in no particular order. Collectively, my projects have been used more than two million times.
 
-Projects:
 * [TheCollectiveUnconscious.org](https://thecollectiveunconscious.org) — an online art installation highlighting the time-suck that the internet can be
 * [Encompassed.press](https://github.com/milesmcc/Encompassed.press) — the single most encompassing and important news story, found automatically. Accessible at https://104.131.177.156/, but you'll need to make a security exception. Sorry, I couldn't renew the domain. I'll fix this.
 * [BibleOrQuran.org](https://bibleorquran.org) - a game to combat islamophobia.
