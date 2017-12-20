@@ -71,7 +71,7 @@ Most of the research that I do is related to either computer science, political 
 Various projects that I have created, listed in no particular order. Collectively, my projects have been used more than two million times.
 
 * [TheCollectiveUnconscious.org](https://thecollectiveunconscious.org) — an online art installation highlighting the time-suck that the internet can be
-* [Encompassed.press](https://github.com/milesmcc/Encompassed.press) — the single most encompassing and important news story, found automatically. Accessible at https://104.131.177.156/, but you'll need to make a security exception. Sorry, I couldn't renew the domain. I'll fix this.
+* [Encompassed.press](https://github.com/milesmcc/Encompassed.press) — the single most encompassing and important news story, found automatically. Accessible at https://encompassed.rmrm.io/.
 * [BibleOrQuran.org](https://bibleorquran.org) - a game to combat islamophobia.
   - Among the most popular games on Reddit's [WebGames](https://www.reddit.com/r/WebGames/comments/50cwkn/bibleorquran_gives_you_a_random_verse_from_either/) subreddit.
   - Awarded "most wholesome [game] of 2016" by Reddit WebGames
@@ -144,3 +144,12 @@ _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatr
 ## Music
 * [Ambps 0](https://itunes.apple.com/us/album/ambps-0-ep/1145046578) — a five track EP of experimental music. It might not be your taste. I, personally, like it.
 * [Mesonoxian](https://itunes.apple.com/us/album/mesonoxian/1217975467) — a full-length album of classical pieces ranging from baroque to the avant-garde recreated using thousands of synthesizers.
+
+---
+
+## Hopefuls
+* Politico long-read piece with Dr. Kreps
+* VoteSnap with George
+* ProtestPack @ ProgCode
+* Spotlife (commercial)
+* Twitter academic article with Dr. Kreps (dependent on long-read)
