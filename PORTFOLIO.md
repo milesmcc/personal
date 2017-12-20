@@ -150,6 +150,6 @@ _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatr
 ## Hopefuls
 * Politico long-read piece with Dr. Kreps
 * VoteSnap with George
-* ProtestPack @ ProgCode
+* ProtestPack @ ProgCode (maybe Protest Hub too?)
 * Spotlife (commercial)
 * Twitter academic article with Dr. Kreps (dependent on long-read)
