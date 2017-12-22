@@ -135,7 +135,7 @@ _See 'Academics' for the list of awards I have received through my school. These
 * **HackNEHS 1st place** (Winter 2018): won first place in [HackNEHS](https://www.hacknehs.com/), a 'hackathon' for New England high schools.
 * **HackACE 1st place (tied)** (Winter 2017): tied for first place in [HackACE](http://hackace.us).
 
-_I am currently competing with [Blueshells](https://blueshells.net) in CyberPatriot X._
+_I am currently competing with [Blueshells](https://blueshells.net) in CyberPatriot X. (Platinum division.)_
 
 ## Personal Development
 * **Cambridge Scholars Programme** (summer 2016): I will admit that I am not a huge fan of pre-college summer programs at universities. It's generally pay-to-play, so I don't know why they are emphasized so heavily by both my peers and adults. Regardless, I had the opportunity to attend _Cambridge Scholars Programme_ the summer after my freshman year of high school. I did coursework in robotics and physics, and received an 'A' in all classes.
