@@ -150,6 +150,8 @@ _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatr
 ## Hopefuls
 * Politico long-read piece with Dr. Kreps
 * VoteSnap with George
-* ProtestPack @ ProgCode (maybe Protest Hub too?)
+* ProtestPack @ ProgCode (maybe Protest Hub too? Collab with National Lawyers Guild, BLM via Julian, MoveOn via Julian, Indivisible via Julian, etc)
 * Spotlife (commercial)
 * Twitter academic article with Dr. Kreps (dependent on long-read)
+* LibreNews with Bloomberg (long prospect)
+* [OpenPD](https://openpd.org)
