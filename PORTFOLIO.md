@@ -155,3 +155,4 @@ _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatr
 * Twitter academic article with Dr. Kreps (dependent on long-read)
 * LibreNews with Bloomberg (long prospect)
 * [OpenPD](https://openpd.org)
+* Alioshka fund
