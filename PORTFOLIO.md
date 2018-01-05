@@ -156,3 +156,4 @@ _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatr
 * LibreNews with Bloomberg (long prospect)
 * [OpenPD](https://openpd.org)
 * [Congressional Data Challenge](https://www.challenge.gov/challenge/congressional-data-competition/)
+* Alioshka fund
