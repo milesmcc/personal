@@ -27,7 +27,7 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * GSA _(gender & sexuality alliance; board member)_
 * UNICEF Club _(board member)_
 * Proctor _(Flagg House)_
-* Dorm representative _(this isn't important)_
+* Dorm representative
 
 ### Other Campus Group Affiliations
 * Computer Science Club
