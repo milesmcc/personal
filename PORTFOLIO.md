@@ -1,5 +1,4 @@
 # Portfolio
-This is my personal portfolio. While it is a public document, it is not meant for public consumption. I use this document for personal reference and to send to others for their reference. If you think it's strange that I'm making this information public, you're probably not the target audience.
 
 ## Bio
 **_[Miles McCain](https://rmrm.io) is a student at Phillips Academy Andover. He is an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org) and the author of [WorthHiding.com](https://worthhiding.com)._**
