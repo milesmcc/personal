@@ -137,11 +137,11 @@ _See 'Academics' for the list of awards I have received through my school. These
 _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatriot X. (Platinum division.)_
 
 ## Personal Development
-* **Cambridge Scholars Programme** (summer 2016): I will admit that I am not a huge fan of pre-college summer programs at universities. It's generally pay-to-play, so I don't know why they are emphasized so heavily by both my peers and adults. Regardless, I had the opportunity to attend _Cambridge Scholars Programme_ the summer after my freshman year of high school. I did coursework in robotics and physics, and received an 'A' in all classes.
+* **Cambridge Scholars Programme** (summer 2016): Attended _Cambridge Scholars Programme_ the summer after my freshman year of high school. I did coursework in robotics and physics, and received an 'A' in all classes.
 * **Mentors in Violence Prevention** (Fall 2016 and Winter 2017): took part in a six-week course in preventing gender-based violence and how to be an ally.
 
 ## Music
-* [Ambps 0](https://itunes.apple.com/us/album/ambps-0-ep/1145046578) — a five track EP of experimental music. It might not be your taste. I, personally, like it.
+* [Ambps 0](https://itunes.apple.com/us/album/ambps-0-ep/1145046578) — a five track EP of experimental ambient music.
 * [Mesonoxian](https://itunes.apple.com/us/album/mesonoxian/1217975467) — a full-length album of classical pieces ranging from baroque to the avant-garde recreated using thousands of synthesizers.
 
 ---
