@@ -37,6 +37,10 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * Libertarians Club
 * Republicans Club
 
+## Publications
+* ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency.
+* ..in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co)wrote. Though listed also (under `Research`), it belongs here as well.
+
 ## Research
 Most of the research that I do is related to either computer science, political science, or both.
 
@@ -103,10 +107,6 @@ Various projects that I have created, listed in no particular order. Collectivel
   - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
 * [530ZULU](https://530zulu.com) — a twice daily concise email news briefing. (Sign up for it. It's great.)
 * [Vog](https://github.com/milesmcc/vog) — an open source browser extension (Firefox, Opera, and Chrome) for extracting open-graph data from a webpage without having to deal with source files.
-
-## Publications
-* [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency.
-* [Washington Post article](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/) — an article I (co)wrote for the *Washington Post*. Though listed earlier (under `Research`), it belongs here as well.
 
 _This section does not include media written about me or about things I have made. It only includes written publications that I have authored._
 
