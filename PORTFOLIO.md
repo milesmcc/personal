@@ -39,7 +39,7 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 
 ## Publications
 * ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency.
-* ..in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co)wrote. Though listed also (under `Research`), it belongs here as well.
+* ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co)wrote. Though listed also (under `Research`), it belongs here as well.
 
 ## Research
 Most of the research that I do is related to either computer science, political science, or both.
