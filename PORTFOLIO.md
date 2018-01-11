@@ -5,6 +5,12 @@
 
 Feel free to copy this bio and use it how you will. _[Source](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/)_.
 
+---
+
+**_Quick sections:_**: [Academics](#academics), [Publications](#publications), [Research](#research), [Organizations](#organizations), [Projects](#projects), [Professional Experience](#professional-experience)
+
+---
+
 ## Academics
 **Phillips Academy Andover** — class of 2019 (junior)
 
@@ -38,7 +44,7 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * Republicans Club
 
 ## Publications
-* ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency.
+* ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency. More than 40 pieces (and 75k words) published. _(See also: [references and publications in media](https://rmrm.io/publications/).)
 * ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co)wrote. Though listed also (under `Research`), it belongs here as well.
 
 ## Research
