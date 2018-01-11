@@ -55,7 +55,7 @@ Most of the research that I do is related to either computer science, political 
   - Source code [open source](https://github.com/milesmcc/CongressionalDroneOversight).
   - Presented at Yale, Columbia, Cornell, and UC Santa Barbara.
   - *Washington Post* popular opinion piece [here](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/).
-  - Journal publication forthcoming. (Submitted at the _[American Political Science Review](https://en.wikipedia.org/wiki/American_Political_Science_Review)_.)
+  - Submitted at the _[American Political Science Review](https://en.wikipedia.org/wiki/American_Political_Science_Review)_ for publication.
 
 ### Minor Research Projects
 * [**How Members of Congress Talk About the National Security Agency**](https://worthhiding.com/2017/11/21/how-legislators-talk-about-the-nsa/): a data-driven analysis of how members of Congress talk about the NSA.
