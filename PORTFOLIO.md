@@ -7,7 +7,7 @@ Feel free to copy this bio and use it how you will. _[Source](https://www.washin
 
 ---
 
-**_Quick sections:_** [Media Coverage and Publications](#media), [Research](#research), [Organizations](#organizations), [Projects](#projects), [Professional Experience](#professional-experience)
+**_Quick sections:_** [Media Coverage and Publications](#media-coverage-and-publications), [Research](#research), [Organizations](#organizations), [Projects](#projects), [Professional Experience](#professional-experience)
 
 ---
 
