@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Bio
-**_[Miles McCain](https://rmrm.io) is a student at Phillips Academy Andover. He is an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com).**
+**[Miles McCain](https://rmrm.io) is a student at Phillips Academy Andover. He is an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com).**
 
 _[[Website](https://rmrm.io)/[CV](https://github.com/milesmcc/personal/blob/master/PORTFOLIO.md)/[GitHub](https://github.com/milesmcc)]_
 
