@@ -51,11 +51,11 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 Most of the research that I do is related to either computer science, political science, or both.
 
 ### Major Research Projects
-* **Absence of Accountability: A Machine-Assisted Analysis of Legislative Engagement on US Foreign Policy**: using computers to parse the entire congressional record and study the determinants of foreign policy oversight in Congress. Co-authored with [Dr. Sarah Kreps](http://government.cornell.edu/sarah-kreps).
+* **Absence of Accountability: A Machine-Assisted Analysis of Legislative Engagement on US Foreign Policy**: using computers to parse the entire congressional record and study the determinants of foreign policy oversight in Congress. Co-authored with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps).
   - Source code [open source](https://github.com/milesmcc/CongressionalDroneOversight).
   - Presented at Yale, Columbia, Cornell, and UC Santa Barbara.
   - *Washington Post* popular opinion piece [here](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/).
-  - Journal publication forthcoming.
+  - Journal publication forthcoming. (Submitted at the _[American Political Science Review](https://en.wikipedia.org/wiki/American_Political_Science_Review)_.)
 
 ### Minor Research Projects
 * [**How Members of Congress Talk About the National Security Agency**](https://worthhiding.com/2017/11/21/how-legislators-talk-about-the-nsa/): a data-driven analysis of how members of Congress talk about the NSA.
