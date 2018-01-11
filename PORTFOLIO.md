@@ -1,13 +1,13 @@
 # Portfolio
 
 ## Bio
-**_[Miles McCain](https://rmrm.io) is a student at Phillips Academy Andover. He is an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org) and the author of [WorthHiding.com](https://worthhiding.com)._**
+**_[Miles McCain](https://rmrm.io) is a student at Phillips Academy Andover. He is an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com). [[Website](https://rmrm.io)/[CV](https://github.com/milesmcc/personal/blob/master/PORTFOLIO.md)(/[GitHub](https://github.com/milesmcc)]_**
 
 Feel free to copy this bio and use it how you will. _[Source](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/)_.
 
 ---
 
-**_Quick sections:_** [Publications](#publications), [Research](#research), [Organizations](#organizations), [Projects](#projects), [Professional Experience](#professional-experience)
+**_Quick sections:_** [Media Coverage and Publications](#media), [Research](#research), [Organizations](#organizations), [Projects](#projects), [Professional Experience](#professional-experience)
 
 ---
 
@@ -43,9 +43,16 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * Libertarians Club
 * Republicans Club
 
-## Publications
+## Media Coverage and Publications
+_Academic publications are listed under [research](#research)._
+
+My projects and writings have appeared in several major news outlets including the _Washington Post_, _NBC News_, the _Daily Beast_, _Nightly News with Lester Holt_, _TimeOut National_, _BoingBoing_, _Bustle_, and _TimeOut New York_.
+
+**Authored pieces**:
 * ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency. More than 40 pieces (and 75k words) published. _(See also: [references and publications in media](https://rmrm.io/publications/).)
 * ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co)wrote. Though listed also (under `Research`), it belongs here as well.
+
+For more information on appearances, see [here](https://rmrm.io/publications/).
 
 ## Research
 Most of the research that I do is related to either computer science, political science, or both.
