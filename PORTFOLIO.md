@@ -1,11 +1,17 @@
 # Portfolio
 
-## Bio
+## About
 **[Miles McCain](https://rmrm.io) is a student at Phillips Academy Andover. He is an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com).**
 
-_[[Website](https://rmrm.io)/[CV](https://github.com/milesmcc/personal/blob/master/PORTFOLIO.md)/[GitHub](https://github.com/milesmcc)]_
+I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
 
-Feel free to copy this bio and use it how you will. _[Source.](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/)_
+My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, the Daily Beast, Nightly News with Lester Holt, TimeOut National, BoingBoing, Bustle,_ and _TimeOut New York_.
+
+<small>Feel free to copy this bio and use it how you will. _[Source.](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/)_</small>
+
+---
+
+_[[Website](https://rmrm.io)/[CV](https://github.com/milesmcc/personal/blob/master/PORTFOLIO.md)/[GitHub](https://github.com/milesmcc)]_
 
 ---
 
