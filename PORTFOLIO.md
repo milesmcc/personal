@@ -9,10 +9,6 @@ My projects, research, and commentary have appeared in several major news outlet
 
 ---
 
-_[[Website](https://rmrm.io)/[CV](https://github.com/milesmcc/personal/blob/master/PORTFOLIO.md)/[GitHub](https://github.com/milesmcc)]_
-
----
-
 **_Quick sections:_** [Media Coverage and Publications](#media-coverage-and-publications), [Research](#research), [Organizations](#organizations), [Projects](#projects), [Professional Experience](#professional-experience)
 
 ---
