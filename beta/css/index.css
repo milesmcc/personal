@@ -4,7 +4,7 @@ body {
 }
 
 #page {
-  height: 100vh;
+  height: 99.2vh;
   width: 100%;
 }
 
@@ -102,7 +102,7 @@ h1 {
 }
 
 .vhmin {
-  min-height: 60vh;
+  min-height: 475px;
 }
 
 .accent {
