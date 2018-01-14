@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+
+  Hi, welcome to the internals of my website. Konami?
+  It's pretty cool that you're viewing the source,
+  practically a l33t hacker already. All this stuff
+  is hand written on a saturday night at 2 AM
+  (I guess that's technically sunday morning),
+  so please forgive any bad conventions or atrocious
+  lack of quality. I promise my other projects are better.
+  I'll be the first to admit that I'm not a web designer,
+  although I think that this page turned out alright.
+
+  I hope you get what you need out of this site. If you're
+  trying to dig on me, good luck. I try to keep a
+  minimal online profile but I haven't been entirely successful.
+  Part of the point of this site is to consolidate
+  and control what information is available about me online,
+  so I've kept it intentionally minimal. I mean, just look
+  at the 'about me' page. There's practically nothing there.
+
+  Also, I do more stuff than is just listed on this site.
+  I also like flying airplanes, tinkering with electronics,
+  physics, studying mental health (check out PSADI.org),
+  and I hate psychology with a passion (sorry- hate is a strong
+  word and I don't actually hate psychology but I'm not fond
+  of it either). There's other stuff that I do too. I just
+  thought that I'd say that as a little bonus perk for
+  looking at the source of this web page.
+
+  Anyway, have fun, and I hope you enjoyed this terribly written
+  and ineloquent 'bonus perk' that I've included in the source.
+
+-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="js/jquery.js"></script>
+  <script src="js/konami.js"></script>
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="css/base.css" rel="stylesheet">
+
+  <script>
+    var expanded = false;
+
+    function toggleExpanse() {
+      if (expanded) {
+        $("#hidden").slideUp();
+        $("#expand").html("&nbsp;+&nbsp;")
+        $(".super").fadeTo(400, 1)
+        expanded = false;
+      } else {
+        $("#hidden").slideDown();
+        $("#expand").html(" &nbsp;-&nbsp; ")
+        $(".super").fadeTo(400, 0.3)
+        expanded = true;
+      }
+    }
+
+    function getRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min)) + min;
+    }
+
+    function say(hello) {
+      alert(hello)
+    }
+
+    function resume() {
+      alert("For privacy concerns, this is not available publically. Please email to inquire.")
+    }
+
+    function onLoad() {
+      var easter_egg = new Konami(function() {
+        window.setInterval(function() {
+          flashIntros()
+        }, 140);
+        $("#everything").fadeOut(3000, function() {
+          $("#everything").hide(function() {
+            var myAudio = new Audio('sounds/creepy.mp3');
+            myAudio.addEventListener('ended', function() {
+              this.currentTime = 0;
+              this.play();
+            }, false);
+            myAudio.play();
+            window.setInterval(function() {
+              flashLoop()
+            }, 100);
+          });
+        });
+        $("#easteregg").css("background-color", "black").delay(500).css("background-color", "white");
+      });
+    }
+    var intros = [
+      "Be careful...",
+      "Your warranty is void.",
+      "Don't blink.",
+      "Hear that?",
+      "Here we go!",
+      "What?",
+      "Now.",
+      "Why?",
+      "Quiet!"
+    ]
+    var currentIntro = 0;
+
+    function flashIntros() {
+      if (currentIntro >= intros.length) {
+        currentIntro = 0;
+      }
+      $("#big").text(intros[currentIntro]);
+      currentIntro += 1;
+    }
+    var messages = [
+      "I think the N.S.A. is awesome.",
+      "I just reread “Nineteen Eighty-Four”—it actually has a lot of good ideas in it!",
+      "There’s no such thing as a “bad” drone.",
+      "Sure am glad that I never talk to any foreigners.",
+      "I wouldn’t know the first thing about any 'surveillance.'",
+      "The Fourth Amendment is overrated.",
+      "Just changed my Facebook status from “Single” to “In a Relationship with America.”",
+      "I’m pretty sure my neighbor is cheating on his taxes.",
+      "Don't you just love surveillance?",
+      "We're all safe now!",
+      "What's that?",
+      "Yeah! Me too!",
+      "She can hear us",
+      "I'm listening!",
+      "I love surveillance!",
+      "Don't be paranoid!",
+      "If you've got nothing to hide,",
+      "Why do you even care?"
+    ];
+    var currentMessage = 0;
+    var untilNext = 5;
+
+    function flashLoop() {
+      // adapted from http://www.newyorker.com/humor/borowitz-report/useful-phrases-for-the-surveillance-state
+      var color = $("#easteregg").css("background-color");
+      if (color == "rgb(0, 0, 0)") {
+        if (untilNext == 0) {
+          if (currentMessage >= messages.length) {
+            currentMessage = 0;
+          } else {
+            currentMessage = currentMessage + 1;
+          }
+          untilNext = 5;
+        } else {
+          untilNext -= 1;
+        }
+        $("#message").text(messages[currentMessage]);
+        $("#easteregg").css("background-color", "white");
+      } else {
+        $("#easteregg").css("background-color", "black");
+      }
+    }
+
+    window.onload = onLoad();
+  </script>
+  <title>Miles McCain - home</title>
+</head>
+
+<body>
+  <div class="container vertical-center" id="everything">
+    <div class="content">
+      <div id="header" class="super">
+        <h1 id="big">Miles McCain</h1>
+        <hr>
+      </div>
+      <div id="hidden" class="container">
+        <div class="row">
+          <p>Miles McCain is a student at Phillips Academy Andover. He is an advocate for privacy and government transparency, the founder of <a href="https://politiwatch.org">Politiwatch</a>, and the author of <a href="https://worthhiding.com">WorthHiding.com</a>.</p>
+          <div class="col-md-3">
+            <p>
+              <h3>Information</h3>
+            </p>
+            <p>&emsp;<a href="about">about me</a></p>
+            <p>&emsp;<a href="identities">online identities</a></p>
+            <p>&emsp;<a href="contact">contact info</a></p>
+            <p>&emsp;<a href="https://github.com/milesmcc/personal/blob/master/PORTFOLIO.md">cv/portfolio</a></p>
+          </div>
+          <div class="col-md-3">
+            <p>
+              <h3>Secure Contact</h3>
+            </p>
+            <p>&emsp;<a href="secure#pgp">via PGP</a></p>
+            <p>&emsp;<a href="secure#ricochet">via Ricochet</a></p>
+            <p>&emsp;<a href="secure#keybase">via Keybase</a></p>
+            <p>&emsp;<a href="secure#wire">via Wire</a> <small><i>recommended</i></small></p>
+          </div>
+          <div class="col-md-3">
+            <p>
+              <h3>Initiatives</h3>
+            </p>
+            <p>&emsp;<a href="https://politiwatch.org">Politiwatch</a></p>
+            <p>&emsp;<a href="http://openwi.re">openwi:re</a></p>
+            <p>&emsp;<a href="https://tbij.dronescout.org">DroneScout</a></p>
+            <p>&emsp;<a href="https://github.com/milesmcc">open-source projects</a></p>
+            <p>&emsp;<a href="https://itunes.apple.com/us/album/mesonoxian/id1217975467">album</a></p>
+            <p>&emsp;<a href="publications">publications</a></p>
+            <p>&emsp;<i><small>This is not a complete list.</small></i></p>
+          </div>
+          <div class="col-md-3">
+            <p>
+              <h3>Other</h3></p>
+            <p>&emsp;<a onclick="alert('referral and affiliate links will published as soon as I am sure that this would not be a violation of a terms of service somewhere')">free money</a></p>
+            <p>&emsp;<a href="/hackme">hack me</a></p>
+            <p>&emsp;<a href="https://cash.me/$milesmccain">pay me</a></p>
+          </div>
+        </div>
+        <small><span onclick="say('I have included as much as is personally responsible of me in this website, however if you feel that something is missing or you have any other questions, feel free to email me.')">...other</span></small>
+      </div>
+      <span onclick="toggleExpanse()" id="expand" class="expand super" style="font-family: 'Roboto', sans-serif; cursor: pointer;">&nbsp;+&nbsp;</span>
+    </div>
+  </div>
+  <div class="fullpage" id="easteregg">
+    <div class="vertical-center horizontal-center">
+      <img src="https://i.imgur.com/fops1t3.png">
+      <br>
+      <p>
+        <div id="message">
+          they are watching you
+        </div>
+      </p>
+    </div>
+    <div id="white" class="fullpage">
+    </div>
+    <div id="black" class="fullpage">
+    </div>
+  </div>
+
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u = "//analytics.rmrm.io/";
+      _paq.push(['setTrackerUrl', u + 'piwik.php']);
+      _paq.push(['setSiteId', '1']);
+      var d = document,
+        g = d.createElement('script'),
+        s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript';
+      g.async = true;
+      g.defer = true;
+      g.src = u + 'piwik.js';
+      s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <noscript><p><img src="//analytics.rmrm.io/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
+</body>
+
+</html>
