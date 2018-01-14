@@ -1,10 +1,17 @@
 # Portfolio
-This is my personal portfolio. While it is a public document, it is not meant for public consumption. I use this document for personal reference and to send to others for their reference. If you think it's strange that I'm making this information public, you're probably not the target audience.
 
-## Bio
-**_[Miles McCain](https://rmrm.io) is a student at Phillips Academy Andover. He is an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org) and the author of [WorthHiding.com](https://worthhiding.com)._**
+## About
+**[Miles McCain](https://rmrm.io) is a student at Phillips Academy Andover. He is an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com).**
 
-Feel free to copy this bio and use it how you will. _[Source](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/)_.
+I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
+
+My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, the Daily Beast, Nightly News with Lester Holt, TimeOut National, BoingBoing, Bustle,_ and _TimeOut New York_.
+
+---
+
+**_Quick sections:_** [Media Coverage and Publications](#media-coverage-and-publications), [Research](#research), [Organizations](#organizations), [Projects](#projects), [Professional Experience](#professional-experience)
+
+---
 
 ## Academics
 **Phillips Academy Andover** — class of 2019 (junior)
@@ -28,7 +35,7 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * GSA _(gender & sexuality alliance; board member)_
 * UNICEF Club _(board member)_
 * Proctor _(Flagg House)_
-* Dorm representative _(this isn't important)_
+* Dorm representative
 
 ### Other Campus Group Affiliations
 * Computer Science Club
@@ -38,15 +45,26 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * Libertarians Club
 * Republicans Club
 
+## Media Coverage and Publications
+_Academic publications are listed under [research](#research)._
+
+My projects and writings have appeared in several major news outlets including the _Washington Post_, _NBC News_, the _Daily Beast_, _Nightly News with Lester Holt_, _TimeOut National_, _BoingBoing_, _Bustle_, and _TimeOut New York_.
+
+**Authored pieces**:
+* ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency. More than 40 pieces (and 75k words) published. _(See also: [references and publications in media](https://rmrm.io/publications/).)
+* ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co)wrote. Though listed also (under `Research`), it belongs here as well.
+
+For more information on coverage, see [here](https://rmrm.io/publications/).
+
 ## Research
 Most of the research that I do is related to either computer science, political science, or both.
 
 ### Major Research Projects
-* **Absence of Accountability: A Machine-Assisted Analysis of Legislative Engagement on US Foreign Policy**: using computers to parse the entire congressional record and study the determinants of foreign policy oversight in Congress. Co-authored with [Dr. Sarah Kreps](http://government.cornell.edu/sarah-kreps).
+* **Absence of Accountability: A Machine-Assisted Analysis of Legislative Engagement on US Foreign Policy**: using computers to parse the entire congressional record and study the determinants of foreign policy oversight in Congress. Co-authored with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps).
   - Source code [open source](https://github.com/milesmcc/CongressionalDroneOversight).
   - Presented at Yale, Columbia, Cornell, and UC Santa Barbara.
   - *Washington Post* popular opinion piece [here](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/).
-  - Journal publication forthcoming.
+  - Submitted at the _[American Political Science Review](https://en.wikipedia.org/wiki/American_Political_Science_Review)_ for publication.
 
 ### Minor Research Projects
 * [**How Members of Congress Talk About the National Security Agency**](https://worthhiding.com/2017/11/21/how-legislators-talk-about-the-nsa/): a data-driven analysis of how members of Congress talk about the NSA.
@@ -105,10 +123,6 @@ Various projects that I have created, listed in no particular order. Collectivel
 * [530ZULU](https://530zulu.com) — a twice daily concise email news briefing. (Sign up for it. It's great.)
 * [Vog](https://github.com/milesmcc/vog) — an open source browser extension (Firefox, Opera, and Chrome) for extracting open-graph data from a webpage without having to deal with source files.
 
-## Publications
-* [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency.
-* [Washington Post article](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/) — an article I (co)wrote for the *Washington Post*. Though listed earlier (under `Research`), it belongs here as well.
-
 _This section does not include media written about me or about things I have made. It only includes written publications that I have authored._
 
 ## Professional Experience
@@ -138,11 +152,11 @@ _See 'Academics' for the list of awards I have received through my school. These
 _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatriot X. (Platinum division.)_
 
 ## Personal Development
-* **Cambridge Scholars Programme** (summer 2016): I will admit that I am not a huge fan of pre-college summer programs at universities. It's generally pay-to-play, so I don't know why they are emphasized so heavily by both my peers and adults. Regardless, I had the opportunity to attend _Cambridge Scholars Programme_ the summer after my freshman year of high school. I did coursework in robotics and physics, and received an 'A' in all classes.
+* **Cambridge Scholars Programme** (summer 2016): Attended _Cambridge Scholars Programme_ the summer after my freshman year of high school. I did coursework in robotics and physics, and received an 'A' in all classes.
 * **Mentors in Violence Prevention** (Fall 2016 and Winter 2017): took part in a six-week course in preventing gender-based violence and how to be an ally.
 
 ## Music
-* [Ambps 0](https://itunes.apple.com/us/album/ambps-0-ep/1145046578) — a five track EP of experimental music. It might not be your taste. I, personally, like it.
+* [Ambps 0](https://itunes.apple.com/us/album/ambps-0-ep/1145046578) — a five track EP of experimental ambient music.
 * [Mesonoxian](https://itunes.apple.com/us/album/mesonoxian/1217975467) — a full-length album of classical pieces ranging from baroque to the avant-garde recreated using thousands of synthesizers.
 
 ---
