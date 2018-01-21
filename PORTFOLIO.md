@@ -54,7 +54,7 @@ My projects and writings have appeared in several major news outlets including t
 * ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency. More than 40 pieces (and 75k words) published. _(See also: [references and publications in media](https://rmrm.io/publications/).)
 * ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co)wrote. Though listed also (under `Research`), it belongs here as well.
 
-For more information on coverage, see [here](https://rmrm.io/publications/).
+_This section does not include media written about me or about things I have made. It only includes written publications that I have authored. For information on coverage, see [here](https://rmrm.io/publications/) or later in this document._
 
 ## Research
 Most of the research that I do is related to either computer science, political science, or both.
@@ -122,8 +122,6 @@ Various projects that I have created, listed in no particular order. Collectivel
   - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
 * [530ZULU](https://530zulu.com) — a twice daily concise email news briefing. (Sign up for it. It's great.)
 * [Vog](https://github.com/milesmcc/vog) — an open source browser extension (Firefox, Opera, and Chrome) for extracting open-graph data from a webpage without having to deal with source files.
-
-_This section does not include media written about me or about things I have made. It only includes written publications that I have authored._
 
 ## Professional Experience
 _Note that my roles at Politiwatch and PACTF are excluded from this list, as they are listed under `Organizations` and listing them here would be redundant._
