@@ -29,7 +29,7 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * Wrestling (former)
 
 ### Leadership Positions
-* [Blueshells](https://blueshells.io) _(founder)_
+* [Blueshells](https://blueshells.net) _(founder)_
 * [Techmasters](https://techmasters.io) _(co-president)_
 * Robotics Club _(co-president)_
 * GSA _(gender & sexuality alliance; board member)_
