@@ -54,7 +54,7 @@ My projects and writings have appeared in several major news outlets including t
 * ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency. More than 40 pieces (and 75k words) published. _(See also: [references and publications in media](https://rmrm.io/publications/).)
 * ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co)wrote. Though listed also (under `Research`), it belongs here as well.
 
-For more information on coverage, see [here](https://rmrm.io/publications/).
+_This section does not include media written about me or about things I have made. It only includes written publications that I have authored. For information on coverage, see [here](https://rmrm.io/publications/) or later in this document._
 
 ## Research
 Most of the research that I do is related to either computer science, political science, or both.
@@ -102,6 +102,7 @@ Various projects that I have created, listed in no particular order. Collectivel
     - [NBC News](https://www.nbcnews.com/tech/social-media/trump-other-politicians-celebs-shared-boosted-russian-troll-tweets-n817036): "Russian Trolls Duped Global Media And Nearly 40 Celebrities" — Celebrities and global news outlets retweeted, republished and engaged with tweets by confirmed Kremlin-linked troll accounts thousands of times.
     - [The Daily Beast](https://www.thedailybeast.com/michael-flynn-followed-russian-troll-accounts-pushed-their-messages-in-days-before-election): "Michael Flynn Followed Russian Troll Accounts, Pushed Their Messages in Days Before Election" — Trump’s notoriously Kremlin-friendly national security adviser amplified Russian messages right when they mattered most—in the days leading up to Nov. 8, 2016.
     - [Bellingcat](https://ru.bellingcat.com/novosti/russia/2017/12/03/tengop/): "Как кремлевский тролль обманул всю Америку" — Russian investigative journalism piece exposing the propaganda account @TEN_GOP (and cites/is sourced by PolitiTweet). Written by Ben Nimmo and the [Digital Forensic Research Lab](https://ru.bellingcat.com/author/dfrlab/) (DFRLab).
+  - (See also: [impact tweet](https://twitter.com/bpopken/status/954843971909505025), [relevance tweet](https://twitter.com/bpopken/status/954948594456461313).)
 * [WhoAreMyRepresentatives.org](https://whoaremyrepresentatives.org) — a simple tool to look up who represents a particular address in government.
   - Used more than 1 million times and maintains steady traffic.
   - Included on the top spot of [Hacker News](https://news.ycombinator.com/item?id=13282847) for over nine hours.
@@ -122,8 +123,6 @@ Various projects that I have created, listed in no particular order. Collectivel
   - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
 * [530ZULU](https://530zulu.com) — a twice daily concise email news briefing. (Sign up for it. It's great.)
 * [Vog](https://github.com/milesmcc/vog) — an open source browser extension (Firefox, Opera, and Chrome) for extracting open-graph data from a webpage without having to deal with source files.
-
-_This section does not include media written about me or about things I have made. It only includes written publications that I have authored._
 
 ## Professional Experience
 _Note that my roles at Politiwatch and PACTF are excluded from this list, as they are listed under `Organizations` and listing them here would be redundant._
