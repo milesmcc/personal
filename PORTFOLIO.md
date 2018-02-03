@@ -13,7 +13,7 @@ My projects, research, and commentary have appeared in several major news outlet
 
 ---
 
-## Academics
+## Academics & School-Related
 **Phillips Academy Andover** — class of 2019 (junior)
 
 ### Current Classes
@@ -48,7 +48,7 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 ## Media Coverage and Publications
 _Academic publications are listed under [research](#research)._
 
-My projects and writings have appeared in several major news outlets including the _Washington Post_, _NBC News_, the _Daily Beast_, _Nightly News with Lester Holt_, _TimeOut National_, _BoingBoing_, _Bustle_, and _TimeOut New York_.
+My projects and writings have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, BoingBoing, Bustle,_ and _TimeOut New York_.
 
 **Authored pieces**:
 * ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency. More than 40 pieces (and 75k words) published. _(See also: [references and publications in media](https://rmrm.io/publications/).)
