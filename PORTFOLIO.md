@@ -13,7 +13,7 @@ My projects, research, and commentary have appeared in several major news outlet
 
 ---
 
-## Academics & School-Related
+## Academics (Intramural Activity)
 **Phillips Academy Andover** — class of 2019 (junior)
 
 ### Current Classes
