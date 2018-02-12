@@ -42,8 +42,6 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * “MAKERS” Club
 * WPAA _(campus radio station)_
 * Democrats Club
-* Libertarians Club
-* Republicans Club
 
 ## Media Coverage and Publications
 _Academic publications are listed under [research](#research)._
