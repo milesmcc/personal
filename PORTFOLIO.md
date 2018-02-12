@@ -31,6 +31,7 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 ### Leadership Positions
 * [Blueshells](https://blueshells.net) _(founder)_
 * [Techmasters](https://techmasters.io) _(co-president)_
+* Computer Science Club _(co-president)_
 * Robotics Club _(co-president)_
 * GSA _(gender & sexuality alliance; board member)_
 * UNICEF Club _(board member)_
@@ -38,7 +39,6 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * Dorm representative
 
 ### Other Campus Group Affiliations
-* Computer Science Club
 * “MAKERS” Club
 * WPAA _(campus radio station)_
 * Democrats Club
