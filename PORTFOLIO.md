@@ -146,7 +146,8 @@ _Note that my roles at Politiwatch and PACTF are excluded from this list, as the
 
 ## Competitions
 _See 'Academics' for the list of awards I have received through my school. These awards are omitted in this subsection._
-* **HackNEHS 1st place** (Winter 2018): won first place in [HackNEHS](https://www.hacknehs.com/), a 'hackathon' for New England high schools.
+* **HackNEHS 1st place** (Fall 2017): won first place in [HackNEHS](https://www.hacknehs.com/), a 'hackathon' for New England high schools.
+* **Blueprint (@ MIT) 2nd place** (Winter 2018): won second place in [Blueprint](https://blueprint.hackmit.org/), a national annual hackathon hosted at the MIT Media Lab.
 * **HackACE 1st place (tied)** (Winter 2017): tied for first place in [HackACE](http://hackace.us).
 
 _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatriot X. (Platinum division.)_
