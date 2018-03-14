@@ -14,7 +14,7 @@ My projects, research, and commentary have appeared in several major news outlet
 ---
 
 ## Academics (Intramural Activity)
-**Phillips Academy Andover** — class of 2019 (junior)
+**Phillips Academy Andover** — class of 2019 (junior) — latest GPA was 6.0 (on 6.0 scale)
 
 ### Current Classes
 English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
