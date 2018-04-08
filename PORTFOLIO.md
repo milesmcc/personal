@@ -33,7 +33,7 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * [Techmasters](https://techmasters.io) _(co-president)_
 * Computer Science Club _(co-president)_
 * Robotics Club _(co-president)_
-* GSA _(gender & sexuality alliance; board member)_
+* GSA _(gender & sexuality alliance; co-president)_
 * UNICEF Club _(board member)_
 * Proctor _(Flagg House)_
 * Dorm representative
