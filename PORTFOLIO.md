@@ -5,7 +5,7 @@
 
 I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
 
-My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, BoingBoing, Bustle,_ and _TimeOut New York_.
+My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
 
 ---
 
@@ -62,7 +62,7 @@ Most of the research that I do is related to either computer science, political 
 ### Major Research Projects
 * **Absence of Accountability: A Machine-Assisted Analysis of Legislative Engagement on US Foreign Policy**: using computers to parse the entire congressional record and study the determinants of foreign policy oversight in Congress. Co-authored with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps).
   - Source code [open source](https://github.com/milesmcc/CongressionalDroneOversight).
-  - Presented at Yale, Columbia, Cornell, and UC Santa Barbara.
+  - Presented at Yale, Columbia, Cornell, Georgetown, and UC Santa Barbara.
   - *Washington Post* popular opinion piece [here](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/).
   - Submitted at the _[American Political Science Review](https://en.wikipedia.org/wiki/American_Political_Science_Review)_ (currently under review).
 
