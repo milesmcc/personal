@@ -5,7 +5,7 @@
 
 I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
 
-My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
+My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, New York Daily News, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
 
 ---
 
@@ -14,7 +14,7 @@ My projects, research, and commentary have appeared in several major news outlet
 ---
 
 ## Academics (Intramural Activity)
-**Phillips Academy Andover** — class of 2019 (junior)
+**Phillips Academy Andover** — class of 2019 (junior) — latest GPA was 6.0 (on 6.0 scale)
 
 ### Current Classes
 English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
@@ -31,19 +31,17 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 ### Leadership Positions
 * [Blueshells](https://blueshells.net) _(founder)_
 * [Techmasters](https://techmasters.io) _(co-president)_
+* Computer Science Club _(co-president)_
 * Robotics Club _(co-president)_
-* GSA _(gender & sexuality alliance; board member)_
+* GSA _(gender & sexuality alliance; co-president)_
 * UNICEF Club _(board member)_
 * Proctor _(Flagg House)_
 * Dorm representative
 
 ### Other Campus Group Affiliations
-* Computer Science Club
 * “MAKERS” Club
 * WPAA _(campus radio station)_
 * Democrats Club
-* Libertarians Club
-* Republicans Club
 
 ## Media Coverage and Publications
 _Academic publications are listed under [research](#research)._
@@ -103,6 +101,7 @@ Various projects that I have created, listed in no particular order. Collectivel
     - [CNN](http://money.cnn.com/2018/01/19/media/twitter-internet-research-agency-accounts/): "Twitter to tell 677,775 people they interacted with Kremlin-linked trolls" — Twitter will inform nearly 700,000 people in the U.S. that they either followed a Kremlin-linked troll account, or retweeted or liked a tweet sent by one of the accounts, the social media company said Friday. (PolitiTweet linked as source.)
     - [The Daily Beast](https://www.thedailybeast.com/michael-flynn-followed-russian-troll-accounts-pushed-their-messages-in-days-before-election): "Michael Flynn Followed Russian Troll Accounts, Pushed Their Messages in Days Before Election" — Trump’s notoriously Kremlin-friendly national security adviser amplified Russian messages right when they mattered most—in the days leading up to Nov. 8, 2016.
     - [Bellingcat](https://ru.bellingcat.com/novosti/russia/2017/12/03/tengop/): "Как кремлевский тролль обманул всю Америку" — Russian investigative journalism piece exposing the propaganda account @TEN_GOP (and cites/is sourced by PolitiTweet). Written by Ben Nimmo and the [Digital Forensic Research Lab](https://ru.bellingcat.com/author/dfrlab/) (DFRLab).
+    - [New York Daily News](http://www.nydailynews.com/news/national/trump-nicki-minaj-thousand-duped-russian-twitter-bots-article-1.3825400): "President Trump, Nicki Minaj, Ann Coulter among hundreds of thousands duped by Russian Twitter bots" —  "Don. Jr has since deleted the February 2017 retweet from @TEN_GOP, but not before nearly 10,000 other social media users shared it, according to PolitiTweet, an online tool published by the nonpartisan, nonprofit tech organization, PolitiWatch."
   - (See also: [impact tweet](https://twitter.com/bpopken/status/954843971909505025), [relevance tweet](https://twitter.com/bpopken/status/954948594456461313).)
 * [WhoAreMyRepresentatives.org](https://whoaremyrepresentatives.org) — a simple tool to look up who represents a particular address in government.
   - Used more than 1 million times and maintains steady traffic.
@@ -146,7 +145,8 @@ _Note that my roles at Politiwatch and PACTF are excluded from this list, as the
 
 ## Competitions
 _See 'Academics' for the list of awards I have received through my school. These awards are omitted in this subsection._
-* **HackNEHS 1st place** (Winter 2018): won first place in [HackNEHS](https://www.hacknehs.com/), a 'hackathon' for New England high schools.
+* **HackNEHS 1st place** (Fall 2017): won first place in [HackNEHS](https://www.hacknehs.com/), a 'hackathon' for New England high schools.
+* **Blueprint (@ MIT) 2nd place** (Winter 2018): won second place in [Blueprint](https://blueprint.hackmit.org/), a national annual hackathon hosted at the MIT Media Lab.
 * **HackACE 1st place (tied)** (Winter 2017): tied for first place in [HackACE](http://hackace.us).
 
 _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatriot X. (Platinum division.)_
