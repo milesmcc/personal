@@ -72,7 +72,7 @@ Most of the research that I do is related to either computer science, political 
 
 * I founded Politiwatch after I began to receive legal and death threats for various projects I created. (See projects below.) It has protected me against legal action, allowed me to build a brand for my sites, and eased the process of receiving tax-deductible financial donations.
 * Politiwatch is an American 501(c)(3) nonpartisan, nonprofit organization that advocates for freedom of information, digital privacy rights, and political accountability. It was founded in 2016 with the goal of combating political ignorance, promoting privacy, and making civic information more accessible.
-* Sponsors include Google, ProtonMail, and DigitalOcean.
+* Sponsors include Google (via their Google for Nonprofits program), ProtonMail, and DigitalOcean.
 
 [**PACTF**](https://pactf.com): a global cybersecurity competition with over 1,000 teams and $20,000 in prizes.
 
