@@ -83,9 +83,9 @@ Most of the research that I do is related to either computer science, political 
 (more upcoming)
 
 ## Projects
-Various projects that I have created, listed in no particular order. Collectively, my projects have been used more than two million times.
+Various projects that I have created, listed in no particular order. According to CloudFlare analytics, my projects receive more than half a million visits per month.
 
-* [TheCollectiveUnconscious.org](https://thecollectiveunconscious.org) — an online art installation highlighting the time-suck that the internet can be
+* [TheCollectiveUnconscious.org](https://thecollectiveunconscious.org) — an online art installation highlighting the time-suck that the internet can be.
 * [Encompassed.press](https://github.com/milesmcc/Encompassed.press) — the single most encompassing and important news story, found automatically. Accessible at https://encompassed.rmrm.io/.
 * [BibleOrQuran.org](https://bibleorquran.org) - a game to combat islamophobia.
   - Among the most popular games on Reddit's [WebGames](https://www.reddit.com/r/WebGames/comments/50cwkn/bibleorquran_gives_you_a_random_verse_from_either/) subreddit.
