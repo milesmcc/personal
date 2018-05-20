@@ -85,12 +85,6 @@ Most of the research that I do is related to either computer science, political 
 ## Projects
 Various projects that I have created, listed in no particular order. According to CloudFlare analytics, my projects receive more than half a million visits per month.
 
-* [TheCollectiveUnconscious.org](https://thecollectiveunconscious.org) — an online art installation highlighting the time-suck that the internet can be.
-* [Encompassed.press](https://github.com/milesmcc/Encompassed.press) — the single most encompassing and important news story, found automatically. Accessible at https://encompassed.rmrm.io/.
-* [BibleOrQuran.org](https://bibleorquran.org) - a game to combat islamophobia.
-  - Among the most popular games on Reddit's [WebGames](https://www.reddit.com/r/WebGames/comments/50cwkn/bibleorquran_gives_you_a_random_verse_from_either/) subreddit.
-  - Awarded "most wholesome [game] of 2016" by Reddit WebGames
-* [MD-C Labs](http://labs.md-c.com) — a place for experimental web projects. Not production-ready.
 * [PolitiTweet](https://polititweet.org) - archiving the tweets (and publishing the deleted ones) of major public figures.
   - Blocked by Charlie Sheen (whoops)
   - Threatened and hated by alt-right. (Report [here](https://politiwatch.org/documents/Polititweet/JoeBiggsEncounter.pdf).)
@@ -123,6 +117,12 @@ Various projects that I have created, listed in no particular order. According t
   - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
 * [530ZULU](https://530zulu.com) — a twice daily concise email news briefing. (Sign up for it. It's great.)
 * [Vog](https://github.com/milesmcc/vog) — an open source browser extension (Firefox, Opera, and Chrome) for extracting open-graph data from a webpage without having to deal with source files.
+* [TheCollectiveUnconscious.org](https://thecollectiveunconscious.org) — an online art installation highlighting the time-suck that the internet can be.
+* [Encompassed.press](https://github.com/milesmcc/Encompassed.press) — the single most encompassing and important news story, found automatically.
+* [MD-C Labs](http://labs.md-c.com) — a place for experimental web projects. Not production-ready.
+* [BibleOrQuran.org](https://bibleorquran.org) - a game to combat islamophobia.
+  - Among the most popular games on Reddit's [WebGames](https://www.reddit.com/r/WebGames/comments/50cwkn/bibleorquran_gives_you_a_random_verse_from_either/) subreddit.
+  - Awarded "most wholesome [game] of 2016" by Reddit WebGames
 
 ## Professional Experience
 _Note that my roles at Politiwatch and PACTF are excluded from this list, as they are listed under `Organizations` and listing them here would be redundant._
