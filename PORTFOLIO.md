@@ -22,10 +22,11 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 ### Awards
 * Webster Prize _(for excellence in the social sciences)_,
 * David G. Wood Fellowship _(for excellence in writing)_,
-* Physics 400 Prize
+* Top Score in Physics 400 prize exam,
+* Winfield M. Sides Prize _(for excellence in computer science)_
 
 ### Athletics
-* Varsity Rowing (current)
+* Varsity Rowing, 1st boat (current)
 * Wrestling (former)
 
 ### Leadership Positions
