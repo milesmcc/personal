@@ -140,9 +140,8 @@ _Note that my roles at Politiwatch and PACTF are excluded from this list, as the
 * Specialized in data-driven applications
 
 ## Volunteer Work
-* **Coding Circle** (September 2016—present): taught computer science to underprivileged children
-* **PDO Writing** (Winter 2017): taught writing to underprivileged children
-* **Project Happy** (Fall 2012-Spring 2015): spent time with children with disabilities to make their lives feel a little bit more normal
+* **Coding Circle** (September 2016—present): taught computer science to underserved students
+* **PDO Writing** (Winter 2017): taught writing to underserved students
 
 ## Competitions
 _See 'Academics' for the list of awards I have received through my school. These awards are omitted in this subsection._
