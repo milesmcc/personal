@@ -128,7 +128,7 @@ Various projects that I have created, listed in no particular order. According t
 _Note that my roles at Politiwatch and PACTF are excluded from this list, as they are listed under `Organizations` and listing them here would be redundant._
 
 **First Look Media** (parent of _The Intercept_, summer 2018): worked on the engineering team and with the research team.
-* Worked to create an IETF Internet standard (currently a proposed standard) for OpenPGP cryptographic keylist subscriptions, as implemented by Micah Lee's [GPGSync](https://github.com/firstlookmedia/gpgsync). The `Internet-Draft` is available [here](https://datatracker.ietf.org/doc/draft-mccain-keylist/).
+* Worked to create an IETF Internet standard (currently a proposed standard) for OpenPGP cryptographic keylist subscriptions, as implemented by Micah Lee's [GPGSync](https://github.com/firstlookmedia/gpgsync). The `Internet-Draft` is available [here](https://datatracker.ietf.org/doc/draft-mccain-keylist/). (I am the primary/first author.)
 * Worked with the research team to perform data analysis on several unreleased datasets.
 * Designed Presslist, a crowdsourced internal system to manage and track government contacts.
 
