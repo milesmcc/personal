@@ -87,7 +87,6 @@ Most of the research that I do is related to either computer science, political 
 Various projects that I have created, listed in no particular order. According to CloudFlare analytics, my projects receive more than half a million visits per month.
 
 * [PolitiTweet](https://polititweet.org) - archiving the tweets (and publishing the deleted ones) of major public figures.
-  - Blocked by Charlie Sheen (whoops)
   - Threatened and hated by alt-right. (Report [here](https://politiwatch.org/documents/Polititweet/JoeBiggsEncounter.pdf).)
   - Cited by various major news publications including...
     - [Nightly News with Lester Holt](https://www.nbcnews.com/nightly-news/video/wide-range-of-celebrities-accidentally-tweeted-russian-propaganda-during-2016-election-1087414339671): "Wide Range of Celebrities Accidentally Tweeted Russian Propaganda During 2016 Election" — Famous Twitter users with big followers, from Ivanka Trump to comedians Trevor Noah and Sarah Silverman, inadvertently shared tweets that came from accounts linked to Russia, according to social media tracker PolitiTweet.
@@ -96,6 +95,7 @@ Various projects that I have created, listed in no particular order. According t
     - [The Daily Beast](https://www.thedailybeast.com/michael-flynn-followed-russian-troll-accounts-pushed-their-messages-in-days-before-election): "Michael Flynn Followed Russian Troll Accounts, Pushed Their Messages in Days Before Election" — Trump’s notoriously Kremlin-friendly national security adviser amplified Russian messages right when they mattered most—in the days leading up to Nov. 8, 2016.
     - [Bellingcat](https://ru.bellingcat.com/novosti/russia/2017/12/03/tengop/): "Как кремлевский тролль обманул всю Америку" — Russian investigative journalism piece exposing the propaganda account @TEN_GOP (and cites/is sourced by PolitiTweet). Written by Ben Nimmo and the [Digital Forensic Research Lab](https://ru.bellingcat.com/author/dfrlab/) (DFRLab).
     - [New York Daily News](http://www.nydailynews.com/news/national/trump-nicki-minaj-thousand-duped-russian-twitter-bots-article-1.3825400): "President Trump, Nicki Minaj, Ann Coulter among hundreds of thousands duped by Russian Twitter bots" —  "Don. Jr has since deleted the February 2017 retweet from @TEN_GOP, but not before nearly 10,000 other social media users shared it, according to PolitiTweet, an online tool published by the nonpartisan, nonprofit tech organization, PolitiWatch."
+  - Blocked by Charlie Sheen (whoops)  
   - (See also: [impact tweet](https://twitter.com/bpopken/status/954843971909505025), [relevance tweet](https://twitter.com/bpopken/status/954948594456461313).)
 * [WhoAreMyRepresentatives.org](https://whoaremyrepresentatives.org) — a simple tool to look up who represents a particular address in government.
   - Used more than 1 million times and maintains steady traffic.
@@ -106,27 +106,31 @@ Various projects that I have created, listed in no particular order. According t
   - Shared by [Dave Lee](https://twitter.com/DaveLeeBBC/status/814865319290425344), [Colin Wright](https://twitter.com/colinismyname/status/814907573522591744), [HANA](https://twitter.com/HANAtruly/status/823653522084216832), [Mike Elgan](https://twitter.com/MikeElgan/status/815750507738206208), and others.
   - Featured in [BoingBoing](https://boingboing.net/2017/01/03/find-out-who-represents-you-in.html), [Bustle](https://www.bustle.com/p/how-to-call-your-representative-urge-them-to-boycott-the-inauguration-31044), [TimeOut](https://www.timeout.com/usa/blog/check-out-this-site-to-easily-find-out-who-your-representatives-are-and-how-to-contact-them-012517) ([twice](https://www.timeout.com/newyork/blog/15-things-you-can-do-after-the-womens-march-to-stay-engaged-in-nyc-012417)), & others.
   - Linked to as an activism resource by Planned Parenthood.
-* TrumpWire — a project (now defunct) that sent a SMS notification whenever Donald Trump signed an executive order.
+* [WhyPrivacyMatters.org](https://WhyPrivacyMatters.org) — a collaborative project to argue for privacy.
+  - Translated into 11 languages (and counting).
+  - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
 * [Foia.fyi](https://foia.fyi) — a simple website that simplifies the process of submitting a FOIA request.
 * [Concision.co](https://concision.co) — a simple word processing tool for quick copy-paste analysis
 * [OPENWI:RE](https://openwi.re) — a weekly newsletter highlighting the best of the week’s adversarial journalism and “think” pieces, with an emphasis on issues of foreign policy, digital privacy, and technology.
 * [Deaddrop](https://github.com/milesmcc/deaddrop) — secure, authenticated, and monitored file 'dead drops.'
 * [LibreNews](https://librenews.io) — a free, open source, speedy, and deeply customizable breaking news notification system for Android phones. Over three thousand active daily users.
 * [DroneScout API](https://tbij.dronescout.org) — an API and web interface for processing the Bureau of Investigative Journalism's drone strike data.
-* [WhyPrivacyMatters.org](https://WhyPrivacyMatters.org) — a collaborative project to argue for privacy.
-  - Translated into 11 languages (and counting).
-  - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
 * [530ZULU](https://530zulu.com) — a twice daily concise email news briefing. (Sign up for it. It's great.)
 * [Vog](https://github.com/milesmcc/vog) — an open source browser extension (Firefox, Opera, and Chrome) for extracting open-graph data from a webpage without having to deal with source files.
-* [TheCollectiveUnconscious.org](https://thecollectiveunconscious.org) — an online art installation highlighting the time-suck that the internet can be.
+* TrumpWire — a project (now defunct) that sent a SMS notification whenever Donald Trump signed an executive order.
 * [Encompassed.press](https://github.com/milesmcc/Encompassed.press) — the single most encompassing and important news story, found automatically.
-* [MD-C Labs](http://labs.md-c.com) — a place for experimental web projects. Not production-ready.
+* [MD-C Labs](http://labs.md-c.com) — a place for experimental web projects. Not production-ready, and from 3+ years ago.
 * [BibleOrQuran.org](https://bibleorquran.org) - a game to combat islamophobia.
   - Among the most popular games on Reddit's [WebGames](https://www.reddit.com/r/WebGames/comments/50cwkn/bibleorquran_gives_you_a_random_verse_from_either/) subreddit.
   - Awarded "most wholesome [game] of 2016" by Reddit WebGames
 
 ## Professional Experience
 _Note that my roles at Politiwatch and PACTF are excluded from this list, as they are listed under `Organizations` and listing them here would be redundant._
+
+**First Look Media** (parent of _The Intercept_, summer 2018): worked on the engineering team and with the research team.
+* Worked to create an IETF Internet standard (currently a proposed standard) for OpenPGP cryptographic keylist subscriptions, as implemented by Micah Lee's [GPGSync](https://github.com/firstlookmedia/gpgsync). The `Internet-Draft` is available [here](https://datatracker.ietf.org/doc/draft-mccain-keylist/).
+* Worked with the research team to perform data analysis on several unreleased datasets.
+* Designed Presslist, a crowdsourced internal system to manage and track government contacts.
 
 **Torch** (summer 2017): worked at a New York City tech+politics startup.
 * Led the development of Torch’s "scraping" technology ([OpenParser](https://github.com/torch1/openparser))
@@ -162,12 +166,10 @@ _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatr
 ---
 
 ## Hopefuls
-* Politico long-read piece with Dr. Kreps
-* VoteSnap with George
-* ProtestPack @ ProgCode (maybe Protest Hub too? Collab with National Lawyers Guild, BLM via Julian, MoveOn via Julian, Indivisible via Julian, etc)
 * Spotlife (commercial)
 * Twitter academic article with Dr. Kreps (dependent on long-read)
-* LibreNews with Bloomberg (long prospect)
-* [OpenPD](https://openpd.org)
-* [Congressional Data Challenge](https://www.challenge.gov/challenge/congressional-data-competition/)
 * Alioshka fund
+
+## In Progress
+* [OpenPD](https://openpd.org)
+* (others)
