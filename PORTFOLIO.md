@@ -14,7 +14,7 @@ My projects, research, and commentary have appeared in several major news outlet
 ---
 
 ## Academics (Intramural Activity)
-**Phillips Academy Andover** — class of 2019 (junior) — latest GPA was 6.0 (on 6.0 scale)
+**Phillips Academy Andover** — class of 2019 (senior) — latest GPA was 6.0 (on 6.0 scale)
 
 ### Current Classes
 English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
@@ -129,6 +129,7 @@ _Note that my roles at Politiwatch and PACTF are excluded from this list, as the
 
 **First Look Media** (parent of _The Intercept_, summer 2018): worked on the engineering team and with the research team.
 * Worked to create an IETF Internet standard (currently a proposed standard) for OpenPGP cryptographic keylist subscriptions, as implemented by Micah Lee's [GPGSync](https://github.com/firstlookmedia/gpgsync). The `Internet-Draft` is available [here](https://datatracker.ietf.org/doc/draft-mccain-keylist/). (I am the primary/first author.)
+* Wrote an [engineering blog post](https://tech.firstlook.media/keylist-rfc-explainer) about the IETF project.
 * Worked with the research team to perform data analysis on several unreleased datasets.
 * Designed Presslist, a crowdsourced internal system to manage and track government contacts.
 
@@ -155,13 +156,16 @@ _See 'Academics' for the list of awards I have received through my school. These
 
 _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatriot X. (Platinum division.)_
 
-## Personal Development
+## Other Programs
 * **Cambridge Scholars Programme** (summer 2016): Attended _Cambridge Scholars Programme_ the summer after my freshman year of high school. I did coursework in robotics and physics, and received an 'A' in all classes.
 * **Mentors in Violence Prevention** (Fall 2016 and Winter 2017): took part in a six-week course in preventing gender-based violence and how to be an ally.
 
 ## Music
 * [Ambps 0](https://itunes.apple.com/us/album/ambps-0-ep/1145046578) — a five track EP of experimental ambient music.
 * [Mesonoxian](https://itunes.apple.com/us/album/mesonoxian/1217975467) — a full-length album of classical pieces ranging from baroque to the avant-garde recreated using thousands of synthesizers.
+
+## Radio
+I love 'Ham Radio,' and am an FCC licensed 'Ham Radio' operator. My callsign is KD2HZZ.
 
 ---
 
@@ -172,4 +176,4 @@ _I am currently competing with [Blueshells](https://blueshells.net) in CyberPatr
 
 ## In Progress
 * [OpenPD](https://openpd.org)
-* (others)
+* Rolodin
