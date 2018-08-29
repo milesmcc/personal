@@ -19,10 +19,10 @@ My projects, research, and commentary have appeared in several major news outlet
 ### Current Classes
 English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 
-### Awards
-* Webster Prize _(for excellence in the social sciences)_,
-* David G. Wood Fellowship _(for excellence in writing)_,
-* Top Score in Physics 400 prize exam,
+### Andover Awards
+* Webster Prize _(for excellence in the social sciences)_
+* David G. Wood Fellowship _(for excellence in writing)_
+* Top Score in Physics 400 prize exam _(Andover Physics Department)_
 * Winfield M. Sides Prize _(for excellence in computer science)_
 
 ### Athletics
