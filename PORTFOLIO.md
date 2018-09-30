@@ -17,7 +17,7 @@ My projects, research, and commentary have appeared in several major news outlet
 **Phillips Academy Andover** — class of 2019 (senior) — latest GPA was 6.0 (on 6.0 scale)
 
 ### Current Classes
-English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
+English, Math, Russian, Computer Science (seminar on machine learning), Independent Project (Digital Propaganda & Censorship)
 
 ### Andover Awards
 * Webster Prize _(for excellence in the social sciences)_
@@ -33,16 +33,9 @@ English, Math, Russian, U.S. History, Chemistry, Computer Science (seminar)
 * [Blueshells](https://blueshells.net) _(founder)_
 * [Techmasters](https://techmasters.io) _(co-president)_
 * Computer Science Club _(co-president)_
-* Robotics Club _(co-president)_
 * GSA _(gender & sexuality alliance; co-president)_
 * UNICEF Club _(board member)_
 * Proctor _(Flagg House)_
-* Dorm representative
-
-### Other Campus Group Affiliations
-* “MAKERS” Club
-* WPAA _(campus radio station)_
-* Democrats Club
 
 ## Media Coverage and Publications
 _Academic publications are listed under [research](#research)._
@@ -50,7 +43,7 @@ _Academic publications are listed under [research](#research)._
 My projects and writings have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, BoingBoing, Bustle,_ and _TimeOut New York_.
 
 **Authored pieces**:
-* ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency. More than 40 pieces (and 75k words) published. _(See also: [references and publications in media](https://rmrm.io/publications/).)_
+* ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency. More than 50 pieces (and 75k words) published.
 * ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co)wrote. Though listed also under `Research`, it belongs here as well.
 
 _This section does not include media written about me or about things I have made. It only includes written publications that I have authored. For information on coverage, see [here](#media-coverage-and-publications)_
@@ -152,9 +145,8 @@ _Note that my roles at Politiwatch and PACTF are excluded from this list, as the
 _See 'Academics' for the list of awards I have received through my school. These awards are omitted in this subsection._
 * **HackNEHS 1st place** (Fall 2017): won first place in [HackNEHS](https://www.hacknehs.com/), a 'hackathon' for New England high schools.
 * **Blueprint (@ MIT) 2nd place** (Winter 2018): won second place in [Blueprint](https://blueprint.hackmit.org/), a national annual hackathon hosted at the MIT Media Lab.
+* **CyberPatriot X** (Fall-Winter 2018): competed in the Platinum division with [Blueshells](https://blueshells.net)
 * **HackACE 1st place (tied)** (Winter 2017): tied for first place in [HackACE](http://hackace.us).
-
-_I am currently competing with [Blueshells](https://blueshells.net) in CyberPatriot X. (Platinum division.)_
 
 ## Other Programs
 * **Cambridge Scholars Programme** (summer 2016): Attended _Cambridge Scholars Programme_ the summer after my freshman year of high school. I did coursework in robotics and physics, and received an 'A' in all classes.
@@ -169,11 +161,7 @@ I love 'Ham Radio,' and am an FCC licensed 'Ham Radio' operator. My callsign is 
 
 ---
 
-## Hopefuls
-* Spotlife (commercial)
-* Twitter academic article with Dr. Kreps (dependent on long-read)
-* Alioshka fund
-
 ## In Progress
 * [OpenPD](https://openpd.org)
 * Rolodin
+_and several other projects_
