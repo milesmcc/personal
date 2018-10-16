@@ -43,8 +43,8 @@ _Academic publications are listed under [research](#research)._
 My projects and writings have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, BoingBoing, Bustle,_ and _TimeOut New York_.
 
 **Authored pieces**:
-* ...in [WorthHiding](https://worthhiding.com) — a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency. More than 50 pieces (and 75k words) published.
-* ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co)wrote. Though listed also under `Research`, it belongs here as well.
+* ...in [WorthHiding](https://worthhiding.com) (a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency): more than 50 pieces (and 75k words).
+* ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co-)authored. Though listed also under `Research`, it belongs here as well.
 
 _This section does not include media written about me or about things I have made. It only includes written publications that I have authored. For information on coverage, see [here](#media-coverage-and-publications)_
 
@@ -56,6 +56,9 @@ Most of the research that I do is related to either computer science, political 
   - Source code [open source](https://github.com/milesmcc/CongressionalDroneOversight).
   - Presented at Yale, Columbia, Cornell, Georgetown, and UC Santa Barbara.
   - *Washington Post* popular opinion piece [here](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/).
+* **Deciphering Chinese Censorship: Introducing Censorscout and the Weibo Censorship Dashboard**: created CensorScout and the Weibo Censorship Dashboard, two pilot applications that make several steps toward increased transparency into censorship on Weibo and provide valuable—albeit limited—information regarding the state of Chinese Internet censorship. Co-authored with Jeffrey Shen.
+  - Paper available on [SSRN](https://ssrn.com/abstract=3266193).
+  - Completed as part of [Digital Propaganda & Censorship](https://dpclab.org) (under the mentorship of John Palfrey, Michael Barker, and Malgorzata Stergios).
 
 ### Minor Research Projects
 * [**How Members of Congress Talk About the National Security Agency**](https://worthhiding.com/2017/11/21/how-legislators-talk-about-the-nsa/): a data-driven analysis of how members of Congress talk about the NSA.
@@ -88,7 +91,7 @@ Various projects that I have created, listed in no particular order. According t
     - [The Daily Beast](https://www.thedailybeast.com/michael-flynn-followed-russian-troll-accounts-pushed-their-messages-in-days-before-election): "Michael Flynn Followed Russian Troll Accounts, Pushed Their Messages in Days Before Election" — Trump’s notoriously Kremlin-friendly national security adviser amplified Russian messages right when they mattered most—in the days leading up to Nov. 8, 2016.
     - [Bellingcat](https://ru.bellingcat.com/novosti/russia/2017/12/03/tengop/): "Как кремлевский тролль обманул всю Америку" — Russian investigative journalism piece exposing the propaganda account @TEN_GOP (and cites/is sourced by PolitiTweet). Written by Ben Nimmo and the [Digital Forensic Research Lab](https://ru.bellingcat.com/author/dfrlab/) (DFRLab).
     - [New York Daily News](http://www.nydailynews.com/news/national/trump-nicki-minaj-thousand-duped-russian-twitter-bots-article-1.3825400): "President Trump, Nicki Minaj, Ann Coulter among hundreds of thousands duped by Russian Twitter bots" —  "Don. Jr has since deleted the February 2017 retweet from @TEN_GOP, but not before nearly 10,000 other social media users shared it, according to PolitiTweet, an online tool published by the nonpartisan, nonprofit tech organization, PolitiWatch."
-  - Blocked by Charlie Sheen (whoops)  
+  - Blocked by Charlie Sheen (whoops)  .
   - (See also: [impact tweet](https://twitter.com/bpopken/status/954843971909505025), [relevance tweet](https://twitter.com/bpopken/status/954948594456461313).)
 * [WhoAreMyRepresentatives.org](https://whoaremyrepresentatives.org) — a simple tool to look up who represents a particular address in government.
   - Used more than 1 million times and maintains steady traffic.
@@ -127,10 +130,10 @@ _Note that my roles at Politiwatch and PACTF are excluded from this list, as the
 * Designed Presslist, a crowdsourced internal system to manage and track government contacts.
 
 **Torch** (summer 2017): worked at a New York City tech+politics startup.
-* Led the development of Torch’s "scraping" technology ([OpenParser](https://github.com/torch1/openparser))
-* Rebranded a major element of the Torch platform, making the platform more immediately useful and accessible to non-technical users
-* Provided the company with gigabytes of invaluable civic information
-* Position obtained after they reached out to me about [WhyAreMyRepresentatives.org](https://WhoAreMyRepresentatives.org)
+* Led the development of Torch’s "scraping" technology ([OpenParser](https://github.com/torch1/openparser)).
+* Rebranded a major element of the Torch platform, making the platform more immediately useful and accessible to non-technical users.
+* Provided the company with gigabytes of invaluable civic information.
+* Position obtained after they reached out to me about [WhyAreMyRepresentatives.org](https://WhoAreMyRepresentatives.org).
 
 **"Freelance" Programming, Writing, and Design** (October 2014-November 2016)
 * Created software, text, and graphics for over 200 clients
