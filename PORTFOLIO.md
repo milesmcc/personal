@@ -22,8 +22,8 @@ English, Math, Russian, Computer Science (seminar on machine learning), Independ
 ### Andover Awards
 * Webster Prize _(for excellence in the social sciences)_
 * David G. Wood Fellowship _(for excellence in writing)_
-* Top Score in Physics 400 prize exam _(Andover Physics Department)_
 * Winfield M. Sides Prize _(for excellence in computer science)_
+* Top Score in Physics 400 prize exam
 
 ### Athletics
 * Varsity Rowing, 1st boat (current)
@@ -34,7 +34,6 @@ English, Math, Russian, Computer Science (seminar on machine learning), Independ
 * [Techmasters](https://techmasters.io) _(co-president)_
 * Computer Science Club _(co-president)_
 * GSA _(gender & sexuality alliance; co-president)_
-* UNICEF Club _(board member)_
 * Proctor _(Flagg House)_
 
 ## Media Coverage and Publications
