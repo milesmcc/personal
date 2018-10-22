@@ -45,7 +45,7 @@ My projects and writings have appeared in several major news outlets including t
 * ...in [WorthHiding](https://worthhiding.com) (a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency): more than 50 pieces (and 75k words).
 * ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co-)authored. Though listed also under `Research`, it belongs here as well.
 
-_This section does not include media written about me or about things I have made. It only includes written publications that I have authored. For information on coverage, see [here](#media-coverage-and-publications)_
+_This section does not include media written about me or about things I have made. It only includes written publications that I have authored. For information on coverage, see [here](#media-coverage-and-publications)_.
 
 ## Research
 Most of the research that I do is related to either computer science, political science, or both.
