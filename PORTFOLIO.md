@@ -66,7 +66,7 @@ Most of the research that I do is related to either computer science, political 
 ## Organizations
 [**Politiwatch**](https://politiwatch.org): Using technology to promote political accountability, digital rights, and social awareness. (501c3 nonprofit.)
 
-* I founded Politiwatch after I began to receive legal and death threats for various projects I created. (See projects below.) It has protected me against legal action, allowed me to build a brand for my sites, and eased the process of receiving tax-deductible financial donations.
+* I founded Politiwatch after I began to receive various threats for various projects I created. (See projects below.) It has protected me against legal action, allowed me to build a brand for my sites, and eased the process of receiving tax-deductible financial donations.
 * Politiwatch is an American 501(c)(3) nonpartisan, nonprofit organization that advocates for freedom of information, digital privacy rights, and political accountability. It was founded in 2016 with the goal of combating political ignorance, promoting privacy, and making civic information more accessible.
 * Sponsors include Google (via their Google for Nonprofits program), ProtonMail, and DigitalOcean.
 
