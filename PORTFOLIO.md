@@ -51,12 +51,14 @@ _This section does not include media written about me or about things I have mad
 Most of the research that I do is related to either computer science, political science, or both.
 
 ### Major Research Projects
-* **Origins of Oversight: A Machine-Assisted Analysis of Legislative Engagement on US Foreign Policy**: using computers to parse the entire congressional record and study the determinants of foreign policy oversight in Congress. Co-authored with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps).
+* **Origins of Oversight: A Machine-Assisted Analysis of Legislative Engagement on US Foreign Policy** — using computers to parse the entire congressional record and study the determinants of foreign policy oversight in Congress. Co-authored with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps).
   - Source code [open source](https://github.com/milesmcc/CongressionalDroneOversight).
   - Presented at Yale, Columbia, Cornell, Georgetown, and UC Santa Barbara.
   - *Washington Post* popular opinion piece [here](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/).
-* **Deciphering Chinese Censorship: Introducing Censorscout and the Weibo Censorship Dashboard**: created CensorScout and the Weibo Censorship Dashboard, two pilot applications that make several steps toward increased transparency into censorship on Weibo and provide valuable—albeit limited—information regarding the state of Chinese Internet censorship. Co-authored with Jeffrey Shen.
-  - Paper available on [SSRN](https://ssrn.com/abstract=3266193).
+* **Deciphering Chinese Censorship: Introducing Censorscout and the Weibo Censorship Dashboard** — created CensorScout and the Weibo Censorship Dashboard, two pilot applications that make several steps toward increased transparency into censorship on Weibo and provide valuable—albeit limited—information regarding the state of Chinese Internet censorship. Co-authored with Jeffrey Shen.
+  - Paper available on [SSRN](https://ssrn.com/abstract=3266193), reached daily Top Ten in AARN: East Asia (Topic), AARN: Human Borders - Animals, Science & Technology, & Material Culture (Topic), AARN: Science & Technology Studies (Sub-Topic), AARN: Theorizing Politics & Power (Political) (Topic), CompSciRN: Other Cybersecurity, Privacy, & Networks (Topic), Culture Area Studies eJournal, Cybersecurity, Privacy, & Networks eJournal, PSN: Politics of Autocratic Regimes (Topic), Political Anthropology eJournal and Political Institutions: Non-Democratic Regimes eJournal.
+  - Completed as part of [Digital Propaganda & Censorship](https://dpclab.org) (under the mentorship of John Palfrey, Michael Barker, and Malgorzata Stergios).
+* **Russian Meddling: A four-part series exploring Russian meddling on American social media** — used machine learning to better understand the Russian disinformation campaign in the 2016 election. Released three [blog posts](https://dpclab.org/russia/), launched a [Twitter bot](https://twitter.com/TrackTheTrolls), an [open API](https://dpclab.org/russia/machine-learning-troll-detection/), and an [interactive machine learning model](https://dpclab.org/russia/troll-explorer/).
   - Completed as part of [Digital Propaganda & Censorship](https://dpclab.org) (under the mentorship of John Palfrey, Michael Barker, and Malgorzata Stergios).
 
 ### Minor Research Projects
