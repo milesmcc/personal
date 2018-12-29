@@ -1,17 +1,27 @@
-# Portfolio
+<p align="center">
+  <h1 align="center">R. Miles McCain</h1>
+  <h3>Portfolio</h3>
+
+  <p align="center">
+     Easily scan files for threats to security and privacy. A Rust library and command line tool.
+    <br>
+    <a href="https://rmrm.io"><strong>Personal Website »</strong></a>
+    <br>
+    <br>
+    <a href="#media-coverage-and-publications">Media Coverage</a>
+    •
+    <a href="#research">Research</a>
+    •
+    <a href="#projects">Projects</a>
+  </p>
+</p>
 
 ## About
-**[Miles McCain](https://rmrm.io) is a student at Phillips Academy Andover. He is an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com).**
+**I am a student at Phillips Academy Andover. I am an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com). My personal website is [rmrm.io](https://rmrm.io).**
 
 I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
 
 My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, New York Daily News, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
-
----
-
-**_Quick sections:_** [Media Coverage and Publications](#media-coverage-and-publications), [Research](#research), [Organizations](#organizations), [Projects](#projects), [Professional Experience](#professional-experience)
-
----
 
 ## Academics (Intramural Activity)
 **Phillips Academy Andover** — class of 2019 (senior) — latest GPA was 6.0 (on 6.0 scale)
