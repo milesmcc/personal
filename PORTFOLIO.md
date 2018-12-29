@@ -12,7 +12,6 @@
   </p>
 </p>
 
-## About
 **I am a student at Phillips Academy Andover. I am an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com). My personal website is [rmrm.io](https://rmrm.io).**
 
 I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
@@ -110,7 +109,7 @@ Various projects that I have created, listed in no particular order. According t
   - Featured in [BoingBoing](https://boingboing.net/2017/01/03/find-out-who-represents-you-in.html), [Bustle](https://www.bustle.com/p/how-to-call-your-representative-urge-them-to-boycott-the-inauguration-31044), [TimeOut](https://www.timeout.com/usa/blog/check-out-this-site-to-easily-find-out-who-your-representatives-are-and-how-to-contact-them-012517) ([twice](https://www.timeout.com/newyork/blog/15-things-you-can-do-after-the-womens-march-to-stay-engaged-in-nyc-012417)), & others.
   - Linked to as an activism resource by Planned Parenthood.
 * [WhyPrivacyMatters.org](https://WhyPrivacyMatters.org) — a collaborative project to argue for privacy.
-  - Translated into 11 languages (and counting).
+  - Translated into 14 languages (and counting).
   - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
 * [Foia.fyi](https://foia.fyi) — a simple website that simplifies the process of submitting a FOIA request.
 * [Concision.co](https://concision.co) — a simple word processing tool for quick copy-paste analysis
