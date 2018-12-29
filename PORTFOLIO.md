@@ -11,6 +11,8 @@
     <a href="#projects">Projects</a>
   </p>
 </p>
+<br>
+<br>
 
 **I am a student at Phillips Academy Andover. I am an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com). My personal website is [rmrm.io](https://rmrm.io).**
 
