@@ -1,10 +1,6 @@
 <p align="center">
   <h1 align="center">R. Miles McCain</h1>
-  <h3>Portfolio</h3>
-
   <p align="center">
-     Easily scan files for threats to security and privacy. A Rust library and command line tool.
-    <br>
     <a href="https://rmrm.io"><strong>Personal Website »</strong></a>
     <br>
     <br>
