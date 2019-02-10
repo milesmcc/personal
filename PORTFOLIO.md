@@ -114,17 +114,17 @@ Various projects that I have created, listed in no particular order. According t
   - Translated into 14 languages (and counting).
   - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
 * [Foia.fyi](https://foia.fyi) — a simple website that simplifies the process of submitting a FOIA request.
-* [Concision.co](https://concision.co) — a simple word processing tool for quick copy-paste analysis
-* [OPENWI:RE](https://openwi.re) — a weekly newsletter highlighting the best of the week’s adversarial journalism and “think” pieces, with an emphasis on issues of foreign policy, digital privacy, and technology.
+* [Concision.co](https://concision.co) — a simple word processing tool for quick copy-paste analysis.
+* [OPENWI:RE](https://openwi.re) — a weekly newsletter highlighting the best of the week’s adversarial journalism and “think” pieces, with an emphasis on issues of foreign policy, digital privacy, and technology. (Discontinued.)
 * [Deaddrop](https://github.com/milesmcc/deaddrop) — secure, authenticated, and monitored file 'dead drops.'
 * [LibreNews](https://librenews.io) — a free, open source, speedy, and deeply customizable breaking news notification system for Android phones. Over three thousand active daily users.
 * [DroneScout API](https://tbij.dronescout.org) — an API and web interface for processing the Bureau of Investigative Journalism's drone strike data.
-* [530ZULU](https://530zulu.com) — a twice daily concise email news briefing. (Sign up for it. It's great.)
+* [530ZULU](https://530zulu.com) — a twice daily concise email news briefing. (Discontinued.)
 * [Vog](https://github.com/milesmcc/vog) — an open source browser extension (Firefox, Opera, and Chrome) for extracting open-graph data from a webpage without having to deal with source files.
 * TrumpWire — a project (now defunct) that sent a SMS notification whenever Donald Trump signed an executive order.
-* [Encompassed.press](https://github.com/milesmcc/Encompassed.press) — the single most encompassing and important news story, found automatically.
+* [Encompassed.press](https://github.com/milesmcc/Encompassed.press) — the single most encompassing and important news story, found automatically. (Discontinued.)
 * [MD-C Labs](http://labs.md-c.com) — a place for experimental web projects. Not production-ready, and from 3+ years ago.
-* [BibleOrQuran.org](https://bibleorquran.org) - a game to combat islamophobia.
+* [BibleOrQuran.org](https://bibleorquran.org) — a game to combat islamophobia.
   - Among the most popular games on Reddit's [WebGames](https://www.reddit.com/r/WebGames/comments/50cwkn/bibleorquran_gives_you_a_random_verse_from_either/) subreddit.
   - Awarded "most wholesome [game] of 2016" by Reddit WebGames
 
