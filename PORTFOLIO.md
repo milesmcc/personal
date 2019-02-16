@@ -24,7 +24,7 @@ My projects, research, and commentary have appeared in several major news outlet
 **Phillips Academy Andover** — class of 2019 (senior) — latest GPA was 6.0 (on 6.0 scale)
 
 ### Current Classes
-English, Math, Russian, Computer Science (seminar on machine learning), Independent Project (Digital Propaganda & Censorship)
+English (colloquium), Math, Russian (independent project), Computer Science (independent research), History (independent research)
 
 ### Andover Awards
 * Webster Prize _(for excellence in the social sciences)_
@@ -113,7 +113,10 @@ Various projects that I have created, listed in no particular order. According t
 * [WhyPrivacyMatters.org](https://WhyPrivacyMatters.org) — a collaborative project to argue for privacy.
   - Translated into 14 languages (and counting).
   - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
+* [IEQL](https://github.com/milesmcc/ieql) — an Internet scanning system I created as part of an independent project course at Phillips Academy.
+* [PARussian](https://parussian.org) — a 2nd level textbook I created based on Русский Язык Для Всех for the Phillips Academy Russian Department.
 * [Foia.fyi](https://foia.fyi) — a simple website that simplifies the process of submitting a FOIA request.
+* [ArmorLib](https://armorlib.org) — a malware detection framework I created as part of a course at Phillips Academy.
 * [Concision.co](https://concision.co) — a simple word processing tool for quick copy-paste analysis.
 * [OPENWI:RE](https://openwi.re) — a weekly newsletter highlighting the best of the week’s adversarial journalism and “think” pieces, with an emphasis on issues of foreign policy, digital privacy, and technology. (Discontinued.)
 * [Deaddrop](https://github.com/milesmcc/deaddrop) — secure, authenticated, and monitored file 'dead drops.'
