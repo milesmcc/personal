@@ -33,7 +33,7 @@ English (colloquium), Math, Russian (independent project), Computer Science (ind
 * Top Score in Physics 400 prize exam
 
 ### Athletics
-* Varsity Rowing, 1st boat (current)
+* Varsity Rowing, 1st boat (11th grade)
 * Wrestling (former)
 
 ### Leadership Positions
