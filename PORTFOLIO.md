@@ -21,7 +21,7 @@ I want to use technology to improve the world—and to learn something along the
 My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, New York Daily News, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
 
 ## Academics (Intramural Activity)
-**Phillips Academy Andover** — class of 2019 (senior) — latest GPA was 6.0 (on 6.0 scale)
+**Phillips Academy Andover** — class of 2019 (senior) — latest term GPA was 6.0 (on 6.0 scale)
 
 ### Winter Trimester Classes
 English (colloquium), Math, Russian (independent project), Computer Science (independent research), History (independent research)
