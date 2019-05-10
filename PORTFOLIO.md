@@ -14,7 +14,7 @@
 <br>
 <br>
 
-**I am a student at Phillips Academy Andover. I am an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com). My personal website is [rmrm.io](https://rmrm.io).**
+**I am an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com). My personal website is [rmrm.io](https://rmrm.io). I am a student at Phillips Academy Andover and will enroll at Stanford in the fall of 2020 after a gap year.**
 
 I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
 
