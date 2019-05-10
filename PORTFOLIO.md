@@ -21,9 +21,9 @@ I want to use technology to improve the world—and to learn something along the
 My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, New York Daily News, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
 
 ## Academics (Intramural Activity)
-**Phillips Academy Andover** — class of 2019 (senior) — latest GPA was 6.0 (on 6.0 scale)
+**Phillips Academy Andover** — class of 2019 (senior) — latest term GPA was 6.0 (on 6.0 scale)
 
-### Current Classes
+### Winter Trimester Classes
 English (colloquium), Math, Russian (independent project), Computer Science (independent research), History (independent research)
 
 ### Andover Awards
@@ -33,7 +33,7 @@ English (colloquium), Math, Russian (independent project), Computer Science (ind
 * Top Score in Physics 400 prize exam
 
 ### Athletics
-* Varsity Rowing, 1st boat (current)
+* Varsity Rowing, 1st boat (11th grade)
 * Wrestling (former)
 
 ### Leadership Positions
@@ -58,7 +58,7 @@ _This section does not include media written about me or about things I have mad
 Most of the research that I do is related to either computer science, political science, or both.
 
 ### Major Research Projects
-* **Origins of Oversight: A Machine-Assisted Analysis of Legislative Engagement on US Foreign Policy** — using computers to parse the entire congressional record and study the determinants of foreign policy oversight in Congress. Co-authored with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps).
+* **Origins of Oversight: A Machine-Assisted Analysis of Legislative Engagement on US Foreign Policy** — using computers to parse the entire congressional record and study the determinants of foreign policy oversight in Congress. Co-authoring with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps).
   - Source code [open source](https://github.com/milesmcc/CongressionalDroneOversight).
   - Presented at Yale, Columbia, Cornell, Georgetown, and UC Santa Barbara.
   - *Washington Post* popular opinion piece [here](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/).
