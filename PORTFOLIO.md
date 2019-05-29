@@ -30,6 +30,7 @@ English (colloquium), Math, Russian (independent project), Computer Science (ind
 * Webster Prize _(for excellence in the social sciences)_
 * David G. Wood Fellowship _(for excellence in writing)_
 * Winfield M. Sides Prize _(for excellence in computer science)_
+* Scoville Award _(for an outstanding original paper or project)_
 * Top Score in Physics 400 prize exam
 
 ### Athletics
@@ -48,7 +49,7 @@ _Academic publications are listed under [research](#research)._
 
 My projects and writings have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, BoingBoing, Bustle,_ and _TimeOut New York_.
 
-**Authored pieces**:
+**Authored Works**:
 * ...in [WorthHiding](https://worthhiding.com) (a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency): more than 50 pieces (and 75k words).
 * ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co-)authored. Though listed also under `Research`, it belongs here as well.
 
@@ -114,6 +115,7 @@ Various projects that I have created, listed in no particular order. According t
   - Translated into 14 languages (and counting).
   - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
 * [IEQL](https://github.com/milesmcc/ieql) — an Internet scanning system I created as part of an independent project course at Phillips Academy.
+* [PollPA](https://pollpa.org) — a live polling platform for Phillips Academy
 * [PARussian](https://parussian.org) — a 2nd level textbook I created based on Русский Язык Для Всех for the Phillips Academy Russian Department.
 * [Foia.fyi](https://foia.fyi) — a simple website that simplifies the process of submitting a FOIA request.
 * [ArmorLib](https://armorlib.org) — a malware detection framework I created as part of a course at Phillips Academy.
