@@ -115,7 +115,7 @@ Various projects that I have created, listed in no particular order. According t
   - Translated into 14 languages (and counting).
   - Over 28 [contributors](https://whyprivacymatters.org/CONTRIBUTORS.html).
 * [IEQL](https://github.com/milesmcc/ieql) — an Internet scanning system I created as part of an independent project course at Phillips Academy.
-* [PollPA](https://pollpa.org) — a live polling platform for Phillips Academy
+* [PollPA](https://pollpa.org) — a live polling platform for Phillips Academy.
 * [PARussian](https://parussian.org) — a 2nd level textbook I created based on Русский Язык Для Всех for the Phillips Academy Russian Department.
 * [Foia.fyi](https://foia.fyi) — a simple website that simplifies the process of submitting a FOIA request.
 * [ArmorLib](https://armorlib.org) — a malware detection framework I created as part of a course at Phillips Academy.
