@@ -18,31 +18,7 @@
 
 I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
 
-My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, CNN, the Daily Beast, Nightly News with Lester Holt, TimeOut National, New York Daily News, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
-
-## Academics (Intramural Activity)
-**Phillips Academy Andover** — class of 2019 (senior) — latest term GPA was 6.0 (on 6.0 scale)
-
-### Winter Trimester Classes
-English (colloquium), Math, Russian (independent project), Computer Science (independent research), History (independent research)
-
-### Andover Awards
-* Webster Prize _(for excellence in the social sciences)_
-* David G. Wood Fellowship _(for excellence in writing)_
-* Winfield M. Sides Prize _(for excellence in computer science)_
-* Scoville Award _(for an outstanding original paper or project)_
-* Top Score in Physics 400 prize exam
-
-### Athletics
-* Varsity Rowing, 1st boat (11th grade)
-* Wrestling (former)
-
-### Leadership Positions
-* [Blueshells](https://blueshells.net) _(founder)_
-* [Techmasters](https://techmasters.io) _(co-president)_
-* Computer Science Club _(co-president)_
-* GSA _(gender & sexuality alliance; co-president)_
-* Proctor _(Flagg House)_
+My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, CNN, Foreign Affairs, the Daily Beast, Nightly News with Lester Holt, TimeOut National, New York Daily News, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
 
 ## Media Coverage and Publications
 _Academic publications are listed under [research](#research)._
@@ -51,7 +27,8 @@ My projects and writings have appeared in several major news outlets including t
 
 **Authored Works**:
 * ...in [WorthHiding](https://worthhiding.com) (a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency): more than 50 pieces (and 75k words).
-* ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" — an article I (co-)authored. Though listed also under `Research`, it belongs here as well.
+* ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" (with Sarah Kreps)
+* ...in [Foreign Affairs](https://www.foreignaffairs.com/articles/2019-08-02/not-your-fathers-bots): "Not Your Father’s Bots" (with Sarah Kreps)
 
 _This section does not include media written about me or about things I have made. It only includes written publications that I have authored. For information on coverage, see [here](#media-coverage-and-publications)_.
 
@@ -132,6 +109,30 @@ Various projects that I have created, listed in no particular order. According t
 * [BibleOrQuran.org](https://bibleorquran.org) — a game to combat islamophobia.
   - Among the most popular games on Reddit's [WebGames](https://www.reddit.com/r/WebGames/comments/50cwkn/bibleorquran_gives_you_a_random_verse_from_either/) subreddit.
   - Awarded "most wholesome [game] of 2016" by Reddit WebGames
+  
+## Academics (Intramural Activity)
+**Phillips Academy Andover** — class of 2019 (senior) — latest term GPA was 6.0 (on 6.0 scale)
+
+### Winter Trimester Classes
+English (colloquium), Math, Russian (independent project), Computer Science (independent research), History (independent research)
+
+### Andover Awards
+* Webster Prize _(for excellence in the social sciences)_
+* David G. Wood Fellowship _(for excellence in writing)_
+* Winfield M. Sides Prize _(for excellence in computer science)_
+* Scoville Award _(for an outstanding original paper or project)_
+* Top Score in Physics 400 prize exam
+
+### Athletics
+* Varsity Rowing, 1st boat (11th grade)
+* Wrestling (former)
+
+### Leadership Positions
+* [Blueshells](https://blueshells.net) _(founder)_
+* [Techmasters](https://techmasters.io) _(co-president)_
+* Computer Science Club _(co-president)_
+* GSA _(gender & sexuality alliance; co-president)_
+* Proctor _(Flagg House)_
 
 ## Professional Experience
 _Note that my roles at Politiwatch and PACTF are excluded from this list, as they are listed under `Organizations` and listing them here would be redundant._
