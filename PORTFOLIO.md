@@ -117,6 +117,7 @@ Various projects that I have created, listed in no particular order. According t
 English (colloquium), Math, Russian (independent project), Computer Science (independent research), History (independent research)
 
 ### Andover Awards
+* Aurelian Honor Society Award _(for character, scholarship, and leadership)_
 * Webster Prize _(for excellence in the social sciences)_
 * David G. Wood Fellowship _(for excellence in writing)_
 * Winfield M. Sides Prize _(for excellence in computer science)_
