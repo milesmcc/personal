@@ -46,9 +46,10 @@ Most of the research that I do is related to either computer science, political 
 * **Russian Meddling: A four-part series exploring Russian meddling on American social media** — used machine learning to better understand the Russian disinformation campaign in the 2016 election. Released three [blog posts](https://dpclab.org/russia/), launched a [Twitter bot](https://twitter.com/TrackTheTrolls), an [open API](https://dpclab.org/russia/machine-learning-troll-detection/), and an [interactive machine learning model](https://dpclab.org/russia/troll-explorer/).
   - Completed as part of [Digital Propaganda & Censorship](https://dpclab.org) (under the mentorship of John Palfrey, Michael Barker, and Malgorzata Stergios).
 
-### Minor Research Projects
+### Minor Research Projects & 
 * [**How Members of Congress Talk About the National Security Agency**](https://worthhiding.com/2017/11/21/how-legislators-talk-about-the-nsa/): a data-driven analysis of how members of Congress talk about the NSA.
 * [**A Quantitative Measure of Partisan Periphery**](https://worthhiding.com/2017/10/08/a-quantitative-measure-of-partisan-periphery/): creating a mathematical (i.e. not subjective) measure of partisan periphery
+* [**Campaigns Must Prepare for Deepfakes: This Is What Their Plan Should Look Like**](https://carnegieendowment.org/2019/09/05/campaigns-must-prepare-for-deepfakes-this-is-what-their-plan-should-look-like-pub-79792): contributed to the "deepfake response plan" published by the Carnegie Endowment for International Piece (by Kate Charlet and Danielle Citron)
 
 ## Organizations
 [**Politiwatch**](https://politiwatch.org): Using technology to promote political accountability, digital rights, and social awareness. (501c3 nonprofit.)
