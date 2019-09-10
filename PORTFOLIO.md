@@ -69,7 +69,8 @@ Most of the research that I do is related to either computer science, political 
 ## Projects
 Various projects that I have created, listed in no particular order. According to CloudFlare analytics, my projects receive more than half a million visits per month.
 
-* [PolitiTweet](https://polititweet.org) - archiving the tweets (and publishing the deleted ones) of major public figures.
+* [PrivacySpy](https://privacyspy.org) — monitoring and rating privacy policies on a ten-point scale, so you can easily understand how your data is being treated online. (With Igor Barakaiev.) **Currently in active development.**
+* [PolitiTweet](https://polititweet.org) — archiving the tweets (and publishing the deleted ones) of major public figures.
   - Threatened and hated by alt-right. (Report [here](https://politiwatch.org/documents/Polititweet/JoeBiggsEncounter.pdf).)
   - Cited by various major news publications including...
     - [Nightly News with Lester Holt](https://www.nbcnews.com/nightly-news/video/wide-range-of-celebrities-accidentally-tweeted-russian-propaganda-during-2016-election-1087414339671): "Wide Range of Celebrities Accidentally Tweeted Russian Propaganda During 2016 Election" — Famous Twitter users with big followers, from Ivanka Trump to comedians Trevor Noah and Sarah Silverman, inadvertently shared tweets that came from accounts linked to Russia, according to social media tracker PolitiTweet.
