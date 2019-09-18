@@ -14,7 +14,7 @@
 <br>
 <br>
 
-**I am an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com). My personal website is [rmrm.io](https://rmrm.io). I am a student at Phillips Academy Andover and will enroll at Stanford in the fall of 2020 after a gap year.**
+**I am an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com). My personal website is [rmrm.io](https://rmrm.io). I will enroll at Stanford in the fall of 2020 after a gap year.**
 
 I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
 
@@ -40,6 +40,10 @@ Most of the research that I do is related to either computer science, political 
   - Source code [open source](https://github.com/milesmcc/CongressionalDroneOversight).
   - Presented at Yale, Columbia, Cornell, Georgetown, and UC Santa Barbara.
   - *Washington Post* popular opinion piece [here](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/).
+* **All The News That's Fit to Fabricate: A Study of Synthetic Disinformation** — studying how synthetic (AI-generated) disinformation can deceive and masquerade as reliable, human-written content. Co-authoring with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps).
+  - *Foreign Affairs* popular opinion piece [here](https://www.foreignaffairs.com/articles/2019-08-02/not-your-fathers-bots).
+  - [Collaborated](https://openai.com/blog/gpt-2-6-month-follow-up/) with OpenAI to determine potential dangers of GPT-2.
+  - Paper currently underway.
 * **Deciphering Chinese Censorship: Introducing Censorscout and the Weibo Censorship Dashboard** — created CensorScout and the Weibo Censorship Dashboard, two pilot applications that make several steps toward increased transparency into censorship on Weibo and provide valuable—albeit limited—information regarding the state of Chinese Internet censorship. Co-authored with Jeffrey Shen.
   - Paper available on [SSRN](https://ssrn.com/abstract=3266193), reached daily Top Ten in AARN: East Asia (Topic), AARN: Human Borders - Animals, Science & Technology, & Material Culture (Topic), AARN: Science & Technology Studies (Sub-Topic), AARN: Theorizing Politics & Power (Political) (Topic), CompSciRN: Other Cybersecurity, Privacy, & Networks (Topic), Culture Area Studies eJournal, Cybersecurity, Privacy, & Networks eJournal, PSN: Politics of Autocratic Regimes (Topic), Political Anthropology eJournal and Political Institutions: Non-Democratic Regimes eJournal.
   - Completed as part of [Digital Propaganda & Censorship](https://dpclab.org) (under the mentorship of John Palfrey, Michael Barker, and Malgorzata Stergios).
