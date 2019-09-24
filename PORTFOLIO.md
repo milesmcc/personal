@@ -18,7 +18,7 @@
 
 I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
 
-My projects, research, and commentary have appeared in several major news outlets including the _Washington Post, NBC News, CNN, Foreign Affairs, the Daily Beast, Nightly News with Lester Holt, TimeOut National, New York Daily News, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
+My projects, research, and commentary have appeared in several major news outlets including the _Washington Post,_ the _New York Times, NBC News, CNN, Foreign Affairs, the Daily Beast, Nightly News with Lester Holt, TimeOut National, New York Daily News, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
 
 ## Media Coverage and Publications
 _Academic publications are listed under [research](#research)._
@@ -29,6 +29,7 @@ My projects and writings have appeared in several major news outlets including t
 * ...in [WorthHiding](https://worthhiding.com) (a personal site for publishing pieces related to computer science, political science, politics at large, privacy, and government transparency): more than 50 pieces (and 75k words).
 * ...in the [Washington Post](https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/): "Congress keeps quiet on U.S. drone policy — and that’s a big problem" (with Sarah Kreps)
 * ...in [Foreign Affairs](https://www.foreignaffairs.com/articles/2019-08-02/not-your-fathers-bots): "Not Your Father’s Bots" (with Sarah Kreps)
+* ...in the [New York Times](https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html): "Tip of the Week: Privacy Spy" (scroll down a bit to see where PrivacySpy is featured)
 
 _This section does not include media written about me or about things I have made. It only includes written publications that I have authored. For information on coverage, see [here](#media-coverage-and-publications)_.
 
@@ -74,6 +75,8 @@ Most of the research that I do is related to either computer science, political 
 Various projects that I have created, listed in no particular order. According to CloudFlare analytics, my projects receive more than half a million visits per month.
 
 * [PrivacySpy](https://privacyspy.org) — monitoring and rating privacy policies on a ten-point scale, so you can easily understand how your data is being treated online. (With Igor Barakaiev.) **Currently in active development.**
+  - [New York Times](https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html): "Tip of the Week: Privacy Spy" (scroll down to see where PrivacySpy is featured) — "Privacy policies are long, boring and extremely consequential documents. \[...\] Which is why I am fascinated by Privacy Spy, a newly launched site that makes privacy policies
+ more convenient and accessible. It’s a little like Wikipedia but for figuring out how a company is using — and misusing — your information."
 * [PolitiTweet](https://polititweet.org) — archiving the tweets (and publishing the deleted ones) of major public figures.
   - Threatened and hated by alt-right. (Report [here](https://politiwatch.org/documents/Polititweet/JoeBiggsEncounter.pdf).)
   - Cited by various major news publications including...
