@@ -18,7 +18,7 @@
 
 I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
 
-My projects, research, and commentary have appeared in several major news outlets including the _Washington Post,_ the _New York Times, NBC News, CNN, Foreign Affairs, the Daily Beast, Nightly News with Lester Holt, TimeOut National, New York Daily News, BoingBoing, Bustle,_ and _TimeOut New York_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Columbia, Cornell, and Georgetown, among other institutions.
+My projects, research, and commentary have appeared in several major news outlets including the _Washington Post,_ the _New York Times, NBC News, CNN, Foreign Affairs, the Daily Beast,_ and the _Nightly News with Lester Holt_. My research with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps) has been presented at Yale, Oxford, Columbia, and Cornell, among other institutions.
 
 ## Media Coverage and Publications
 _Academic publications are listed under [research](#research)._
@@ -44,7 +44,8 @@ Most of the research that I do is related to either computer science, political 
 * **All The News That's Fit to Fabricate: A Study of Synthetic Disinformation** — studying how synthetic (AI-generated) disinformation can deceive and masquerade as reliable, human-written content. Co-authoring with [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps).
   - *Foreign Affairs* popular opinion piece [here](https://www.foreignaffairs.com/articles/2019-08-02/not-your-fathers-bots).
   - [Collaborated](https://openai.com/blog/gpt-2-6-month-follow-up/) with OpenAI to determine potential dangers of GPT-2.
-  - Paper currently underway.
+  - Presented by Sarah Kreps at Oxford.
+  - _Paper currently underway._
 * **Deciphering Chinese Censorship: Introducing Censorscout and the Weibo Censorship Dashboard** — created CensorScout and the Weibo Censorship Dashboard, two pilot applications that make several steps toward increased transparency into censorship on Weibo and provide valuable—albeit limited—information regarding the state of Chinese Internet censorship. Co-authored with Jeffrey Shen.
   - Paper available on [SSRN](https://ssrn.com/abstract=3266193), reached daily Top Ten in AARN: East Asia (Topic), AARN: Human Borders - Animals, Science & Technology, & Material Culture (Topic), AARN: Science & Technology Studies (Sub-Topic), AARN: Theorizing Politics & Power (Political) (Topic), CompSciRN: Other Cybersecurity, Privacy, & Networks (Topic), Culture Area Studies eJournal, Cybersecurity, Privacy, & Networks eJournal, PSN: Politics of Autocratic Regimes (Topic), Political Anthropology eJournal and Political Institutions: Non-Democratic Regimes eJournal.
   - Completed as part of [Digital Propaganda & Censorship](https://dpclab.org) (under the mentorship of John Palfrey, Michael Barker, and Malgorzata Stergios).
