@@ -1,20 +1,6 @@
-<p align="center">
-  <h1 align="center">R. Miles McCain</h1>
-  <p align="center">
-    <a href="https://rmrm.io"><strong>Personal Website »</strong></a>
-    <br>
-    <br>
-    <a href="#media-coverage-and-publications">Media Coverage</a>
-    •
-    <a href="#research">Research</a>
-    •
-    <a href="#projects">Projects</a>
-  </p>
-</p>
-<br>
-<br>
+# R. Miles McCain
 
-**I am an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com). My personal website is [rmrm.io](https://rmrm.io). I will enroll at Stanford in the fall of 2020 after a gap year.**
+I am an advocate for privacy and government transparency, the founder of [Politiwatch](https://politiwatch.org), and the author of [WorthHiding.com](https://worthhiding.com). My personal website is [rmrm.io](https://rmrm.io). I will enroll at Stanford in the fall of 2020 after a gap year.
 
 I want to use technology to improve the world—and to learn something along the way. My research areas include digital privacy, foreign policy, government accountability, and the intersection thereof.
 
