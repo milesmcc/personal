@@ -2,6 +2,8 @@
   import Navbar from "./Navbar.svelte";
   import About from "./About.svelte";
   import Contact from "./Contact.svelte";
+  import Portfolio from "./Portfolio.svelte";
+  import Elsewhere from "./Elsewhere.svelte";
 </script>
 
 <style>
@@ -48,8 +50,8 @@
 		<div class="column is-readable-width">
 			<About/>
 			<Contact/>
-			<div id="portfolio"></div>
-			<div id="elsewhere"></div>
+			<Portfolio/>
+			<Elsewhere/>
 		</div>
 	</div>
   </section>

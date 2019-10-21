@@ -10,10 +10,6 @@
     margin-top: -10px;
   }
 
-  p {
-    color: black;
-  }
-
   h1 {
     font-size: 56px;
   }

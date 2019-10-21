@@ -25,6 +25,10 @@ html {
     }
 }
 
+p {
+    color: black;
+}
+
 a {
     text-decoration: underline !important;
 }

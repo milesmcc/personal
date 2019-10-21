@@ -1,60 +1,38 @@
 <script>
+  import FootnoteRef from "./footnotes/FootnoteRef.svelte";
+  import Footnote from "./footnotes/Footnote.svelte";
+
+  const scope = "contact";
 </script>
 
 <style>
-  p {
-    color: black;
-  }
 
-  h2 {
-    font-size: 42px;
-  }
 </style>
 
 <section id="contact" class="bottombreak">
   <h3 class="title">Contact</h3>
   <div class="content">
-    <p>
-      I recently graduated from high school, and am taking a gap year before I
-      start next year at Stanford. I care deeply about government
-      accountability, civil liberties, and cybersecurity. To this end, I
-      launched Politiwatch and a number of other projects.
-    </p>
-    <p>
-      I want to use technology to improve the world—and to learn something along
-      the way. My interests include internet freedom, cybersecurity, government
-      accountability, foreign policy, and design. (They can intersect, I
-      promise!)
-    </p>
-    <p>
-      My projects, research, and commentary have appeared in several major news
-      outlets including the Washington Post, the New York Times, NBC News, CNN,
-      Foreign Affairs, the Daily Beast, and the Nightly News with Lester Holt.
-      My research with
-      <a href="https://en.wikipedia.org/wiki/Sarah_Kreps">Dr. Sarah Kreps</a>
-      has been presented at Yale, Oxford, Columbia, and Cornell, among other
-      institutions.
-    </p>
+    <div class="columns">
+      <div class="column is-8">
         <p>
-      I recently graduated from high school, and am taking a gap year before I
-      start next year at Stanford. I care deeply about government
-      accountability, civil liberties, and cybersecurity. To this end, I
-      launched Politiwatch and a number of other projects.
-    </p>
-    <p>
-      I want to use technology to improve the world—and to learn something along
-      the way. My interests include internet freedom, cybersecurity, government
-      accountability, foreign policy, and design. (They can intersect, I
-      promise!)
-    </p>
-    <p>
-      My projects, research, and commentary have appeared in several major news
-      outlets including the Washington Post, the New York Times, NBC News, CNN,
-      Foreign Affairs, the Daily Beast, and the Nightly News with Lester Holt.
-      My research with
-      <a href="https://en.wikipedia.org/wiki/Sarah_Kreps">Dr. Sarah Kreps</a>
-      has been presented at Yale, Oxford, Columbia, and Cornell, among other
-      institutions.
-    </p>
+          You can email me at
+          <a href="mailto:miles@rmrm.io">miles@rmrm.io</a>. 
+          If you'd like, you can also encrypt your message to
+          <a href="https://keybase.io/rmrm">F3C7 8280 DDBF 52A1</a>
+          using PGP.<FootnoteRef {scope} index="1" />
+        </p>
+        <p>
+          When I have an physical institutional address&mdash;like a school
+          mailroom&mdash;I will display it here.
+        </p>
+      </div>
+      <div class="column">
+        <Footnote {scope} index="1">
+          Beware: if you PGP encrypt your message, I won't be able to
+          respond as quickly. It'd probably be better to just send a message
+          on <a href="https://keybase.io/rmrm">Keybase</a>.
+        </Footnote>
+      </div>
+    </div>
   </div>
 </section>
