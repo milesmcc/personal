@@ -3,7 +3,7 @@
   import About from "./About.svelte";
   import Contact from "./Contact.svelte";
   import Portfolio from "./Portfolio.svelte";
-  import Elsewhere from "./Elsewhere.svelte";
+  import Now from "./Now.svelte";
 </script>
 
 <style>
@@ -49,8 +49,8 @@
 		</div>
 		<div class="column is-readable-width">
 			<About/>
+			<Now/>
 			<Portfolio/>
-			<Elsewhere/>
 			<Contact/>
 		</div>
 	</div>

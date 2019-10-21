@@ -25,12 +25,20 @@
           When I have a physical institutional address&mdash;like a school
           mailroom&mdash;I will display it here.
         </p>
+        <p>On GitHub, I am <a href="https://github.com/milesmcc">milesmcc</a>. Most of my projects live there.</p>
+        <p>On Twitter, I am <a href="https://twitter.com/MilesMcCain">@MilesMcCain</a>, but I don't post frequently.<FootnoteRef {scope} index=2 />
+        </p>
+        <p>On Hacker News, I am <a href="https://news.ycombinator.com/user?id=epoch_100">epoch_100</a>.</p>
+        <p>On Reddit, I am (also) <a href="https://reddit.com/u/epoch_100">epoch_100</a>.</p>
       </div>
       <div class="column">
         <Footnote {scope} index="1">
           Beware: if you PGP encrypt your message, I won't be able to
           respond as quickly. It'd probably be better to just send a message
           on <a href="https://keybase.io/rmrm">Keybase</a>.
+        </Footnote>
+        <Footnote {scope} index=2>
+          Take my Twitter&mdash;and all of Twitter, for that matter&mdash;with a grain of <a href="https://en.wikipedia.org/wiki/Salt_Bae">salt</a>.
         </Footnote>
       </div>
     </div>

@@ -30,6 +30,9 @@
   .footnote {
     color: #666666;
     font-size: 80%;
+  }
+
+  .footnote:not(:last-child) {
     margin-bottom: 1em;
   }
 </style>

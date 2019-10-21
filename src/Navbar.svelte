@@ -8,8 +8,8 @@
 
   let borders = {
     about: "solid",
+    now: "dashed",
     portfolio: "dashed",
-    elsewhere: "dashed",
     contact: "dashed",
   }
   
@@ -85,6 +85,13 @@
         About
       </a>
     </li>
+    <li class="now-li">
+      <a
+        class="now-a"
+        style="border-bottom-style: {borders['now']}" href="#now">
+        Now
+      </a>
+    </li>
     <li class="portfolio-li">
       <a
         class="portfolio-a"
@@ -92,14 +99,7 @@
         Portfolio
       </a>
     </li>
-    <li class="elsewhere-li">
-      <a
-        class="elsewhere-a"
-        style="border-bottom-style: {borders['elsewhere']}" href="#elsewhere">
-        Elsewhere
-      </a>
-    </li>
-        <li class="contact-li">
+    <li class="contact-li">
       <a
         class="contact-a"
         style="border-bottom-style: {borders['contact']}" href="#contact">
