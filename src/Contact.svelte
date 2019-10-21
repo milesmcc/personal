@@ -22,7 +22,7 @@
           using PGP.<FootnoteRef {scope} index="1" />
         </p>
         <p>
-          When I have an physical institutional address&mdash;like a school
+          When I have a physical institutional address&mdash;like a school
           mailroom&mdash;I will display it here.
         </p>
       </div>
