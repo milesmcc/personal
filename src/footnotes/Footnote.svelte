@@ -4,14 +4,9 @@
   export let index;
   export let scope;
 
-  console.log(this);
-
   let updateFootnoteLocations = () => {
     let ref = document.getElementById(scope + "-footnote-reference-" + index);
     let self = document.getElementById(scope + "-footnote-" + index);
-    console.log("mounting")
-    console.log(ref.offsetTop)
-    console.log(self.offsetTop)
     if (ref.offsetTop > self.offsetTop) {
       // they have twin parents
       self.setAttribute(
