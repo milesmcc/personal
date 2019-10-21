@@ -30,7 +30,7 @@
   }
 
   .is-readable-width {
-	  max-width: 35em;
+	  max-width: 50em;
   }
 </style>
 

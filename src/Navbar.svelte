@@ -16,7 +16,7 @@
   function update() {
     let windowHeight = window.scrollY;
     for (let element of Object.keys(borders).reverse()) {
-      if (windowHeight > offset(element)) {
+      if (windowHeight + 5 > offset(element)) {
         for (let otherElement of Object.keys(borders).filter(item => item !== element)) {
           borders[otherElement] = "dashed";
         }
@@ -81,28 +81,28 @@
 <nav role="navigation" aria-label="primary navigation">
   <ul>
     <li class="about-li">
-      <a class="about-a" style="border-bottom-style: {borders['about']}">
+      <a class="about-a" style="border-bottom-style: {borders['about']}" href="#about">
         About
       </a>
     </li>
     <li class="contact-li">
       <a
         class="contact-a"
-        style="border-bottom-style: {borders['contact']}">
+        style="border-bottom-style: {borders['contact']}" href="#contact">
         Contact
       </a>
     </li>
     <li class="portfolio-li">
       <a
         class="portfolio-a"
-        style="border-bottom-style: {borders['portfolio']}">
+        style="border-bottom-style: {borders['portfolio']}" href="#portfolio">
         Portfolio
       </a>
     </li>
     <li class="elsewhere-li">
       <a
         class="elsewhere-a"
-        style="border-bottom-style: {borders['elsewhere']}">
+        style="border-bottom-style: {borders['elsewhere']}" href="#elsewhere">
         Elsewhere
       </a>
     </li>
