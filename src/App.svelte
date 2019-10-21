@@ -1,29 +1,50 @@
 <script>
   import Navbar from "./Navbar.svelte";
   import About from "./About.svelte";
+  import Contact from "./Contact.svelte";
 </script>
 
 <style>
   .container {
-	max-width: 40em;
 	padding-left: 2.5em;
 	border: none;
-	margin: 0;
+	/* margin: 0; */
   }
 
   .section {
 	padding-top: 2em;
 	max-width: inherit;
   }
+
+  h1 {
+	  font-size: 48px;
+  }
+
+  @media screen and (max-width: 768px) {
+	  .is-fixed-touch {
+		  position: fixed;
+	  }
+  }
+
+  .is-readable-width {
+	  max-width: 35em;
+  }
 </style>
 
-<Navbar/>
 <div class="container">
   <section class="section">
+	<div class="columns">
+		<div class="column is-offset-2">
+		  <h1 class="title name">R. Miles McCain</h1>
+		</div>
+	</div>
 	<div class="columns is-mobile">
-		<div class="column">
+		<div class="column is-2 is-fixed-touch">
+			<Navbar/>
+		</div>
+		<div class="column is-readable-width">
 			<About/>
-			<div id="contact"></div>
+			<Contact/>
 			<div id="portfolio"></div>
 			<div id="elsewhere"></div>
 		</div>

@@ -2,20 +2,17 @@
 </script>
 
 <style>
-  h1 {
-    margin-top: -10px;
-  }
-
   p {
     color: black;
   }
 
-  h1 {
-    font-size: 56px;
+  h2 {
+    font-size: 42px;
   }
 </style>
 
-<section id="about" class="bottombreak">
+<section id="contact" class="bottombreak">
+  <h3 class="title">Contact</h3>
   <div class="content">
     <p>
       I recently graduated from high school, and am taking a gap year before I
