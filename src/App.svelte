@@ -31,6 +31,12 @@
 	  }
   }
 
+  @media screen and (min-width: 1024px) {
+	  h1 {
+		  margin-top: 75px;
+	  }
+  }
+
   .is-readable-width {
 	  max-width: 50em;
   }

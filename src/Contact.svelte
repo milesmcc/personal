@@ -16,20 +16,22 @@
       <div class="column is-8">
         <p>
           You can email me at
-          <a href="mailto:miles@rmrm.io">miles@rmrm.io</a>. 
+          <a href="mailto:miles@rmrm.io">miles@rmrm.io</a>.
           If you'd like, you can also encrypt your message to
           <a href="https://keybase.io/rmrm">F3C7 8280 DDBF 52A1</a>
-          using PGP.<FootnoteRef {scope} index="1" />
+          using PGP.
+          <FootnoteRef {scope} index="1" />
         </p>
         <p>
           When I have a physical institutional address&mdash;like a school
           mailroom&mdash;I will display it here.
         </p>
         <p>On GitHub, I am <a href="https://github.com/milesmcc">milesmcc</a>. Most of my projects live there.</p>
-        <p>On Twitter, I am <a href="https://twitter.com/MilesMcCain">@MilesMcCain</a>, but I don't post frequently.<FootnoteRef {scope} index=2 />
+        <p>On Twitter, I am <a href="https://twitter.com/MilesMcCain">@MilesMcCain</a>, but I don't post frequently.
+          <FootnoteRef {scope} index=2 />
         </p>
-        <p>On Hacker News, I am <a href="https://news.ycombinator.com/user?id=epoch_100">epoch_100</a>.</p>
-        <p>On Reddit, I am (also) <a href="https://reddit.com/u/epoch_100">epoch_100</a>.</p>
+        <p>You can also find me on <a href="https://news.ycombinator.com/user?id=epoch_100">Hacker News</a>, <a
+            href="https://reddit.com/u/epoch_100">Reddit</a>, and <a href="https://keybase.io/rmrm">Keybase</a>.
       </div>
       <div class="column">
         <Footnote {scope} index="1">
@@ -38,7 +40,8 @@
           on <a href="https://keybase.io/rmrm">Keybase</a>.
         </Footnote>
         <Footnote {scope} index=2>
-          Take my Twitter&mdash;and all of Twitter, for that matter&mdash;with a grain of <a href="https://en.wikipedia.org/wiki/Salt_Bae">salt</a>.
+          Take my Twitter&mdash;and all of Twitter, for that matter&mdash;with a grain of <a
+            href="https://en.wikipedia.org/wiki/Salt_Bae">salt</a>.
         </Footnote>
       </div>
     </div>
