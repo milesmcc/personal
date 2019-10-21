@@ -18,12 +18,14 @@
 
   h1 {
 	  font-size: 64px;
-	  /* text-align: right; */
+	  font-weight: 700;
   }
 
   @media screen and (max-width: 768px) {
-	  .is-fixed-touch {
-		  position: fixed;
+	  .is-collapsed-mobile {
+		  width: 0px !important;
+		  margin: 0 !important;
+		  padding: 0 !important;
 	  }
   }
 
@@ -40,7 +42,7 @@
 		</div>
 	</div>
 	<div class="columns is-mobile">
-		<div class="column is-2 is-fixed-touch">
+		<div class="column is-2 is-collapsed-mobile">
 			<Navbar/>
 		</div>
 		<div class="column is-readable-width">

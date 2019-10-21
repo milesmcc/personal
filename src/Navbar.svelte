@@ -6,23 +6,30 @@
     }
   }
 
-  function borderBottom(element) {
-    console.log(element);
+  let borders = {
+    about: "solid",
+    contact: "dashed",
+    portfolio: "dashed",
+    elsewhere: "dashed"
+  }
+  
+  function update() {
     let windowHeight = window.scrollY;
-    console.log(offset(element));
-    if (windowHeight > offset(element)) {
-      return "dashed";
-    } else {
-      return "solid";
+    for (let element of Object.keys(borders).reverse()) {
+      if (windowHeight > offset(element)) {
+        for (let otherElement of Object.keys(borders).filter(item => item !== element)) {
+          borders[otherElement] = "dashed";
+        }
+        borders[element] = "solid"
+        return;
+      }
     }
   }
 </script>
 
 <style>
   nav {
-    position: relative;
-    padding-left: 2em;
-    top: 0;
+    position: sticky;
     text-align: right;
     display: block;
     /* padding-top: 8px; */
@@ -43,13 +50,12 @@
     nav {
       transform: rotate(90deg);
       -webkit-transform: rotate(90deg);
-      transform-origin: top left;
-      -webkit-transform-origin: top left;
-      width: 100vh;
-      height: 60px;
-      position: fixed;
-      left: 3em;
-      margin-top: 8px;
+      transform-origin: bottom left;
+      -webkit-transform-origin: bottom left;
+      margin-top: 1.1em;
+      width: 75vh;
+      margin-left: -0.2em;
+      top: 50px;
     }
 
     li {
@@ -65,37 +71,38 @@
 
     nav {
       margin-right: 15px;
-      position: sticky;
       top: 50px;
     }
   }
 </style>
 
+<svelte:window on:scroll={update}/>
+
 <nav role="navigation" aria-label="primary navigation">
   <ul>
     <li class="about-li">
-      <a class="about-a" style="border-bottom-style: {borderBottom('about')}">
+      <a class="about-a" style="border-bottom-style: {borders['about']}">
         About
       </a>
     </li>
     <li class="contact-li">
       <a
         class="contact-a"
-        style="border-bottom-style: {borderBottom('contact')}">
+        style="border-bottom-style: {borders['contact']}">
         Contact
       </a>
     </li>
     <li class="portfolio-li">
       <a
         class="portfolio-a"
-        style="border-bottom-style: {borderBottom('portfolio')}">
+        style="border-bottom-style: {borders['portfolio']}">
         Portfolio
       </a>
     </li>
     <li class="elsewhere-li">
       <a
         class="elsewhere-a"
-        style="border-bottom-style: {borderBottom('elsewhere')}">
+        style="border-bottom-style: {borders['elsewhere']}">
         Elsewhere
       </a>
     </li>
