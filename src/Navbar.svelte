@@ -8,9 +8,9 @@
 
   let borders = {
     about: "solid",
-    contact: "dashed",
     portfolio: "dashed",
-    elsewhere: "dashed"
+    elsewhere: "dashed",
+    contact: "dashed",
   }
   
   function update() {
@@ -85,13 +85,6 @@
         About
       </a>
     </li>
-    <li class="contact-li">
-      <a
-        class="contact-a"
-        style="border-bottom-style: {borders['contact']}" href="#contact">
-        Contact
-      </a>
-    </li>
     <li class="portfolio-li">
       <a
         class="portfolio-a"
@@ -104,6 +97,13 @@
         class="elsewhere-a"
         style="border-bottom-style: {borders['elsewhere']}" href="#elsewhere">
         Elsewhere
+      </a>
+    </li>
+        <li class="contact-li">
+      <a
+        class="contact-a"
+        style="border-bottom-style: {borders['contact']}" href="#contact">
+        Contact
       </a>
     </li>
   </ul>

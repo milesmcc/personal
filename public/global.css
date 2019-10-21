@@ -34,27 +34,28 @@ a {
 }
 
 #about, .about-a, #about a, #about .title, .title.name {
-    border-bottom-color: rebeccapurple !important;
-    color: rebeccapurple !important;
-    text-decoration-color: rebeccapurple !important;
+    border-bottom-color: #071a52 !important;
+    color: #071a52 !important;
+    text-decoration-color: #071a52 !important;
 }
 
-#contact, .contact-a, #contact a, #contact .title {
-    border-bottom-color: #ff6666 !important;
-    color: #ff6666 !important;
-    text-decoration-color: #ff6666 !important;
-}
 
 #portfolio, .portfolio-a, #portfolio a, #portfolio .title {
-    border-bottom-color: #1b998b !important;
-    color: #1b998b !important;
-    text-decoration-color: #1b998b !important;
+    border-bottom-color: #58508d !important;
+    color: #58508d !important;
+    text-decoration-color: #58508d !important;
 }
 
 #elsewhere, .elsewhere-a, #elsewhere a, #elsewhere .title {
-    border-bottom-color: #0072bb !important;
-    color: #0072bb !important;
-    text-decoration-color: #0072bb !important;
+    border-bottom-color: #bc5090 !important;
+    color: #bc5090 !important;
+    text-decoration-color: #bc5090 !important;
+}
+
+#contact, .contact-a, #contact a, #contact .title {
+    border-bottom-color: #ff6361 !important;
+    color: #ff6361 !important;
+    text-decoration-color: #ff6361 !important;
 }
 
 .bottombreak {

@@ -49,9 +49,9 @@
 		</div>
 		<div class="column is-readable-width">
 			<About/>
-			<Contact/>
 			<Portfolio/>
 			<Elsewhere/>
+			<Contact/>
 		</div>
 	</div>
   </section>
