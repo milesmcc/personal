@@ -17,7 +17,8 @@
   }
 
   h1 {
-	  font-size: 48px;
+	  font-size: 64px;
+	  /* text-align: right; */
   }
 
   @media screen and (max-width: 768px) {
@@ -34,8 +35,8 @@
 <div class="container">
   <section class="section">
 	<div class="columns">
-		<div class="column is-offset-2">
-		  <h1 class="title name">R. Miles McCain</h1>
+		<div class="column is-offset-2 is-readable-width">
+		  <h1 class="title name">R. Miles<br> McCain</h1>
 		</div>
 	</div>
 	<div class="columns is-mobile">
