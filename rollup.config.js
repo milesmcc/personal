@@ -4,6 +4,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import postcss from 'rollup-plugin-postcss';
 import { terser } from 'rollup-plugin-terser';
+import prerenderSpaPlugin from 'rollup-plugin-prerender-spa-plugin';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -24,7 +25,9 @@ export default [
 				// a separate file  better for performance
 				css: css => {
 					css.write('public/bundle.css');
-				}
+				},
+
+				hydratable: true
 			}),
 
 			postcss({
@@ -42,13 +45,25 @@ export default [
 			}),
 			commonjs(),
 
+			prerenderSpaPlugin({
+				// Required - The path to the outputted app to prerender.
+				staticDir: (process.cwd() + '/public'),
+		   
+				// Required - An array of routes to be passed to the prerenderer.
+				routes: [ '/' ],
+		   
+				// Optional - Additional Puppeteer options.
+				// https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#puppeteerlaunchoptions
+				puppeteer: {}
+			}),
+
 			// Watch the `public` directory and refresh the
 			// browser on changes when not in production
 			!production && livereload('public'),
 
 			// If we're building for production (npm run build
 			// instead of npm run dev), minify
-			production && terser()
+			production && terser(),
 		],
 		watch: {
 			clearScreen: false
