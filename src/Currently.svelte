@@ -9,8 +9,8 @@
 
 </style>
 
-<section id="now" class="bottombreak">
-  <h3 class="title">Now</h3>
+<section id="currently" class="bottombreak">
+  <h3 class="title">Currently</h3>
   <div class="content">
     <div class="columns">
       <div class="column is-8">

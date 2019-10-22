@@ -44,10 +44,10 @@ a {
 }
 
 
-#now,
-.now-a,
-#now a,
-#now .title {
+#currently,
+.currently-a,
+#currently a,
+#currently .title {
     border-bottom-color: #940074 !important;
     color: #940074 !important;
     text-decoration-color: #940074 !important;

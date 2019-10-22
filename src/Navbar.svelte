@@ -8,7 +8,7 @@
 
   let borders = {
     about: "solid",
-    now: "dashed",
+    currently: "dashed",
     portfolio: "dashed",
     contact: "dashed",
   }
@@ -85,11 +85,11 @@
         About
       </a>
     </li>
-    <li class="now-li">
+    <li class="currently-li">
       <a
-        class="now-a"
-        style="border-bottom-style: {borders['now']}" href="#now">
-        Now
+        class="currently-a"
+        style="border-bottom-style: {borders['currently']}" href="#currently">
+        Currently
       </a>
     </li>
     <li class="portfolio-li">

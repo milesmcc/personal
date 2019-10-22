@@ -3,7 +3,7 @@
 	import About from "./About.svelte";
 	import Contact from "./Contact.svelte";
 	import Portfolio from "./Portfolio.svelte";
-	import Now from "./Now.svelte";
+	import Currently from "./Currently.svelte";
 	import Footer from "./Footer.svelte";
 </script>
 
@@ -56,7 +56,7 @@
 			</div>
 			<div class="column is-readable-width">
 				<About />
-				<Now />
+				<Currently />
 				<Portfolio />
 				<Contact />
 				<Footer></Footer>
