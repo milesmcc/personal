@@ -57,6 +57,10 @@
     .title {
         font-weight: normal;
     }
+
+    .mobile-subtitle {
+        padding-bottom: 4px;
+    }
 </style>
 
 {#if first}
@@ -87,7 +91,7 @@
                 </div>
             </div>
         </div>
-        <div class="is-hidden-desktop">
+        <div class="is-hidden-desktop mobile-subtitle">
             <span class="subtitle">
                 {@html subtitle}
             </span>
