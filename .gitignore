@@ -3,4 +3,3 @@ node_modules
 public/bundle.*
 public/index.html
 _site/*
-.DS_Store
