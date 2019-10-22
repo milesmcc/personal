@@ -20,7 +20,7 @@
           and New York City.
         </p>
       </div>
-      <div class="column">
+      <div class="column footnotes">
 
       </div>
     </div>

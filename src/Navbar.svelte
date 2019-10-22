@@ -7,10 +7,10 @@
   }
 
   let borders = {
-    about: "solid",
-    currently: "dashed",
-    portfolio: "dashed",
-    contact: "dashed",
+    about: "dotted",
+    currently: "solid",
+    portfolio: "solid",
+    contact: "solid",
   }
   
   function update() {
@@ -18,9 +18,9 @@
     for (let element of Object.keys(borders).reverse()) {
       if (windowHeight + 5 > offset(element)) {
         for (let otherElement of Object.keys(borders).filter(item => item !== element)) {
-          borders[otherElement] = "dashed";
+          borders[otherElement] = "solid";
         }
-        borders[element] = "solid"
+        borders[element] = "dotted"
         return;
       }
     }

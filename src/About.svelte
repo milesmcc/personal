@@ -29,9 +29,8 @@
           My projects, research, and commentary have appeared in several major
           news outlets including the
           <i>Washington Post</i>, the
-          <i>New York Times, NBC News,</i>
-          CNN<i>, Foreign Affairs,</i>
-          and
+          <i>New York Times, NBC News, Foreign Affairs,</i>
+          and the
           <i>Nightly News</i>
           with Lester Holt.<FootnoteRef {scope} index="2" />
           My research with
@@ -46,7 +45,7 @@
             year,<FootnoteRef {scope} index="3" /> and will head to Stanford in September 2020.
         </p>
       </div>
-      <div class="column is-4">
+      <div class="column is-4 footnotes">
         <Footnote
           {scope}
           index="1">Some of these fields may seem disparate. I've found that they

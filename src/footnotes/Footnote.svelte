@@ -24,7 +24,7 @@
 <style>
   .footnote {
     color: black;
-    opacity: 0.6;
+    opacity: 0.5;
     font-size: 80%;
   }
 

@@ -32,7 +32,7 @@
             href="https://news.ycombinator.com/user?id=epoch_100">HN</a>, <a
             href="https://reddit.com/u/epoch_100">Reddit</a>, and <a href="https://keybase.io/rmrm">Keybase</a>.
       </div>
-      <div class="column">
+      <div class="column footnotes">
         <Footnote {scope} index="1">
           Beware: if you PGP encrypt your message, I won't be able to
           respond as quickly. It'd probably be better to just send a message

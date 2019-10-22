@@ -33,6 +33,12 @@ a {
     text-decoration: underline !important;
 }
 
+@media screen and (min-width: 769px) {
+    .footnotes {
+        margin-left: 0.75em;
+    }
+}
+
 #about,
 .about-a,
 #about a,

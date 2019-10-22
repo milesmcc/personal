@@ -4,11 +4,8 @@
     } from 'svelte/transition';
 
     export let title;
-    export let subtitle;
+    export let subtitle = "";
     export let hidden = true;
-    export let first = false;
-    
-    const hr = false;
 
     let toggleHidden = () => hidden = !hidden;
 
@@ -30,35 +27,37 @@
     }
 
     .collapsor {
-        font-size: 120% !important;
+        font-size: 14px;
         /* font-family: monospace; */
     }
 
     .collapsor {
-        font-size: 30px;
+        font-size: 15px;
         font-family: monospace;
     }
 
     section {
-        /* background-color: #f4f4f4; */
-        /* padding: 10px; */
         border-radius: 3px;
         margin-bottom: 10px;
-        padding-bottom: 1em;
+        background-color: #f6f6f6;
+        padding: 10px;
+        margin-top: 1em;
     }
 
     .content {
-        color: black;
-        padding: 16px 0 10px 0;
+        color: #555555;
+        padding: 16px 0 6px 0;
+        font-size: 80%;
     }
 
     .subtitle {
         color: gray;
-        font-size: 14px;
+        font-size: 12px;
     }
 
-    .title {
-        font-weight: normal;
+    .minor-title {
+        color: #555555 !important;
+        font-size: 14px;
     }
 
     .mobile-subtitle {
@@ -66,17 +65,19 @@
     }
 </style>
 
-{#if first && hr}
-<hr>
-{/if}
 <section>
     <div class="accordion-top keyboard-nav" on:click={toggleHidden} on:click={unfocus} on:keydown={toggleHiddenKeypress} tabindex="0">
         <div class="level is-marginless is-mobile">
             <div class="level-left">
                 <div class="level-item">
-                    <h5 class="title is-size-5 is-marginless" aria-label="Expand {title}">
+                    <p class="minor-title" aria-label="Expand {title}">
+                        {#if hidden}
+                        Show
+                        {:else}
+                        Hide
+                        {/if}
                         {@html title}
-                    </h5>
+                    </p>
                 </div>
             </div>
             <div class="level-right">
@@ -87,9 +88,9 @@
                 </div>
                 <div class="level-item">
                     {#if hidden}
-                    <p class="collapsor title">+</p>
+                    <p class="collapsor minor-title">+</p>
                     {:else}
-                    <p class="collapsor title" hidden={hidden}>-</p>
+                    <p class="collapsor minor-title" hidden={hidden}>-</p>
                     {/if}
                 </div>
             </div>
@@ -106,6 +107,3 @@
     </div>
     {/if}
 </section>
-{#if hr}
-<hr>
-{/if}
