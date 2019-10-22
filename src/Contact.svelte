@@ -26,11 +26,10 @@
           When I have a physical institutional address&mdash;like a school
           mailroom&mdash;I will display it here.
         </p>
-        <p>On GitHub, I am <a href="https://github.com/milesmcc">milesmcc</a>. Most of my projects live there.</p>
-        <p>On Twitter, I am <a href="https://twitter.com/MilesMcCain">@MilesMcCain</a>, but I don't post frequently.
-          <FootnoteRef {scope} index=2 />
-        </p>
-        <p>You can also find me on <a href="https://news.ycombinator.com/user?id=epoch_100">Hacker News</a>, <a
+        <p>On GitHub, I am <a href="https://github.com/milesmcc">milesmcc</a>; this is where most of my projects live. On
+          Twitter, I am <a href="https://twitter.com/MilesMcCain">@MilesMcCain</a>, but I don't post
+          frequently.<FootnoteRef {scope} index=2 /> You can also find me on <a
+            href="https://news.ycombinator.com/user?id=epoch_100">HN</a>, <a
             href="https://reddit.com/u/epoch_100">Reddit</a>, and <a href="https://keybase.io/rmrm">Keybase</a>.
       </div>
       <div class="column">
