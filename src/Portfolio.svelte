@@ -18,13 +18,13 @@
         <MajorSection title="Research" subtitle="Disinformation, oversight, censorship" first=true>
           This is placeholder content.
         </MajorSection>
-        <MajorSection title="Projects" subtitle="PolitiTweet, PrivacySpy, WAMR, etc">
+        <MajorSection title="Projects" subtitle="PolitiTweet, PrivacySpy, and more">
           This is placeholder content.
         </MajorSection>
         <MajorSection title="Academics" subtitle="Classes, prizes, organizations">
           This is placeholder content.
         </MajorSection>
-        <MajorSection title="Professional" subtitle="News Catalyst, First Look, Torch">
+        <MajorSection title="Professional" subtitle="News Catalyst, First Look Media, Torch">
           This is placeholder content.
         </MajorSection>
         <MajorSection title="Miscellaneous" subtitle="Competitions, design, ham radio">

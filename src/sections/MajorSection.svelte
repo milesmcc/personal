@@ -9,6 +9,17 @@
     export let first = false;
 
     let toggleHidden = () => hidden = !hidden;
+
+    let toggleHiddenKeypress = (event) => {
+        if(event.which !== 9 && event.which !== 16 && event.which !== 17) {
+            toggleHidden();
+        }else{
+            document.activeElement.classList.add("keyboard-nav");
+            console.log("making kbd")
+        }
+    }
+
+    let unfocus = () => document.activeElement.blur();
 </script>
 
 <style>
@@ -52,33 +63,35 @@
 <hr>
 {/if}
 <section>
-    <div class="level is-marginless is-mobile accordion-top" on:click={toggleHidden} on:keydown={toggleHidden} tabindex="0">
-        <div class="level-left">
-            <div class="level-item">
-                <h5 class="title is-size-5 is-marginless" aria-label="Expand {title}">
-                    {@html title}
-                </h5>
+    <div class="accordion-top keyboard-nav" on:click={toggleHidden} on:click={unfocus} on:keydown={toggleHiddenKeypress} tabindex="0">
+        <div class="level is-marginless is-mobile">
+            <div class="level-left">
+                <div class="level-item">
+                    <h5 class="title is-size-5 is-marginless" aria-label="Expand {title}">
+                        {@html title}
+                    </h5>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="level-item is-hidden-touch">
+                    <span class="subtitle">
+                        {@html subtitle}
+                    </span>
+                </div>
+                <div class="level-item">
+                    {#if hidden}
+                    <p class="collapsor title">+</p>
+                    {:else}
+                    <p class="collapsor title" hidden={hidden}>-</p>
+                    {/if}
+                </div>
             </div>
         </div>
-        <div class="level-right">
-            <div class="level-item is-hidden-touch">
-                <span class="subtitle">
-                    {@html subtitle}
-                </span>
-            </div>
-            <div class="level-item">
-                {#if hidden}
-                <p class="collapsor title">+</p>
-                {:else}
-                <p class="collapsor title" hidden={hidden}>-</p>
-                {/if}
-            </div>
+        <div class="is-hidden-desktop">
+            <span class="subtitle">
+                {@html subtitle}
+            </span>
         </div>
-    </div>
-    <div class="is-hidden-desktop">
-        <span class="subtitle">
-            {@html subtitle}
-        </span>
     </div>
     {#if !hidden}
     <div transition:slide class="content">
