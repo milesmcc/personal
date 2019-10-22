@@ -23,8 +23,13 @@
 
 <style>
   .footnote {
-    color: #666666;
+    color: black;
+    opacity: 0.6;
     font-size: 80%;
+  }
+
+  .footnote:focus-within {
+    opacity: 0.9;
   }
 
   .footnote:not(:last-child) {
