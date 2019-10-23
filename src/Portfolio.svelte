@@ -263,8 +263,33 @@
         </MajorSection>
 
         <MajorSection title="Academics" subtitle="Classes, prizes, organizations">
-          This is placeholder content.
+          <p><strong>Phillips Academy Andover</strong> &mdash; high school &mdash; class of 2019</p>
+          <article>
+            <p class="has-text-weight-medium">Awards</p>
+            <ul>
+              <li>Aurelian Honor Society Award&nbsp;<em>(for character, scholarship, and leadership)</em></li>
+              <li>Webster Prize&nbsp;<em>(for excellence in the social sciences)</em></li>
+              <li>David G. Wood Fellowship&nbsp;<em>(for excellence in writing)</em></li>
+              <li>Winfield M. Sides Prize&nbsp;<em>(for excellence in computer science)</em></li>
+              <li>Scoville Award&nbsp;<em>(for an outstanding original paper or project)</em></li>
+              <li>Top Score in Physics 400 prize exam</li>
+            </ul>
+            <p class="has-text-weight-medium">Athletics</p>
+            <ul>
+              <li>Varsity Rowing, 1st boat (11th grade)</li>
+              <li>Wrestling (former)</li>
+            </ul>
+            <p class="has-text-weight-medium">Leadership Positions</p>
+            <ul>
+              <li><a href="https://blueshells.net/">Blueshells</a>&nbsp;<em>(founder)</em></li>
+              <li><a href="https://techmasters.io/">Techmasters</a>&nbsp;<em>(co-president)</em></li>
+              <li>Computer Science Club&nbsp;<em>(co-president)</em></li>
+              <li>GSA&nbsp;<em>(gender &amp; sexuality alliance; co-president)</em></li>
+              <li>Proctor&nbsp;<em>(Flagg House)</em></li>
+            </ul>
+          </article>
         </MajorSection>
+
         <MajorSection title="Professional" subtitle="News Catalyst, First Look Media, Torch">
           This is placeholder content.
         </MajorSection>
