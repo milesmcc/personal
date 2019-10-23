@@ -41,7 +41,6 @@ a {
 
 #about,
 .about-a,
-#about a,
 #about .title,
 .title.name {
     border-bottom-color: #000080 !important;
@@ -52,7 +51,6 @@ a {
 
 #currently,
 .currently-a,
-#currently a,
 #currently .title {
     border-bottom-color: #940074 !important;
     color: #940074 !important;
@@ -61,7 +59,6 @@ a {
 
 #portfolio,
 .portfolio-a,
-#portfolio a,
 #portfolio .title {
     border-bottom-color: #D7005C !important;
     color: #D7005C !important;
@@ -70,11 +67,14 @@ a {
 
 #contact,
 .contact-a,
-#contact a,
 #contact .title {
     border-bottom-color: #FB6945 !important;
     color: #FB6945 !important;
     text-decoration-color: #FB6945 !important;
+}
+
+a {
+    color: inherit !important;
 }
 
 .bottombreak {
