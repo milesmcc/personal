@@ -45,6 +45,7 @@
         border-radius: 3px;
         margin-bottom: 10px;
         padding-bottom: 1em;
+        font-size: 90%;
     }
 
     .content {
@@ -64,10 +65,17 @@
     .mobile-subtitle {
         padding-bottom: 4px;
     }
+
+    .smallbr {
+        height: 0px;
+    }
 </style>
 
 {#if first && hr}
 <hr>
+{/if}
+{#if first && !hr}
+<br class="smallbr">
 {/if}
 <section>
     <div class="accordion-top keyboard-nav" on:click={toggleHidden} on:click={unfocus} on:keydown={toggleHiddenKeypress} tabindex="0">
