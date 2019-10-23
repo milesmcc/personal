@@ -98,10 +98,6 @@
                 Project at Phillips Academy under the mentorship of <a
                   href="https://en.wikipedia.org/wiki/John_Palfrey">John Palfrey</a>,
                 Michael Barker, and Malgorzata Stergios.</li>
-              <li>Completed as part of <a href="https://dpclab.org">Digital Propaganda & Censorship</a>, an Independent
-                Project at Phillips Academy under the mentorship of <a
-                  href="https://en.wikipedia.org/wiki/John_Palfrey">John Palfrey</a>,
-                Michael Barker, and Malgorzata Stergios.</li>
             </ul>
           </article>
 
@@ -129,13 +125,16 @@
                 code</a> </p>
             <p>PrivacySpy monitors and rates privacy policies
               on a ten-point scale, so you can easily understand how your data is being treated online.</p>
-            <p class="has-text-grey">"Privacy policies are long, boring and extremely consequential documents. [...]
-              Which is why I am
-              fascinated by Privacy Spy, a newly launched site that makes privacy policies more convenient and
-              accessible. It’s a little like Wikipedia but for figuring out how a company is using — and misusing — your
-              information." &mdash; <i>Charlie Warzel, writing in the <a
-                  href="https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html#link-6fea96a5">New
-                  York Times</a></i>
+            <MinorSection title="PrivacySpy in the New York Times">
+              <p class="has-text-grey">"Privacy policies are long, boring and extremely consequential documents. [...]
+                Which is why I am
+                fascinated by Privacy Spy, a newly launched site that makes privacy policies more convenient and
+                accessible. It’s a little like Wikipedia but for figuring out how a company is using — and misusing —
+                your
+                information." &mdash; <i>Charlie Warzel, writing in the <a
+                    href="https://www.nytimes.com/2019/09/24/opinion/facebook-google-apps-data.html#link-6fea96a5">New
+                    York Times</a></i>
+            </MinorSection>
           </article>
 
           <article>
@@ -144,22 +143,23 @@
                 href="https://github.com/milesmcc/polititweet">source code</a></p>
             <p>PolitiTweet preserves the public record by archiving the Tweets of major public figures and prominently
               displaying those that have been deleted.</p>
-            <p class="has-text-grey">
-              <a
-                href="https://www.nbcnews.com/nightly-news/video/wide-range-of-celebrities-accidentally-tweeted-russian-propaganda-during-2016-election-1087414339671">Nightly
-                News with Lester Holt</a>: "Wide Range of Celebrities Accidentally Tweeted Russian Propaganda During
-              2016 Election" &mdash; "Famous Twitter users with big followers, from Ivanka Trump to comedians Trevor
-              Noah and Sarah Silverman, inadvertently shared tweets that came from accounts linked to Russia,
-              according to social media tracker PolitiTweet."
-            </p>
-            <p class="has-text-grey">
-              <a
-                href="https://www.nbcnews.com/tech/social-media/trump-other-politicians-celebs-shared-boosted-russian-troll-tweets-n817036">NBC
-                News</a>: "Russian Trolls Duped Global Media And Nearly 40 Celebrities" &mdash; "Celebrities and global
-              news outlets retweeted, republished and engaged with tweets by confirmed Kremlin-linked troll accounts
-              thousands of times." (PolitiTweet named as primary source.)
-            </p>
             <MinorSection title="more of PolitiTweet in the media">
+              <p>
+                <a
+                  href="https://www.nbcnews.com/nightly-news/video/wide-range-of-celebrities-accidentally-tweeted-russian-propaganda-during-2016-election-1087414339671">Nightly
+                  News with Lester Holt</a>: "Wide Range of Celebrities Accidentally Tweeted Russian Propaganda During
+                2016 Election" &mdash; "Famous Twitter users with big followers, from Ivanka Trump to comedians Trevor
+                Noah and Sarah Silverman, inadvertently shared tweets that came from accounts linked to Russia,
+                according to social media tracker PolitiTweet."
+              </p>
+              <p>
+                <a
+                  href="https://www.nbcnews.com/tech/social-media/trump-other-politicians-celebs-shared-boosted-russian-troll-tweets-n817036">NBC
+                  News</a>: "Russian Trolls Duped Global Media And Nearly 40 Celebrities" &mdash; "Celebrities and
+                global
+                news outlets retweeted, republished and engaged with tweets by confirmed Kremlin-linked troll accounts
+                thousands of times." (PolitiTweet named as primary source.)
+              </p>
               <p><a href="http://money.cnn.com/2018/01/19/media/twitter-internet-research-agency-accounts/">CNN</a>:
                 "Twitter to tell 677,775 people they interacted with Kremlin-linked trolls" &mdash; "Twitter will
                 inform nearly 700,000 people in the U.S. that they either followed a Kremlin-linked troll account, or
@@ -189,31 +189,34 @@
             <p class="heading">Winter 2016 - Present</p>
             <p><strong>WhoAreMyRepresentatives.org</strong> &mdash; <a
                 href="https://whoaremyrepresentatives.org">site</a></p>
-            <p>WhoAreMyRepresentatives.org is a simple tool to look up the government representatives for any
+            <p>WhoAreMyRepresentatives.org (WAMR) is a simple tool to look up the government representatives for any
               U.S. address.</p>
-            <ul class="has-text-grey">
-              <li>Used more than 1 million times and maintains steady traffic.</li>
-              <li>Displayed in the top spot of&nbsp;<a href="https://news.ycombinator.com/item?id=13282847">Hacker
-                  News</a>&nbsp;for over nine hours.</li>
-              <li>Featured on&nbsp;<a href="https://www.producthunt.com/posts/whoaremyrepresentatives">ProductHunt</a>.
-              </li>
-              <li>Hit the front page of&nbsp;<a
-                  href="https://www.reddit.com/r/InternetIsBeautiful/comments/5kyn35/enter_your_address_and_out_everyone_who/">Reddit</a>
-                (5k+ upvotes).
-              </li>
-              <li>Received an (informal) invitation to visit Google.</li>
-              <li>Shared by&nbsp;<a href="https://twitter.com/DaveLeeBBC/status/814865319290425344">Dave
-                  Lee</a>,&nbsp;<a href="https://twitter.com/colinismyname/status/814907573522591744">Colin
-                  Wright</a>,&nbsp;<a href="https://twitter.com/HANAtruly/status/823653522084216832">HANA</a>,&nbsp;<a
-                  href="https://twitter.com/MikeElgan/status/815750507738206208">Mike Elgan</a>, and others.</li>
-              <li>Featured in&nbsp;<a
-                  href="https://boingboing.net/2017/01/03/find-out-who-represents-you-in.html">BoingBoing</a>,&nbsp;<a
-                  href="https://www.bustle.com/p/how-to-call-your-representative-urge-them-to-boycott-the-inauguration-31044">Bustle</a>,&nbsp;<a
-                  href="https://www.timeout.com/usa/blog/check-out-this-site-to-easily-find-out-who-your-representatives-are-and-how-to-contact-them-012517">TimeOut</a>&nbsp;(<a
-                  href="https://www.timeout.com/newyork/blog/15-things-you-can-do-after-the-womens-march-to-stay-engaged-in-nyc-012417">twice</a>),
-                &amp; others.</li>
-              <li>Linked to as an activism resource by Planned Parenthood.</li>
-            </ul>
+            <MinorSection title="more information about WAMR">
+              <ul class="has-text-grey">
+                <li>Used more than 1 million times and maintains steady traffic.</li>
+                <li>Displayed in the top spot of&nbsp;<a href="https://news.ycombinator.com/item?id=13282847">Hacker
+                    News</a>&nbsp;for over nine hours.</li>
+                <li>Featured on&nbsp;<a
+                    href="https://www.producthunt.com/posts/whoaremyrepresentatives">ProductHunt</a>.
+                </li>
+                <li>Hit the front page of&nbsp;<a
+                    href="https://www.reddit.com/r/InternetIsBeautiful/comments/5kyn35/enter_your_address_and_out_everyone_who/">Reddit</a>
+                  (5k+ upvotes).
+                </li>
+                <li>Received an (informal) invitation to visit Google.</li>
+                <li>Shared by&nbsp;<a href="https://twitter.com/DaveLeeBBC/status/814865319290425344">Dave
+                    Lee</a>,&nbsp;<a href="https://twitter.com/colinismyname/status/814907573522591744">Colin
+                    Wright</a>,&nbsp;<a href="https://twitter.com/HANAtruly/status/823653522084216832">HANA</a>,&nbsp;<a
+                    href="https://twitter.com/MikeElgan/status/815750507738206208">Mike Elgan</a>, and others.</li>
+                <li>Featured in&nbsp;<a
+                    href="https://boingboing.net/2017/01/03/find-out-who-represents-you-in.html">BoingBoing</a>,&nbsp;<a
+                    href="https://www.bustle.com/p/how-to-call-your-representative-urge-them-to-boycott-the-inauguration-31044">Bustle</a>,&nbsp;<a
+                    href="https://www.timeout.com/usa/blog/check-out-this-site-to-easily-find-out-who-your-representatives-are-and-how-to-contact-them-012517">TimeOut</a>&nbsp;(<a
+                    href="https://www.timeout.com/newyork/blog/15-things-you-can-do-after-the-womens-march-to-stay-engaged-in-nyc-012417">twice</a>),
+                  &amp; others.</li>
+                <li>Linked to as an activism resource by Planned Parenthood.</li>
+              </ul>
+            </MinorSection>
           </article>
           <MinorSection title="additional projects">
             <ul>
@@ -296,63 +299,79 @@
             <p><a href="https://politiwatch.org/"><strong>Politiwatch</strong></a>: Using technology to promote
               political
               accountability, digital rights, and social awareness. (501c3 nonprofit.)</p>
-            <ul class="has-text-grey">
-              <li>I founded Politiwatch after I began to receive various threats for various projects I created. (See
-                projects below.) It has protected me against legal action, allowed me to build a brand for my sites, and
-                eased the process of receiving tax-deductible financial donations.</li>
-              <li>Politiwatch is an American 501(c)(3) nonpartisan, nonprofit organization that advocates for freedom of
-                information, digital privacy rights, and political accountability. It was founded in 2016 with the goal
-                of combating political ignorance, promoting privacy, and making civic information more accessible.</li>
-              <li>Sponsors include Google (via their Google for Nonprofits program), ProtonMail, and DigitalOcean.</li>
-            </ul>
+            <MinorSection title="more information about Politiwatch">
+              <ul>
+                <li>I founded Politiwatch after I began to receive various threats for various projects I created. (See
+                  projects below.) It has protected me against legal action, allowed me to build a brand for my sites,
+                  and
+                  eased the process of receiving tax-deductible financial donations.</li>
+                <li>Politiwatch is an American 501(c)(3) nonpartisan, nonprofit organization that advocates for freedom
+                  of
+                  information, digital privacy rights, and political accountability. It was founded in 2016 with the
+                  goal
+                  of combating political ignorance, promoting privacy, and making civic information more accessible.
+                </li>
+                <li>Sponsors include Google (via their Google for Nonprofits program), ProtonMail, and DigitalOcean.
+                </li>
+              </ul>
+            </MinorSection>
           </article>
 
           <article>
             <p class="heading is-marginless">Spring 2017, Spring 2018</p>
             <p><a href="https://pactf.com/"><strong>PACTF</strong></a>: a global cybersecurity competition with over
               1,000 teams and $20,000 in prizes.</p>
-            <ul class="has-text-grey">
-              <li>After being a participant in PACTF 2016, in 2017 I became the project lead (with&nbsp;<a
-                  href="https://github.com/Reichenbachian">Alex Reichenbach</a>).</li>
-              <li>Managed sponsors, problem sets, advertising, and digital infrastructure (effectively the entire
-                competition, though I couldn't have done it without help from the project mentors and the rest of
-                the&nbsp;<a href="https://2017.pactf.com/about/">team</a>).</li>
-              <li>Sponsors include Amazon, J.P. Morgan, DigitalOcean, ProtonMail, Cloudflare, Carnegie Mellon University
-                CyLab (Security and Privacy Institute), Carnegie Mellon University Information Networking Institute, and
-                Phillips Academy Andover.</li>
-            </ul>
+            <MinorSection title="more about PACTF">
+              <ul>
+                <li>After being a participant in PACTF 2016, in 2017 I became the project lead (with&nbsp;<a
+                    href="https://github.com/Reichenbachian">Alex Reichenbach</a>).</li>
+                <li>Managed sponsors, problem sets, advertising, and digital infrastructure (effectively the entire
+                  competition, though I couldn't have done it without help from the project mentors and the rest of
+                  the&nbsp;<a href="https://2017.pactf.com/about/">team</a>).</li>
+                <li>Sponsors include Amazon, J.P. Morgan, DigitalOcean, ProtonMail, Cloudflare, Carnegie Mellon
+                  University
+                  CyLab (Security and Privacy Institute), Carnegie Mellon University Information Networking Institute,
+                  and
+                  Phillips Academy Andover.</li>
+              </ul>
+            </MinorSection>
           </article>
 
           <article>
             <p class="heading is-marginless">Summer 2018</p>
             <p><strong>First Look Media</strong>&nbsp;(parent of&nbsp;<em>The Intercept</em>): worked on
-              the engineering team and with the research team (internship).</p>
-            <ul class="has-text-grey">
-              <li>Worked to create an IETF Internet standard (currently a proposed standard) for OpenPGP cryptographic
-                keylist subscriptions, as implemented by Micah Lee's&nbsp;<a
-                  href="https://github.com/firstlookmedia/gpgsync">GPGSync</a>.
-                The&nbsp;<code>Internet-Draft</code>&nbsp;is available&nbsp;<a
-                  href="https://datatracker.ietf.org/doc/draft-mccain-keylist/">here</a>. (I am the primary/first
-                author.)</li>
-              <li>Wrote an&nbsp;<a href="https://tech.firstlook.media/keylist-rfc-explainer">engineering blog
-                  post</a>&nbsp;about the IETF project.</li>
-              <li>Worked with the research team to perform data analysis on several unreleased datasets.</li>
-              <li>Designed Presslist, a crowdsourced internal system to manage and track government contacts.</li>
-            </ul>
+              the engineering team and with the research team (internship), primarily on authoring an IETF Internet
+              Draft.</p>
+            <MinorSection title="more about my time at FLM">
+              <ul>
+                <li>Worked to create an IETF Internet standard (currently a proposed standard) for OpenPGP cryptographic
+                  keylist subscriptions, as implemented by Micah Lee's&nbsp;<a
+                    href="https://github.com/firstlookmedia/gpgsync">GPGSync</a>.
+                  The&nbsp;<code>Internet-Draft</code>&nbsp;is available&nbsp;<a
+                    href="https://datatracker.ietf.org/doc/draft-mccain-keylist/">here</a>. (I am the primary/first
+                  author.)</li>
+                <li>Wrote an&nbsp;<a href="https://tech.firstlook.media/keylist-rfc-explainer">engineering blog
+                    post</a>&nbsp;about the IETF project.</li>
+                <li>Worked with the research team to perform data analysis on several unreleased datasets.</li>
+                <li>Designed Presslist, a crowdsourced internal system to manage and track government contacts.</li>
+              </ul>
+            </MinorSection>
           </article>
 
           <article>
             <p class="heading is-marginless">Summer 2017</p>
             <p><strong>Torch</strong>: worked at a New York City tech+politics startup (internship).</p>
-            <ul>
-              <li>Led the development of Torch&rsquo;s "scraping" technology (<a
-                  href="https://github.com/torch1/openparser">OpenParser</a>).</li>
-              <li>Rebranded a major element of the Torch platform, making the platform more immediately useful and
-                accessible to non-technical users.</li>
-              <li>Provided the company with gigabytes of invaluable civic information.</li>
-              <li>Position obtained after they reached out to me about&nbsp;<a
-                  href="https://whoaremyrepresentatives.org/">WhyAreMyRepresentatives.org</a>.</li>
-            </ul>
+            <MinorSection title="more about my time at Torch">
+              <ul>
+                <li>Led the development of Torch&rsquo;s "scraping" technology (<a
+                    href="https://github.com/torch1/openparser">OpenParser</a>).</li>
+                <li>Rebranded a major element of the Torch platform, making the platform more immediately useful and
+                  accessible to non-technical users.</li>
+                <li>Provided the company with gigabytes of invaluable civic information.</li>
+                <li>Position obtained after they reached out to me about&nbsp;<a
+                    href="https://whoaremyrepresentatives.org/">WhyAreMyRepresentatives.org</a>.</li>
+              </ul>
+            </MinorSection>
           </article>
         </MajorSection>
 

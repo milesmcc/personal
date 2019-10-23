@@ -38,8 +38,8 @@
     section {
         border-radius: 3px;
         margin-bottom: 10px;
-        background-color: #f6f6f6;
-        padding: 10px;
+        /* background-color: #f6f6f6; */
+        /* padding: 10px; */
         margin-top: 1em;
     }
 
@@ -55,7 +55,7 @@
     }
 
     .minor-title {
-        color: #555555 !important;
+        color: #888888 !important;
         font-size: 14px;
     }
 
