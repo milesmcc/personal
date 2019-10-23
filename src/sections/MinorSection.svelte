@@ -4,7 +4,6 @@
     } from 'svelte/transition';
 
     export let title;
-    export let subtitle = "";
     export let hidden = true;
 
     let toggleHidden = () => hidden = !hidden;
@@ -46,7 +45,7 @@
 
     .content {
         color: #555555;
-        padding: 16px 0 6px 0;
+        padding: 10px 0 6px 0;
         font-size: 80%;
     }
 
@@ -81,11 +80,6 @@
                 </div>
             </div>
             <div class="level-right">
-                <div class="level-item is-hidden-touch">
-                    <span class="subtitle">
-                        {@html subtitle}
-                    </span>
-                </div>
                 <div class="level-item">
                     {#if hidden}
                     <p class="collapsor minor-title">+</p>
@@ -94,11 +88,6 @@
                     {/if}
                 </div>
             </div>
-        </div>
-        <div class="is-hidden-desktop mobile-subtitle">
-            <span class="subtitle">
-                {@html subtitle}
-            </span>
         </div>
     </div>
     {#if !hidden}
