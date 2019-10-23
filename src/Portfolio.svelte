@@ -291,10 +291,94 @@
         </MajorSection>
 
         <MajorSection title="Professional" subtitle="News Catalyst, First Look Media, Torch">
-          This is placeholder content.
+          <article>
+            <p class="heading is-marginless">November 2016 - Present</p>
+            <p><a href="https://politiwatch.org/"><strong>Politiwatch</strong></a>: Using technology to promote
+              political
+              accountability, digital rights, and social awareness. (501c3 nonprofit.)</p>
+            <ul class="has-text-grey">
+              <li>I founded Politiwatch after I began to receive various threats for various projects I created. (See
+                projects below.) It has protected me against legal action, allowed me to build a brand for my sites, and
+                eased the process of receiving tax-deductible financial donations.</li>
+              <li>Politiwatch is an American 501(c)(3) nonpartisan, nonprofit organization that advocates for freedom of
+                information, digital privacy rights, and political accountability. It was founded in 2016 with the goal
+                of combating political ignorance, promoting privacy, and making civic information more accessible.</li>
+              <li>Sponsors include Google (via their Google for Nonprofits program), ProtonMail, and DigitalOcean.</li>
+            </ul>
+          </article>
+
+          <article>
+            <p class="heading is-marginless">Spring 2017, Spring 2018</p>
+            <p><a href="https://pactf.com/"><strong>PACTF</strong></a>: a global cybersecurity competition with over
+              1,000 teams and $20,000 in prizes.</p>
+            <ul class="has-text-grey">
+              <li>After being a participant in PACTF 2016, in 2017 I became the project lead (with&nbsp;<a
+                  href="https://github.com/Reichenbachian">Alex Reichenbach</a>).</li>
+              <li>Managed sponsors, problem sets, advertising, and digital infrastructure (effectively the entire
+                competition, though I couldn't have done it without help from the project mentors and the rest of
+                the&nbsp;<a href="https://2017.pactf.com/about/">team</a>).</li>
+              <li>Sponsors include Amazon, J.P. Morgan, DigitalOcean, ProtonMail, Cloudflare, Carnegie Mellon University
+                CyLab (Security and Privacy Institute), Carnegie Mellon University Information Networking Institute, and
+                Phillips Academy Andover.</li>
+            </ul>
+          </article>
+
+          <article>
+            <p class="heading is-marginless">Summer 2018</p>
+            <p><strong>First Look Media</strong>&nbsp;(parent of&nbsp;<em>The Intercept</em>): worked on
+              the engineering team and with the research team (internship).</p>
+            <ul class="has-text-grey">
+              <li>Worked to create an IETF Internet standard (currently a proposed standard) for OpenPGP cryptographic
+                keylist subscriptions, as implemented by Micah Lee's&nbsp;<a
+                  href="https://github.com/firstlookmedia/gpgsync">GPGSync</a>.
+                The&nbsp;<code>Internet-Draft</code>&nbsp;is available&nbsp;<a
+                  href="https://datatracker.ietf.org/doc/draft-mccain-keylist/">here</a>. (I am the primary/first
+                author.)</li>
+              <li>Wrote an&nbsp;<a href="https://tech.firstlook.media/keylist-rfc-explainer">engineering blog
+                  post</a>&nbsp;about the IETF project.</li>
+              <li>Worked with the research team to perform data analysis on several unreleased datasets.</li>
+              <li>Designed Presslist, a crowdsourced internal system to manage and track government contacts.</li>
+            </ul>
+          </article>
+
+          <article>
+            <p class="heading is-marginless">Summer 2017</p>
+            <p><strong>Torch</strong>: worked at a New York City tech+politics startup (internship).</p>
+            <ul>
+              <li>Led the development of Torch&rsquo;s "scraping" technology (<a
+                  href="https://github.com/torch1/openparser">OpenParser</a>).</li>
+              <li>Rebranded a major element of the Torch platform, making the platform more immediately useful and
+                accessible to non-technical users.</li>
+              <li>Provided the company with gigabytes of invaluable civic information.</li>
+              <li>Position obtained after they reached out to me about&nbsp;<a
+                  href="https://whoaremyrepresentatives.org/">WhyAreMyRepresentatives.org</a>.</li>
+            </ul>
+          </article>
         </MajorSection>
-        <MajorSection title="Miscellaneous" subtitle="Competitions, design, ham radio">
-          This is placeholder content.
+
+        <MajorSection title="Miscellaneous" subtitle="Competitions, skills, ham radio">
+          <p>I am a licensed Ham Radio operator, and my callsign is KD2HZZ.</p>
+          <p>I am comfortable programming in Python, Rust, and Java, as well as the
+            typical web technologies (HTML+JS+CSS). I have some experience with cryptography
+            and the network stack.</p>
+          <p>I have a fair amount of experience with Linux&mdash;I use it as my daily driver.</p>
+          <p>I love to participate in&mdash;and, as of recently, mentor and judge at&mdash;hackathons.</p>
+          <MinorSection title="hackathons and competitions">
+            <ul>
+              <li><strong>HackNEHS 1st place</strong>&nbsp;(Fall 2017): won first place in&nbsp;<a
+                  href="https://www.hacknehs.com/">HackNEHS</a>, a 'hackathon' for New England high schools.</li>
+              <li><strong>Blueprint (@ MIT) 2nd place</strong>&nbsp;(Winter 2018): won second place in&nbsp;<a
+                  href="https://blueprint.hackmit.org/">Blueprint</a>, a national annual hackathon hosted at the MIT
+                Media
+                Lab.</li>
+              <li><strong>Hack Exeter</strong>&nbsp;(Spring 2019): won the Developer's Award at Hack Exeter, a hackathon
+                hosted at Phillips Exeter Academy.</li>
+              <li><strong>CyberPatriot X</strong>&nbsp;(Fall-Winter 2018): competed in the Platinum division
+                with&nbsp;<a href="https://blueshells.net/">Blueshells</a>.</li>
+              <li><strong>HackACE 1st place (tied)</strong>&nbsp;(Winter 2017): tied for first place in&nbsp;<a
+                  href="http://hackace.us/">HackACE</a>.</li>
+            </ul>
+          </MinorSection>
         </MajorSection>
       </div>
       <div class="column footnotes">
