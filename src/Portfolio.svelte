@@ -22,7 +22,7 @@
       <div class="column is-8">
         <p>
           The work I'm most proud of is <a href="https://privacyspy.org">PrivacySpy</a>,
-          everything by <a href="https://politiwatch.org">Politiwatch</a>,<FootnoteRef {scope} index="1"/> and
+          everything by <a href="https://politiwatch.org">Politiwatch</a>,<FootnoteRef {scope} index="3"/> and
           <a href="https://www.foreignaffairs.com/articles/2019-08-02/not-your-fathers-bots">these</a>
           <a
             href="https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/">
@@ -400,7 +400,7 @@
         </MajorSection>
       </div>
       <div class="column footnotes">
-        <Footnote {scope} index="1">
+        <Footnote {scope} index="3">
           Especially <a href="https://polititweet.org">PolitiTweet</a>, though its servers are currently overloaded by people trying to scrape it (so if it doesn't load the first time, consider trying again).
         </Footnote>
       </div>

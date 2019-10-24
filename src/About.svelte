@@ -42,7 +42,7 @@
         </p>
         <p>
             I graduated from high school in June 2019. I decided to take a gap
-            year,<FootnoteRef {scope} index="3" /> and will head to Stanford in September 2020.
+            year, and will head to Stanford in September 2020.
         </p>
       </div>
       <div class="column is-4 footnotes">
