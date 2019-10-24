@@ -48,14 +48,11 @@
       <div class="column is-4 footnotes">
         <Footnote
           {scope}
-          index="1">Some of these fields may seem disparate. I've found that they
-          can overlap in interesting ways.</Footnote>
+          index="1">Some of these fields may seem disparate. I try
+            my best to make them overlap.</Footnote>
         <Footnote {scope} index="2">
           For more information and links to each media reference, please see my
           <a href="#portfolio">portfolio</a>.
-        </Footnote>
-        <Footnote {scope} index="3">
-          Best decision I've made.
         </Footnote>
       </div>
     </div>

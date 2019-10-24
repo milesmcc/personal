@@ -22,15 +22,14 @@
       <div class="column is-8">
         <p>
           The work I'm most proud of is <a href="https://privacyspy.org">PrivacySpy</a>,
-          everything by <a href="https://politiwatch.org">Politiwatch</a>
-          (especially <a href="https://polititweet.org">PolitiTweet</a>), and
+          everything by <a href="https://politiwatch.org">Politiwatch</a>,<FootnoteRef {scope} index="1"/> and
           <a href="https://www.foreignaffairs.com/articles/2019-08-02/not-your-fathers-bots">these</a>
           <a
             href="https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/">
             articles</a>. More granular information about these projects and my other work
           is available in the portfolio below.
         </p>
-        <MajorSection title="Research" subtitle="Disinformation, oversight, censorship" first=true>
+        <MajorSection title="Research" subtitle="disinformation, oversight, censorship" first=true>
 
           <article>
             <p class="heading is-marginless">2016-2018</p>
@@ -265,7 +264,7 @@
           </MinorSection>
         </MajorSection>
 
-        <MajorSection title="Academics" subtitle="Classes, prizes, organizations">
+        <MajorSection title="Academics" subtitle="classes, prizes, organizations">
           <p><strong>Phillips Academy Andover</strong> &mdash; high school &mdash; class of 2019</p>
           <article>
             <p class="has-text-weight-medium">Awards</p>
@@ -375,13 +374,13 @@
           </article>
         </MajorSection>
 
-        <MajorSection title="Miscellaneous" subtitle="Competitions, skills, ham radio">
+        <MajorSection title="Miscellaneous" subtitle="competitions, skills, ham radio">
           <p>I am a licensed Ham Radio operator, and my callsign is KD2HZZ.</p>
           <p>I am comfortable programming in Python, Rust, and Java, as well as the
             typical web technologies (HTML+JS+CSS). I have some experience with cryptography
             and the network stack.</p>
           <p>I have a fair amount of experience with Linux&mdash;I use it as my daily driver.</p>
-          <p>I love to participate in&mdash;and, as of recently, mentor and judge at&mdash;hackathons.</p>
+          <p>I love hackathons, whether it's as a participant or&mdash;as of recently&mdash;a judge.</p>
           <MinorSection title="hackathons and competitions">
             <ul>
               <li><strong>HackNEHS 1st place</strong>&nbsp;(Fall 2017): won first place in&nbsp;<a
@@ -401,7 +400,9 @@
         </MajorSection>
       </div>
       <div class="column footnotes">
-
+        <Footnote {scope} index="1">
+          Especially <a href="https://polititweet.org">PolitiTweet</a>, though its servers are currently overloaded by people trying to scrape it (so if it doesn't load the first time, consider trying again).
+        </Footnote>
       </div>
     </div>
   </div>
