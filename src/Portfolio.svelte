@@ -30,27 +30,11 @@
           is available in the portfolio below.
         </p>
         <MajorSection title="Research" subtitle="disinformation, oversight, censorship" first=true>
-
-          <article>
-            <p class="heading is-marginless">2016-2018</p>
-            <p><strong>Origins of Oversight: A Machine-Assisted Analysis of Legislative Engagement on US Foreign
-                Policy</strong></p>
-            <p>Using computers to parse the entire congressional record and study the determinants of foreign policy
-              oversight in Congress. Co-authored with Dr. Sarah Kreps, <a
-                href="https://github.com/milesmcc/CongressionalDroneOversight">source code</a> available.</p>
-            <ul>
-              <li>Presented by Dr. Kreps at Yale, Columbia, Cornell, Georgetown, and UC Santa Barbara.</li>
-              <li>Co-authored popular opinion piece in the <a
-                  href="https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/">Washington
-                  Post</a>.</li>
-            </ul>
-          </article>
-
           <article>
             <p class="heading is-marginless">Summer 2019 - present</p>
             <p><strong>All The News That's Fit to Fabricate: A Study of Synthetic Disinformation</strong></p>
             <p>Studying how synthetic (AI-generated) disinformation can deceive the public and masquerade as
-              reliable, human-written news. Co-authoring with Dr. Sarah Kreps.</p>
+              reliable, human-written news. Co-authoring with Dr. Sarah Kreps in collaboration with OpenAI.</p>
             <ul>
               <li>Co-authored popular opinion piece in <a
                   href="https://www.foreignaffairs.com/articles/2019-08-02/not-your-fathers-bots">Foreign Affairs</a>.
@@ -72,7 +56,7 @@
             <ul>
               <li>Published paper for open access on <a
                   href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3266193">SSRN</a>, made daily top-tens in
-                several sections.</li>
+                several sections and top 10% of authors by downloads in the year following.</li>
               <li>Completed as part of <a href="https://dpclab.org">Digital Propaganda & Censorship</a>, an Independent
                 Project at Phillips Academy under the mentorship of <a
                   href="https://en.wikipedia.org/wiki/John_Palfrey">John Palfrey</a>,
@@ -97,6 +81,21 @@
                 Project at Phillips Academy under the mentorship of <a
                   href="https://en.wikipedia.org/wiki/John_Palfrey">John Palfrey</a>,
                 Michael Barker, and Malgorzata Stergios.</li>
+            </ul>
+          </article>
+
+          <article>
+            <p class="heading is-marginless">2016-2018</p>
+            <p><strong>Origins of Oversight: A Machine-Assisted Analysis of Legislative Engagement on US Foreign
+                Policy</strong></p>
+            <p>Using computers to parse the entire congressional record and study the determinants of foreign policy
+              oversight in Congress. Co-authored with Dr. Sarah Kreps, <a
+                href="https://github.com/milesmcc/CongressionalDroneOversight">source code</a> available.</p>
+            <ul>
+              <li>Presented by Dr. Kreps at Yale, Columbia, Cornell, Georgetown, and UC Santa Barbara.</li>
+              <li>Co-authored popular opinion piece in the <a
+                  href="https://www.washingtonpost.com/news/monkey-cage/wp/2017/08/24/congress-keeps-quiet-on-u-s-drone-policy-and-thats-a-big-problem/">Washington
+                  Post</a>.</li>
             </ul>
           </article>
 
