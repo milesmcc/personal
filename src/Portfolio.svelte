@@ -41,6 +41,7 @@
               </li>
               <li><a href="https://openai.com/blog/gpt-2-6-month-follow-up/">Collaborated</a> with OpenAI, the creators
                 of GPT-2.</li>
+              <li>Named co-author on OpenAI's <a href="https://arxiv.org/abs/1908.09203">official GPT-2 release report</a>.</li>
               <li>Presented by Dr. Kreps at Oxford.</li>
             </ul>
           </article>
