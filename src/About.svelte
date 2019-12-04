@@ -20,7 +20,7 @@
     <div class="columns">
       <div class="column is-8">
         <p>
-          I want to build systems that improve the world—and to learn something
+          I want to build systems that improve the world—and learn something
           along the way. My interests include internet freedom, cybersecurity,
           government accountability, political science, and human-centered
           design.<FootnoteRef {scope} index="1" />
