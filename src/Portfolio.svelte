@@ -223,6 +223,8 @@
                 project to argue for privacy; translated into 14 languages (and counting); over 28&nbsp;<a
                   href="https://whyprivacymatters.org/CONTRIBUTORS.html">contributors</a>.
               </li>
+              <li><a href="https://github.com/news-catalyst/openalerts">OpenAlerts</a>&nbsp;&mdash; open source,
+                intuitive, and low-cost breaking news distribution infrastructure for newsrooms (with News Catalyst).</li>
               <li><a href="https://github.com/milesmcc/ieql">IEQL</a>&nbsp;&mdash; an Internet scanning system I
                 created as part of an independent project course at Phillips Academy.</li>
               <li><a href="https://pollpa.org/">PollPA</a>&nbsp;&mdash; a live polling platform for Phillips Academy.
@@ -295,10 +297,10 @@
         <MajorSection title="Professional" subtitle="News Catalyst, First Look Media, Torch">
           <article>
             <p class="heading is-marginless">November 2016 - Present</p>
-            <p><a href="https://politiwatch.org/"><strong>Politiwatch</strong></a>: Using technology to promote
+            <p><a href="https://politiwatch.org/"><strong>Politiwatch</strong></a>: using technology to promote
               political
               accountability, digital rights, and social awareness. (501c3 nonprofit.)</p>
-            <MinorSection title="more information about Politiwatch">
+            <MinorSection title="more about Politiwatch">
               <ul>
                 <li>I founded Politiwatch after I began to receive various threats for various projects I created. (See
                   projects below.) It has protected me against legal action, allowed me to build a brand for my sites,
@@ -317,8 +319,26 @@
           </article>
 
           <article>
+            <p class="heading is-marginless">October 2019 - December 2019</p>
+            <p><a href="https://newscatalyst.org/"><strong>News Catalyst</strong></a>: built digital tools to empower
+              local news organizations.</p>
+            <MinorSection title="more about News Catalyst">
+              <ul>
+                <li>Created <a href="https://github.com/news-catalyst/openalerts">OpenAlerts</a>, a fully-featured
+                  and open source breaking news distribution system intended for local newsrooms. (Because OpenAlerts
+                  is open source, I remain on the project. See the <i>Projects</i> section.)</li>
+                <li>Worked with <a href="https://tylerjfisher.com/">Tyler Fisher</a> to create a management system for the
+                  <a href="https://www.americanpressinstitute.org/">American Press Institute</a>'s "Table Stakes" program.</li>
+                <li>Helped build the technical foundation of <a href="https://github.com/news-catalyst/presspass-frontend">
+                  PressPass</a>, News Catalyst's primary offering, and contributed to MuckRock's
+                  <a href="https://github.com/MuckRock/squarelet/">Squarelet</a>.</li>
+              </ul>
+            </MinorSection>
+          </article>
+
+          <article>
             <p class="heading is-marginless">Spring 2017, Spring 2018</p>
-            <p><a href="https://pactf.com/"><strong>PACTF</strong></a>: a global cybersecurity competition with over
+            <p><a href="https://pactf.com/"><strong>PACTF</strong></a>: ran a global cybersecurity competition with over
               1,000 teams and $20,000 in prizes.</p>
             <MinorSection title="more about PACTF">
               <ul>
