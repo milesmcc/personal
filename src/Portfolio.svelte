@@ -320,8 +320,9 @@
 
           <article>
             <p class="heading is-marginless">October 2019 - December 2019</p>
-            <p><a href="https://newscatalyst.org/"><strong>News Catalyst</strong></a>: built digital tools to empower
-              local news organizations.</p>
+            <p><a href="https://newscatalyst.org/"><strong>News Catalyst</strong></a>: built digital tools
+              to empower local news organizations under the support of the 
+              <a href="https://www.lenfestinstitute.org/">Lenfest Institute</a>.</p>
             <MinorSection title="more about News Catalyst">
               <ul>
                 <li>Created <a href="https://github.com/news-catalyst/openalerts">OpenAlerts</a>, a fully-featured
