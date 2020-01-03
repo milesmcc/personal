@@ -15,7 +15,7 @@
     <div class="columns">
       <div class="column is-8">
         <p>
-          In January, I will be in London for my own projects and then Iowa for the Democratic caucuses. Then, from
+          In January, I will be in London for my own projects and then Iowa for the Democratic caucuses. From
           February 17th to May 4th, I'll be in New York City to participate in the <a href="https://recurse.com">Recurse
           Center</a>.
         </p>
