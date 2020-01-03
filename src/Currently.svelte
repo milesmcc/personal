@@ -15,10 +15,11 @@
     <div class="columns">
       <div class="column is-8">
         <p>
-          At the moment, I'm working at <a href="https://newscatalyst.org/">News Catalyst</a> to develop open-source
-          tools that empower local news organizations. Until January, I will be back-and-forth between Philadelphia
-          and New York City.
+          In January, I will be in London for my own projects and then Iowa for the Democratic caucuses. Then, from
+          February 17th to May 4th, I'll be in New York City to participate in the <a href="https://recurse.com">Recurse
+          Center</a>.
         </p>
+        <p>After that, I'm not sure. Feel free to send ideas.</p>
       </div>
       <div class="column footnotes">
 
