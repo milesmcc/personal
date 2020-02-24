@@ -29,7 +29,8 @@
           Twitter, I am <a href="https://twitter.com/MilesMcCain">@MilesMcCain</a>, but I don't post
           frequently.<FootnoteRef {scope} index="5" /> You can also find me on <a
             href="https://news.ycombinator.com/user?id=epoch_100">HN</a>, <a
-            href="https://reddit.com/u/epoch_100">Reddit</a>, and <a href="https://keybase.io/rmrm">Keybase</a>.
+            href="https://reddit.com/u/epoch_100">Reddit</a>, <a href="https://keybase.io/rmrm">Keybase</a>,
+            and <a href="https://lobste.rs/u/rmrm">Lobsters</a>.
       </div>
       <div class="column footnotes">
         <Footnote {scope} index="4">
