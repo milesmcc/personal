@@ -229,6 +229,8 @@
                 created as part of an independent project course at Phillips Academy.</li>
               <li><a href="https://pollpa.org/">PollPA</a>&nbsp;&mdash; a live polling platform for Phillips Academy.
               </li>
+              <li><a href="https://learn.blueshells.net">Introduction to Cybersecurity</a>&nbsp;&mdash; a beginner
+                cybersecurity course I designed for high school and college students.</li>
               <li><a href="https://parussian.org/">PARussian</a>&nbsp;&mdash; a 2nd level textbook I created based on
                 Русский Язык Для Всех for the Phillips Academy Russian Department.</li>
               <li><a href="https://foia.fyi/">Foia.fyi</a>&nbsp;&mdash; a simple website that simplifies the process
