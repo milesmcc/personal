@@ -23,8 +23,7 @@
 
 <style>
   .footnote {
-    color: black;
-    opacity: 0.5;
+    color: #00000080;
     font-size: 80%;
   }
 

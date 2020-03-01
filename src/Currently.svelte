@@ -16,9 +16,9 @@
       <div class="column is-8">
         <p>
           From February 17th to May 4th, I'm in New York City to participate in the <a href="https://recurse.com">Recurse
-          Center</a>.
+          Center</a>. I'm mostly focusing on lossless compression and cryptography, but what I do on any given day at RC
+          varies widely.
         </p>
-        <p>After this, I'm not sure. Feel free to send ideas.</p>
       </div>
       <div class="column footnotes">
 

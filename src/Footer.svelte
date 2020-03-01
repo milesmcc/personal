@@ -2,8 +2,7 @@
     footer {
         font-size: 12px;
         margin-top: 20px;
-        opacity: 0.6;
-        color: black;
+        color: #00000080;
     }
 
     footer a {
