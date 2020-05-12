@@ -1,0 +1,6 @@
+baseURL = "https://miles.land/"
+languageCode = "en-us"
+title = "R. Miles McCain"
+
+[taxonomies]
+  tag = "tags"
