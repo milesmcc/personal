@@ -1,0 +1,23 @@
+{{ $currentPage := . }}
+<nav class="py-6 flex justify-between">
+  <div>
+    <h4>
+      <a class="portal font-bold {{ if .IsHome }}~urge !low active{{ end }}" style="border-bottom: none;"
+      href="/">R. Miles McCain</a>
+    </h4>
+    <h5 class="subheading text-gray-600">/portfolio{{ if gt (len .RelPermalink) 1 }}{{ .RelPermalink | truncate 16 }}{{end}}</h5>
+  </div>
+  <div>
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li class="portal {{ if $currentPage.IsMenuCurrent "main" . }}~urge !low active{{ end }}">
+        <a href="{{ .URL }}">
+          {{ .Pre }}
+          <span>{{ .Name }}</span>
+          {{ .Post }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>

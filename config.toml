@@ -3,4 +3,29 @@ languageCode = "en-us"
 title = "R. Miles McCain"
 
 [taxonomies]
-  tag = "tags"
+tag = "tags"
+
+[[menu.main]]
+name = "Portfolio"
+url = "/portfolio/"
+weight = 0
+
+[[menu.main]]
+name = "Micros"
+url = "/micro/"
+weight = 1
+
+[[menu.main]]
+name = "Errata"
+url = "/errata/"
+weight = 2
+
+[[menu.main]]
+name = "Cool"
+url = "/cool/"
+weight = 3
+
+[[menu.main]]
+name = "Posts"
+url = "/cool/"
+weight = 4
