@@ -1,9 +1,15 @@
+{{ define "title" }}
+{{ partial "title-extractor.html" . }}
+{{ end }}
+
 {{ define "main" }}
-<h1>Posts</h1>
-{{ range .Pages }}
-  <article>
-    <h2>{{ .Title }}</h2>
-    {{ .Content }}
-  </article>
+{{ if isset .Page "grouping" }}
+{{ range .Pages.GroupByParam (.Page "grouping") }}
+{{ partial "list-group.html" .}}
+{{ end }}
+{{ else }}
+{{ range .Pages.GroupByDate "Jan &rsquo;06" }}
+{{ partial "list-group.html" .}}
+{{ end }}
 {{ end }}
 {{ end }}

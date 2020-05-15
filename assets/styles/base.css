@@ -3,16 +3,32 @@
     --family-secondary: "Inter", sans-serif;
 }
 
+.family-primary {
+    font-family: var(--family-primary);
+}
+
+.family-secondary {
+    font-family: var(--family-secondary);
+}
+
 .portal {
     font-family: var(--family-secondary);
     border-bottom: 1px solid var(--color-content);
     border-radius: 0;
     padding: 0;
-    margin-right: 1rem;
     background-color: unset !important;
-    font-size: 1rem;
+    line-height: normal;
 }
 
-.subheading, .heading {
-    font-size: 1rem;
+.portal:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 1rem;
 }
