@@ -1,6 +1,7 @@
 :root {
-    --family-primary: "Source Serif Pro", Georgia, serif;
+    --family-primary: "Vollkorn", Georgia, serif;
     --family-secondary: "Inter", sans-serif;
+    font-size: 18px;
 }
 
 .family-primary {
@@ -13,15 +14,6 @@
 
 .portal {
     font-family: var(--family-secondary);
-    border-bottom: 1px solid var(--color-content);
-    border-radius: 0;
-    padding: 0;
-    background-color: unset !important;
-    line-height: normal;
-}
-
-.portal:not(:last-child) {
-    margin-right: 1rem;
 }
 
 .vertical {

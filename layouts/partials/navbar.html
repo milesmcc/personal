@@ -1,18 +1,22 @@
 {{ $currentPage := . }}
-<nav class="py-6 flex justify-between">
+<nav class="pb-6 md:py-6 md:flex justify-between">
   <div>
     <h4>
-      <a class="heading text-base {{ if .IsHome }}~urge !low{{ end }}" style="border-bottom: none;"
+      <a class="heading section text-base {{ if .IsHome }}~urge !low{{ end }} m-0" style="border-bottom: none;"
       href="/">R. Miles McCain</a>
     </h4>
-    {{ if gt (len .RelPermalink) 1 }}
-    <h5 class="subheading text-gray-600 text-base">{{ .RelPermalink | truncate 32 }}</h5>
-    {{end}}
+    <h5 class="subheading text-gray-500 text-base">
+      {{ if gt (len .RelPermalink) 1 }}
+      {{ .RelPermalink | truncate 32 }}
+      {{ else }}
+      /home/
+      {{end}}
+    </h5>
   </div>
   <div class="text-right">
     <ul>
       {{ range .Site.Menus.main }}
-      <li class="portal text-base {{ if $currentPage.IsMenuCurrent "main" . }}~urge !low active{{ end }}">
+      <li class="portal text-sm {{ if hasPrefix $currentPage.RelPermalink .URL }}~urge active{{ end }}">
         <a href="{{ .URL }}">
           {{ .Pre }}
           <span>{{ .Name }}</span>

@@ -1,18 +1,12 @@
 <div class="flex">
-  <div class="self-start sticky-top vertical">
+  <div class="self-start sticky-top vertical mt-1">
     <h3 class="label family-secondary leading-none">{{ .Key | safeHTML }}</h3>
   </div>
   <div class="flex-grow pl-8 flex-grow">
     <ul>
       {{ range .Pages }}
-      <li class="mb-4">
-        <a href="{{ .Permalink }}" class="flex">
-          <h3 class="heading text-base font-normal leading-none w-9/12">{{ partial "title-extractor.html" . }}</h3>
-          <div class="support family-secondary w-3/12 text-right">{{ .Date.Format "Jan 2, 2006" }}</div>
-        </a>
-      </li>
+      {{ partial "list-item.html" .}}
       {{ end }}
-
     </ul>
   </div>
 </div>

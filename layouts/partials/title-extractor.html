@@ -1,5 +1,0 @@
-{{ if isset .Params "title" }}
-{{ index .Params "title" }}
-{{ else }}
-{{ .Summary | truncate 64 | safeHTML }}
-{{ end }}

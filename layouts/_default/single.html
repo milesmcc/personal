@@ -1,9 +1,19 @@
 {{ define "title" }}
-{{ partial "title-extractor.html" . }}
+{{ .Title }}
 {{ end }}
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<main class="content">
-  {{ .Content }}
+<main>
+  <section>
+    <h3 class="heading">{{ .Title }}</h3>
+    <p class="support family-secondary">
+      {{ .Date.Format "Jan 2, 2006" }}
+    </p>
+  </section>
+  <section class="mt-6 content">
+    {{ if isset .Page "description" }}
+    <h5 class="subheading">{{ index .Page "description" }}</h5>
+    {{ end }}
+    {{ .Content }}
+  </section>
 </main>
 {{ end }}

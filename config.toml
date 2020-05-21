@@ -27,5 +27,5 @@ weight = 3
 
 [[menu.main]]
 name = "Posts"
-url = "/cool/"
+url = "/post/"
 weight = 4

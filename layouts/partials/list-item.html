@@ -1,0 +1,19 @@
+<li class="mb-2">
+  <a href="{{ .Permalink }}" class="md:flex">
+    <div class="md:w-9/12">
+      {{ if .Title }}
+      <h3 class="heading text-base font-normal">{{ .Title }}</h3>
+      {{ else }}
+      <div class="content">
+        {{ .Summary }}
+        {{ if .Truncated }}
+        &rarr;
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    <div class="support family-secondary md:w-3/12 md:text-right mt-1 md:mt-0">
+      {{ .Date.Format "Jan 2, 2006" }}
+    </div>
+  </a>
+</li>
