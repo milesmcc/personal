@@ -221,7 +221,7 @@
             <ul>
               <li><a href="https://whyprivacymatters.org/">WhyPrivacyMatters.org</a>&nbsp;&mdash; a collaborative
                 project to argue for privacy; translated into 14 languages (and counting); over 28&nbsp;<a
-                  href="https://whyprivacymatters.org/CONTRIBUTORS.html">contributors</a>.
+                  href="https://whyprivacymatters.org/CONTRIBUTORS/">contributors</a>.
               </li>
               <li><a href="https://github.com/news-catalyst/openalerts">OpenAlerts</a>&nbsp;&mdash; open source,
                 intuitive, and low-cost breaking news distribution infrastructure for newsrooms (with News Catalyst).</li>
