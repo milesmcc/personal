@@ -1,12 +1,11 @@
+{{ define "header" }}
+{{ partial "heading.html" }}
+{{ end }}
+
 {{ define "main" }}
-<main aria-role="main">
-  <div class="content">
-    {{.Content}}
-  </div>
-  <div>
-    {{ range first 10 .Site.RegularPages }}
-        {{ .Render "summary"}}
-    {{ end }}
-  </div>
+<main>
+  <section class="content">
+    {{ .Content }}
+  </section>
 </main>
 {{ end }}

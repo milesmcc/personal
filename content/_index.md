@@ -1,6 +1,8 @@
 ---
-title: "About, contact, projects, and blog"
-description: "This will be my home on the internet."
+supertitle: "Miles McCain | About, contact, and portfolio"
+title: "Hey, it's Miles!"
+subtitle: "This is the subtitle."
+description: "R. Miles McCain is an advocate for privacy and government transparency. Trying to build systems that improve the world and learning along the way."
 url: "/"
 draft: false
 ---

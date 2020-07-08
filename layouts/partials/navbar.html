@@ -1,20 +1,20 @@
 {{ $currentPage := . }}
-<nav class="mb-6 md:my-6 md:flex justify-between">
+<nav class="mb-6 md:my-6 md:flex md:justify-between">
   <div>
     <h4>
       <a class="heading text-base {{ if .IsHome }}{{ end }} m-0" style="border-bottom: none;"
       href="/">R. Miles McCain</a>
+      <span class="subheading text-neutral-400 text-base hidden">
+        {{ if gt (len .RelPermalink) 1 }}
+        {{ safeHTML (replace (truncate 18 (safeHTML "&hellip;") (substr .RelPermalink 0 -1)) "/" " &rarr; ") }}
+        {{ else }}
+        &rarr; home
+        {{end}}
+      </span>
     </h4>
-    <h5 class="subheading text-gray-500 text-base">
-      {{ if gt (len .RelPermalink) 1 }}
-      {{ .RelPermalink | truncate 32 }}
-      {{ else }}
-      /home/
-      {{end}}
-    </h5>
   </div>
-  <div class="text-right">
-    <ul>
+  <div class="md:text-right">
+    <ul class="-ml-2 md:ml-0">
       {{ range .Site.Menus.main }}
       <li class="portal text-sm {{ if hasPrefix $currentPage.RelPermalink .URL }}~urge active{{ end }}">
         <a href="{{ .URL }}">

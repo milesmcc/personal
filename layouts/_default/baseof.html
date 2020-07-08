@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ block "title" . }}{{ end }} | {{ .Site.Title }}</title>
     {{ partial "head.html" . }}
   </head>
   <body class="bg-neutral-000">
     <section class="max-w-4xl mx-auto p-4 relative min-h-screen">
       <div class="md:flex justify-center">
-        <div class="w-8/12">
+        <div class="md:w-8/12">
           {{ partial "navbar.html" . }}
-          {{ block "header" . }}
-          {{ end }}
-          <div class="mt-6"></div>
+          <div class="my-12">
+            {{ block "header" . }}
+            {{ end }}
+          </div>
         </div>
       </div>
       <div class="md:flex">
-        <aside class="w-2/12 pr-8 text-right">
-        {{ if or (.Params.toc) (true) }}
-          {{.TableOfContents}}
-        {{ end }}
+        <aside class="md:w-2/12">
+
         </aside>
-        <div class="w-8/12">
+        <div class="md:w-8/12">
           {{ block "main" . }}
           {{ end }}
           <hr class="sep h-8">
-          <footer class="bottom-0 absolute">
+          <footer>
             {{ partial "footer.html" . }}
           </footer>
         </div>
-        <div class="w-2/12">
-          <!-- Footnotes -->
-        </div>
+        <aside class="md:w-2/12 pl-8 self-start sticky-top hidden md:block text-sm">
+          {{ if or (.Params.toc) (true) }}
+          <!-- <p class="support">On This Page</p> -->
+          {{.TableOfContents}}
+          {{ end }}
+        </aside>
       </div>
     </section>
   </body>

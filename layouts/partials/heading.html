@@ -1,0 +1,15 @@
+<section>
+    <div>
+        <h3 class="inline heading font-bold text-4xl">
+            {{ .Title }}
+        </h3>
+        <h3 class="inline heading font-bold text-4xl text-neutral-400">
+            {{ $.Param "subtitle" }}
+        </h3>
+    </div>
+    {{ if (isset . "Date") }}
+    <p class="mt-2 text-neutral-400 family-secondary">
+        {{ .Date.Format "Jan 2, 2006" }}
+    </p>
+    {{ end }}
+</section>

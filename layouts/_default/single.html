@@ -1,22 +1,10 @@
-{{ define "title" }}
-{{ .Title }}
-{{ end }}
-
 {{define "header" }}
-<section>
-  <h3 class="heading">{{ .Title }}</h3>
-  <p class="support family-secondary">
-    {{ .Date.Format "Jan 2, 2006" }}
-  </p>
-</section>
+{{ partial "heading.html" }}
 {{ end }}
 
 {{ define "main" }}
 <main>
   <section class="content">
-    {{ if isset .Page "description" }}
-    <h5 class="subheading">{{ index .Page "description" }}</h5>
-    {{ end }}
     {{ .Content }}
   </section>
 </main>

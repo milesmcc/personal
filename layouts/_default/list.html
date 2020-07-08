@@ -2,6 +2,10 @@
 {{ .Title }}
 {{ end }}
 
+{{define "header" }}
+{{ partial "heading.html" . }}
+{{ end }}
+
 {{ define "main" }}
 {{ if isset .Page "grouping" }}
 {{ range .Pages.GroupByParam (.Page "grouping") }}
