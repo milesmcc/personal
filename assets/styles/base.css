@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 :root {
-    --color-neutral-900-root: #001d24;
-    --color-neutral-800-root: #032e35;
-    --color-neutral-700-root: #173e46;
-    --color-neutral-600-root: #2a5057;
-    --color-neutral-500-root: #3c616a;
-    --color-neutral-400-root: #4e747c;
-    --color-neutral-300-root: #749aa3;
-    --color-neutral-200-root: #9bc2cb;
-    --color-neutral-100-root: #c4ecf4;
-    --color-neutral-000-root: #e7ffff;
+    --color-neutral-000-root: #fffaee;
+    --color-neutral-100-root: #fdf6e3;
+    --color-neutral-200-root: #f5eede;
+    --color-neutral-300-root: #e0dbcb;
+    --color-neutral-400-root: #afab9d;
+    --color-neutral-500-root: #858177;
+    --color-neutral-600-root: #66635a;
+    --color-neutral-700-root: #4e4c45;
+    --color-neutral-800-root: #302e2a;
+    --color-neutral-900-root: #22211e;
 
     --color-neutral-900: var(--color-neutral-900-root);
     --color-neutral-800: var(--color-neutral-800-root);

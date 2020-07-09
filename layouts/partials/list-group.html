@@ -1,6 +1,6 @@
 <div class="flex">
   <div class="self-start sticky-top vertical mt-1">
-    <h3 class="label leading-none text-neutral-500">{{ .Key | safeHTML }}</h3>
+    <h3 class="label leading-none text-neutral-500">{{ .Key | humanize | safeHTML }}</h3>
   </div>
   <div class="flex-grow pl-4 md:pl-8 flex-grow">
     <ul>
@@ -10,4 +10,4 @@
     </ul>
   </div>
 </div>
-<hr class="sep">
+<hr class="sep h-4">

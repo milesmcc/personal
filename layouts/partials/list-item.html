@@ -4,6 +4,11 @@
       <h3 class="heading text-base font-normal content">
       {{ if .Title }}
       {{ .Title }}
+      {{ if (eq ($.Param "highlightSubtitle") true) }}
+      <span class="text-neutral-500">
+        {{ $.Param "subtitle" }}
+      </span>
+      {{ end }}
       {{ else }}
       {{ .Summary }}
       {{ if .Truncated }}
@@ -17,7 +22,11 @@
       {{ end }}
     </div>
     <div class="support family-secondary md:w-3/12 md:text-right mt-1 md:mt-0 text-neutral-600">
+      {{ if (not (eq ($.Param "dateOverride") nil))}}
+      {{ $.Param "dateOverride" }}
+      {{ else }}
       {{ .Date.Format "Jan 2, 2006" }}
+      {{ end }}
     </div>
   </a>
 </li>

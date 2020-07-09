@@ -7,13 +7,13 @@
 {{ end }}
 
 {{ define "main" }}
-{{ if isset .Page "grouping" }}
-{{ range .Pages.GroupByParam (.Page "grouping") }}
-{{ partial "list-group.html" .}}
+{{ if (not (eq ($.Param "grouping") nil)) }}
+{{ range .Pages.GroupByParam ($.Param "grouping") }}
+{{ partial "list-group.html" . }}
 {{ end }}
 {{ else }}
 {{ range .Pages.GroupByDate "Jan &rsquo;06" }}
-{{ partial "list-group.html" .}}
+{{ partial "list-group.html" . }}
 {{ end }}
 {{ end }}
 {{ end }}

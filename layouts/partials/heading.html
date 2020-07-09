@@ -1,18 +1,31 @@
 <section>
     <div>
-        {{if (not (eq ($.Param "icon") nil)) }}
-        {{ $icon := resources.Get ($.Param "icon") | resources.Minify | resources.Fingerprint }}
-        <img class="float-right h-32 hover-rotate" src="{{ $icon.Permalink }}">
-        {{ end }}
-        <h3 class="inline heading font-bold text-4xl">
-            {{ .Title }}
-        </h3>
-        <h3 class="inline heading font-bold text-4xl text-neutral-400">
-            {{ $.Param "subtitle" }}
-        </h3>
+        {{if (not (eq ($.Param "link") nil))}}
+        <a href="{{ $.Param "link" }}">
+            {{end}}
+            {{if (not (eq ($.Param "icon") nil)) }}
+            {{ $icon := resources.Get ($.Param "icon") | resources.Minify | resources.Fingerprint }}
+            <img class="float-right h-32 hover-rotate" src="{{ $icon.Permalink }}">
+            {{ end }}
+            <h3 class="inline heading font-bold text-4xl">
+                {{ .Title }}
+                {{if (not (eq ($.Param "link") nil))}}
+                &nearr;
+                {{end}}
+            </h3>
+            <h3 class="inline heading font-bold text-4xl text-neutral-400">
+                {{ $.Param "subtitle" }}
+            </h3>
+            {{if (not (eq ($.Param "link") nil))}}
+        </a>
+        {{end}}
     </div>
     <div class="mt-4">
-        {{ if (isset $.Params "date") }}
+        {{ if (not (eq ($.Param "dateOverride") nil))}}
+        <span class="chip ~neutral !low -ml-2 mb-2">
+            {{ $.Param "dateOverride" }}
+        </span>
+        {{ else if (not (eq ($.Param "date") nil))}}
         <span class="chip ~neutral !low -ml-2 mb-2">
             {{ .Date.Format "Jan 2, 2006" }}
         </span>

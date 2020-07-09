@@ -14,7 +14,7 @@ The projects I'm most proud of are [PrivacySpy](https://privacyspy.org), [Shynet
 
 ### Currently
 
-I'm about to head off to Zoom School---erm, I mean college. I'm [not sure](https://www.nytimes.com/2020/07/07/opinion/letters/coronavirus-college-professors.html) how I feel about that.
+I'm about to head off to Zoom School---erm, I mean college. I'm [not sure](https://www.nytimes.com/2020/07/07/opinion/letters/coronavirus-college-professors.html) how I feel about that. Currently enjoying the final moments of my gap year.
 
 ### Contact
 

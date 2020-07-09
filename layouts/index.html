@@ -7,5 +7,12 @@
   <section class="content">
     {{ .Content }}
   </section>
+  <hr class="sep h-8">
+  <section id="recently">
+    <h3 class="heading text-xl mb-4">Recently</h3>
+    {{ range (first 10 $.Page.Site.RegularPages).GroupBy "Section" }}
+    {{ partial "list-group.html" . }}
+    {{ end }}
+  </section>
 </main>
 {{ end }}

@@ -1,0 +1,3 @@
+{{ range (first 10 $.Page.Site.RegularPages).GroupBy "Section" }}
+{{ partial "list-group.html" . }}
+{{ end }}
