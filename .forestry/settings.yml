@@ -7,16 +7,6 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/tags
-  label: Tags
-  create: all
-  match: "**/*"
-- type: directory
   path: content/posts
   label: Posts
   create: all
@@ -41,6 +31,18 @@ sections:
   label: Cool
   create: all
   match: "**/*"
+- type: heading
+  label: Metadata
+- type: directory
+  path: content/tags
+  label: Tags
+  create: all
+  match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
 upload_dir: static/media
 public_path: "/media"
 front_matter_path: ''
