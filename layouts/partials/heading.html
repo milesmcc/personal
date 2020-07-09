@@ -13,9 +13,9 @@
                 &nearr;
                 {{end}}
             </h3>
-            <h3 class="inline heading font-bold md:text-4xl text-neutral-400">
+            <h3 class="inline heading font-bold md:text-4xl text-neutral-500">
                 {{if (not (eq ($.Param "subtitle") nil))}}
-                &nbsp;{{ $.Param "subtitle" | safeHTML }}
+                &#160;{{ $.Param "subtitle" | safeHTML }}
                 {{end}}
             </h3>
             {{if (not (eq ($.Param "link") nil))}}
@@ -33,7 +33,9 @@
         </span>
         {{ end }}
         {{ range (.GetTerms "tags") }}
+        {{ if (not (eq (.Param "hidden") true))}}
         <a class="chip ~neutral !normal mb-2 mr-2" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
         {{ end }}
     </div>
 </section>

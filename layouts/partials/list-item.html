@@ -17,7 +17,7 @@
       {{ end }}
       {{ if (not (eq ($.Param "link") nil))}}&nearr;{{end}}
       </h3>
-      <span class="md:hidden pl-0 badge ~neutral !low inline">
+      <span class="md:hidden pl-0 badge ~urge !low inline">
         {{ if (not (eq ($.Param "dateOverride") nil))}}
         {{ $.Param "dateOverride" }}
         {{ else }}
@@ -25,7 +25,9 @@
         {{ end }}
       </span>
       {{ range (.GetTerms "tags") }}
-        <span class="badge ~neutral inline">{{ .LinkTitle }}</span>
+      {{ if (not (eq (.Param "hidden") true))}}
+      <span class="badge {{ default "~neutral" (.Param "class") }} !normal inline">{{ .Title }}</span>
+      {{ end }}
       {{ end }}
     </div>
     <div class="hidden md:block support family-secondary md:w-3/12 text-right mt-0 text-neutral-600">

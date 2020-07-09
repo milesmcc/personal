@@ -8,6 +8,11 @@
       <div class="md:flex justify-center">
         <div class="md:w-8/12">
           {{ partial "navbar.html" . }}
+          {{ if (not (eq ($.Param "redirect") nil)) }}
+          <aside class="aside ~urge !normal">
+            <strong>You're probably looking for a different page.</strong> Click <a href="{{ $.Param "redirect" }}">here</a> if you are not redirected automatically.
+          </aside>
+          {{ end }}
           <div class="my-12">
             {{ block "header" . }}
             {{ end }}

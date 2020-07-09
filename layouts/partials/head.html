@@ -9,6 +9,9 @@
 <meta property="og:title" content="{{ if (eq ($.Param "supertitle") nil) }}{{ default .Title (truncate 64 .Summary) }}{{else}}{{ $.Param "supertitle" }}{{end}}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
+{{ if (not (eq ($.Param "redirect") nil)) }}
+<meta http-equiv="refresh" content="0; URL={{ $.Param "redirect" }}" />
+{{ end }}
 {{ range .AlternativeOutputFormats -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}

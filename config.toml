@@ -15,7 +15,7 @@ weight = 0
 
 [[menu.main]]
 name = "Micros"
-url = "/micro/"
+url = "/micros/"
 weight = 1
 
 [[menu.main]]
@@ -30,5 +30,5 @@ weight = 3
 
 [[menu.main]]
 name = "Posts"
-url = "/post/"
+url = "/posts/"
 weight = 4

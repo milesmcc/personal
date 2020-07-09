@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 :root {
+    --color-urge-900-root: #003a2e;
+    --color-urge-800-root: #004f43;
+    --color-urge-700-root: #006659;
+    --color-urge-600-root: #177e70;
+    --color-urge-500-root: #489387;
+    --color-urge-400-root: #6da89e;
+    --color-urge-300-root: #90beb6;
+    --color-urge-200-root: #b4d4ce;
+    --color-urge-100-root: #d8eae7;
+    --color-urge-000-root: #ffffff;
+
     --color-neutral-000-root: #fffaee;
     --color-neutral-100-root: #fdf6e3;
     --color-neutral-200-root: #f5eede;
@@ -22,6 +33,17 @@
     --color-neutral-200: var(--color-neutral-200-root);
     --color-neutral-100: var(--color-neutral-100-root);
     --color-neutral-000: var(--color-neutral-000-root);
+
+    --color-urge-900: var(--color-urge-900-root);
+    --color-urge-800: var(--color-urge-800-root);
+    --color-urge-700: var(--color-urge-700-root);
+    --color-urge-600: var(--color-urge-600-root);
+    --color-urge-500: var(--color-urge-500-root);
+    --color-urge-400: var(--color-urge-400-root);
+    --color-urge-300: var(--color-urge-300-root);
+    --color-urge-200: var(--color-urge-200-root);
+    --color-urge-100: var(--color-urge-100-root);
+    --color-urge-000: var(--color-urge-000-root);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,20 +58,21 @@
         --color-neutral-700: var(--color-neutral-200-root);
         --color-neutral-800: var(--color-neutral-100-root);
         --color-neutral-900: var(--color-neutral-000-root);
+
+        --color-urge-000: var(--color-urge-900-root);
+        --color-urge-100: var(--color-urge-800-root);
+        --color-urge-200: var(--color-urge-700-root);
+        --color-urge-300: var(--color-urge-600-root);
+        --color-urge-400: var(--color-urge-500-root);
+        --color-urge-500: var(--color-urge-400-root);
+        --color-urge-600: var(--color-urge-300-root);
+        --color-urge-700: var(--color-urge-200-root);
+        --color-urge-800: var(--color-urge-100-root);
+        --color-urge-900: var(--color-urge-000-root);
     }
 }
 
 :root {
-    --color-urge-100: var(--color-neutral-100);
-    --color-urge-200: var(--color-neutral-200);
-    --color-urge-300: var(--color-neutral-300);
-    --color-urge-400: var(--color-neutral-400);
-    --color-urge-500: var(--color-neutral-500);
-    --color-urge-600: var(--color-neutral-600);
-    --color-urge-700: var(--color-neutral-700);
-    --color-urge-800: var(--color-neutral-800);
-    --color-urge-900: var(--color-neutral-900);
-
     --border-radius-sm: none;
     --border-radius-default: none;
     --border-radius-md: none;
@@ -68,12 +91,12 @@
 }
 
 .content a {
-    transition: text-decoration-color 75ms ease-in;
-    text-decoration-color: var(--color-neutral-400-fallback) !important;
+    transition: text-decoration-color 100ms ease-in;
+    text-decoration-color: var(--color-urge-300-fallback) !important;
 }
 
 .content a:hover {
-    text-decoration-color: var(--color-neutral-600-fallback) !important;
+    text-decoration-color: var(--color-urge-600-fallback) !important;
 }
 
 .vertical {
