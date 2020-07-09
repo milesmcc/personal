@@ -4,6 +4,7 @@ subtitle: "is an open-source web analytics tool"
 category: Projects
 tags: ["open source", "web", "analytics"]
 dateOverride: "2020 - present"
+showRelatedTag: shynet
 date: 2020-05-09T20:55:10Z
 highlightSubtitle: true
 ---

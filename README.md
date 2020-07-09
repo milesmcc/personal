@@ -7,8 +7,6 @@ On this site, I try to minimize the role of tags. They're helpful for RSS, but m
 
 There are two gotchas:
 
-* On a portfolio page, if there is a tag with the same name as the portfolio page itself, it will list that content at the bottom under "related content"
-
 * Certain tag pages redirect to other pages. I set these up usually for tags that correspond to projects; for example, the "shynet" tab.
 
 * Portfolio projects should _not_ be tagged as themselves; that is, the portfolio project "Shynet" should _not_ have the "Shynet" tag.
