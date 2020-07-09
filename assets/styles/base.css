@@ -77,3 +77,11 @@
     list-style: none;
     padding-left: 0;
 }
+
+.hover-rotate {
+    transition: transform 100ms ease-in;
+}
+
+.hover-rotate:hover {
+    transform: rotate(10deg);
+}

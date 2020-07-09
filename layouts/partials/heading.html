@@ -1,5 +1,9 @@
 <section>
     <div>
+        {{if (not (eq ($.Param "icon") nil)) }}
+        {{ $icon := resources.Get ($.Param "icon") | resources.Minify | resources.Fingerprint }}
+        <img class="float-right h-32 hover-rotate" src="{{ $icon.Permalink }}">
+        {{ end }}
         <h3 class="inline heading font-bold text-4xl">
             {{ .Title }}
         </h3>
@@ -7,9 +11,14 @@
             {{ $.Param "subtitle" }}
         </h3>
     </div>
-    {{ if (isset . "Date") }}
-    <p class="mt-2 text-neutral-400 family-secondary">
-        {{ .Date.Format "Jan 2, 2006" }}
-    </p>
-    {{ end }}
+    <div class="mt-4">
+        {{ if (isset $.Params "date") }}
+        <span class="chip ~neutral !low -ml-2 mb-2">
+            {{ .Date.Format "Jan 2, 2006" }}
+        </span>
+        {{ end }}
+        {{ range (.GetTerms "tags") }}
+        <a class="chip ~neutral !normal mb-2 mr-2" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+    </div>
 </section>

@@ -1,15 +1,19 @@
-<li class="mb-2">
-  <a href="{{ .Permalink }}" class="md:flex">
+<li class="mb-4">
+  <a {{ if (not (eq ($.Param "link") nil))}}href="{{ $.Param "link" }}" rel="nofollow noopener" {{else}} href="{{ .Permalink }}" {{end}} class="md:flex">
     <div class="md:w-9/12">
+      <h3 class="heading text-base font-normal content">
       {{ if .Title }}
-      <h3 class="heading text-base font-normal">{{ .Title }}</h3>
+      {{ .Title }}
       {{ else }}
-      <div class="content">
-        {{ .Summary }}
-        {{ if .Truncated }}
-        &rarr;
-        {{ end }}
-      </div>
+      {{ .Summary }}
+      {{ if .Truncated }}
+      &rarr;
+      {{ end }}
+      {{ end }}
+      {{ if (not (eq ($.Param "link") nil))}}&nearr;{{end}}
+      </h3>
+      {{ range (.GetTerms "tags") }}
+        <span class="badge ~neutral inline">{{ .LinkTitle }}</span>
       {{ end }}
     </div>
     <div class="support family-secondary md:w-3/12 md:text-right mt-1 md:mt-0">
