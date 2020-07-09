@@ -17,11 +17,18 @@
       {{ end }}
       {{ if (not (eq ($.Param "link") nil))}}&nearr;{{end}}
       </h3>
+      <span class="md:hidden pl-0 badge ~neutral !low inline">
+        {{ if (not (eq ($.Param "dateOverride") nil))}}
+        {{ $.Param "dateOverride" }}
+        {{ else }}
+        {{ .Date.Format "Jan 2, 2006" }}
+        {{ end }}
+      </span>
       {{ range (.GetTerms "tags") }}
         <span class="badge ~neutral inline">{{ .LinkTitle }}</span>
       {{ end }}
     </div>
-    <div class="support family-secondary md:w-3/12 md:text-right mt-1 md:mt-0 text-neutral-600">
+    <div class="hidden md:block support family-secondary md:w-3/12 text-right mt-0 text-neutral-600">
       {{ if (not (eq ($.Param "dateOverride") nil))}}
       {{ $.Param "dateOverride" }}
       {{ else }}

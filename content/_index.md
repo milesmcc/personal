@@ -1,7 +1,7 @@
 ---
 supertitle: "R. Miles McCain | About, contact, and portfolio"
 title: "Hey, I'm Miles."
-subtitle: "I enjoy designing, breaking, and studying systems."
+subtitle: "<br class='md:hidden'>I enjoy designing, breaking, and studying systems."
 description: "I enjoy designing, breaking, and studying systems. Working on cybersecurity, privacy, government, and positive computing."
 url: "/"
 draft: false
