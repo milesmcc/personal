@@ -1,13 +1,14 @@
 [build]
-publish = "public"
-command = "hugo --minify --gc"
+  publish = "public"
+  command = "HUGO_BASEURL=$URL hugo --minify --gc"
 
-[context.hugo.environment]
-HUGO_VERSION = "0.73.0"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+[build.environment]
+  HUGO_VERSION = "0.73.0"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
 
-[context.production.environment]
-HUGO_VERSION = "0.73.0"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+[context.deploy-preview]
+  command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --minify --gc"
+
+[context.branch-deploy]
+  command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --minify --gc --buildDrafts"
