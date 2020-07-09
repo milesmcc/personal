@@ -9,6 +9,9 @@
 <meta property="og:title" content="{{ if (eq ($.Param "supertitle") nil) }}{{ default .Title (truncate 64 .Summary) }}{{else}}{{ $.Param "supertitle" }}{{end}}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
+{{ range .AlternativeOutputFormats -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 {{ $icon := resources.Get "images/dithered_rounded_avatar.png" | resources.Fingerprint }}
 <link rel='icon' type='image/png' href='{{ $icon.Permalink }}' />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/a17t@0.2.2/dist/a17t.css" integrity="sha256-yQf30DEPiNcRwCCGqMQzKHUzQ4ado4YGWfO7uWfNZZk=" crossorigin="anonymous" />
