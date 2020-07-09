@@ -1,4 +1,6 @@
-<title>{{ if (eq ($.Param "supertitle") nil) }}{{ default .Title (truncate 64 .Summary) }} | {{ .Site.Title }}{{else}}{{ $.Param "supertitle" }}{{end}}</title>
+{{ $title := cond (eq ($.Param "supertitle") nil) (printf `%s | %s` (default .Title (truncate 64 .Summary)) .Site.Title) ($.Param "supertitle") }}
+
+<title>{{ $title }}</title>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -6,14 +8,14 @@
 <meta property="og:description" content="{{ default (truncate 160 ("&hellip;" | safeHTML) .Summary) .Description }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="{{ if (eq ($.Param "supertitle") nil) }}{{ default .Title (truncate 64 .Summary) }}{{else}}{{ $.Param "supertitle" }}{{end}}" />
+<meta property="og:title" content="{{ $title }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
 {{ if (not (eq ($.Param "redirect") nil)) }}
 <meta http-equiv="refresh" content="0; URL={{ $.Param "redirect" }}" />
 {{ end }}
 {{ range .AlternativeOutputFormats -}}
-{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $title | safeHTML }}
 {{ end -}}
 {{ $icon := resources.Get "images/dithered_rounded_avatar.png" | resources.Fingerprint }}
 <link rel='icon' type='image/png' href='{{ $icon.Permalink }}' />
