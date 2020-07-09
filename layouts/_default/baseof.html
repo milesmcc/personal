@@ -21,12 +21,12 @@
         <div class="md:w-8/12">
           {{ block "main" . }}
           {{ end }}
-          <hr class="sep h-8">
+          <hr class="sep h-16">
           <footer>
             {{ partial "footer.html" . }}
           </footer>
         </div>
-        <aside class="md:w-2/12 pl-8 self-start sticky-top hidden md:block text-sm">
+        <aside class="md:w-2/12 pl-8 self-start sticky-top hidden md:block text-xs">
           {{ if .Params.toc }}
           <!-- <p class="support">On This Page</p> -->
           {{.TableOfContents}}

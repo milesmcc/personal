@@ -1,13 +1,20 @@
 <title>{{ if (eq ($.Param "supertitle") nil) }}{{ default .Title (truncate 64 .Summary) }} | {{ .Site.Title }}{{else}}{{ $.Param "supertitle" }}{{end}}</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ .Description }}">
-<meta property="og:description" content="{{ .Description }}">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/a17t@0.2.2/dist/a17t.css" integrity="sha256-yQf30DEPiNcRwCCGqMQzKHUzQ4ado4YGWfO7uWfNZZk=" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/a17t@0.2.2/dist/tailwind.css" integrity="sha256-fO/ANnbSSp//SHBaEKR/QirvwQZNGXLmvGbd33ZZB78=" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Vollkorn:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="{{ default (truncate 160 ("&hellip;" | safeHTML) .Summary) .Description }}" />
+<meta property="og:description" content="{{ default (truncate 160 ("&hellip;" | safeHTML) .Summary) .Description }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ if (eq ($.Param "supertitle") nil) }}{{ default .Title (truncate 64 .Summary) }}{{else}}{{ $.Param "supertitle" }}{{end}}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<link rel="canonical" href="{{ .Permalink }}" />
+{{ $icon := resources.Get "images/dithered_rounded_avatar.png" | resources.Fingerprint }}
+<link rel='icon' type='image/png' href='{{ $icon.Permalink }}' />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/a17t@0.2.2/dist/a17t.css" integrity="sha256-yQf30DEPiNcRwCCGqMQzKHUzQ4ado4YGWfO7uWfNZZk=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/a17t@0.2.2/dist/tailwind.css" integrity="sha256-fO/ANnbSSp//SHBaEKR/QirvwQZNGXLmvGbd33ZZB78=" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Vollkorn:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet" />
 {{ $style := resources.Get "styles/base.css" | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
 {{ $script := resources.Get "scripts/base.js" | resources.Minify | resources.Fingerprint }}
 <script src="{{ $script.Permalink }}"></script>

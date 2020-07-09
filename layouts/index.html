@@ -10,7 +10,7 @@
   <hr class="sep h-8">
   <section id="recently">
     <h3 class="heading text-xl mb-4">Recently</h3>
-    {{ range (first 10 $.Page.Site.RegularPages).GroupBy "Section" }}
+    {{ range ((first 10 (where site.RegularPages "Type" "in" (slice "errata" "post" "cool"))).GroupBy "Section").Reverse }}
     {{ partial "list-group.html" . }}
     {{ end }}
   </section>

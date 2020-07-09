@@ -1,6 +1,6 @@
 ---
 title: "PolitiTweet"
-subtitle: "archives public figures' deleted tweets."
+subtitle: "archives public figures' deleted tweets"
 category: Projects
 tags: ["politics", "twitter", "django"]
 dateOverride: "2016 - present"
