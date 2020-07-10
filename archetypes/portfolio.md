@@ -7,4 +7,5 @@ dateOverride: "2016 - present"
 showRelatedTag: shynet
 date: {{ .Date }}
 highlightSubtitle: true
+weight: 0
 ---
