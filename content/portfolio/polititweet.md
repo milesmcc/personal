@@ -1,6 +1,6 @@
 ---
 title: "PolitiTweet"
-subtitle: "archives public figures' deleted tweets"
+subtitle: "Public figures' deleted tweets"
 category: Projects
 tags: ["politics", "twitter", "django"]
 dateOverride: "2016 - present"
@@ -8,7 +8,7 @@ date: 2016-11-24T17:14:47-04:00
 highlightSubtitle: true
 ---
 
-PolitiTweet preserves the public record by archiving the Tweets of major public figures and prominently displaying those that have been deleted.
+PolitiTweet preserves the public record by archiving the tweets of major public figures and prominently displaying those that have been deleted.
 
 View the site at [polititweet.org](https://polititweet.org) or read the source code [on GitHub](https://github.com/milesmcc/polititweet).
 
