@@ -2,8 +2,8 @@
 title: "More projects"
 subtitle: "Cyber101, PollPA, and more"
 category: Projects
-tags: []
-dateOverride: "2012 - present"
+tags: ["misc", "more"]
+dateOverride: "2012 – present"
 showRelatedTag: null
 date: 2020-07-10T21:50:06Z
 highlightSubtitle: true
