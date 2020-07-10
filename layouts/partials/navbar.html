@@ -2,7 +2,7 @@
 <nav class="mb-6 md:my-6 md:flex md:justify-between">
   <div>
     <h4>
-      <a class="heading text-base {{ if .IsHome }}text-urge-600{{ end }} m-0" style="border-bottom: none;"
+      <a class="heading text-base {{ if (not .IsHome) }} text-neutral-600 {{ end }} m-0" style="border-bottom: none;"
       href="/">R. Miles McCain</a>
       <span class="subheading text-neutral-400 text-base hidden">
         {{ if gt (len .RelPermalink) 1 }}
@@ -16,7 +16,7 @@
   <div class="md:text-right">
     <ul class="-ml-2 md:ml-0">
       {{ range .Site.Menus.main }}
-      <li class="portal text-sm {{ if hasPrefix $currentPage.RelPermalink .URL }}~urge active{{ end }}">
+      <li class="portal text-sm {{ if hasPrefix $currentPage.RelPermalink .URL }} ~urge active {{ end }}">
         <a href="{{ .URL }}">
           {{ .Pre }}
           <span>{{ .Name }}</span>

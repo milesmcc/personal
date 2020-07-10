@@ -1,7 +1,7 @@
 <li class="mb-4">
   <a {{ if (not (eq ($.Param "link") nil))}}href="{{ $.Param "link" }}" rel="nofollow noopener" {{else}} href="{{ .Permalink }}" {{end}} class="md:flex">
     <div class="md:w-9/12">
-      <h3 class="heading text-base font-normal content">
+      <h3 class="heading text-base font-normal content text-neutral-800">
       {{ if .Title }}
       {{ .Title }}
       {{ if (eq ($.Param "highlightSubtitle") true) }}
