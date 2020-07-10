@@ -19,10 +19,7 @@
 {{ end -}}
 {{ $icon := resources.Get "images/dithered_rounded_avatar.png" | resources.Fingerprint }}
 <link rel='icon' type='image/png' href='{{ $icon.Permalink }}' />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/a17t@0.2.2/dist/a17t.css" integrity="sha256-yQf30DEPiNcRwCCGqMQzKHUzQ4ado4YGWfO7uWfNZZk=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/a17t@0.2.2/dist/tailwind.css" integrity="sha256-fO/ANnbSSp//SHBaEKR/QirvwQZNGXLmvGbd33ZZB78=" crossorigin="anonymous" />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Vollkorn:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet" />
-{{ $style := resources.Get "styles/base.css" | resources.Minify | resources.Fingerprint }}
+{{ $style := resources.Get "styles/base.css" | postCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
 {{ $script := resources.Get "scripts/base.js" | resources.Minify | resources.Fingerprint }}
-<script src="{{ $script.Permalink }}"></script>
+<script async defer src="{{ $script.Permalink }}"></script>
