@@ -79,11 +79,11 @@
 :root {
     --color-title: var(--color-urge-600);
 
-    --border-radius-sm: none;
+    /* --border-radius-sm: none;
     --border-radius-default: none;
     --border-radius-md: none;
     --border-radius-lg: none;
-    --border-radius-xl: none;
+    --border-radius-xl: none; */
 
     --border-width-default: 2px;
     --border-width-2: 3px;
