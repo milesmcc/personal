@@ -1,4 +1,4 @@
 ---
-title: "Micros!"
-subtitle: "Sort of like tweets. But not."
+title: "Micros"
+subtitle: "Sort of like tweets (but not)"
 ---

@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 :root {
-    --color-urge-900-root: #003a2e;
-    --color-urge-800-root: #004f43;
-    --color-urge-700-root: #006659;
-    --color-urge-600-root: #177e70;
-    --color-urge-500-root: #489387;
-    --color-urge-400-root: #6da89e;
-    --color-urge-300-root: #90beb6;
-    --color-urge-200-root: #b4d4ce;
-    --color-urge-100-root: #d8eae7;
-    --color-urge-000-root: #ffffff;
+    --color-urge-900-root: #091b00;
+    --color-urge-800-root: #1c3004;
+    --color-urge-700-root: #30451b;
+    --color-urge-600-root: #465b2f;
+    --color-urge-500-root: #5d7245;
+    --color-urge-400-root: #748a5b;
+    --color-urge-300-root: #8da272;
+    --color-urge-200-root: #a6bc8b;
+    --color-urge-100-root: #bfd6a3;
+    --color-urge-000-root: #d9f0bd;
 
     --color-neutral-000-root: #fffaee;
     --color-neutral-100-root: #fdf6e3;
@@ -93,12 +93,12 @@
 .content a {
     transition: all 100ms ease-in;
     color: var(--color-urge-600-fallback) !important;
-    text-decoration-color: var(--color-urge-200-fallback) !important;
+    text-decoration-color: var(--color-urge-300-fallback) !important;
 }
 
 .content a:hover {
-    color: var(--color-urge-400-fallback) !important;
-    text-decoration-color: var(--color-urge-100-fallback) !important;
+    color: var(--color-urge-500-fallback) !important;
+    text-decoration-color: var(--color-urge-200-fallback) !important;
 }
 
 .vertical {

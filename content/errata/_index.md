@@ -1,4 +1,4 @@
 ---
-title: "Errata!"
-subtitle: "Mistakes. Usually mine."
+title: "Errata"
+subtitle: "Mistakes (usually mine)"
 ---

@@ -1,7 +1,7 @@
 ---
 supertitle: "R. Miles McCain | About, contact, and portfolio"
 title: "Hey, I'm Miles."
-subtitle: "<br class='md:hidden'>I enjoy designing, breaking, and studying systems."
+subtitle: "I enjoy designing, breaking, and studying systems."
 description: "I enjoy designing, breaking, and studying systems. Working on cybersecurity, privacy, government, and positive computing."
 url: "/"
 draft: false
@@ -18,6 +18,6 @@ I'm about to head off to Zoom School---erm, I mean college. I'm [not sure](https
 
 ### Contact
 
-You can email me at <miles@rmrm.io>. On GitHub, I am [milesmcc](https://github.com/milesmcc); this is where most of my projects live. On Twitter, I am [@MilesMcCain](https://twitter.com/MilesMcCain), but I don't post frequently (I write [micros](/micros/) instead). You can also find me on [HN](https://news.ycombinator.com/user?id=epoch_100), [Reddit](https://reddit.com/u/epoch_100), [Keybase](https://keybase.io/rmrm), and [Lobsters](https://lobste.rs/u/rmrm).
+You can email me at <hey@miles.land>. On GitHub, I am [milesmcc](https://github.com/milesmcc); this is where most of my projects live. On Twitter, I am [@MilesMcCain](https://twitter.com/MilesMcCain), but I don't post frequently (I write [micros](/micros/) instead). You can also find me on [HN](https://news.ycombinator.com/user?id=epoch_100), [Reddit](https://reddit.com/u/epoch_100), [Keybase](https://keybase.io/rmrm), and [Lobsters](https://lobste.rs/u/rmrm).
 
 When I have a institutional snail-mail address---like a school mailroom---I will display it here. You know what, though, maybe we should just keep it digital.

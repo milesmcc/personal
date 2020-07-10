@@ -7,15 +7,15 @@
             {{ $icon := resources.Get ($.Param "icon") | resources.Minify | resources.Fingerprint }}
             <img class="float-right h-32 hover-rotate" src="{{ $icon.Permalink }}">
             {{ end }}
-            <h3 class="inline heading font-bold md:text-4xl">
+            <h3 class="inline heading text-neutral-800 font-bold md:text-4xl">
                 {{ .Title | safeHTML }}
                 {{if (not (eq ($.Param "link") nil))}}
                 &nearr;
                 {{end}}
             </h3>
-            <h3 class="inline heading font-bold md:text-4xl text-neutral-500">
+            <h3 class="inline heading font-bold md:text-4xl text-neutral-400">
                 {{if (not (eq ($.Param "subtitle") nil))}}
-                &#160;{{ $.Param "subtitle" | safeHTML }}
+                <br>{{ $.Param "subtitle" | safeHTML }}
                 {{end}}
             </h3>
             {{if (not (eq ($.Param "link") nil))}}

@@ -1,4 +1,4 @@
 ---
-title: "Cool!"
-subtitle: "Stuff from around the web."
+title: "Cool"
+subtitle: "Things I found neat"
 ---

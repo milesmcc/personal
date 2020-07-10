@@ -1,4 +1,4 @@
 ---
-title: "Posts!"
-subtitle: "Longer writing. Not that long."
+title: "Posts"
+subtitle: "Longer writing (but not that long)"
 ---
