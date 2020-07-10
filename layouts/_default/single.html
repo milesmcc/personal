@@ -13,7 +13,7 @@
 {{ if (gt (len $related) 0)}}
 <section class="related mt-8">
     <h3 class="heading text-xl mb-4">Related Content</h3>
-    {{ range $related.Pages.GroupByDate "01&ndash;06" }}
+    {{ range $related.Pages.GroupByDate "Jan &rsquo;06" }}
     {{ partial "list-group.html" . }}
     {{ end }}
 </section>
