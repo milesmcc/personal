@@ -32,3 +32,8 @@ weight = 3
 name = "Posts"
 url = "/posts/"
 weight = 4
+
+[[menu.main]]
+name = "Letter"
+url = "https://tinyletter.com/milesmccain"
+weight = 5
