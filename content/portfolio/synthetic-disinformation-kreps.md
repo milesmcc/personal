@@ -4,7 +4,7 @@ subtitle: "With Kreps & OpenAI"
 category: Research
 tags: ["disinformation", "politics", "ai"]
 dateOverride: "Summer 2019 – present"
-showRelatedTag: shynet
+showRelatedTag: null
 date: 2019-06-02T22:55:34Z
 highlightSubtitle: true
 weight: 1
