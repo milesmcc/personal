@@ -5,7 +5,7 @@
             {{end}}
             {{if (not (eq ($.Param "icon") nil)) }}
             {{ $icon := resources.Get ($.Param "icon") | resources.Minify | resources.Fingerprint }}
-            <img class="float-right h-32 hover-rotate" src="{{ $icon.Permalink }}">
+            <img class="float-right h-32 hover-rotate pl-4" src="{{ $icon.Permalink }}">
             {{ end }}
             <h3 class="inline heading font-bold md:text-4xl">
                 {{ .Title | safeHTML }}

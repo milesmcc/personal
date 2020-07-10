@@ -1,6 +1,6 @@
 ---
 title: "Shynet"
-subtitle: "is an open-source web analytics tool"
+subtitle: "Open source web analytics"
 category: Projects
 tags: ["open source", "web", "analytics"]
 dateOverride: "2020 - present"

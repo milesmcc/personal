@@ -6,7 +6,7 @@
       {{ .Title }}
       {{ if (eq ($.Param "highlightSubtitle") true) }}
       <span class="text-neutral-500">
-        {{ $.Param "subtitle" }}
+        &mdash; {{ $.Param "subtitle" }}
       </span>
       {{ end }}
       {{ else }}
