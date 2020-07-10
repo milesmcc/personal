@@ -4,8 +4,8 @@
         <a href="{{ $.Param "link" }}">
             {{end}}
             {{if (not (eq ($.Param "icon") nil)) }}
-            {{ $icon := resources.Get ($.Param "icon") | resources.Minify | resources.Fingerprint }}
-            <img class="float-right h-32 hover-rotate pl-4" src="{{ $icon.Permalink }}">
+            {{ $icon := resources.Get ($.Param "icon.url") | resources.Minify | resources.Fingerprint }}
+            <img class="float-right h-32 hover-rotate pl-4" src="{{ $icon.Permalink }}" alt="{{ $.Param "icon.alt" }}">
             {{ end }}
             <h3 class="inline heading font-bold md:text-4xl">
                 {{ .Title | safeHTML }}
@@ -13,7 +13,7 @@
                 &nearr;
                 {{end}}
             </h3>
-            <h3 class="inline heading font-bold md:text-4xl text-neutral-600">
+            <h3 class="inline heading font-bold md:text-4xl text-neutral-500">
                 {{if (not (eq ($.Param "subtitle") nil))}}
                 <br>{{ $.Param "subtitle" | safeHTML }}
                 {{end}}

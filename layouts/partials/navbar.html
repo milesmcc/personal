@@ -2,15 +2,8 @@
 <nav class="mb-6 md:my-6 md:flex md:justify-between">
   <div>
     <h4>
-      <a class="heading text-base {{ if (not .IsHome) }}  {{ end }} m-0" style="border-bottom: none;"
+      <a class="heading text-sm" style="border-bottom: none;"
       href="/">R. Miles McCain</a>
-      <span class="subheading text-neutral-400 text-base hidden">
-        {{ if gt (len .RelPermalink) 1 }}
-        {{ safeHTML (replace (truncate 18 (safeHTML "&hellip;") (substr .RelPermalink 0 -1)) "/" " &rarr; ") }}
-        {{ else }}
-        &rarr; home
-        {{end}}
-      </span>
     </h4>
   </div>
   <div class="md:text-right">

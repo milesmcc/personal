@@ -5,7 +5,9 @@ subtitle: "I enjoy designing, breaking, and studying systems."
 description: "I enjoy designing, breaking, and studying systems. Working on cybersecurity, privacy, government, and positive computing."
 url: "/"
 draft: false
-icon: "/images/dithered_avatar.png"
+icon:
+  url: "/images/dithered_avatar.png"
+  alt: "A grayscale picture of my face"
 ---
 
 I'm interested in the systems of digital freedom, cybersecurity, government, artificial intelligence, and human-centered design. My projects, research, and commentary have appeared in several outlets including the _Washington Post_, the _New York Times_, _NBC News_, _Foreign Affairs_, Brookings, and the _Nightly News_ with Lester Holt. 
