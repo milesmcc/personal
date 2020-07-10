@@ -91,12 +91,14 @@
 }
 
 .content a {
-    transition: text-decoration-color 100ms ease-in;
-    text-decoration-color: var(--color-urge-300-fallback) !important;
+    transition: all 100ms ease-in;
+    color: var(--color-urge-600-fallback) !important;
+    text-decoration-color: var(--color-urge-200-fallback) !important;
 }
 
 .content a:hover {
-    text-decoration-color: var(--color-urge-600-fallback) !important;
+    color: var(--color-urge-400-fallback) !important;
+    text-decoration-color: var(--color-urge-100-fallback) !important;
 }
 
 .vertical {
