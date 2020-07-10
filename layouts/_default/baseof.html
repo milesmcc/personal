@@ -33,8 +33,9 @@
         </div>
         <aside class="md:w-2/12 pl-8 self-start sticky-top hidden md:block text-xs">
           {{ if .Params.toc }}
-          <!-- <p class="support">On This Page</p> -->
-          {{.TableOfContents}}
+          <div class="toc">
+            {{.TableOfContents}}
+          </div>
           {{ end }}
         </aside>
       </div>

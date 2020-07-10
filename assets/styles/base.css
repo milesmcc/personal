@@ -116,7 +116,7 @@
     top: 1rem;
 }
 
-#TableOfContents li a {
+.toc li a {
     padding: 0.25rem 0.5rem;
     transition: all 100ms ease-in;
     display: block;
@@ -125,14 +125,14 @@
     border-left: 1.5px solid var(--color-neutral-400-fallback);
 }
 
-#TableOfContents li a.active {
+.toc li a.active {
     color: var(--color-neutral-600-fallback);
     border-left-color: var(--color-neutral-600-fallback);
     /* padding-left: 0.75rem; */
     border-left-width: 3px;
 }
 
-#TableOfContents ul {
+.toc ul {
     list-style: none;
     padding-left: 0;
 }
