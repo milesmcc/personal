@@ -7,7 +7,7 @@ dateOverride: "F ’19"
 showRelatedTag: null
 date: 2019-10-8T04:00:59Z
 highlightSubtitle: true
-weight: 0
+weight: 3
 ---
 
 In the fall of 2019, I worked at [News Catalyst](https://newscatalyst.org/), building digital tools to empower local news organizations. My work at News Catalyst was supported by the [Lenfest Institute](https://www.lenfestinstitute.org/).
