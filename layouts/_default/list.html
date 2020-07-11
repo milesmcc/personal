@@ -7,13 +7,22 @@
 {{ end }}
 
 {{ define "main" }}
-{{ if (not (eq ($.Param "grouping") nil)) }}
-{{ range .Pages.GroupByParam ($.Param "grouping") }}
-{{ partial "list-group.html" . }}
-{{ end }}
-{{ else }}
-{{ range .Pages.GroupByDate "Jan &rsquo;06" }}
-{{ partial "list-group.html" . }}
-{{ end }}
-{{ end }}
+<main>
+    {{ if (gt (len .Content) 0) }}
+    <section class="mb-12">
+        {{ .Content }}
+    </section>
+    {{ end }}
+    <section>
+        {{ if (not (eq ($.Param "grouping") nil)) }}
+        {{ range .Pages.GroupByParam ($.Param "grouping") }}
+        {{ partial "list-group.html" . }}
+        {{ end }}
+        {{ else }}
+        {{ range .Pages.GroupByDate "Jan &rsquo;06" }}
+        {{ partial "list-group.html" . }}
+        {{ end }}
+        {{ end }}
+    </section>
+</main>
 {{ end }}
