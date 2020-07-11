@@ -10,7 +10,7 @@ collections:
     folder: "content/micros/"
     title: "micros"
     identifier_field: "body"
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
     fields:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
