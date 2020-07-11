@@ -3,7 +3,7 @@ title: "Phillips Academy Andover"
 subtitle: "Class of ’19, cum laude"
 category: Education
 tags: ["high school"]
-dateOverride: "Fall 2015 – Spring 2019"
+dateOverride: "F ’15 – Sp ’19"
 showRelatedTag: andover
 date: 2019-06-02T02:32:21Z
 highlightSubtitle: true

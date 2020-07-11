@@ -3,7 +3,7 @@ title: "WhoAreMyRepresentatives"
 subtitle: "Easily find your reps"
 category: Projects
 tags: ["politics", "civics", "politiwatch"]
-dateOverride: "Winter 2016 –"
+dateOverride: "W ’16 –"
 showRelatedTag: whoaremyrepresentatives
 date: 2016-12-10T21:49:20Z
 highlightSubtitle: true

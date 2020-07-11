@@ -3,7 +3,7 @@ title: "Chinese Censorship"
 subtitle: "Jeffrey Shen & Palfrey"
 category: Research
 tags: ["china", "censorship", "weibo", "andover"]
-dateOverride: "Fall 2018"
+dateOverride: "F ’18"
 showRelatedTag: null
 date: 2018-10-11T02:04:23Z
 highlightSubtitle: true

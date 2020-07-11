@@ -3,7 +3,7 @@ title: "Synthetic Disinformation"
 subtitle: "Sarah Kreps & OpenAI"
 category: Research
 tags: ["disinformation", "politics", "ai"]
-dateOverride: "Summer 2019 – Summer 2020"
+dateOverride: "S ’19 – S ’20"
 showRelatedTag: null
 date: 2019-06-02T22:55:34Z
 highlightSubtitle: true

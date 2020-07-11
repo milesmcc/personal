@@ -3,7 +3,7 @@ title: "Shynet"
 subtitle: "Open source web analytics"
 category: Projects
 tags: ["open source", "web", "analytics", "recurse"]
-dateOverride: "Spring 2020 –"
+dateOverride: "Sp ’20 –"
 showRelatedTag: shynet
 date: 2020-05-09T20:55:10Z
 highlightSubtitle: true

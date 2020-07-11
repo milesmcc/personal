@@ -3,7 +3,7 @@ title: "Origins of Oversight"
 subtitle: "Sarah Kreps"
 category: Research
 tags: ["congress", "oversight", "drones"]
-dateOverride: "Summer 2017 – Winter 2018"
+dateOverride: "S ’17 – W ’18"
 showRelatedTag: null
 date: 2017-06-15T02:26:28Z
 highlightSubtitle: true

@@ -3,7 +3,7 @@ title: "Recurse Center"
 subtitle: "Spring 1 ’20 batch"
 category: Education
 tags: ["nyc", "unschooling"]
-dateOverride: "Winter 2020"
+dateOverride: "W ’20"
 showRelatedTag: recurse
 date: 2020-02-18T02:54:19Z
 highlightSubtitle: true

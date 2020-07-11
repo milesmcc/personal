@@ -3,7 +3,7 @@ title: "Stanford University"
 subtitle: "Class of ’24"
 category: Education
 tags: ["college", "zoom"]
-dateOverride: "Fall 2020 –"
+dateOverride: "F ’20 –"
 showRelatedTag: stanford
 date: 2020-07-11T02:41:51Z
 highlightSubtitle: true

@@ -3,7 +3,7 @@ title: "Russian Disinformation"
 subtitle: "Jeffrey Shen & Palfrey"
 category: Research
 tags: ["russia", "disinformation", "andover"]
-dateOverride: "Fall 2018"
+dateOverride: "F ’18"
 showRelatedTag: null
 date: 2018-09-15T02:17:20Z
 highlightSubtitle: true
