@@ -6,6 +6,11 @@ public_folder: "/media"
 collections:
   - name: "micros"
     label: "Mirco"
+    create: true
     folder: "content/micros/"
+    title: "micros"
+    identifier_field: "body"
+    slug: "{{slug}}"
     fields:
-      - { label: "Date", name: "date" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
