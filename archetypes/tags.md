@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " }}"
 class: null
-redirect: null
+redirect: "/portfolio/{{ .Name }}/"
 hidden: false
 ---
