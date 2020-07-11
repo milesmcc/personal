@@ -1,14 +1,11 @@
 [build]
   publish = "public"
-  command = "HUGO_BASEURL=$URL hugo --minify --gc"
+  command = "hugo --minify --gc"
 
 [build.environment]
   HUGO_VERSION = "0.73.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
-
-[context.production.environment]
-  HUGO_BASEURL = "https://miles.land"
 
 [context.deploy-preview]
   command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --minify --gc"
