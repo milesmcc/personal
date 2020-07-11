@@ -1,7 +1,7 @@
 ---
 title: "Fundamental concepts of programming"
 tags: ["mcip", "java", "technical"]
-date: 2020-07-11T17:50:13Z
+date: 2020-06-08T17:50:13Z
 toc: false
 draft: false
 ---

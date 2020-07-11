@@ -1,7 +1,7 @@
 ---
 title: "Dissecting \"Hello World\" in Java"
 tags: ["mcip", "java", "technical"]
-date: 2020-07-11T17:53:15Z
+date: 2020-06-11T17:53:15Z
 toc: true
 draft: false
 ---
