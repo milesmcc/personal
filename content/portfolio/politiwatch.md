@@ -1,7 +1,7 @@
 ---
 title: "Politiwatch"
 subtitle: "501(c)(3) nonprofit"
-category: Professional
+category: Work
 tags: ["politics", "oversight"]
 dateOverride: "F ’16 –"
 showRelatedTag: politiwatch
