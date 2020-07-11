@@ -1,4 +1,4 @@
-{{ $title := cond (eq ($.Param "supertitle") nil) (printf `%s | %s` (default .Title (truncate 64 .Summary)) .Site.Title) ($.Param "supertitle") }}
+{{ $title := cond (eq ($.Param "supertitle") nil) (printf `%s | %s` (default (truncate 64 .Summary) .Title) .Site.Title) ($.Param "supertitle") | htmlUnescape }}
 
 <title>{{ $title }}</title>
 <meta charset="utf-8" />
