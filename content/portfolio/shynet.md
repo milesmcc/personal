@@ -2,7 +2,7 @@
 title: "Shynet"
 subtitle: "Open source web analytics"
 category: Projects
-tags: ["open source", "web", "analytics"]
+tags: ["open source", "web", "analytics", "recurse"]
 dateOverride: "Spring 2020 –"
 showRelatedTag: shynet
 date: 2020-05-09T20:55:10Z
