@@ -1,0 +1,4 @@
+<figure>
+    <iframe src="{{ .Get "url" }}" class="w-full" height="400"></iframe>
+    <figcaption class="support my-1">{{ safeHTML (default (printf "Embed of <a href='%s'>%s</a>" (.Get "url") (.Get "url")) (.Get "caption")) }}</figcaption>
+</figure>
