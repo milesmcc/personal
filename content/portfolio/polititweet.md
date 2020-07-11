@@ -3,7 +3,7 @@ title: "PolitiTweet"
 subtitle: "Public figures' deleted tweets"
 category: Projects
 tags: ["politics", "twitter", "django", "politiwatch"]
-dateOverride: "Fall 2016–"
+dateOverride: "Fall 2016 –"
 date: 2016-11-24T17:14:47-04:00
 highlightSubtitle: true
 showRelatedTag: polititweet
