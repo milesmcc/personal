@@ -11,29 +11,29 @@ tag = "tags"
 [[menu.main]]
 name = "Portfolio"
 url = "/portfolio/"
-weight = 0
+weight = 1
 
 [[menu.main]]
 name = "Micros"
 url = "/micros/"
-weight = 1
+weight = 2
 
 [[menu.main]]
 name = "Errata"
 url = "/errata/"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Cool"
 url = "/cool/"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Posts"
 url = "/posts/"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Letter"
-url = "https://tinyletter.com/milesmccain"
-weight = 5
+url = "/letter/"
+weight = 6
