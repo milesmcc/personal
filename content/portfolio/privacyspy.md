@@ -3,7 +3,7 @@ title: "PrivacySpy"
 subtitle: "Making privacy accessible"
 category: Projects
 tags: ["privacy", "open source", "politiwatch"]
-dateOverride: "Summer 2019 – now"
+dateOverride: "Summer 2019–"
 showRelatedTag: privacyspy
 date: 2019-07-10T21:49:08Z
 highlightSubtitle: true
