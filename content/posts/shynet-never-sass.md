@@ -16,7 +16,7 @@ In general, if you care about privacy and control, self-hosting your analytics i
 
 But not all self-hosted analytics tools are equal. Often, they're watered-down versions of paid services (e.g., [Fathom](https://github.com/usefathom/fathom)), or weren't designed for self-hosting (e.g., [Plausible](https://plausible.io/blog/self-hosted-web-analytics-beta)). Others, like [Matomo](https://matomo.org/), are mature and featureful, but also overly complex (and, if you ask me, a bit of a chore to work with).
 
-The point was to build an analytics tool that was self hosted, privacy friendly, and sleek — in that order. These priorities are reflected in Shynet's architecture: there's no Stripe billing integration, no account tiers, and certainly no concept of third-party access. Turning it into a SaaS would conflict with the core purpose of the project.
+The point of Shynet is to build an analytics tool that is self hosted, privacy friendly, and sleek — in that order. These priorities are reflected in Shynet's architecture: there's no Stripe billing integration, no account tiers, and certainly no concept of third-party access. Turning it into a SaaS would conflict with the core purpose of the project.
 
 ## I don't want your data
 
@@ -28,7 +28,7 @@ And while I built Shynet with security as a top priority, it's a complex piece o
 
 ## There are better tools elsewhere
 
-I built Shynet to fill a gap I perceived among *self-hosted* analytics tools—not among analytics tools generally. There's little that Shynet offers that Fathom, Simple Analytics, or Plausible doesn't (though I do hope to change that over time). After all, Shynet's advantage is that it's designed to be self-hosted; without that, there's little to differentiate it from other analytics offerings.
+I built Shynet to fill a gap I perceived among *self-hosted* analytics tools—not among analytics tools generally. There's little that Shynet offers that Fathom, Simple Analytics, or Plausible don't (though I do hope to change that over time). After all, Shynet's advantage is that it's designed to be self-hosted; without that, there's little to differentiate it from other analytics offerings.
 
 Analytics is a crowded market. It's ruthlessly competitive. If you're willing to tolerate handing your visitors' data over to a third party, there are dozens of companies all fighting for your business. I don't want Shynet to be one of them.
 
