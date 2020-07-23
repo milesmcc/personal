@@ -6,7 +6,7 @@ toc: true
 draft: false
 ---
 
-Ever since I released Shynet, my open source web analytics tool, several people have asked me if I plan to offer some kind of managed version of the service (presumably as some kind of SaaS). While I sympathize with these requests—not everyone wants to manage their own servers, after all!—it's not something that I'm considering. Here's why.
+Ever since I released [Shynet](https://github.com/milesmcc/shynet), my open source web analytics tool, several people have asked me if I plan to offer some kind of managed version of the service (presumably as some kind of SaaS). While these requests are super exciting and I sympathize with them—not everyone wants to manage their own servers, after all!—it's not something that I'm considering. Here's why.
 
 ## Self-hosting is the point of Shynet
 
