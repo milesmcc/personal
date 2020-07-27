@@ -1,0 +1,47 @@
+<article class="card ~neutral shadow-none bg-neutral-200">
+    <div class="flex">
+        <div class="w-2/12">
+            <img src="{{ .Get "image"}}">
+        </div>
+        <div class="w-10/12 pl-4">
+            <p class="label">
+                &ldquo;{{ .Get "title" }}&rdquo; by {{.Get "artists"}}
+            </p>
+            <div class="grid mt-4 grid-cols-2 md:grid-cols-4 gap-4">
+                <div>
+                    <p class="label text-xs">
+                        Album
+                    </p>
+                    <p class="text-xs">
+                        {{.Get "album"}}
+                    </p>
+                </div>
+                <div>
+                    <p class="label text-xs">
+                        Genres
+                    </p>
+                    <p class="text-xs">
+                        {{.Get "genres" | default "Unknown" | truncate "40" }}
+                    </p>
+                </div>
+                <div>
+                    <p class="label text-xs">
+                        Released
+                    </p>
+                    <p class="text-xs">
+                        {{.Get "date" | default "Unknown" }}
+                    </p>
+                </div>
+                <div>
+                    <p class="label text-xs">
+                        Play
+                    </p>
+                    <p class="text-xs">
+                        <a href="{{.Get "url"}}">Spotify&nbsp;&nearr;</a>
+                        <a href="https://www.youtube.com/results?search_query={{.Get "title" | safeURL }}+{{ .Get "artists" | safeURL }}">YouTube&nbsp;&nearr;</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
