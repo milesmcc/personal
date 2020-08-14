@@ -2,7 +2,7 @@
 supertitle: "R. Miles McCain | About, contact, and portfolio"
 title: "Hey, I'm Miles."
 subtitle: "I enjoy designing, breaking, and studying systems."
-description: "I enjoy designing, breaking, and studying systems. Working on cybersecurity, privacy, government, and positive computing."
+description: "I enjoy designing, breaking, and studying systems. Working on digital freedom, tech policy, and positive computing."
 url: "/"
 draft: false
 icon:
@@ -10,7 +10,7 @@ icon:
   alt: "A grayscale picture of my face"
 ---
 
-I'm interested in the systems of digital freedom, cybersecurity, government, artificial intelligence, and human-centered design. My projects, research, and commentary have appeared in several outlets including the _Washington Post_, the _New York Times_, _NBC News_, _Foreign Affairs_, Brookings, and the _Nightly News_ with Lester Holt. 
+I'm interested in the systems of digital freedom, tech policy, artificial intelligence, and human-centered design. My projects, research, and commentary have appeared in several outlets including the _Washington Post_, the _New York Times_, _NBC News_, _Foreign Affairs_, Brookings, and the _Nightly News_ with Lester Holt. 
 
 The projects I'm most proud of are [PrivacySpy](https://privacyspy.org), [Shynet](https://github.com/milesmcc/shynet), my work with Prof. Sarah Kreps, and [a17t](https://a17t.miles.land). And finally, for the obligatory apostrophe soup: PA &rsquo;19, [RC S1 &rsquo;20](https://www.recurse.com/scout/click?t=e62336f0f378bcf03a96d441d015db88), Stanford &rsquo;24, [EOT](https://en.wikipedia.org/wiki/End-of-Transmission_character). More details are in my [portfolio](/portfolio/).
 
