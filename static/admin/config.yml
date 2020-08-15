@@ -16,6 +16,38 @@ collections:
     fields:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "portfolio"
+    label: "Portfolio"
+    create: true
+    folder: "content/portfolio/"
+    title: "portfolio"
+    editor:
+      preview: false
+    fields:
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Category", name: "category", widget: "select", options: ["Education", "Projects", "Research", "Skills", "Work"] }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Date Override", name: "dateOverride", widget: "string", required: false }
+      - { label: "Related Tag", name: "showRelatedTag", widget: "string", required: false }
+      - { label: "Highlight Subtitle", name: "highlightSubtitle", widget: "boolean", required: false, default: true }
+      - { label: "Link", name: "link", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", required: false }
+  - name: "errata"
+    label: "Errata"
+    create: true
+    folder: "content/errata/"
+    title: "errata"
+    editor:
+      preview: false
+    fields:
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", required: false }
   - name: "cool"
     label: "Cool"
     create: true
@@ -30,3 +62,39 @@ collections:
       - { label: "Link", name: "link", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Draft", name: "draft", widget: "boolean", required: false }
+  - name: "posts"
+    label: "Posts"
+    create: true
+    folder: "content/posts/"
+    title: "posts"
+    editor:
+      preview: false
+    fields:
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", required: false }
+  - label: "Pages"
+    name: "pages"
+    editor:
+      preview: false
+    files:
+      - label: "Home"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - {label: "Browser Title", name: supertitle, widget: string, required: false}
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false}
+          - {label: Body, name: body, widget: markdown, required: false }
+      - label: "Letter"
+        name: "letter"
+        file: "content/letter.md"
+        fields:
+          - {label: "Browser Title", name: supertitle, widget: string, required: false}
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string, required: false}
+          - {label: Description, name: description, widget: text, required: false}
+          - {label: Body, name: body, widget: markdown, required: false }
