@@ -28,5 +28,5 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Link", name: "link", widget: "string", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Draft", name: "draft", widget: "boolean", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean" }
