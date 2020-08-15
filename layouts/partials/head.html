@@ -22,5 +22,4 @@
 {{ $style := resources.Get "styles/base.css" | postCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
 {{ $script := resources.Get "scripts/base.js" | resources.Minify | resources.Fingerprint }}
-<script async defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script async defer src="{{ $script.Permalink }}"></script>
