@@ -10,7 +10,23 @@ collections:
     folder: "content/micros/"
     title: "micros"
     identifier_field: "body"
+    editor:
+      preview: false
     slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
     fields:
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "cool"
+    label: "Cool"
+    create: true
+    folder: "content/cool/"
+    title: "cool"
+    editor:
+      preview: false
+    fields:
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Link", name: "link", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Draft", name: "draft", widget: "boolean" }
