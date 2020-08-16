@@ -5,7 +5,8 @@ tags:
   - music
   - recently
 ---
-Here are 58 songs across 175 genres that I've been listening to lately. Feels like the end of August...
+Here are 58 songs across 175 genres that I've been listening to lately.
+ Feels like the end of August...
 
 To listen to this playlist on Spotify, [click here](https://open.spotify.com/playlist/5T8UgK11F3m2G3UzrANf7v). Note that song metadata --- the genres, duration, release date, etc. --- is provided by the Spotify API. I don't input this information myself, so it might be wrong!
 
@@ -207,5 +208,5 @@ To listen to this playlist on Spotify, [click here](https://open.spotify.com/pla
 
 ### Japanese classical
 
-{{< song title="Dream Colored Mobile II, Op. 58a" artists="Takashi Yoshimatsu, Joe Houghton, Kate Wilson, Manchester Camerata, Sachio Fujioka" album="Yoshimatsu: Piano Concerto, "Memo Flora" / And Birds Are Still …, / While an Angel Falls Into A Doze" date="1998-09-01" preview="https://p.scdn.co/mp3-preview/632f07fb140b8893374249f7d1c2ad6608cccd9d?cid=4e157d7e8e51417495f3b0adf93907fc" duration="6912.0" genres="japanese classical" url="https://open.spotify.com/track/6BkrnyTPyky2AFnbR493Y9" image="https://i.scdn.co/image/ab67616d0000b273cf0d212625819f28a06bb8b7" >}}
+{{< song title="Dream Colored Mobile II, Op. 58a" artists="Takashi Yoshimatsu, Joe Houghton, Kate Wilson, Manchester Camerata, Sachio Fujioka" album="Yoshimatsu: Piano Concerto, \"Memo Flora\" / And Birds Are Still …, / While an Angel Falls Into A Doze" date="1998-09-01" preview="https://p.scdn.co/mp3-preview/632f07fb140b8893374249f7d1c2ad6608cccd9d?cid=4e157d7e8e51417495f3b0adf93907fc" duration="6912.0" genres="japanese classical" url="https://open.spotify.com/track/6BkrnyTPyky2AFnbR493Y9" image="https://i.scdn.co/image/ab67616d0000b273cf0d212625819f28a06bb8b7" >}}
 
