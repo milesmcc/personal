@@ -7,7 +7,7 @@ dateOverride: "W ’01 –"
 showRelatedTag: null
 date: 2001-01-31T14:31:00Z
 highlightSubtitle: true
-weight: 0
+weight: 10
 ---
 
 ## Hackathons
