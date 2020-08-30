@@ -1,6 +1,7 @@
 baseURL = "https://miles.land/"
 languageCode = "en-us"
 title = "R. Miles McCain"
+pygmentsUseClasses = true
 
 [markup.goldmark.renderer]
 unsafe= true
