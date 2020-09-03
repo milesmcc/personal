@@ -47,7 +47,7 @@ To listen to this playlist on Spotify, [click here](https://open.spotify.com/pla
 
 ### Electronica
 
-{{< song title="Golden Clouds (feat. Lee "Scratch" Perry)" artists="The Orb, Lee "Scratch" Perry" album="THE ORBSERVER in the star house (feat. Lee Scratch Perry)" date="2012-08-28" preview="https://p.scdn.co/mp3-preview/10b98f8a7ec6304fad34375bd68c186cc488d4aa?cid=4e157d7e8e51417495f3b0adf93907fc" duration="5775.55" genres="ambient, ambient house, drum and bass, electronica, intelligent dance music, trip hop" url="https://open.spotify.com/track/5I1RLZDjJhUzYH5GrzSoKa" image="https://i.scdn.co/image/ab67616d0000b273d994d737b64c3531064f63b0" >}}
+{{< song title="Golden Clouds (feat. Lee \"Scratch\" Perry)" artists="The Orb, Lee \"Scratch\" Perry" album="THE ORBSERVER in the star house (feat. Lee Scratch Perry)" date="2012-08-28" preview="https://p.scdn.co/mp3-preview/10b98f8a7ec6304fad34375bd68c186cc488d4aa?cid=4e157d7e8e51417495f3b0adf93907fc" duration="5775.55" genres="ambient, ambient house, drum and bass, electronica, intelligent dance music, trip hop" url="https://open.spotify.com/track/5I1RLZDjJhUzYH5GrzSoKa" image="https://i.scdn.co/image/ab67616d0000b273d994d737b64c3531064f63b0" >}}
 
 {{< song title="Highschool Lover" artists="Air" album="The Virgin Suicides (Deluxe Version - 15th Anniversary)" date="2000" preview="None" duration="2701.55" genres="ambient pop, downtempo, electronica, trip hop" url="https://open.spotify.com/track/4Z1vQ7HvG155ByRl8T1WlT" image="https://i.scdn.co/image/ab67616d0000b273c87d12e357af666dc1a857d8" >}}
 
