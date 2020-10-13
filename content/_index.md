@@ -16,7 +16,7 @@ Some of the projects I'm most proud of are [PrivacySpy](https://privacyspy.org),
 
 ### Currently
 
-I'm currently in Zoom School---erm, I mean college---and am enjoying my courses, even if I'm missing out on much of the college experience. I'm currently in Charleston, South Carolina. 
+I'm currently in Zoom School---erm, I mean college---and am enjoying my courses, even if I'm missing out on much of the college experience. I'm in Charleston, South Carolina. 
 
 ### Contact
 
