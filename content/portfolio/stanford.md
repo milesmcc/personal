@@ -12,18 +12,18 @@ weight: 1
 
 Since September 2020, I've been an undergraduate at [Stanford](https://stanford.edu).
 
-## Work
+### Work
 * **RA at the [Stanford Internet Observatory](https://io.stanford.edu)** (October 2020 –). Worked on the Tech Team and with the [Election Integrity Partnership](https://www.eipartnership.net/).
 
-## Organizations
+### Organizations
 * [**CS+Social Good**](https://cs4good.com/) - Using CS in a way that's socially mindful and equitable.
 * [**SymSys Society**](http://www.symsyssociety.org/) - An organization for students who love symbolic systems!
 
 (I want to get involved with more organizations once I'm on campus in-person.)
 
-## Courses
+### Courses
 
-### Fall 2020
+##### Fall 2020
 * **CS 107** - Computer Organization and Systems
 * **SYMSYS 1** - Minds and Machines
 * **MATH 51** - Linear Algebra, Multivariable Calculus, and Modern Applications
