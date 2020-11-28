@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research on R. Miles McCain</title>
+    <link>https://miles.land/tags/research/</link>
+    <description>Recent content in research on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jul 2018 04:36:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Look Media</title>
+      <link>https://miles.land/portfolio/first-look-media/</link>
+      <pubDate>Wed, 11 Jul 2018 04:36:44 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/first-look-media/</guid>
+      <description>In the summer of 2018, I worked on the engineering and research teams of First Look Media, the parent company of The Intercept, primarily on authoring an IETF Internet Draft.
+ Worked to create an IETF Internet standard (currently a proposed standard) for OpenPGP cryptographic keylist subscriptions, as implemented by Micah Lee&amp;rsquo;s GPGSync. The draft is available here. (I am the primary/first author.) Wrote an engineering blog post about the IETF project.</description>
+    </item>
+    
+  </channel>
+</rss>

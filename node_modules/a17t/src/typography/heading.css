@@ -1,0 +1,5 @@
+.heading {
+    color: var(--color-title);
+
+    @apply text-3xl font-semibold leading-tight font-secondary;
+}

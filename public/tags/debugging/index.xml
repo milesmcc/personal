@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>debugging on R. Miles McCain</title>
+    <link>https://miles.land/tags/debugging/</link>
+    <description>Recent content in debugging on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jul 2020 19:45:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Couldn&#39;t figure out why my CSS changes weren&#39;t being applied (turns out I was in prod)</title>
+      <link>https://miles.land/errata/wasnt-on-localhost/</link>
+      <pubDate>Sat, 11 Jul 2020 19:45:50 +0000</pubDate>
+      
+      <guid>https://miles.land/errata/wasnt-on-localhost/</guid>
+      <description>I know this is a pretty common mistake, but I just spent 20 minutes debugging a CSS issue before I realized that I was loading the &amp;ldquo;production&amp;rdquo; version of the site and not my local development version.
+My local development server was being served at https://localhost:1313, but the page I was testing was https://hugo--milesland.netlify.app/. So of course my fixes weren&amp;rsquo;t working &amp;mdash; I wasn&amp;rsquo;t loading the page with the fixes applied!</description>
+    </item>
+    
+  </channel>
+</rss>

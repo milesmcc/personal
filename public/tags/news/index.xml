@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>news on R. Miles McCain</title>
+    <link>https://miles.land/tags/news/</link>
+    <description>Recent content in news on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://miles.land/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>News Catalyst</title>
+      <link>https://miles.land/portfolio/news-catalyst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/news-catalyst/</guid>
+      <description>In the fall of 2019, I worked at News Catalyst, building digital tools to empower local news organizations. My work at News Catalyst was supported by the Lenfest Institute.
+ Created OpenAlerts, a fully-featured and open source breaking news distribution system intended for local newsrooms. (Because OpenAlerts is open source, I remain on the project. See the Projects section.) Worked with Tyler Fisher to create a management system for the American Press Institute&amp;rsquo;s &amp;ldquo;Table Stakes&amp;rdquo; program.</description>
+    </item>
+    
+  </channel>
+</rss>

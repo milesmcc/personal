@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on R. Miles McCain</title>
+    <link>https://miles.land/posts/</link>
+    <description>Recent content in Posts on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jul 2020 15:00:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sharing music painlessly</title>
+      <link>https://miles.land/posts/music-post-generator/</link>
+      <pubDate>Tue, 28 Jul 2020 15:00:31 +0000</pubDate>
+      
+      <guid>https://miles.land/posts/music-post-generator/</guid>
+      <description>I&amp;rsquo;ve always struggled with sharing music. I listen to a lot of it&amp;mdash;sometimes more than eight hours per day&amp;mdash;but for me, music has never been social. I can count on one hand the number of playlists I&amp;rsquo;ve shared with other people, for example, and I usually don&amp;rsquo;t volunteer to be the DJ when I&amp;rsquo;m with friends.
+I don&amp;rsquo;t think there&amp;rsquo;s any single cause for my hesitance to share music; I think it&amp;rsquo;s a combination of 1) music services being incompatible with one another, 2) rarely being in situations with friends where me playing music out loud is appropriate, and 3) some degree of insecurity.</description>
+    </item>
+    
+    <item>
+      <title>Why a17t is meant to be used with Tailwind CSS</title>
+      <link>https://miles.land/posts/a17t-tailwindcss/</link>
+      <pubDate>Sat, 11 Jul 2020 18:09:33 +0000</pubDate>
+      
+      <guid>https://miles.land/posts/a17t-tailwindcss/</guid>
+      <description>I designed a17t to be used in conjunction with Tailwind CSS. I never use a17t without Tailwind, and I never use Tailwind without a17t.
+Why? a17t is an atomic design toolkit. It provides around 30 atomic interface elements&amp;mdash;small, &amp;ldquo;indivisible&amp;rdquo; elements like buttons, form inputs, and headers&amp;mdash;and leaves everything else up to you. The elements themselves are deeply customizable, built with accessibility in mind, and don&amp;rsquo;t come with any built-in spacing.</description>
+    </item>
+    
+    <item>
+      <title>Shynet will never be a SaaS</title>
+      <link>https://miles.land/posts/shynet-never-sass/</link>
+      <pubDate>Thu, 09 Jul 2020 17:31:45 +0000</pubDate>
+      
+      <guid>https://miles.land/posts/shynet-never-sass/</guid>
+      <description>Ever since I released Shynet, my open source web analytics tool, several people have asked me if I plan to offer some kind of managed version of the service (presumably as some kind of SaaS). While these requests are super exciting and I sympathize with them—not everyone wants to manage their own servers, after all!—it&amp;rsquo;s not something that I&amp;rsquo;m considering. Here&amp;rsquo;s why.
+Self-hosting is the point of Shynet When you use a third-party analytics tool—even one with a strict privacy policy—you&amp;rsquo;re handing your visitors&amp;rsquo; data over to another company.</description>
+    </item>
+    
+    <item>
+      <title>Goodbye, old posts!</title>
+      <link>https://miles.land/posts/goodbye-old-posts/</link>
+      <pubDate>Sun, 05 Jul 2020 15:09:08 -0400</pubDate>
+      
+      <guid>https://miles.land/posts/goodbye-old-posts/</guid>
+      <description>For my new site, I&amp;rsquo;ll be starting fresh with a new blog. I&amp;rsquo;ve written lots of scattered articles over the years, but I&amp;rsquo;m not going to retroactively import them here. I&amp;rsquo;m going to start fresh.</description>
+    </item>
+    
+    <item>
+      <title>Dissecting &#34;Hello World&#34; in Java</title>
+      <link>https://miles.land/posts/mcip-hello-world/</link>
+      <pubDate>Thu, 11 Jun 2020 17:53:15 +0000</pubDate>
+      
+      <guid>https://miles.land/posts/mcip-hello-world/</guid>
+      <description>Note: this post is intended to formalize intuitions about Java for students in my AP CS course. This isn&amp;rsquo;t supposed to be a &amp;ldquo;Hello World&amp;rdquo; tutorial! You&amp;rsquo;ll need some existing experience with Java to find this useful.
+ Let&amp;rsquo;s write a very simple Java program that prints Hello, world! to the console. This is just about the simplest program imaginable, and you should already feel comfortable with many of these concepts.</description>
+    </item>
+    
+    <item>
+      <title>Fundamental concepts of programming</title>
+      <link>https://miles.land/posts/mcip-programming-fundamentals/</link>
+      <pubDate>Mon, 08 Jun 2020 17:50:13 +0000</pubDate>
+      
+      <guid>https://miles.land/posts/mcip-programming-fundamentals/</guid>
+      <description>Note: this short post is intended to be a brief introduction to the idea of programming. It&amp;rsquo;s written for students in my AP CS course, but I&amp;rsquo;ve decided to share it with the world as well.
+ A computer program is a list of instructions that a computer can execute. Despite being foundational to the modern world, computers themselves are pretty stupid—so these instructions are explicit and simple. A single instruction might ask for something like add 1 and 2 together or print &amp;quot;Hello, world&amp;quot;.</description>
+    </item>
+    
+  </channel>
+</rss>

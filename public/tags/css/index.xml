@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on R. Miles McCain</title>
+    <link>https://miles.land/tags/css/</link>
+    <description>Recent content in css on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jul 2020 16:23:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>a17t</title>
+      <link>https://miles.land/portfolio/a17t/</link>
+      <pubDate>Fri, 10 Apr 2020 21:49:53 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/a17t/</guid>
+      <description>a17t is my lightweight open-source atomic design toolkit. It emphasizes customization, modularity, and separation of concerns (to the extent that is practical).
+Here&amp;rsquo;s the elevator pitch (from the a17t documentation):
+ Some CSS frameworks come prepackaged with all sorts of components that are convenient at first but quickly become limiting. Utility frameworks like Tailwind are awesome, but can be difficult start using on their own.
+a17t tries to get the balance right.</description>
+    </item>
+    
+    <item>
+      <title>I accidentally broke one of my biggest sites because I used a CDN</title>
+      <link>https://miles.land/errata/used-a-cdn-wamr/</link>
+      <pubDate>Thu, 09 Jul 2020 16:23:14 +0000</pubDate>
+      
+      <guid>https://miles.land/errata/used-a-cdn-wamr/</guid>
+      <description>I recently redesigned WhoAreMyRepresentatives with help from some Politiwatch volunteers. It&amp;rsquo;s just a simple flask app, and setting up some kind of asset pipeline for the CSS felt like overkill, so I imported a17t (my CSS library) from a CDN.
+All was well until I released a new version of a17t a few days ago. (You can probably see where this is going.) Emails started to roll in about the site &amp;ldquo;being broken,&amp;rdquo; but because there weren&amp;rsquo;t that many reports and none of my uptime checks were failing, I assumed these were isolated incidents.</description>
+    </item>
+    
+  </channel>
+</rss>

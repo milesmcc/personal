@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+<title>Shynet had a security issue because I misunderstood CORS | R. Miles McCain</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="When I built Shynet, my self-hosted analytics tool, one of my top priorities was making sure it didn’t require visitors to have JavaScript enabled. While Shynet&hellip;" />
+<meta property="og:description" content="When I built Shynet, my self-hosted analytics tool, one of my top priorities was making sure it didn’t require visitors to have JavaScript enabled. While Shynet&hellip;" />
+<meta property="og:site_name" content="R. Miles McCain" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Shynet had a security issue because I misunderstood CORS | R. Miles McCain" />
+<meta property="og:url" content="https://miles.land/errata/shynet-had-a-security-issue-because-i-misunderstood-cors/" />
+<link rel="canonical" href="https://miles.land/errata/shynet-had-a-security-issue-because-i-misunderstood-cors/" />
+
+
+<link rel='icon' type='image/png' href='https://miles.land/images/dithered_rounded_avatar.42de80a89933dfcd1c144a220041d743894ca5e42798424b32b5a01aa5b559d9.png' />
+
+<link rel="stylesheet" href="https://miles.land/styles/base.min.8ad766a7551bd54e8af858a2c8826fdb86d6c923e759fb921cb0be3d7d1f2cee.css" />
+
+<script async defer src="https://miles.land/scripts/base.min.ea8660a97fa2d59a6c39204cb0a7a37866134cb8588ce0d888e773a69b689da9.js"></script>
+  </head>
+  
+  <body class="bg-neutral-000">
+    <section class="max-w-4xl mx-auto p-4 relative min-h-screen">
+      <div class="md:flex justify-center">
+        <div class="md:w-8/12">
+          
+<nav class="mb-6 md:my-6 md:flex md:justify-between">
+  <div>
+    <h4>
+      <a class="heading text-sm" style="border-bottom: none;"
+      href="/">R. Miles McCain</a>
+    </h4>
+  </div>
+  <div class="md:text-right">
+    <ul class="-ml-2 md:ml-0">
+      
+      <li class="portal text-sm ">
+        <a href="/portfolio/">
+          
+          <span>Portfolio</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/micros/">
+          
+          <span>Micros</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm  ~urge active ">
+        <a href="/errata/">
+          
+          <span>Errata</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/cool/">
+          
+          <span>Cool</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/posts/">
+          
+          <span>Posts</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/letter/">
+          
+          <span>Letter</span>
+          
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+          
+          <div class="my-12">
+            
+<section>
+    <div>
+        
+            
+            <h3 class="inline heading font-bold md:text-4xl">
+                Shynet had a security issue because I misunderstood CORS
+                
+            </h3>
+            <h3 class="inline heading font-bold md:text-4xl text-neutral-500">
+                
+            </h3>
+            
+    </div>
+    <div class="mt-4">
+        
+        <span class="chip ~neutral !low -ml-2 mb-2">
+            Aug 15, 2020
+        </span>
+        
+        
+        
+        <a class="chip ~neutral !normal mb-2 mr-2" href="https://miles.land/tags/technical/">technical</a>
+        
+        
+        
+        
+        
+        <a class="chip ~neutral !normal mb-2 mr-2" href="https://miles.land/tags/shynet/">shynet</a>
+        
+        
+    </div>
+</section>
+
+          </div>
+        </div>
+      </div>
+      <div class="md:flex">
+        <aside class="md:w-2/12">
+
+        </aside>
+        <div class="md:w-8/12">
+          
+<main>
+  <section class="content">
+    <p>When I built <a href="https://github.com/milesmcc/shynet">Shynet</a>, my self-hosted analytics tool, one of my top priorities was making sure it didn’t require visitors to have JavaScript enabled. While Shynet will try to log visits using a JavaScript <a href="https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/script.js">tracker</a>, it will fall back to a 1x1 transparent tracking pixel if JavaScript isn’t enabled. Here is the Shynet tracking code for this site, for example:</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">noscript</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/pixel.gif&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">noscript</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/script.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</code></pre></div><p>Like any well-designed web system, Shynet appropriately sets CORS headers on these resources to ensure that its resources are only accessible from the intended domains—in this case, <code>miles.land</code>. (If you’re unfamiliar with CORS, here’s the short version: it’s a way to specify which sites are allowed to load a particular remote resource.)</p>
+<p>In the case of Shynet, CORS headers ensure that only the intended sites are able to feed visitor information into Shynet’s database. This is helpful, as it prevents other people from accidentally embedding your tracking code on their site and messing up your analytics. (This happens more often than you’d think: because many of my sites are open source, people often fork them and forget to remove my tracking script!)</p>
+<p>Up until a few days ago, Shynet did not verify origin information at the application level; instead, it relied on browsers to properly enforce CORS headers for the tracking script and the fallback pixel. This worked well for the primary JavaScript-based tracker, and I <em>thought</em> it worked well for the fallback pixel as well.</p>
+<p>Then, someone opened <a href="https://github.com/milesmcc/shynet/issues/65">this issue</a> in Shynet to ask whether it would be possible to load the tracking pixel if loading the tracking script failed due to CORS enforcement. This didn’t really make sense to me—surely if the JS script is failing due to CORS issues, so would the fallback pixel tracker!</p>
+<p>Unfortunately, I was completely wrong. As VeryStrongFingers on GitHub pointed out, CORS headers <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#What_requests_use_CORS">aren’t enforced for images at all</a>. In other words, anyone could bypass the origin checking in Shynet by just embedding the tracking pixel (without the <code>&lt;noscript&gt;</code> tag). When I designed Shynet’s origin management system, I assumed CORS applied to all resources. My assumption was wrong.</p>
+<p>Fortunately, this was an <a href="https://github.com/milesmcc/shynet/commit/3e315f06edc71fa4eca7adf8e8197a708a5d5bb3">easy fix</a>: all I needed to do was verify origins on the application (server) side, and raise an <code>HTTP 403</code> (forbidden) if they didn’t check out. The fix is in Shynet v0.6.2.</p>
+<p>All things considered, this wasn’t a major security vulnerability. In a worst case scenario, it would allow an attacker to feed analytics from an unrelated site into Shynet, which could be easily filtered out after-the-fact in the admin panel. But even if it wasn’t a major <em>security</em> issue, it was a relatively serious <em>soundness</em> issue—especially for those who rely on Shynet for accurate, precise analytics—and I’m glad it’s fixed.</p>
+
+  </section>
+</main>
+
+
+          <hr class="sep h-16">
+          <footer>
+            <footer class="family-secondary support content">
+  <p class="pb-2">
+    Hi! If you made it this far, maybe you want to stay in touch. You can follow me on <a href="https://twitter.com/milesmccain">Twitter</a>, subscribe via <a href="/index.xml">Atom/RSS</a>, or sign up for my <a href="/letter/">infrequent email letter</a>.
+  </p>
+  <p class="pb-8">
+    &copy; R. Miles McCain 2020.
+    Content is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, a Free Culture License.
+    The <a href="https://github.com/milesmcc/personal">source code</a> is available under <a href="https://github.com/milesmcc/personal/blob/master/LICENSE">GPLv3</a>.
+    This site collects (minimal) user analytics using <a href="https://github.com/milesmcc/shynet">Shynet</a>.
+    </p>
+</footer>
+          </footer>
+        </div>
+        <aside class="md:w-2/12 pl-8 self-start sticky-top hidden md:block text-xs">
+          
+        </aside>
+      </div>
+    </section>
+    <noscript><img src="https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/pixel.gif"></noscript> <script src="https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/script.js"></script>
+  </body>
+  
+</html>

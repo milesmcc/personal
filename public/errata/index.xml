@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Errata on R. Miles McCain</title>
+    <link>https://miles.land/errata/</link>
+    <description>Recent content in Errata on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2020 22:10:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/errata/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shynet had a security issue because I misunderstood CORS</title>
+      <link>https://miles.land/errata/shynet-had-a-security-issue-because-i-misunderstood-cors/</link>
+      <pubDate>Sat, 15 Aug 2020 22:10:32 +0000</pubDate>
+      
+      <guid>https://miles.land/errata/shynet-had-a-security-issue-because-i-misunderstood-cors/</guid>
+      <description>When I built Shynet, my self-hosted analytics tool, one of my top priorities was making sure it didn’t require visitors to have JavaScript enabled. While Shynet will try to log visits using a JavaScript tracker, it will fall back to a 1x1 transparent tracking pixel if JavaScript isn’t enabled. Here is the Shynet tracking code for this site, for example:
+&amp;lt;noscript&amp;gt; &amp;lt;img src=&amp;#34;https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/pixel.gif&amp;#34;&amp;gt; &amp;lt;/noscript&amp;gt; &amp;lt;script src=&amp;#34;https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; Like any well-designed web system, Shynet appropriately sets CORS headers on these resources to ensure that its resources are only accessible from the intended domains—in this case, miles.</description>
+    </item>
+    
+    <item>
+      <title>Spot the error on the nutrition label...</title>
+      <link>https://miles.land/errata/spot-the-error-on-the-nutrition-label/</link>
+      <pubDate>Thu, 13 Aug 2020 18:05:00 +0000</pubDate>
+      
+      <guid>https://miles.land/errata/spot-the-error-on-the-nutrition-label/</guid>
+      <description>I usually only write about my own mistakes, but here I&amp;rsquo;m going to be writing about a mistake I noticed an error on the nutrition label of Quaker Oatmeal Squares cereal. The error is extremely minor (at least as far as I can tell), but it made me think—this label has been printed and seen probably millions of times, and yet this error remains on the box to this day (as of mid-August 2020).</description>
+    </item>
+    
+    <item>
+      <title>I thought it’d be a good idea to establish scopes at parse time</title>
+      <link>https://miles.land/errata/parse-time-scopes/</link>
+      <pubDate>Thu, 23 Jul 2020 16:12:05 +0000</pubDate>
+      
+      <guid>https://miles.land/errata/parse-time-scopes/</guid>
+      <description>Over the past week or so, I’ve been working on building my own simple interpreted programming language. My goal is to learn about language design, Lisp, and systems programming—all while building a language that is fun to use (and maybe, just maybe, one day I&amp;rsquo;ll find it useful for something).
+Even though the project has gone well so far (mostly thanks to the safety guarantees of the Rust programming language), I also made a lot of mistakes as I implemented the first version of the interpreter, and I&amp;rsquo;m sure I&amp;rsquo;ll make many more over the course of the project.</description>
+    </item>
+    
+    <item>
+      <title>Couldn&#39;t figure out why my CSS changes weren&#39;t being applied (turns out I was in prod)</title>
+      <link>https://miles.land/errata/wasnt-on-localhost/</link>
+      <pubDate>Sat, 11 Jul 2020 19:45:50 +0000</pubDate>
+      
+      <guid>https://miles.land/errata/wasnt-on-localhost/</guid>
+      <description>I know this is a pretty common mistake, but I just spent 20 minutes debugging a CSS issue before I realized that I was loading the &amp;ldquo;production&amp;rdquo; version of the site and not my local development version.
+My local development server was being served at https://localhost:1313, but the page I was testing was https://hugo--milesland.netlify.app/. So of course my fixes weren&amp;rsquo;t working &amp;mdash; I wasn&amp;rsquo;t loading the page with the fixes applied!</description>
+    </item>
+    
+    <item>
+      <title>I accidentally broke one of my biggest sites because I used a CDN</title>
+      <link>https://miles.land/errata/used-a-cdn-wamr/</link>
+      <pubDate>Thu, 09 Jul 2020 16:23:14 +0000</pubDate>
+      
+      <guid>https://miles.land/errata/used-a-cdn-wamr/</guid>
+      <description>I recently redesigned WhoAreMyRepresentatives with help from some Politiwatch volunteers. It&amp;rsquo;s just a simple flask app, and setting up some kind of asset pipeline for the CSS felt like overkill, so I imported a17t (my CSS library) from a CDN.
+All was well until I released a new version of a17t a few days ago. (You can probably see where this is going.) Emails started to roll in about the site &amp;ldquo;being broken,&amp;rdquo; but because there weren&amp;rsquo;t that many reports and none of my uptime checks were failing, I assumed these were isolated incidents.</description>
+    </item>
+    
+  </channel>
+</rss>

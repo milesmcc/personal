@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mcip on R. Miles McCain</title>
+    <link>https://miles.land/tags/mcip/</link>
+    <description>Recent content in mcip on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jun 2020 17:53:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/mcip/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dissecting &#34;Hello World&#34; in Java</title>
+      <link>https://miles.land/posts/mcip-hello-world/</link>
+      <pubDate>Thu, 11 Jun 2020 17:53:15 +0000</pubDate>
+      
+      <guid>https://miles.land/posts/mcip-hello-world/</guid>
+      <description>Note: this post is intended to formalize intuitions about Java for students in my AP CS course. This isn&amp;rsquo;t supposed to be a &amp;ldquo;Hello World&amp;rdquo; tutorial! You&amp;rsquo;ll need some existing experience with Java to find this useful.
+ Let&amp;rsquo;s write a very simple Java program that prints Hello, world! to the console. This is just about the simplest program imaginable, and you should already feel comfortable with many of these concepts.</description>
+    </item>
+    
+    <item>
+      <title>Fundamental concepts of programming</title>
+      <link>https://miles.land/posts/mcip-programming-fundamentals/</link>
+      <pubDate>Mon, 08 Jun 2020 17:50:13 +0000</pubDate>
+      
+      <guid>https://miles.land/posts/mcip-programming-fundamentals/</guid>
+      <description>Note: this short post is intended to be a brief introduction to the idea of programming. It&amp;rsquo;s written for students in my AP CS course, but I&amp;rsquo;ve decided to share it with the world as well.
+ A computer program is a list of instructions that a computer can execute. Despite being foundational to the modern world, computers themselves are pretty stupid—so these instructions are explicit and simple. A single instruction might ask for something like add 1 and 2 together or print &amp;quot;Hello, world&amp;quot;.</description>
+    </item>
+    
+  </channel>
+</rss>

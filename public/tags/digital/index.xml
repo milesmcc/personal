@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>digital on R. Miles McCain</title>
+    <link>https://miles.land/tags/digital/</link>
+    <description>Recent content in digital on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Feb 2018 18:44:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/digital/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Design</title>
+      <link>https://miles.land/portfolio/visual-design/</link>
+      <pubDate>Mon, 19 Feb 2018 18:44:16 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/visual-design/</guid>
+      <description>Design is vague. I know. In this context, I&amp;rsquo;m referring to both system design and graphic design.
+When I design anything, my top priorities are usability, accessibility, and beauty. With these principles in mind, I built [a17t], my CSS library, and designed several other websites (including the one you&amp;rsquo;re on right now). I also do my best to apply these principles to software design and writing, but that&amp;rsquo;s harder to showcase.</description>
+    </item>
+    
+  </channel>
+</rss>

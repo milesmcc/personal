@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nyc on R. Miles McCain</title>
+    <link>https://miles.land/tags/nyc/</link>
+    <description>Recent content in nyc on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Feb 2020 02:54:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/nyc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center</title>
+      <link>https://miles.land/portfolio/recurse/</link>
+      <pubDate>Tue, 18 Feb 2020 02:54:19 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/recurse/</guid>
+      <description>I was a member of the Recurse Center&amp;rsquo;s Spring 1 2020 batch; like all Recursers, I never graduated.
+The Recurse Center&amp;mdash;colloquially known as RC&amp;mdash;is a self-directed academic retreat centered around programming (but certainly not limited to it). Everyone I met at RC was smart, nice, and thoughtful; I believe RC is one of the best communities in the world. It&amp;rsquo;s completely free to attend, so if you&amp;rsquo;re interested, please apply.</description>
+    </item>
+    
+  </channel>
+</rss>

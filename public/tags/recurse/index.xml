@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recurse on R. Miles McCain</title>
+    <link>https://miles.land/tags/recurse/</link>
+    <description>Recent content in recurse on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jul 2020 01:30:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/recurse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shynet</title>
+      <link>https://miles.land/portfolio/shynet/</link>
+      <pubDate>Sat, 09 May 2020 20:55:10 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/shynet/</guid>
+      <description>Shynet is a modern, privacy-friendly, and detailed web analytics tool that works without cookies or JS. It&amp;rsquo;s one of my most successful open source projects. Check out the source code and installation instructions on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>a17t</title>
+      <link>https://miles.land/portfolio/a17t/</link>
+      <pubDate>Fri, 10 Apr 2020 21:49:53 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/a17t/</guid>
+      <description>a17t is my lightweight open-source atomic design toolkit. It emphasizes customization, modularity, and separation of concerns (to the extent that is practical).
+Here&amp;rsquo;s the elevator pitch (from the a17t documentation):
+ Some CSS frameworks come prepackaged with all sorts of components that are convenient at first but quickly become limiting. Utility frameworks like Tailwind are awesome, but can be difficult start using on their own.
+a17t tries to get the balance right.</description>
+    </item>
+    
+    <item>
+      <title>Things Unexpectedly Named After People</title>
+      <link>https://miles.land/cool/named-after-people/</link>
+      <pubDate>Fri, 10 Jul 2020 01:30:39 +0000</pubDate>
+      
+      <guid>https://miles.land/cool/named-after-people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What happens when you update your DNS?</title>
+      <link>https://miles.land/cool/updating-dns-jvns/</link>
+      <pubDate>Thu, 09 Jul 2020 17:22:18 +0000</pubDate>
+      
+      <guid>https://miles.land/cool/updating-dns-jvns/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

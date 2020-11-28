@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meta on R. Miles McCain</title>
+    <link>https://miles.land/tags/meta/</link>
+    <description>Recent content in meta on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jul 2020 15:09:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Goodbye, old posts!</title>
+      <link>https://miles.land/posts/goodbye-old-posts/</link>
+      <pubDate>Sun, 05 Jul 2020 15:09:08 -0400</pubDate>
+      
+      <guid>https://miles.land/posts/goodbye-old-posts/</guid>
+      <description>For my new site, I&amp;rsquo;ll be starting fresh with a new blog. I&amp;rsquo;ve written lots of scattered articles over the years, but I&amp;rsquo;m not going to retroactively import them here. I&amp;rsquo;m going to start fresh.</description>
+    </item>
+    
+  </channel>
+</rss>

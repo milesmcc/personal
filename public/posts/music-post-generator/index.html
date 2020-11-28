@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+<title>Sharing music painlessly | R. Miles McCain</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="I&rsquo;ve always struggled with sharing music. I listen to a lot of it&mdash;sometimes more than eight hours per day&mdash;but for me, music has never been&hellip;" />
+<meta property="og:description" content="I&rsquo;ve always struggled with sharing music. I listen to a lot of it&mdash;sometimes more than eight hours per day&mdash;but for me, music has never been&hellip;" />
+<meta property="og:site_name" content="R. Miles McCain" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Sharing music painlessly | R. Miles McCain" />
+<meta property="og:url" content="https://miles.land/posts/music-post-generator/" />
+<link rel="canonical" href="https://miles.land/posts/music-post-generator/" />
+
+
+<link rel='icon' type='image/png' href='https://miles.land/images/dithered_rounded_avatar.42de80a89933dfcd1c144a220041d743894ca5e42798424b32b5a01aa5b559d9.png' />
+
+<link rel="stylesheet" href="https://miles.land/styles/base.min.8ad766a7551bd54e8af858a2c8826fdb86d6c923e759fb921cb0be3d7d1f2cee.css" />
+
+<script async defer src="https://miles.land/scripts/base.min.ea8660a97fa2d59a6c39204cb0a7a37866134cb8588ce0d888e773a69b689da9.js"></script>
+  </head>
+  
+  <body class="bg-neutral-000">
+    <section class="max-w-4xl mx-auto p-4 relative min-h-screen">
+      <div class="md:flex justify-center">
+        <div class="md:w-8/12">
+          
+<nav class="mb-6 md:my-6 md:flex md:justify-between">
+  <div>
+    <h4>
+      <a class="heading text-sm" style="border-bottom: none;"
+      href="/">R. Miles McCain</a>
+    </h4>
+  </div>
+  <div class="md:text-right">
+    <ul class="-ml-2 md:ml-0">
+      
+      <li class="portal text-sm ">
+        <a href="/portfolio/">
+          
+          <span>Portfolio</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/micros/">
+          
+          <span>Micros</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/errata/">
+          
+          <span>Errata</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/cool/">
+          
+          <span>Cool</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm  ~urge active ">
+        <a href="/posts/">
+          
+          <span>Posts</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/letter/">
+          
+          <span>Letter</span>
+          
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+          
+          <div class="my-12">
+            
+<section>
+    <div>
+        
+            
+            <h3 class="inline heading font-bold md:text-4xl">
+                Sharing music painlessly
+                
+            </h3>
+            <h3 class="inline heading font-bold md:text-4xl text-neutral-500">
+                
+            </h3>
+            
+    </div>
+    <div class="mt-4">
+        
+        <span class="chip ~neutral !low -ml-2 mb-2">
+            Jul 28, 2020
+        </span>
+        
+        
+        
+        <a class="chip ~neutral !normal mb-2 mr-2" href="https://miles.land/tags/technical/">technical</a>
+        
+        
+        
+        <a class="chip ~neutral !normal mb-2 mr-2" href="https://miles.land/tags/codelog/">codelog</a>
+        
+        
+    </div>
+</section>
+
+          </div>
+        </div>
+      </div>
+      <div class="md:flex">
+        <aside class="md:w-2/12">
+
+        </aside>
+        <div class="md:w-8/12">
+          
+<main>
+  <section class="content">
+    <p>I&rsquo;ve always struggled with sharing music. I listen to a <em>lot</em> of it&mdash;sometimes more than eight hours per day&mdash;but for me, music has never been social. I can count on one hand the number of playlists I&rsquo;ve shared with other people, for example, and I usually don&rsquo;t volunteer to be the DJ when I&rsquo;m with friends.</p>
+<p>I don&rsquo;t think there&rsquo;s any single cause for my hesitance to share music; I think it&rsquo;s a combination of 1) music services being incompatible with one another, 2) rarely being in situations with friends where me playing music out loud is appropriate, and 3) some degree of insecurity.</p>
+<p>Yesterday, I decided to take a leap of faith and start publishing playlists on this site.</p>
+<p>I didn&rsquo;t want to just post a link to a Spotify playlist, though, as I don&rsquo;t think that&rsquo;s a very flexible medium. Not everyone has Spotify, after all, and providing only a giant list of songs without any metadata or commentary (which is all a playlist is) feels like a lost opportunity. But on my end, building a playlist is by far the easiest way to assemble collections of music. So I set out to design a tool that transforms Spotify playlists into something I&rsquo;d feel proud to post on this site.</p>
+<h2 id="design-considerations">Design considerations</h2>
+<ul>
+<li>
+<p><strong>Not every genre, not all the time.</strong> Sometimes, people just aren&rsquo;t in the mood to hear American country music or classical, for example. Normally, when you browse a playlist, there&rsquo;s no way to know the genre of a song until you play it. (And even then, it may not be immediatelly clear.) My system should group songs by genre (to the best of its ability) so that people can browse the genres they love, and skip the ones they don&rsquo;t.</p>
+</li>
+<li>
+<p><strong>Not platform specific.</strong> If you use Apple Music, you can&rsquo;t play Spotify playlists. Some people don&rsquo;t use streaming services at all. No matter how they consume music, I want people to be able to browse the music I post. That will require me to list each song individually, so people can look it up by name, and to post multiple links to the song (I ended up choosing Spotify and YouTube).</p>
+</li>
+<li>
+<p><strong>Still convenient.</strong> Picking out songs one by one is flexible, but not necessarily convenient. Sometimes people might want to just listen to the collection as one giant playlist. And so for the significant portion of people who use Spotify, I decided to post a link to the &ldquo;source&rdquo; playlist on Spotify (from which the post was generated).</p>
+</li>
+</ul>
+<h2 id="building-it">Building it</h2>
+<p>Broadly, my plan was to write a Python script that, given a Spotify playlist, outputs something I can paste into a post on my blog. This means that the project has roughly two parts: the part that gathers the necessary data from Spotify, and the part that assembles that data into a respectable post on my site.</p>
+<h3 id="connecting-to-spotify">Connecting to Spotify</h3>
+<p>The first step was to connect to Spotify to get the playlist&rsquo;s songs, as well as metadata about those songs. This part was relatively straightforward &mdash; the only challenge I ran into was that Spotipy, the Python library I used to connect to the Spotify API, tried to open the login flow using the built-in web browser, but I was working on a remote machine without a web browser.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">spotipy</span>
+<span class="kn">from</span> <span class="nn">spotipy.oauth2</span> <span class="kn">import</span> <span class="n">SpotifyOAuth</span>
+<span class="kn">import</span> <span class="nn">webbrowser</span>
+
+<span class="c1"># This is to prevent Spotipy from trying to open a web browser</span>
+<span class="k">def</span> <span class="nf">no_browser</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">raise</span> <span class="n">webbrowser</span><span class="o">.</span><span class="n">Error</span><span class="p">()</span>
+<span class="n">webbrowser</span><span class="o">.</span><span class="n">open</span> <span class="o">=</span> <span class="n">no_browser</span>
+
+<span class="n">scope</span> <span class="o">=</span> <span class="s2">&#34;user-library-modify user-library-read user-top-read&#34;</span>
+
+<span class="n">sp</span> <span class="o">=</span> <span class="n">spotipy</span><span class="o">.</span><span class="n">Spotify</span><span class="p">(</span><span class="n">auth_manager</span><span class="o">=</span><span class="n">SpotifyOAuth</span><span class="p">(</span><span class="n">scope</span><span class="o">=</span><span class="n">scope</span><span class="p">,</span> <span class="n">cache_path</span><span class="o">=</span><span class="s2">&#34;.spotipy&#34;</span><span class="p">))</span>
+</code></pre></div><p>Then, I wrote a few helper functions to extract the data I knew I&rsquo;d need from the API.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">song_data</span><span class="p">(</span><span class="n">song_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">sp</span><span class="o">.</span><span class="n">audio_features</span><span class="p">(</span><span class="n">song_id</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">artist_data</span><span class="p">(</span><span class="n">artist_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">sp</span><span class="o">.</span><span class="n">artist</span><span class="p">(</span><span class="n">artist_id</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">read_playlist</span><span class="p">(</span><span class="n">playlist_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="n">playlist</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">playlist</span><span class="p">(</span><span class="n">playlist_id</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s2">&#34;tracks&#34;</span><span class="p">:</span> <span class="p">[</span><span class="n">track</span><span class="p">[</span><span class="s2">&#34;track&#34;</span><span class="p">]</span> <span class="k">for</span> <span class="n">track</span> <span class="ow">in</span> <span class="n">playlist</span><span class="p">[</span><span class="s2">&#34;tracks&#34;</span><span class="p">][</span><span class="s2">&#34;items&#34;</span><span class="p">]],</span>
+        <span class="s2">&#34;uri&#34;</span><span class="p">:</span> <span class="n">playlist</span><span class="p">[</span><span class="s2">&#34;external_urls&#34;</span><span class="p">][</span><span class="s2">&#34;spotify&#34;</span><span class="p">],</span>
+        <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="n">playlist</span><span class="p">[</span><span class="s2">&#34;name&#34;</span><span class="p">],</span>
+        <span class="s2">&#34;description&#34;</span><span class="p">:</span> <span class="n">playlist</span><span class="p">[</span><span class="s2">&#34;description&#34;</span><span class="p">],</span>
+    <span class="p">}</span>
+</code></pre></div><p>With that, I was ready to move on to the part of the script that actually assembles the data.</p>
+<h3 id="assembling-the-data">Assembling the data</h3>
+<p>The first step was to determine the playlist to process, the template to use when writing the post, and where to put the output. This is just a simple Python script, so I pull these from command line arguments.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">api</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">jinja2</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="c1"># Basic setup</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">4</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Usage: &lt;playlist id&gt; &lt;template location&gt; &lt;output location&gt;&#34;</span><span class="p">)</span>
+
+<span class="n">playlist</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">template_loc</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="n">output_loc</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+</code></pre></div><p>(Why is the first argument at <code>sys.argv[1]</code>? That&rsquo;s because the full command to run this is <code>python3 &lt;script_name&gt; ...</code>; <code>&lt;script_name&gt;</code> is the zeroth/first argument.)</p>
+<p>With the basic information collected, it&rsquo;s time for me to get the songs in the playlist from the Spotify API. Because of the helper functions we wrote earlier, this is simple:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">playlist</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">read_playlist</span><span class="p">(</span><span class="n">playlist</span><span class="p">)</span>
+</code></pre></div><p>Unfortunately, the data about each song returned by the Spotify API when processing a playlist is minimal. We need to go through each song and supplement its data with information about the artist and audio itself. As we go through each song and fill in the missing data, we&rsquo;re also going to add all the artist genres we see to a list called <code>genres</code>, and all the songs themselves to a list called <code>songs</code>. (Note that genres are stored according to each artist, not according to each song or album.)</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">genres</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">tracks</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">song</span> <span class="ow">in</span> <span class="n">playlist</span><span class="p">[</span><span class="s2">&#34;tracks&#34;</span><span class="p">]:</span>
+    <span class="n">song_data</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">song_data</span><span class="p">(</span><span class="n">song</span><span class="p">[</span><span class="s2">&#34;id&#34;</span><span class="p">])[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">artist_data</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">artist_data</span><span class="p">(</span><span class="n">song</span><span class="p">[</span><span class="s2">&#34;artists&#34;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s2">&#34;id&#34;</span><span class="p">])</span>
+    <span class="n">song</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">song_data</span><span class="p">,</span> <span class="n">artist</span><span class="o">=</span><span class="n">artist_data</span><span class="p">,</span>
+                <span class="n">genres</span><span class="o">=</span><span class="n">artist_data</span><span class="p">[</span><span class="s2">&#34;genres&#34;</span><span class="p">]</span> <span class="ow">or</span> <span class="p">[],</span>
+                <span class="n">genres_display</span><span class="o">=</span><span class="s2">&#34;, &#34;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">artist_data</span><span class="p">[</span><span class="s2">&#34;genres&#34;</span><span class="p">]</span> <span class="ow">or</span> <span class="p">[]),</span> <span class="n">artists_display</span><span class="o">=</span><span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+                    <span class="p">[</span><span class="n">artist</span><span class="p">[</span><span class="s2">&#34;name&#34;</span><span class="p">]</span> <span class="k">for</span> <span class="n">artist</span> <span class="ow">in</span> <span class="n">song</span><span class="p">[</span><span class="s2">&#34;artists&#34;</span><span class="p">]]))</span>
+    <span class="n">genres</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">artist_data</span><span class="p">[</span><span class="s2">&#34;genres&#34;</span><span class="p">])</span>
+    <span class="n">tracks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">song</span><span class="p">)</span>
+</code></pre></div><p>Why are we keeping track of all the genres like this? Spotify takes a&hellip; maximalist approach to genres. Consider Brian Eno, who is listed under the following genres in Spotify&rsquo;s API: <code>ambient, art pop, art rock, compositional ambient, dance rock, drone, experimental, experimental ambient, fourth world, glam rock, minimalism</code>. When we group songs by genre on the resulting page, we need to look at the genres of the artist. Unfortunately, we can&rsquo;t just pick the first genre listed; instead, we need to pick the <em>most common</em> genre listed, as that&rsquo;s likely to be the most useful to display. (If we picked the genre at random or only picked the first genre, we might have lots of genres with only one song listed. That would be hardly useful.)</p>
+<p>Once we&rsquo;ve gone through all the songs, we need to sort the genres by popularity. We can do this using a functional one-liner in Python. (I&rsquo;m sure there is an easier way to do this; this is just the first thing I thought of.)</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">genres</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span>
+    <span class="nb">set</span><span class="p">(</span><span class="n">genres</span><span class="p">),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">k</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">v</span><span class="p">:</span> <span class="n">v</span> <span class="o">==</span> <span class="n">k</span><span class="p">,</span> <span class="n">genres</span><span class="p">))),</span> <span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div><p>Then, we can write a simple helper function to extract the most common genre (&ldquo;main genre&rdquo;) from some list of genres:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">main_genre</span><span class="p">(</span><span class="n">track_genres</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">genre</span> <span class="ow">in</span> <span class="n">genres</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">genre</span> <span class="ow">in</span> <span class="n">track_genres</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">genre</span>
+    <span class="k">return</span> <span class="s2">&#34;genreless&#34;</span>
+</code></pre></div><p>Now, we&rsquo;re in a position to actually group all the songs by their genre! We&rsquo;re going to build the <code>genre_groups</code> dictionary, which is what we&rsquo;re eventually going to pass to our template builder.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">genre_groups</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">song</span> <span class="ow">in</span> <span class="n">tracks</span><span class="p">:</span>
+    <span class="n">genre</span> <span class="o">=</span> <span class="n">main_genre</span><span class="p">(</span><span class="n">song</span><span class="p">[</span><span class="s2">&#34;genres&#34;</span><span class="p">])</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">genre</span> <span class="ow">in</span> <span class="n">genre_groups</span><span class="p">:</span>
+        <span class="n">genre_groups</span><span class="p">[</span><span class="n">genre</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">genre_groups</span><span class="p">[</span><span class="n">genre</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">song</span><span class="p">)</span>
+</code></pre></div><h3 id="writing-the-post">Writing the post</h3>
+<p>Now that we&rsquo;ve built a script to assemble the song data from Spotify, it&rsquo;s now time to write the code that uses that data to build a post. We&rsquo;re going to do this using <a href="https://jinja.palletsprojects.com/">Jinja2</a> templating. (If you&rsquo;re not sure what templating is, read the first bit of the Jinja2 documentation.)</p>
+<p>The first step is to load the template itself:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">template_loc</span><span class="p">,</span> <span class="s2">&#34;r&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">infile</span><span class="p">:</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">infile</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="n">template</span> <span class="o">=</span> <span class="n">jinja2</span><span class="o">.</span><span class="n">Template</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</code></pre></div><p>Then, assuming that the file at <code>template_loc</code> was loaded successfully, all we need to do now is build the template and write it to the output file location:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">output_loc</span><span class="p">,</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">outfile</span><span class="p">:</span>
+    <span class="n">outfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">template</span><span class="o">.</span><span class="n">render</span><span class="p">(</span><span class="n">genre_groups</span><span class="o">=</span><span class="n">genre_groups</span><span class="p">,</span>
+                                  <span class="n">track_count</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">playlist</span><span class="p">[</span><span class="s2">&#34;tracks&#34;</span><span class="p">]),</span>
+                                  <span class="n">genre_count</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">genres</span><span class="p">),</span>
+                                  <span class="n">playlist_link</span><span class="o">=</span><span class="n">playlist</span><span class="p">[</span><span class="s2">&#34;uri&#34;</span><span class="p">],</span>
+                                  <span class="n">genres_display</span><span class="o">=</span><span class="s2">&#34;, &#34;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">genres</span><span class="p">)))</span>
+</code></pre></div><p>Of course, now it&rsquo;s time to write the tempate itself. This could look like anything, but here is what I came up with for this site (using Hugo shortcodes):</p>
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">Here are {{track_count}} songs across {{genre_count}} genres that I&#39;ve been listening to lately.
+
+To listen to this playlist on Spotify, [<span class="nt">click here</span>](<span class="na">{{playlist_link}}</span>). Note that song metadata --- the genres, duration, release date, etc. --- is provided by the Spotify API. I don&#39;t input this information myself, so it might be wrong!
+
+{% for genre, songs in genre_groups.items() %}
+<span class="gu">### {{genre | capitalize | replace(&#34;r&amp;b&#34;, &#34;R&amp;B&#34;) | replace(&#34;idm&#34;, &#34;IDM&#34;) }}
+</span><span class="gu"></span>{% for song in songs %}
+{% raw %}{{\&lt;{% endraw %} song title=&#34;{{song.name}}&#34; artists=&#34;{{ song.artists_display }}&#34; album=&#34;{{song.album.name}}&#34; date=&#34;{{song.album.release_date}}&#34; preview=&#34;{{song.preview_url}}&#34; duration=&#34;{{ song.data.duration_ms / 60}}&#34; genres=&#34;{{song.genres_display}}&#34; url=&#34;{{ song.external_urls.spotify}}&#34; image=&#34;{{song.album.images.0.url}}&#34; {% raw %}\&gt;}}{% endraw %}
+{% endfor %}
+{% endfor %}
+</code></pre></div><p>If you&rsquo;re curious about what <code>&lt; song ... &gt;</code> gets transformed into, that&rsquo;s done using <a href="https://github.com/milesmcc/personal/blob/master/layouts/shortcodes/song.html">this Hugo shortcode</a> that I wrote. It&rsquo;s a bit too long to post here, but here&rsquo;s what it looks like rendered:</p>
+<article class="card ~neutral shadow-none bg-neutral-200">
+    <div class="flex">
+        <div class="w-2/12">
+            <img src="https://i.scdn.co/image/ab67616d0000b27328dc39e21b52f50b51679c1b">
+        </div>
+        <div class="w-10/12 pl-4">
+            <p class="label">
+                &ldquo;Pulses&rdquo; by Steve Reich, Erik Hall
+            </p>
+            <div class="grid mt-4 grid-cols-2 md:grid-cols-4 gap-4">
+                <div>
+                    <p class="label text-xs">
+                        Album
+                    </p>
+                    <p class="text-xs">
+                        Music for 18 Musicians (Steve Reich) - Pulses &#43; Section I
+                    </p>
+                </div>
+                <div>
+                    <p class="label text-xs">
+                        Genres
+                    </p>
+                    <p class="text-xs">
+                        american contemporary classical, …
+                    </p>
+                </div>
+                <div>
+                    <p class="label text-xs">
+                        Released
+                    </p>
+                    <p class="text-xs">
+                        2020-02-25
+                    </p>
+                </div>
+                <div>
+                    <p class="label text-xs">
+                        Play
+                    </p>
+                    <p class="text-xs">
+                        <a href="https://open.spotify.com/track/3yWRfVG5KyOqEyXh68GUK1">Spotify&nbsp;&nearr;</a>
+                        <a href="https://www.youtube.com/results?search_query=Pulses+Steve%20Reich,%20Erik%20Hall">YouTube&nbsp;&nearr;</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<p>&hellip;and that&rsquo;s it! All I need to do is build a playlist and run my program, and it will generate content that I can then post on this site. The code is open source <a href="https://github.com/milesmcc/musicauthor">on GitHub</a>. Going forward, I&rsquo;m going to try to periodically post playlists in the <a href="/cool/">Cool</a> section. (Here&rsquo;s the <a href="/cool/music-july-22-2020/">first playlist</a> I posted.)</p>
+
+  </section>
+</main>
+
+
+          <hr class="sep h-16">
+          <footer>
+            <footer class="family-secondary support content">
+  <p class="pb-2">
+    Hi! If you made it this far, maybe you want to stay in touch. You can follow me on <a href="https://twitter.com/milesmccain">Twitter</a>, subscribe via <a href="/index.xml">Atom/RSS</a>, or sign up for my <a href="/letter/">infrequent email letter</a>.
+  </p>
+  <p class="pb-8">
+    &copy; R. Miles McCain 2020.
+    Content is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, a Free Culture License.
+    The <a href="https://github.com/milesmcc/personal">source code</a> is available under <a href="https://github.com/milesmcc/personal/blob/master/LICENSE">GPLv3</a>.
+    This site collects (minimal) user analytics using <a href="https://github.com/milesmcc/shynet">Shynet</a>.
+    </p>
+</footer>
+          </footer>
+        </div>
+        <aside class="md:w-2/12 pl-8 self-start sticky-top hidden md:block text-xs">
+          
+        </aside>
+      </div>
+    </section>
+    <noscript><img src="https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/pixel.gif"></noscript> <script src="https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/script.js"></script>
+  </body>
+  
+</html>

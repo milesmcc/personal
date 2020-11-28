@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on R. Miles McCain</title>
+    <link>https://miles.land/portfolio/</link>
+    <description>Recent content in Portfolio on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jul 2020 04:09:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stanford University</title>
+      <link>https://miles.land/portfolio/stanford/</link>
+      <pubDate>Sat, 11 Jul 2020 02:41:51 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/stanford/</guid>
+      <description>Starting in September 2020, I&amp;rsquo;ll be an undergraduate at Stanford. Zoom school! I&amp;rsquo;m just starting, so there&amp;rsquo;s nothing for me to put here yet.</description>
+    </item>
+    
+    <item>
+      <title>PrivacySpy</title>
+      <link>https://miles.land/portfolio/privacyspy/</link>
+      <pubDate>Wed, 10 Jul 2019 21:49:08 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/privacyspy/</guid>
+      <description>PrivacySpy rates companies&amp;rsquo; privacy policies on a ten-point scale, so you can easily understand how your data is being treated online. I started PrivacySpy with Igor Barakaiev in the summer of 2019.
+You can view the site at PrivacySpy.org, install the browser extension here, and view the source code on GitHub.
+The New York Times named PrivacySpy a &amp;ldquo;Tip of the Week&amp;rdquo; as part of its Privacy Project, writing:
+ Privacy policies are long, boring and extremely consequential documents.</description>
+    </item>
+    
+    <item>
+      <title>Synthetic Disinformation</title>
+      <link>https://miles.land/portfolio/synthetic-disinformation-kreps/</link>
+      <pubDate>Sun, 02 Jun 2019 22:55:34 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/synthetic-disinformation-kreps/</guid>
+      <description>In this multi-part research project, Dr. Sarah Kreps and I studied how synthetic (AI-generated) disinformation can deceive the public and masquerade as reliable, human-written news.
+ Wrote &amp;ldquo;All The News That&amp;rsquo;s Fit to Fabricate: A Study of Synthetic Disinformation&amp;rdquo; with Dr. Kreps and Miles Brundage (forthcoming in the Journal of Experimental Political Science). Co-authored &amp;ldquo;Not Your Father&amp;rsquo;s Bots&amp;rdquo; in Foreign Affairs with Dr. Kreps. Co-authored &amp;ldquo;Taking GPT-2 head-to-head with the New York Times&amp;rdquo; in Brookings&amp;rsquo; TechStream with Dr.</description>
+    </item>
+    
+    <item>
+      <title>Politiwatch</title>
+      <link>https://miles.land/portfolio/politiwatch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/politiwatch/</guid>
+      <description>Politiwatch is a non-profit that technology to promote political accountability, digital rights, and social awareness. I founded Politiwatch as a way to distance myself from some of my more controversial projects. (They weren&amp;rsquo;t that controversial, but I didn&amp;rsquo;t feel comfortable putting my name on them.)
+If you find the work I do as Politiwatch impactful, please consider donating.
+Politiwatch&amp;rsquo;s sponsors include Google (via their Google for Nonprofits program), Microsoft (though their nonprofit grants program), ProtonMail, and DigitalOcean.</description>
+    </item>
+    
+    <item>
+      <title>Shynet</title>
+      <link>https://miles.land/portfolio/shynet/</link>
+      <pubDate>Sat, 09 May 2020 20:55:10 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/shynet/</guid>
+      <description>Shynet is a modern, privacy-friendly, and detailed web analytics tool that works without cookies or JS. It&amp;rsquo;s one of my most successful open source projects. Check out the source code and installation instructions on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center</title>
+      <link>https://miles.land/portfolio/recurse/</link>
+      <pubDate>Tue, 18 Feb 2020 02:54:19 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/recurse/</guid>
+      <description>I was a member of the Recurse Center&amp;rsquo;s Spring 1 2020 batch; like all Recursers, I never graduated.
+The Recurse Center&amp;mdash;colloquially known as RC&amp;mdash;is a self-directed academic retreat centered around programming (but certainly not limited to it). Everyone I met at RC was smart, nice, and thoughtful; I believe RC is one of the best communities in the world. It&amp;rsquo;s completely free to attend, so if you&amp;rsquo;re interested, please apply.</description>
+    </item>
+    
+    <item>
+      <title>Chinese Censorship</title>
+      <link>https://miles.land/portfolio/chinese-censorship-ip/</link>
+      <pubDate>Thu, 11 Oct 2018 02:04:23 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/chinese-censorship-ip/</guid>
+      <description>In this independent research project, Jeffrey Shen and I created CensorScout and the Weibo Censorship Dashboard, two pilot applications that make several steps toward increased transparency into censorship on Weibo and provide valuable&amp;mdash;albeit limited&amp;mdash;information regarding the state of Chinese Internet censorship.
+ Published paper for open access on SSRN, made daily top-tens in several sections and top 10% of authors by downloads in the year following. Completed as part of Digital Propaganda &amp;amp; Censorship, an Independent Project at Phillips Academy under the mentorship of John Palfrey, Michael Barker, and Malgorzata Stergios.</description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://miles.land/portfolio/programming/</link>
+      <pubDate>Wed, 11 Jul 2012 04:48:29 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/programming/</guid>
+      <description>I love computing; I enjoy building systems, as well as just programming for programming&amp;rsquo;s sake. (The Joy of Computing!)
+I am experienced with Python, Rust, Java, and Haskell, as well as the typical assortment web technologies (HTML, JavaScript, CSS, React, Vue, Svelte, and Angular). I&amp;rsquo;m also comfortable using Docker, Kubernetes, Git, Linux, and other systems.
+I have some experience with cryptography and the network stack.
+For more information about my programming background, check out my GitHub profile.</description>
+    </item>
+    
+    <item>
+      <title>Phillips Academy Andover</title>
+      <link>https://miles.land/portfolio/andover/</link>
+      <pubDate>Sun, 02 Jun 2019 02:32:21 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/andover/</guid>
+      <description>I went to Andover for 9th through 12th grade. I was lucky to be able to do several independent projects in my senior year on digital propaganda, censorship, cybersecurity, and surveillance.
+Awards  Aurelian Honor Society Award (for character, scholarship, and leadership) Cum Laude Society (for high marks) Webster Prize, 10th grade (for excellence in the social sciences) David G. Wood Fellowship, 10th grade (for excellence in writing) Winfield M. Sides Prize, 11th grade (for excellence in computer science) Scoville Award, 11th grade (for an outstanding original paper or project) Top Score in Physics 400 prize exam, 10th grade  Athletics  Varsity Rowing, 1st boat (11th grade) Wrestling (former)  Leadership Positions  Techmasters (co-president) Computer Science Club (co-president) GSA (gender &amp;amp; sexuality alliance; co-president) Proctor (Flagg House) Writing Center (Work Duty)  </description>
+    </item>
+    
+    <item>
+      <title>News Catalyst</title>
+      <link>https://miles.land/portfolio/news-catalyst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/news-catalyst/</guid>
+      <description>In the fall of 2019, I worked at News Catalyst, building digital tools to empower local news organizations. My work at News Catalyst was supported by the Lenfest Institute.
+ Created OpenAlerts, a fully-featured and open source breaking news distribution system intended for local newsrooms. (Because OpenAlerts is open source, I remain on the project. See the Projects section.) Worked with Tyler Fisher to create a management system for the American Press Institute&amp;rsquo;s &amp;ldquo;Table Stakes&amp;rdquo; program.</description>
+    </item>
+    
+    <item>
+      <title>Russian Disinformation</title>
+      <link>https://miles.land/portfolio/russian-disinformation-ip/</link>
+      <pubDate>Sat, 15 Sep 2018 02:17:20 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/russian-disinformation-ip/</guid>
+      <description>In this independent research project, Jeffrey Shen and I used machine learning and statistics to better understand the Russian disinformation campaign in the 2016 election. We released three blog posts, launched a Twitter bot, an open API, and deployed an interactive machine learning model.
+ Published paper for open access on SSRN, made daily top-tens in several sections. Completed as part of Digital Propaganda &amp;amp; Censorship, an Independent Project at Phillips Academy under the mentorship of John Palfrey, Michael Barker, and Malgorzata Stergios.</description>
+    </item>
+    
+    <item>
+      <title>First Look Media</title>
+      <link>https://miles.land/portfolio/first-look-media/</link>
+      <pubDate>Wed, 11 Jul 2018 04:36:44 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/first-look-media/</guid>
+      <description>In the summer of 2018, I worked on the engineering and research teams of First Look Media, the parent company of The Intercept, primarily on authoring an IETF Internet Draft.
+ Worked to create an IETF Internet standard (currently a proposed standard) for OpenPGP cryptographic keylist subscriptions, as implemented by Micah Lee&amp;rsquo;s GPGSync. The draft is available here. (I am the primary/first author.) Wrote an engineering blog post about the IETF project.</description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://miles.land/portfolio/visual-design/</link>
+      <pubDate>Mon, 19 Feb 2018 18:44:16 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/visual-design/</guid>
+      <description>Design is vague. I know. In this context, I&amp;rsquo;m referring to both system design and graphic design.
+When I design anything, my top priorities are usability, accessibility, and beauty. With these principles in mind, I built [a17t], my CSS library, and designed several other websites (including the one you&amp;rsquo;re on right now). I also do my best to apply these principles to software design and writing, but that&amp;rsquo;s harder to showcase.</description>
+    </item>
+    
+    <item>
+      <title>WhoAreMyRepresentatives</title>
+      <link>https://miles.land/portfolio/whoaremyrepresentatives/</link>
+      <pubDate>Sat, 10 Dec 2016 21:49:20 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/whoaremyrepresentatives/</guid>
+      <description>WhoAreMyRepresentatives.org (WAMR) is a simple tool to look up the government representatives for any U.S. address. It pulls its information from the Google Civics API and the OpenSecrets API.
+ Used more than 1 million times and maintains steady traffic. Displayed in the top spot of Hacker News for over nine hours. Featured on ProductHunt. Hit the front page of Reddit (5k+ upvotes). Received an (informal) invitation to visit Google. Shared by Dave Lee, Colin Wright, HANA, Mike Elgan, and others.</description>
+    </item>
+    
+    <item>
+      <title>Open source development</title>
+      <link>https://miles.land/portfolio/open-source/</link>
+      <pubDate>Thu, 31 Jan 2013 14:31:00 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/open-source/</guid>
+      <description>Most of the software I write is open source, and some people have found this software helpful: collectively, my repositories have over 1,000 &amp;ldquo;stars&amp;rdquo; on GitHub. In maintaining and contributing to these projects, I&amp;rsquo;ve learned about effective community building, communication, advertising, and documentation.
+Here are some of the open source projects I maintain:
+ Shynet a17t PrivacySpy (with Igor Barakaiev) WhyPrivacyMatters LibreNews IEQL  I also make an effort to contribute to other open source projects as well.</description>
+    </item>
+    
+    <item>
+      <title>More work</title>
+      <link>https://miles.land/portfolio/more-work/</link>
+      <pubDate>Sat, 11 Jul 2020 04:09:09 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/more-work/</guid>
+      <description>PACTF I ran PACTF, a global cybersecurity competition with over 1,000 teams and $20,000 in prizes, in 2017 and 2018.
+ After being a participant in PACTF 2016, in 2017 I became the project lead (with Alex Reichenbach). Managed sponsors, problem sets, advertising, and digital infrastructure (effectively the entire competition, though I couldn&amp;rsquo;t have done it without help from the project mentors and the rest of the team). Sponsors include Amazon, J.</description>
+    </item>
+    
+    <item>
+      <title>More research</title>
+      <link>https://miles.land/portfolio/more-research/</link>
+      <pubDate>Thu, 15 Jun 2017 02:26:28 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/more-research/</guid>
+      <description>Origins of Oversight In this research project, Dr. Sarah Kreps and I processed the entire modern congressional record to study the determinants of foreign policy oversight in Congress. Co-authored with Dr. Kreps. The source code for much of the project is available on GitHub.
+ Presented by Dr. Kreps at Yale, Columbia, Cornell, Georgetown, and UC Santa Barbara. Co-authored popular opinion piece in the Washington Post.  Perceptions of Privacy in the COVID-19 Pandemic In this paper, Dr.</description>
+    </item>
+    
+    <item>
+      <title>PolitiTweet</title>
+      <link>https://miles.land/portfolio/polititweet/</link>
+      <pubDate>Thu, 24 Nov 2016 17:14:47 -0400</pubDate>
+      
+      <guid>https://miles.land/portfolio/polititweet/</guid>
+      <description>PolitiTweet preserves the public record by archiving the tweets of major public figures and prominently displaying those that have been deleted.
+View the site at polititweet.org or read the source code on GitHub.
+Media Coverage Nightly News with Lester Holt: &amp;ldquo;Wide Range of Celebrities Accidentally Tweeted Russian Propaganda During 2016 Election&amp;rdquo; &amp;mdash; &amp;ldquo;Famous Twitter users with big followers, from Ivanka Trump to comedians Trevor Noah and Sarah Silverman, inadvertently shared tweets that came from accounts linked to Russia, according to social media tracker PolitiTweet.</description>
+    </item>
+    
+    <item>
+      <title>a17t</title>
+      <link>https://miles.land/portfolio/a17t/</link>
+      <pubDate>Fri, 10 Apr 2020 21:49:53 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/a17t/</guid>
+      <description>a17t is my lightweight open-source atomic design toolkit. It emphasizes customization, modularity, and separation of concerns (to the extent that is practical).
+Here&amp;rsquo;s the elevator pitch (from the a17t documentation):
+ Some CSS frameworks come prepackaged with all sorts of components that are convenient at first but quickly become limiting. Utility frameworks like Tailwind are awesome, but can be difficult start using on their own.
+a17t tries to get the balance right.</description>
+    </item>
+    
+    <item>
+      <title>More projects</title>
+      <link>https://miles.land/portfolio/more-projects/</link>
+      <pubDate>Fri, 10 Jul 2020 21:50:06 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/more-projects/</guid>
+      <description>Here are a few more projects that I&amp;rsquo;ve worked on over the past few years. A number of these projects have been discontinued, so some of the links may be broken!
+ WhyPrivacyMatters.org &amp;mdash; a collaborative project to argue for privacy; translated into 16 languages (and counting); over 30 contributors. PowerVoting &amp;mdash; a tool to compare the relative voting power of districts across the United States in federal elections (with Leyla Jacoby).</description>
+    </item>
+    
+    <item>
+      <title>More skills</title>
+      <link>https://miles.land/portfolio/more-skills/</link>
+      <pubDate>Wed, 31 Jan 2001 14:31:00 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/more-skills/</guid>
+      <description>Hackathons I love hackathons, whether it&amp;rsquo;s as a participant or—as of recently—a judge. It&amp;rsquo;s hard to replicate the thrill of building.
+ HackNEHS 1st place (Fall 2017): won first place in HackNEHS, a &amp;lsquo;hackathon&amp;rsquo; for New England high schools. Blueprint (@ MIT) 2nd place (Winter 2018): won second place in Blueprint, a national annual hackathon hosted at the MIT Media Lab. Hack Exeter (Spring 2019): won the Developer&amp;rsquo;s Award at Hack Exeter, a hackathon hosted at Phillips Exeter Academy.</description>
+    </item>
+    
+  </channel>
+</rss>

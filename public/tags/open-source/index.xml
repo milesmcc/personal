@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open source on R. Miles McCain</title>
+    <link>https://miles.land/tags/open-source/</link>
+    <description>Recent content in open source on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jul 2020 17:31:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PrivacySpy</title>
+      <link>https://miles.land/portfolio/privacyspy/</link>
+      <pubDate>Wed, 10 Jul 2019 21:49:08 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/privacyspy/</guid>
+      <description>PrivacySpy rates companies&amp;rsquo; privacy policies on a ten-point scale, so you can easily understand how your data is being treated online. I started PrivacySpy with Igor Barakaiev in the summer of 2019.
+You can view the site at PrivacySpy.org, install the browser extension here, and view the source code on GitHub.
+The New York Times named PrivacySpy a &amp;ldquo;Tip of the Week&amp;rdquo; as part of its Privacy Project, writing:
+ Privacy policies are long, boring and extremely consequential documents.</description>
+    </item>
+    
+    <item>
+      <title>Shynet</title>
+      <link>https://miles.land/portfolio/shynet/</link>
+      <pubDate>Sat, 09 May 2020 20:55:10 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/shynet/</guid>
+      <description>Shynet is a modern, privacy-friendly, and detailed web analytics tool that works without cookies or JS. It&amp;rsquo;s one of my most successful open source projects. Check out the source code and installation instructions on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>a17t</title>
+      <link>https://miles.land/portfolio/a17t/</link>
+      <pubDate>Fri, 10 Apr 2020 21:49:53 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/a17t/</guid>
+      <description>a17t is my lightweight open-source atomic design toolkit. It emphasizes customization, modularity, and separation of concerns (to the extent that is practical).
+Here&amp;rsquo;s the elevator pitch (from the a17t documentation):
+ Some CSS frameworks come prepackaged with all sorts of components that are convenient at first but quickly become limiting. Utility frameworks like Tailwind are awesome, but can be difficult start using on their own.
+a17t tries to get the balance right.</description>
+    </item>
+    
+    <item>
+      <title>Shynet will never be a SaaS</title>
+      <link>https://miles.land/posts/shynet-never-sass/</link>
+      <pubDate>Thu, 09 Jul 2020 17:31:45 +0000</pubDate>
+      
+      <guid>https://miles.land/posts/shynet-never-sass/</guid>
+      <description>Ever since I released Shynet, my open source web analytics tool, several people have asked me if I plan to offer some kind of managed version of the service (presumably as some kind of SaaS). While these requests are super exciting and I sympathize with them—not everyone wants to manage their own servers, after all!—it&amp;rsquo;s not something that I&amp;rsquo;m considering. Here&amp;rsquo;s why.
+Self-hosting is the point of Shynet When you use a third-party analytics tool—even one with a strict privacy policy—you&amp;rsquo;re handing your visitors&amp;rsquo; data over to another company.</description>
+    </item>
+    
+  </channel>
+</rss>

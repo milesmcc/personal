@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>article on R. Miles McCain</title>
+    <link>https://miles.land/tags/article/</link>
+    <description>Recent content in article on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2020 22:03:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Frustrated? It&#39;s not you, it&#39;s Rust</title>
+      <link>https://miles.land/cool/frustrated-its-not-you-its-rust/</link>
+      <pubDate>Sat, 15 Aug 2020 22:03:07 +0000</pubDate>
+      
+      <guid>https://miles.land/cool/frustrated-its-not-you-its-rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To the future occupants of my office at the MIT Media Lab</title>
+      <link>https://miles.land/cool/to-the-future-occupants-of-my-office-at-the-mit-media-lab/</link>
+      <pubDate>Sat, 15 Aug 2020 21:41:34 +0000</pubDate>
+      
+      <guid>https://miles.land/cool/to-the-future-occupants-of-my-office-at-the-mit-media-lab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Howland will forgery trial</title>
+      <link>https://miles.land/cool/howland-trial/</link>
+      <pubDate>Sat, 01 Aug 2020 22:35:42 +0000</pubDate>
+      
+      <guid>https://miles.land/cool/howland-trial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Yoda of Silicon Valley</title>
+      <link>https://miles.land/cool/knuth-nytimes/</link>
+      <pubDate>Sat, 01 Aug 2020 22:26:22 +0000</pubDate>
+      
+      <guid>https://miles.land/cool/knuth-nytimes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A College Degree Is No Guarantee of a Good Life</title>
+      <link>https://miles.land/cool/college-happy-atlantic/</link>
+      <pubDate>Fri, 31 Jul 2020 02:24:39 +0000</pubDate>
+      
+      <guid>https://miles.land/cool/college-happy-atlantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can Our Ballots Be Both Secret and Secure?</title>
+      <link>https://miles.land/cool/secure-ballots-crypto/</link>
+      <pubDate>Fri, 10 Jul 2020 01:30:39 +0000</pubDate>
+      
+      <guid>https://miles.land/cool/secure-ballots-crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What happens when you update your DNS?</title>
+      <link>https://miles.land/cool/updating-dns-jvns/</link>
+      <pubDate>Thu, 09 Jul 2020 17:22:18 +0000</pubDate>
+      
+      <guid>https://miles.land/cool/updating-dns-jvns/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

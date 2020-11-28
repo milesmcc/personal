@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>civics on R. Miles McCain</title>
+    <link>https://miles.land/tags/civics/</link>
+    <description>Recent content in civics on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Dec 2016 21:49:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/civics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WhoAreMyRepresentatives</title>
+      <link>https://miles.land/portfolio/whoaremyrepresentatives/</link>
+      <pubDate>Sat, 10 Dec 2016 21:49:20 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/whoaremyrepresentatives/</guid>
+      <description>WhoAreMyRepresentatives.org (WAMR) is a simple tool to look up the government representatives for any U.S. address. It pulls its information from the Google Civics API and the OpenSecrets API.
+ Used more than 1 million times and maintains steady traffic. Displayed in the top spot of Hacker News for over nine hours. Featured on ProductHunt. Hit the front page of Reddit (5k+ upvotes). Received an (informal) invitation to visit Google. Shared by Dave Lee, Colin Wright, HANA, Mike Elgan, and others.</description>
+    </item>
+    
+  </channel>
+</rss>

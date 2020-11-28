@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>congress on R. Miles McCain</title>
+    <link>https://miles.land/tags/congress/</link>
+    <description>Recent content in congress on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jun 2017 02:26:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/congress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Origins of Oversight</title>
+      <link>https://miles.land/portfolio/origins-of-oversight/</link>
+      <pubDate>Thu, 15 Jun 2017 02:26:28 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/origins-of-oversight/</guid>
+      <description>In this research project, Dr. Sarah Kreps and I processed the entire modern congressional record to study the determinants of foreign policy oversight in Congress. Co-authored with Dr. Kreps. The source code for much of the project is available on GitHub.
+ Presented by Dr. Kreps at Yale, Columbia, Cornell, Georgetown, and UC Santa Barbara. Co-authored popular opinion piece in the Washington Post.  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+<title>Dissecting &#34;Hello World&#34; in Java | R. Miles McCain</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Note: this post is intended to formalize intuitions about Java for students in my AP CS course. This isn&rsquo;t supposed to be a &ldquo;Hello World&rdquo;&hellip;" />
+<meta property="og:description" content="Note: this post is intended to formalize intuitions about Java for students in my AP CS course. This isn&rsquo;t supposed to be a &ldquo;Hello World&rdquo;&hellip;" />
+<meta property="og:site_name" content="R. Miles McCain" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Dissecting &#34;Hello World&#34; in Java | R. Miles McCain" />
+<meta property="og:url" content="https://miles.land/posts/mcip-hello-world/" />
+<link rel="canonical" href="https://miles.land/posts/mcip-hello-world/" />
+
+
+<link rel='icon' type='image/png' href='https://miles.land/images/dithered_rounded_avatar.42de80a89933dfcd1c144a220041d743894ca5e42798424b32b5a01aa5b559d9.png' />
+
+<link rel="stylesheet" href="https://miles.land/styles/base.min.8ad766a7551bd54e8af858a2c8826fdb86d6c923e759fb921cb0be3d7d1f2cee.css" />
+
+<script async defer src="https://miles.land/scripts/base.min.ea8660a97fa2d59a6c39204cb0a7a37866134cb8588ce0d888e773a69b689da9.js"></script>
+  </head>
+  
+  <body class="bg-neutral-000">
+    <section class="max-w-4xl mx-auto p-4 relative min-h-screen">
+      <div class="md:flex justify-center">
+        <div class="md:w-8/12">
+          
+<nav class="mb-6 md:my-6 md:flex md:justify-between">
+  <div>
+    <h4>
+      <a class="heading text-sm" style="border-bottom: none;"
+      href="/">R. Miles McCain</a>
+    </h4>
+  </div>
+  <div class="md:text-right">
+    <ul class="-ml-2 md:ml-0">
+      
+      <li class="portal text-sm ">
+        <a href="/portfolio/">
+          
+          <span>Portfolio</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/micros/">
+          
+          <span>Micros</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/errata/">
+          
+          <span>Errata</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/cool/">
+          
+          <span>Cool</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm  ~urge active ">
+        <a href="/posts/">
+          
+          <span>Posts</span>
+          
+        </a>
+      </li>
+      
+      <li class="portal text-sm ">
+        <a href="/letter/">
+          
+          <span>Letter</span>
+          
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+          
+          <div class="my-12">
+            
+<section>
+    <div>
+        
+            
+            <h3 class="inline heading font-bold md:text-4xl">
+                Dissecting "Hello World" in Java
+                
+            </h3>
+            <h3 class="inline heading font-bold md:text-4xl text-neutral-500">
+                
+            </h3>
+            
+    </div>
+    <div class="mt-4">
+        
+        <span class="chip ~neutral !low -ml-2 mb-2">
+            Jun 11, 2020
+        </span>
+        
+        
+        
+        <a class="chip ~neutral !normal mb-2 mr-2" href="https://miles.land/tags/mcip/">mcip</a>
+        
+        
+        
+        <a class="chip ~neutral !normal mb-2 mr-2" href="https://miles.land/tags/java/">java</a>
+        
+        
+        
+        <a class="chip ~neutral !normal mb-2 mr-2" href="https://miles.land/tags/technical/">technical</a>
+        
+        
+    </div>
+</section>
+
+          </div>
+        </div>
+      </div>
+      <div class="md:flex">
+        <aside class="md:w-2/12">
+
+        </aside>
+        <div class="md:w-8/12">
+          
+<main>
+  <section class="content">
+    <blockquote>
+<p><strong>Note:</strong> this post is intended to formalize intuitions about Java for students in my AP CS course. This isn&rsquo;t supposed to be a &ldquo;Hello World&rdquo; tutorial! You&rsquo;ll need some existing experience with Java to find this useful.</p>
+</blockquote>
+<p>Let&rsquo;s write a very simple Java program that prints <code>Hello, world!</code> to the console. This is just about the simplest program imaginable, and you should already feel comfortable with many of these concepts. Our goal here is to formalize the knowledge and intuitions you&rsquo;ve already developed.</p>
+<p>Don&rsquo;t worry about understanding what every little thing in the program means right now; just make sure you can follow along.</p>
+<h3 id="hello-world">Hello, world!</h3>
+<p>Without further ado, here&rsquo;s our Hello World program. It probably looks familiar.</p>
+<p>If the code below can&rsquo;t run, try opening this page in incognito mode.</p>
+<figure>
+    <iframe src="https://repl.it/@milesmcc/Hello-World?lite=true" class="w-full" height="400"></iframe>
+    <figcaption class="support my-1">Embed of <a href='https://repl.it/@milesmcc/Hello-World?lite=true'>https://repl.it/@milesmcc/Hello-World?lite=true</a></figcaption>
+</figure>
+<p><strong>The &ldquo;Hello, world!&rdquo; Repl. This is your first program! Congratulations.</strong> Note that the actual code here starts with <code>class</code> and ends with <code>}</code>&mdash;the numbers on the left are line numbers, and aren&rsquo;t part of the program.</p>
+<p>Click the green button to run the code. Do you see that the program printed out the text <code>Hello, world!</code> to the console? If so, great&mdash;it means that the program ran.</p>
+<p>The <strong>console</strong> is the black section of the interface. This is also often called a <em>terminal</em>.</p>
+<p>We&rsquo;re not going to break down what everything in our program means yet. For now, just take a second to see what happens if you change things. Try changing the text from <code>&quot;Hello, world!&quot;</code> to something else. What happens if you remove the quotes? What if you remove <code>void</code> or <code>static</code>? Does the program still run, or do you get an error?</p>
+<h3 id="whats-going-on-here">What&rsquo;s going on here?</h3>
+<p>There&rsquo;s a lot going on here, so let&rsquo;s take a deeper look at what everything in our Hello World program actually means.</p>
+<p>Along the way, we&rsquo;re going to add <strong>comments</strong> to our code that explain what we&rsquo;re doing. It&rsquo;s important to write code in a way that&rsquo;s clear to both computers <em>and</em> people, so it&rsquo;s often helpful to leave comments to explain what we&rsquo;re doing when the syntax on its own might be confusing.</p>
+<p>Java ignores comments&mdash;it doesn&rsquo;t try to run them&mdash;so you can use normal language inside them. They are only for you and others&rsquo; who read your code, so there&rsquo;s no need to follow Java syntax. In Java, anything that comes between <code>//</code> and the end of a line is a comment. You can write multi-line comments by putting text between <code>/*</code> and <code>*/</code>.</p>
+<h3 id="defining-a-main-class">Defining a main class</h3>
+<p><code>class Main { ... }</code> groups all the code between the brackets into a <strong>class</strong> called <code>Main</code>. We&rsquo;ll learn about classes in more detail later. For now, just think of them as a way to group code into concepts. In Minecraft, for example, a <code>Player</code> is a class, as is a <code>Pig</code>.</p>
+<p><strong>Why &ldquo;main&rdquo;?</strong> We named our class <code>Main</code> because inside Repl, the name of our file is <code>Main.java</code>. When you run a program, Java looks for the class with the same name as the file you&rsquo;re running. If we renamed this file to <code>HelloWorld.java</code>, we would need to name the class <code>HelloWorld</code> (because that&rsquo;s where Java would look to run our code).</p>
+<figure>
+    <iframe src="https://repl.it/@milesmcc/Commented-Hello-World?lite=true" class="w-full" height="400"></iframe>
+    <figcaption class="support my-1">Embed of <a href='https://repl.it/@milesmcc/Commented-Hello-World?lite=true'>https://repl.it/@milesmcc/Commented-Hello-World?lite=true</a></figcaption>
+</figure>
+<p>Try editing one of those comments and running the code again. Does anything change? What happens if you remove <code>//</code>? What happens if you put <code>//</code> before <code>System.out.println(&quot;Hello, world!&quot;)</code>? Does the program still output anything? Why or why not?</p>
+<h3 id="defining-a-method">Defining a method</h3>
+<p><code>public static void main(String[] args) { ... }</code> is a <strong>method</strong> called <code>main</code>**.** Methods are a way to group instructions together. For example, a player might have a method called <code>setFullHealth()</code> or <code>teleport()</code>. Don&rsquo;t worry about what <code>public</code>, <code>static</code>, and <code>void</code> mean&mdash;for now, just think of these words as &ldquo;settings&rdquo; that tell Java how to interpret our method.</p>
+<p><strong>If you&rsquo;re really curious,</strong> here&rsquo;s what public, static, and void mean here (note that you&rsquo;ll need to have completed the Codecademy units to understand these explanations):</p>
+<p><code>public</code> means that the method can be called from code outside of our class (in this case, the <code>Main</code> class). You can also mark methods as <code>private</code>, which means that only code <em>inside</em> your class can call the method.</p>
+<p><code>static</code> means that the method isn&rsquo;t associated with any particular instance of <code>Main</code>. Instead, it&rsquo;s bound to the class itself.</p>
+<p><code>void</code> means that the function doesn&rsquo;t return any value when called. If this were <code>int</code>, for example, then the function would need to return an integer.</p>
+<blockquote>
+<p><strong>Confused?</strong> Don&rsquo;t worry. You&rsquo;ll understand these concepts with practice.</p>
+</blockquote>
+<p>Right now, <code>main(String[] args) { ... }</code> is the important part of the method. The text that comes immediately before the parentheses is the <strong>name</strong> of the method (in our program, the method&rsquo;s name is <code>main</code>), and the part between the parentheses (<code>(String[] args)</code>) are the <strong>arguments</strong> of the method.</p>
+<p>You can think of arguments as a way for methods to &ldquo;ask&rdquo; for information. For example, a teleport method needs to know the location to teleport the player to, so the destination location **would be an argument of the method.</p>
+<p>When Java runs a program, it looks for a method called <code>main</code> to run. That&rsquo;s why we named our own method <code>main</code>: we want Java to run it when we start our program. The part of the method inside the brackets (which I shortened to <code>...</code> above) are the actual instructions that make up the method.</p>
+<pre><code>class Main {
+	public static void main(String[] args) {
+		// This is a valid Java program! You now know what's going on
+		// here. This is the part of the method where we actually put
+		// the things we want the computer to do.
+	}
+}
+
+</code></pre><h3 id="printing-to-the-console">Printing to the console</h3>
+<p>Finally, <code>System.out.println(&quot;Hello, world!&quot;);</code> is a <strong>statement</strong>*.* You can think of a statement in Java as a single instruction for the computer to run. This statement tells the computer to print the text <code>Hello, world!</code> to the console. In Java, all statements end in semicolons.</p>
+<p><strong>Why must all statements end in semicolons?</strong> In Java, it turns out that line breaks don&rsquo;t actually <em>mean</em> anything. Like comments, they exist to make the program easier to read. A semicolon is how you tell Java that the statement is complete.</p>
+<p>Let&rsquo;s break this statement down even further, though. Printing text isn&rsquo;t actually a single action; it&rsquo;s a bunch of actions! Internally, your computer actually prints each letter (and, in some cases, each pixel!) one by one. Fortunately, Java has a built-in <em>method</em> that does all this for us, and we access it as <code>System.out.println</code>.</p>
+<p>Under the hood, what our statement is doing is telling Java to run <em>another</em> method called <code>System.out.println</code>. This statement&mdash;called a <em>method call</em>&mdash;is an extraordinarily common type of statement, and for good reason: it allows us to treat methods as <em>reusable</em> bundles of instructions that can be called whenever and however we want.</p>
+<p><strong>The idea of a method can be difficult to grasp.</strong> Here&rsquo;s a real-world analogy: imagine you have two lists of instructions, Morning Routine and Clean Up. Clean Up might have the tasks &ldquo;brush teeth&rdquo; and &ldquo;make bed.&rdquo; Morning Routine might have the instructions &ldquo;wake up,&rdquo; &ldquo;drink water,&rdquo; and &ldquo;do everything in Clean Up.&rdquo; In this analogy, Morning Routine and Clean Up represent methods, and the instruction inside Morning Routine to do everything in Clean Up represents a method call.</p>
+<h3 id="calling-another-method">Calling another method</h3>
+<p>By referring to <code>System.out.println</code> here inside <em>our</em> method, we&rsquo;re <strong>calling</strong> the method. When the computer runs our method (called <code>main</code>), it will see our call to <code>System.out.println</code> and will run all the code inside <em>that</em> method.</p>
+<p>If we wanted to print a blank line to the console, we could run <code>System.out.println()</code>. This should make some intuitive sense: we know that arguments are what go between the parentheses when we call methods, so it makes sense that running <code>System.out.println</code> with no arguments would print an empty line. In our case, though, we want it to print &ldquo;Hello, world!&rdquo;, so we pass <code>&quot;Hello, world!&quot;</code> as an argument to the method (by putting it between the parentheses).</p>
+<h3 id="literals-and-expressions">Literals and Expressions</h3>
+<p>There&rsquo;s one final part of our program that we haven&rsquo;t dissected yet: <code>&quot;Hello, world!&quot;</code>. This is ****called a <strong>string literal,</strong> and it represents raw text.</p>
+<p>In programming, pieces of text are called <strong>strings</strong>. You can think of a string as a <em>string of characters.</em></p>
+<p>The quotes around <code>Hello, world!</code> indicate to Java that what&rsquo;s inside them shouldn&rsquo;t be treated as Java syntax, but instead as a string (raw text). Note that this is fundamentally different from a comment: string literals are included in your program as information, while comments are just thrown out.</p>
+<p>More specifically, a string literal like <code>&quot;Hello, world!&quot;</code> is an <strong>expression</strong>. Just as a statement represents some kind of <em>action</em>, an expression represents some kind of <em>information</em>. <code>1</code> is an expression that represents the number one; <code>&quot;Hello, world!&quot;</code> is an expression that represents the text &ldquo;Hello, world!&rdquo;. <code>1 + 2</code> is an expression as well: it represents one and two added together, which evaluates **to 3.</p>
+<p><strong>Evaluation</strong> is the process the computer performs when it turns an expression into a single, concrete value. For example, the computer evaluates <code>1 + 2</code> to get 3. Some expressions, like <code>1</code> and `&quot;Hello, world!&rdquo;, are already in their simplest form&mdash;these expressions are called literals.</p>
+<p>If the difference between literal and non-literal expressions is confusing to you, don&rsquo;t worry. You&rsquo;ll get an intuition for it over time, and it&rsquo;s not critical.</p>
+<h3 id="piecing-it-all-together">Piecing it all together</h3>
+<p>We&rsquo;ve now dissected the entire Hello World program, and hopefully formalized many of your intuitions about the way Java works. If you&rsquo;re still confused about methods, statements, and expressions, review this guide again and revisit your introductory Java materials. With practice, it will all become second nature in no time.</p>
+
+  </section>
+</main>
+
+
+          <hr class="sep h-16">
+          <footer>
+            <footer class="family-secondary support content">
+  <p class="pb-2">
+    Hi! If you made it this far, maybe you want to stay in touch. You can follow me on <a href="https://twitter.com/milesmccain">Twitter</a>, subscribe via <a href="/index.xml">Atom/RSS</a>, or sign up for my <a href="/letter/">infrequent email letter</a>.
+  </p>
+  <p class="pb-8">
+    &copy; R. Miles McCain 2020.
+    Content is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, a Free Culture License.
+    The <a href="https://github.com/milesmcc/personal">source code</a> is available under <a href="https://github.com/milesmcc/personal/blob/master/LICENSE">GPLv3</a>.
+    This site collects (minimal) user analytics using <a href="https://github.com/milesmcc/shynet">Shynet</a>.
+    </p>
+</footer>
+          </footer>
+        </div>
+        <aside class="md:w-2/12 pl-8 self-start sticky-top hidden md:block text-xs">
+          
+          <div class="toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#hello-world">Hello, world!</a></li>
+        <li><a href="#whats-going-on-here">What&rsquo;s going on here?</a></li>
+        <li><a href="#defining-a-main-class">Defining a main class</a></li>
+        <li><a href="#defining-a-method">Defining a method</a></li>
+        <li><a href="#printing-to-the-console">Printing to the console</a></li>
+        <li><a href="#calling-another-method">Calling another method</a></li>
+        <li><a href="#literals-and-expressions">Literals and Expressions</a></li>
+        <li><a href="#piecing-it-all-together">Piecing it all together</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            <ul id="toc-extra"></ul>
+          </div>
+          
+        </aside>
+      </div>
+    </section>
+    <noscript><img src="https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/pixel.gif"></noscript> <script src="https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/script.js"></script>
+  </body>
+  
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code on R. Miles McCain</title>
+    <link>https://miles.land/tags/code/</link>
+    <description>Recent content in code on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jul 2012 04:48:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Programming</title>
+      <link>https://miles.land/portfolio/programming/</link>
+      <pubDate>Wed, 11 Jul 2012 04:48:29 +0000</pubDate>
+      
+      <guid>https://miles.land/portfolio/programming/</guid>
+      <description>I love computing; I enjoy building systems, as well as just programming for programming&amp;rsquo;s sake. (The Joy of Computing!)
+I am experienced with Python, Rust, Java, and Haskell, as well as the typical assortment web technologies (HTML, JavaScript, CSS, React, Vue, Svelte, and Angular). I&amp;rsquo;m also comfortable using Docker, Kubernetes, Git, Linux, and other systems.
+I have some experience with cryptography and the network stack.
+For more information about my programming background, check out my GitHub profile.</description>
+    </item>
+    
+  </channel>
+</rss>

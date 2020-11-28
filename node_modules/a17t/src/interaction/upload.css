@@ -1,0 +1,11 @@
+.upload {
+    @apply relative inline-block pr-2 cursor-pointer font-secondary;
+
+    input {
+        @apply hidden;
+    }
+
+    .button.field {
+        @apply w-auto;
+    }
+}

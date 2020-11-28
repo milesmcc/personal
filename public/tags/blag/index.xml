@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blag on R. Miles McCain</title>
+    <link>https://miles.land/tags/blag/</link>
+    <description>Recent content in blag on R. Miles McCain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2020 22:10:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://miles.land/tags/blag/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shynet had a security issue because I misunderstood CORS</title>
+      <link>https://miles.land/errata/shynet-had-a-security-issue-because-i-misunderstood-cors/</link>
+      <pubDate>Sat, 15 Aug 2020 22:10:32 +0000</pubDate>
+      
+      <guid>https://miles.land/errata/shynet-had-a-security-issue-because-i-misunderstood-cors/</guid>
+      <description>When I built Shynet, my self-hosted analytics tool, one of my top priorities was making sure it didn’t require visitors to have JavaScript enabled. While Shynet will try to log visits using a JavaScript tracker, it will fall back to a 1x1 transparent tracking pixel if JavaScript isn’t enabled. Here is the Shynet tracking code for this site, for example:
+&amp;lt;noscript&amp;gt; &amp;lt;img src=&amp;#34;https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/pixel.gif&amp;#34;&amp;gt; &amp;lt;/noscript&amp;gt; &amp;lt;script src=&amp;#34;https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; Like any well-designed web system, Shynet appropriately sets CORS headers on these resources to ensure that its resources are only accessible from the intended domains—in this case, miles.</description>
+    </item>
+    
+    <item>
+      <title>I thought it’d be a good idea to establish scopes at parse time</title>
+      <link>https://miles.land/errata/parse-time-scopes/</link>
+      <pubDate>Thu, 23 Jul 2020 16:12:05 +0000</pubDate>
+      
+      <guid>https://miles.land/errata/parse-time-scopes/</guid>
+      <description>Over the past week or so, I’ve been working on building my own simple interpreted programming language. My goal is to learn about language design, Lisp, and systems programming—all while building a language that is fun to use (and maybe, just maybe, one day I&amp;rsquo;ll find it useful for something).
+Even though the project has gone well so far (mostly thanks to the safety guarantees of the Rust programming language), I also made a lot of mistakes as I implemented the first version of the interpreter, and I&amp;rsquo;m sure I&amp;rsquo;ll make many more over the course of the project.</description>
+    </item>
+    
+    <item>
+      <title>Shynet will never be a SaaS</title>
+      <link>https://miles.land/posts/shynet-never-sass/</link>
+      <pubDate>Thu, 09 Jul 2020 17:31:45 +0000</pubDate>
+      
+      <guid>https://miles.land/posts/shynet-never-sass/</guid>
+      <description>Ever since I released Shynet, my open source web analytics tool, several people have asked me if I plan to offer some kind of managed version of the service (presumably as some kind of SaaS). While these requests are super exciting and I sympathize with them—not everyone wants to manage their own servers, after all!—it&amp;rsquo;s not something that I&amp;rsquo;m considering. Here&amp;rsquo;s why.
+Self-hosting is the point of Shynet When you use a third-party analytics tool—even one with a strict privacy policy—you&amp;rsquo;re handing your visitors&amp;rsquo; data over to another company.</description>
+    </item>
+    
+  </channel>
+</rss>
