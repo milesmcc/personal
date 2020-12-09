@@ -14,7 +14,7 @@ Since September 2020, I've been an undergraduate at [Stanford](https://stanford.
 
 ### Work
 * **RA at the [Stanford Internet Observatory](https://io.stanford.edu)** (October 2020 –). Working on the Tech Team and with the [Election Integrity Partnership](https://www.eipartnership.net/).
-* **CS 106S Team** (January 2020 –). Helping teach CS 106S, a supplemental 1-unit add-on to Stanford's famous CS intro class (CS 106A) focusing on programming for social good.
+* **CS 106S Team** (January 2020 –). Helping teach [CS 106S](cs106s.stanford.edu), a supplemental 1-unit add-on to Stanford's famous CS intro class (CS 106A) focusing on programming for social good.
 
 ### Organizations
 * [**CS+Social Good**](https://cs4good.com/) - Using CS in a way that's socially mindful and equitable.
