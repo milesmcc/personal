@@ -18,7 +18,7 @@ And finally, for the obligatory apostrophe soup: PA &rsquo;19, [RC S1 &rsquo;20]
 
 ### Currently
 
-I'm currently in Zoom School---erm, I mean college---and am enjoying my courses, even if I'm missing out on much of the college experience. I'm in Charleston, South Carolina. 
+I'm currently in Zoom School---erm, I mean college---and am enjoying my courses, even if I'm missing out on much of the college experience. Right now, I'm in New York City.
 
 ### Contact
 
