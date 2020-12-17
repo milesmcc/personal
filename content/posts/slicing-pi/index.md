@@ -1,9 +1,9 @@
 ---
-title: "Calculating a slice of pi"
+title: "Calculating a slice of pi with trickery"
 tags: ["math", "pi", "interactive"]
-date: 2020-12-16T16:21:04-05:00
+date: 2020-12-18T16:21:04-05:00
 toc: true
-draft: true
+draft: false
 mathjax: true
 ---
 
@@ -109,16 +109,42 @@ In fact, the hard part --- at least from a _programming_ perspective --- is calc
 
 ### A simplified example
 
-Let's take a look at how we can use this fractional `BigInteger` approach to calculate one giant number divided by another: \\( \frac{1234567898765432123456789}{1234567898765432123456790} \\). It may be hard to see, but the denominator is just the numerator plus one.
+Let's take a look at how we can use this fractional `BigInteger` approach to calculate one giant number divided by another: \\( \frac{x}{x + 1}, x = 1234567898765432123456789 \\).
 
 If we just ask JavaScript to perform this calculation, it tells us that the answer is one:
 
-```javascript
+```js
 let x = 1234567898765432123456789;
 console.log(x / (x + 1)); // => 1
 ```
 
 Of course, we know that isn't true. JavaScript is lying to us! It's performing [floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic), which means that there is a certain level of precision it just can't achieve. In other words, the result of our operation is so close to `1` that JavaScript literally _thinks_ the result is `1`.
 
-Instead, we need to use JavaScript's `BigInteger`.
+Instead, we need to use JavaScript's `BigInteger`. Using the process I described above, we're going to setup the numerator and denominators as big integers, then multiply the denominator by \\( 10^n \\), where \\(n\\) is the number of desired decimal places. Then, we're going to turn the result of the division into a string and just manually insert the decimal place (this is the 'trickery' part).
 
+```js
+// Note: the `n` suffix gives us a `BigInteger`
+let precision = 40n;
+let original = 1234567898765432123456789n;
+let numerator = (original * (10n ** precision));
+let denominator = original + 1;
+
+// Here lies the trickery: manually adding a decimal!
+// We could insert this decimal `precision` characters from
+// the end, but because the values are fixed, we just hard-
+// code it for the example.
+let result = "0." + (numerator / denominator).toString();
+console.log(result) // => 0.9999999999999999999999991899999983800000
+```
+
+And there we have it! JavaScript outputted `0.9999999999999999999999991899999983800000` --- the correct value _far_ more precisely than what is possible with JavaScript's floating point numbers. We give up some ergonomics and performance, but it works! And it's hardly a hack: everything we're doing is mathematically sound, and would work for any number. (I realize this example doesn't involve irrational numbers; the point is just to illustrate precision beyond what's possible with floating points.)
+
+So have fun! How fast can your computer compute 1,000 digits of pi? How about 100,000? Can you get a million? Does the performance change when your device is plugged in compared to when it's on battery? I'm able to comfortably compute 100,000 digits in a little over one second with throttling disabled --- but your computer could probably beat mine.
+
+### Acknowledgements
+
+My JavaScript implementation of Chudnovsky's algorithm was heavily based on Arthur Vause's [implementation](https://pi-calculator.netlify.app/); I don't mention it earlier, but I also use his arbitrary-precision implementation for finding the square root of `10005`.
+
+Thanks to everyone who offered to read over this piece to give advice both on the writing and the technical details --- I really appreciated all of your feedback.
+
+If _you_ have any suggestions or feedback, please let me know! My email is on the home page of this site.
