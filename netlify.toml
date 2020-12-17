@@ -11,4 +11,4 @@
   command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --minify --gc"
 
 [context.branch-deploy]
-  command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --minify --gc --buildDrafts"
+  command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --minify --gc --buildDrafts --buildFuture"
