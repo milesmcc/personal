@@ -23,3 +23,6 @@
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
 {{ $script := resources.Get "scripts/base.js" | resources.Minify | resources.Fingerprint }}
 <script async defer src="{{ $script.Permalink }}"></script>
+{{ if ($.Param "mathjax") }}
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{{ end }}
