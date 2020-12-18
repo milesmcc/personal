@@ -9,43 +9,15 @@ mathjax: true
 
 Let's calculate a slice of pi in your browser. (Please forgive the pun.) All we need is vanilla JavaScript, math, and a bit of trickery.
 
-If you're reading this, you almost certainly don't need me to convince you that pi --- the ratio of any circle's circumference to its diameter, π --- is cool. It has infinitely many digits, and those digits never repeat. Wherever circles appear, pi is nearby. The constant isn't limited to geometry, though: it appears in [all sorts of places](https://en.wikipedia.org/wiki/Pi#Role_and_characterizations_in_mathematics) across math, physics, engineering, and other disciplines.
-
-There's a decent chance you know the first few digits of pi off the top of your head! I can recite around fifteen digits, plus or minus a few depending on the day: `3.14159265358979...`. This level of accuracy is good enough for almost all real-world applications (a circle the size of earth would have an error of only a few millimeters), but we can do better. We're going to calculate the first `n` digits of pi together using _your_ device. (You'll get to choose the value of `n` later.)
+If you're reading this, you almost certainly don't need me to convince you that pi --- the ratio of any circle's circumference to its diameter, π --- is cool. It has infinitely many digits, and those digits never repeat. Wherever circles appear, pi is nearby. And the constant isn't limited to geometry: it appears in [all sorts of places](https://en.wikipedia.org/wiki/Pi#Role_and_characterizations_in_mathematics) across math, physics, engineering, and other disciplines.
 
 While you won't be breaking the [world record](https://www.guinnessworldrecords.com/world-records/66179-most-accurate-value-of-pi#:~:text=The%20most%20accurate%20value%20of,over%208%20months%20in%20total.) of 50 trillion digits set by Timothy Mullican in early 2020, you'll easily surpass a thousand, and you'll learn about some cool algorithms along the way. And if you read to the end, you'll see how we "trick" JavaScript into using `BigInteger`s to reason about pi --- which, as you know, is very much _not_ an integer.
 
-### History of Pi
-
-The first written [approximations of pi](https://en.wikipedia.org/wiki/Approximations_of_%CF%80) appeared in Babylon and Egypt, and were accurate to around two base-10 decimal places. While that may not sound impressive, consider that correctly estimating pi to two decimal places is at most 0.2% away from the true value!
-
-By 400 C.E., Chinese mathematicians correctly estimated the first seven digits of pi. There wasn't much improvement until the late middle ages, when [John Manchin](https://en.wikipedia.org/wiki/John_Machin) correctly computed the first 100 digits using what we now call Machin's formula:
-
-$$ {\frac  {\pi }{4}}=4\arctan {\frac  {1}{5}}-\arctan {\frac  {1}{239}} $$
-
-He then computed the arctangents using a [Taylor series](https://en.wikipedia.org/wiki/Taylor_series) expansion. Machin's approach converged to pi far more quickly than other contemporary approaches, making hand-calculation feasible. Other mathematicians caught on to his approach, and [Machin-like formulas](https://en.wikipedia.org/wiki/Machin-like_formula) became among the most popular ways of computing pi until computer-driven approaches emerged in the 1950s.
-
-### The Chudnovsky algorithm
-
-For our calculation of pi, we'll be focusing on the [Chudnovsky algorithm](https://en.wikipedia.org/wiki/Chudnovsky_algorithm), which the [Chudnovsky brothers](https://en.wikipedia.org/wiki/Chudnovsky_brothers) published in 1988. This modern algorithm is quite efficient, and was used for all the most recent world-record calculations of pi (including the 50 trillion digit record set in 2020). We won't do anything more than a superficial overview of this algorithm, but here it is in its full glory:
-
-$$ {\displaystyle {\frac {1}{\pi }}=12\sum _{q=0}^{\infty }{\frac {(-1)^{q}(6q)!(545140134q+13591409)}{(3q)!(q!)^{3}\left(640320\right)^{3q+3/2}}}} $$
-
-At a glance, you may notice that it is a [hypergeometric series](https://en.wikipedia.org/wiki/Generalized_hypergeometric_function), that it has several mystical constants, and yields the _reciprocal_ of pi. If you're curious, a more detailed proof is available [here](https://arxiv.org/abs/1809.00533). I'm not even going to pretend to fully understand this algorithm; maybe someday I will, but that day is not today. The core idea is that the more terms you include in the sum, the closer you get to pi --- and because this is a hypergeometric series, it approaches pi quite quickly.
-
-Wikipedia suggests computing pi using an equivalent but more performant form, shown below.
-
-$$ {\displaystyle {\frac {426880{\sqrt {10005}}}{\pi }}=\sum _{q=0}^{\infty }{\frac {(6q)!(545140134q+13591409)}{(3q)!(q!)^{3}\left(-262537412640768000\right)^{q}}}} $$
-
-This is the version that we'll be using. Building on Arthur Vause's excellent [JavaScript implementation](https://pi-calculator.netlify.app/), I've written a relatively short script that calculates pi to an arbitrary number of digits, updating the output as it goes. The part of the output that stays the same as more terms are added are highlighted in bold; this way, you can essentially watch the series converge! You can play with it below, then we will explore how it works.
-
 ### Run it yourself
 
-Have fun with the interactive calculator below! Because I implemented this in pure JavaScript, however, it can get a bit wieldy when working with more than around 100,000 digits --- this behavior is mostly just because it's hard to display that many digits on the page at once! Because of this browser overhead that I'm not entirely sure how to bypass, this implementation doesn't strictly follow the asymtotic time complexity of the Chudnovsky algorithm, \\( {\displaystyle O(n\log(n)^{3})} \\).
+Let's get straight to it. Press 'Calculate' and watch the algorithm find pi! The flickering numbers are not random, nor are they just for effect --- at each step, you see the algorithm's best attempt at pi (and it gets more and more precise over time).
 
-**A warning for Firefox users:** Firefox's `BigInteger` implementation tends to overflow at around 100,000 digits. If you get wrong results, that's why. This may be fixed in a more recent version of Firefox. On my computer, Chromium-based browsers are about twice as fast.
-
-Once the calculation is complete, you'll see a few stats displayed about the computation. Note that the calculation times shown _excludes_ throttling, but might include some browser overhead from the throttling (e.g., updating the progress bar and output). If you're using this as some kind of benchmark, be sure to set the throttling to `AFAP` (as fast as possible).
+You can play with it below, then we'll explore how it works. If you're curious about the math, programming, context, and trickery behind this demonstration, be sure to read on.
 
 <script src="calc.js"></script>
 
@@ -84,7 +56,7 @@ Once the calculation is complete, you'll see a few stats displayed about the com
 
 <div class="flex items-center">
     <progress class="progress ~urge !high hidden mb-2" value="0" max="1" id="progress-output"></progress>
-    <p class="font-mono hidden" id="stats-output"></p>
+    <p class="font-mono" id="stats-output">All systems go! Press 'Calculate' to run.</p>
 </div>
 
 <aside class="aside ~critical hidden" id="error-output"></aside>
@@ -92,6 +64,36 @@ Once the calculation is complete, you'll see a few stats displayed about the com
 <div class="font-mono section p-4 bg-neutral-200 overflow-y-auto max-h-screen">
     <span id="pi-output">Digits will appear here...</span>
 </div>
+
+Because this is pure JavaScript, it can get a bit wieldy when working with more than around 100,000 digits --- it's hard to display that many digits on the page at once! As a result, this implementation doesn't strictly follow the asymtotic time complexity of the Chudnovsky algorithm, \\( {\displaystyle O(n\log(n)^{3})} \\).
+
+On my computer, Chromium and WebKit-based browsers are about twice as fast as Firefox. Note that the times shown _exclude_ throttling, but might include some browser overhead that is only present when throttling is enabled (e.g., updating the progress bar and output). If you're using this as some kind of benchmark, be sure to disable throttling by setting it to `AFAP` (as fast as possible).
+
+**A warning for Firefox users:** Firefox's `BigInteger` implementation tends to overflow at around 100,000 digits. If you get wrong results, that's why. This may be fixed in a more recent version of Firefox.
+
+### History of pi
+
+The first written [approximations of pi](https://en.wikipedia.org/wiki/Approximations_of_%CF%80) appeared in Babylon and Egypt, and were accurate to around two base-10 decimal places. While that may not sound impressive, consider that correctly estimating pi to two decimal places is at most 0.2% away from the true value!
+
+By 400 C.E., Chinese mathematicians correctly estimated the first seven digits of pi. There wasn't much improvement until the late middle ages, when [John Manchin](https://en.wikipedia.org/wiki/John_Machin) correctly computed the first 100 digits using what we now call Machin's formula:
+
+$$ {\frac  {\pi }{4}}=4\arctan {\frac  {1}{5}}-\arctan {\frac  {1}{239}} $$
+
+He then computed the arctangents using a [Taylor series](https://en.wikipedia.org/wiki/Taylor_series) expansion. Machin's approach converged to pi far more quickly than other contemporary approaches, making hand-calculation feasible. Other mathematicians caught on to his approach, and [Machin-like formulas](https://en.wikipedia.org/wiki/Machin-like_formula) became among the most popular ways of computing pi until computer-driven approaches emerged in the 1950s.
+
+### The Chudnovsky algorithm
+
+For our calculation of pi, we'll be focusing on the [Chudnovsky algorithm](https://en.wikipedia.org/wiki/Chudnovsky_algorithm), which the [Chudnovsky brothers](https://en.wikipedia.org/wiki/Chudnovsky_brothers) published in 1988. This modern algorithm is quite efficient, and was used for all the most recent world-record calculations of pi (including the 50 trillion digit record set in 2020). We won't do anything more than a superficial overview of this algorithm, but here it is in its full glory:
+
+$$ {\displaystyle {\frac {1}{\pi }}=12\sum _{q=0}^{\infty }{\frac {(-1)^{q}(6q)!(545140134q+13591409)}{(3q)!(q!)^{3}\left(640320\right)^{3q+3/2}}}} $$
+
+At a glance, you may notice that it is a [hypergeometric series](https://en.wikipedia.org/wiki/Generalized_hypergeometric_function), that it has several mystical constants, and yields the _reciprocal_ of pi. If you're curious, a more detailed proof is available [here](https://arxiv.org/abs/1809.00533). I'm not even going to pretend to fully understand this algorithm; maybe someday I will, but that day is not today. The core idea is that the more terms you include in the sum, the closer you get to pi --- and because this is a hypergeometric series, it approaches pi quite quickly.
+
+Wikipedia suggests computing pi using an equivalent but more performant form, shown below.
+
+$$ {\displaystyle {\frac {426880{\sqrt {10005}}}{\pi }}=\sum _{q=0}^{\infty }{\frac {(6q)!(545140134q+13591409)}{(3q)!(q!)^{3}\left(-262537412640768000\right)^{q}}}} $$
+
+This is the version that we use. Built on Arthur Vause's excellent [JavaScript implementation](https://pi-calculator.netlify.app/), the demonstration above calculates pi to an arbitrary number of digits and updating the output as it goes.
 
 ### How it works
 

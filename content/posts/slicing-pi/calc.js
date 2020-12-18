@@ -56,7 +56,7 @@ function statusUpdate(val, time, digits) {
     let stats = document.querySelector("#stats-output");
     if (val >= 1) {
         bar.classList.add("hidden");
-        stats.textContent = `${digits} digits of pi found in ${time}ms (${time / digits}ms per digit).`
+        stats.textContent = `${digits} digits of pi found in ${time}ms (${(time / digits).toFixed(3)}ms per digit).`
         stats.classList.remove("hidden");
     } else {
         bar.classList.remove("hidden");
@@ -116,7 +116,7 @@ async function calculatePi() {
     let a_k = one;
     let a_sum = one;
     let b_sum = 0n;
-    const sleepTime = 25;
+    const sleepTime = 35;
 
     let previousOutput = "";
     let prefixLength = 0;
