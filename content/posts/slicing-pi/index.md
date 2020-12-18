@@ -13,7 +13,7 @@ If you're reading this, you almost certainly don't need me to convince you that 
 
 There's a decent chance you know the first few digits of pi off the top of your head! I can recite around fifteen digits, plus or minus a few depending on the day: `3.14159265358979...`. This level of accuracy is good enough for almost all real-world applications (a circle the size of earth would have an error of only a few millimeters), but we can do better. We're going to calculate the first `n` digits of pi together using _your_ device. (You'll get to choose the value of `n` later.)
 
-While you won't be breaking the [world record](https://www.guinnessworldrecords.com/world-records/66179-most-accurate-value-of-pi#:~:text=The%20most%20accurate%20value%20of,over%208%20months%20in%20total.) of 50 trillion digits set by Timothy Mullican in early 2020, you'll easily surpass a thousand, and you'll learn about some cool algorithms along the way. And if you read to the end, you'll see how we "trick" JavaScript into using `BigIntegers` to reason about pi --- which, as you know, is very much _not_ an integer.
+While you won't be breaking the [world record](https://www.guinnessworldrecords.com/world-records/66179-most-accurate-value-of-pi#:~:text=The%20most%20accurate%20value%20of,over%208%20months%20in%20total.) of 50 trillion digits set by Timothy Mullican in early 2020, you'll easily surpass a thousand, and you'll learn about some cool algorithms along the way. And if you read to the end, you'll see how we "trick" JavaScript into using `BigInteger`s to reason about pi --- which, as you know, is very much _not_ an integer.
 
 ### History of Pi
 
@@ -31,13 +31,13 @@ For our calculation of pi, we'll be focusing on the [Chudnovsky algorithm](https
 
 $$ {\displaystyle {\frac {1}{\pi }}=12\sum _{q=0}^{\infty }{\frac {(-1)^{q}(6q)!(545140134q+13591409)}{(3q)!(q!)^{3}\left(640320\right)^{3q+3/2}}}} $$
 
-At a glance, you may notice that it is a [hypergeometric series](https://en.wikipedia.org/wiki/Generalized_hypergeometric_function), that it has several mystical constants, and yields the _reciprocal_ of pi. If you're curious, a more detailed proof is available [here](https://arxiv.org/abs/1809.00533). I'm not even going to pretend to fully understand this algorithm; maybe someday I will, but that day is not today.
+At a glance, you may notice that it is a [hypergeometric series](https://en.wikipedia.org/wiki/Generalized_hypergeometric_function), that it has several mystical constants, and yields the _reciprocal_ of pi. If you're curious, a more detailed proof is available [here](https://arxiv.org/abs/1809.00533). I'm not even going to pretend to fully understand this algorithm; maybe someday I will, but that day is not today. The core idea is that the more terms you include in the sum, the closer you get to pi --- and because this is a hypergeometric series, it approaches pi quite quickly.
 
 Wikipedia suggests computing pi using an equivalent but more performant form, shown below.
 
 $$ {\displaystyle {\frac {426880{\sqrt {10005}}}{\pi }}=\sum _{q=0}^{\infty }{\frac {(6q)!(545140134q+13591409)}{(3q)!(q!)^{3}\left(-262537412640768000\right)^{q}}}} $$
 
-This is the version that we'll be using. Building on Arthur Vause's excellent [JavaScript implementation](https://pi-calculator.netlify.app/), I've written a relatively short script that calculates pi to an arbitrary number of digits, updating the visualization below as it goes. You can play with it below, then we will explore how it works.
+This is the version that we'll be using. Building on Arthur Vause's excellent [JavaScript implementation](https://pi-calculator.netlify.app/), I've written a relatively short script that calculates pi to an arbitrary number of digits, updating the output as it goes. The part of the output that stays the same as more terms are added are highlighted in bold; this way, you can essentially watch the series converge! You can play with it below, then we will explore how it works.
 
 ### Run it yourself
 
@@ -105,7 +105,7 @@ The key idea is that we compute the numerator and denominators separately, shift
 
 $$ {\displaystyle {\frac {426880{\sqrt {10005}}}{\pi }}=\sum _{q=0}^{\infty }{\frac {(6q)!(545140134q+13591409)}{(3q)!(q!)^{3}\left(-262537412640768000\right)^{q}}}} $$
 
-In fact, the hard part --- at least from a _programming_ perspective --- is calculating \\( \sqrt {10005} \\)! Fortunately, this calculation can also be approximated to arbitrary precision using our numerator-denominator "trick" with `BigIntegers`.
+In fact, the hard part --- at least from a _programming_ perspective --- is calculating \\( \sqrt {10005} \\)! Fortunately, this calculation can also be approximated to arbitrary precision using our numerator-denominator "trick" with `BigInteger`s.
 
 ### A simplified example
 

@@ -26,6 +26,7 @@ function sqrt10005(digits) {
 function showError(message) {
     document.querySelector("#stats-output").textContent = message;
     document.querySelector("#stats-output").classList.remove("hidden");
+    document.querySelector("#progress-output").classList.add("hidden");
     setButtonState(true);
 }
 
