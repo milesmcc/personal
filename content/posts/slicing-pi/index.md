@@ -134,10 +134,10 @@ let denominator = original + 1;
 // the end, but because the values are fixed, we just hard-
 // code it for the example.
 let result = "0." + (numerator / denominator).toString();
-console.log(result) // => 0.9999999999999999999999991899999983800000
+console.log(result) // => 0.999999999999999999999999189999998380...
 ```
 
-And there we have it! JavaScript outputted `0.9999999999999999999999991899999983800000` --- the correct value _far_ more precisely than what is possible with JavaScript's floating point numbers. We give up some ergonomics and performance, but it works! And it's hardly a hack: everything we're doing is mathematically sound, and would work for any number. (I realize this example doesn't involve irrational numbers; the point is just to illustrate precision beyond what's possible with floating points.)
+And there we have it! JavaScript outputs a number with more than 30 digits of precision --- _far_ more precise than what is possible with JavaScript's floating point numbers. We give up some ergonomics and performance when using this approach, but it works! And it's hardly a hack: everything we're doing is mathematically sound, and would work for any number. (I realize this example doesn't involve irrational numbers; the point is just to illustrate precision beyond what's possible with floating points.)
 
 So have fun! How fast can your computer compute 1,000 digits of pi? How about 100,000? Can you get a million? Does the performance change when your device is plugged in compared to when it's on battery? I'm able to comfortably compute 100,000 digits in a little over one second with throttling disabled --- but your computer could probably beat mine.
 
