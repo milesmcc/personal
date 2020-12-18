@@ -7,7 +7,7 @@ draft: false
 mathjax: true
 ---
 
-Let's calculate a slice of pi in your browser. (Please forgive the pun.)
+Let's calculate a slice of pi in your browser. (Please forgive the pun.) All we need is vanilla JavaScript, math, and a bit of trickery.
 
 If you're reading this, you almost certainly don't need me to convince you that pi --- the ratio of any circle's circumference to its diameter, π --- is cool. It has infinitely many digits, and those digits never repeat. Wherever circles appear, pi is nearby. The constant isn't limited to geometry, though: it appears in [all sorts of places](https://en.wikipedia.org/wiki/Pi#Role_and_characterizations_in_mathematics) across math, physics, engineering, and other disciplines.
 
