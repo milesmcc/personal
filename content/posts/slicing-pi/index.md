@@ -65,17 +65,17 @@ You can play with it below, then we'll explore how it works. If you're curious a
     <span id="pi-output">Digits will appear here...</span>
 </div>
 
-Because this is pure JavaScript, it can get a bit wieldy when working with more than around 100,000 digits --- it's hard to display that many digits on the page at once! As a result, this implementation doesn't strictly follow the asymtotic time complexity of the Chudnovsky algorithm, \\( {\displaystyle O(n\log(n)^{3})} \\).
+Because this is pure JavaScript, it can get a bit wieldy when working with more than around 100,000 digits --- it's hard to display that many digits on the page at once! As a result, this implementation doesn't strictly follow the asymptotic time complexity of the Chudnovsky algorithm, \\( {\displaystyle O(n\log(n)^{3})} \\).
 
 On my computer, Chromium and WebKit-based browsers are about twice as fast as Firefox. Note that the times shown _exclude_ throttling, but might include some browser overhead that is only present when throttling is enabled (e.g., updating the progress bar and output). If you're using this as some kind of benchmark, be sure to disable throttling by setting it to `AFAP` (as fast as possible).
 
-**A warning for Firefox users:** Firefox's `BigInteger` implementation tends to overflow at around 100,000 digits. If you get wrong results, that's why. This may be fixed in a more recent version of Firefox.
+**A warning for Firefox users:** Firefox's `BigInteger` implementation tends to overflow at around 100,000 digits. If you get incorrect results, that's why. This may be fixed in a more recent version of Firefox.
 
 ### History of pi
 
-The first written [approximations of pi](https://en.wikipedia.org/wiki/Approximations_of_%CF%80) appeared in Babylon and Egypt, and were accurate to around two base-10 decimal places. While that may not sound impressive, consider that correctly estimating pi to two decimal places is at most 0.2% away from the true value!
+The first written [approximations of pi](https://en.wikipedia.org/wiki/Approximations_of_%CF%80) appeared in Babylon and were accurate to around two base-10 decimal places. While that may not sound impressive, consider that correctly estimating pi to two decimal places is at most 0.2% away from the true value!
 
-By 400 C.E., Chinese mathematicians correctly estimated the first seven digits of pi. There wasn't much improvement until the late middle ages, when [John Manchin](https://en.wikipedia.org/wiki/John_Machin) correctly computed the first 100 digits using what we now call Machin's formula:
+By 400 C.E., Chinese mathematicians correctly estimated the first seven digits of pi. There wasn't much improvement until the late middle ages when [John Manchin](https://en.wikipedia.org/wiki/John_Machin) correctly computed the first 100 digits using what we now call Machin's formula:
 
 $$ {\frac  {\pi }{4}}=4\arctan {\frac  {1}{5}}-\arctan {\frac  {1}{239}} $$
 
@@ -83,7 +83,7 @@ He then computed the arctangents using a [Taylor series](https://en.wikipedia.or
 
 ### The Chudnovsky algorithm
 
-For our calculation of pi, we'll be focusing on the [Chudnovsky algorithm](https://en.wikipedia.org/wiki/Chudnovsky_algorithm), which the [Chudnovsky brothers](https://en.wikipedia.org/wiki/Chudnovsky_brothers) published in 1988. This modern algorithm is quite efficient, and was used for all the most recent world-record calculations of pi (including the 50 trillion digit record set in 2020). We won't do anything more than a superficial overview of this algorithm, but here it is in its full glory:
+For our calculation of pi, we'll be focusing on the [Chudnovsky algorithm](https://en.wikipedia.org/wiki/Chudnovsky_algorithm), which the [Chudnovsky brothers](https://en.wikipedia.org/wiki/Chudnovsky_brothers) published in 1988. This modern algorithm is quite efficient and was used for all the most recent world-record calculations of pi (including the 50 trillion digit record set in 2020). We won't do anything more than a superficial overview of this algorithm, but here it is in its full glory:
 
 $$ {\displaystyle {\frac {1}{\pi }}=12\sum _{q=0}^{\infty }{\frac {(-1)^{q}(6q)!(545140134q+13591409)}{(3q)!(q!)^{3}\left(640320\right)^{3q+3/2}}}} $$
 
@@ -103,7 +103,7 @@ Instead, I want to explore the code at a higher level. The calculation was done 
 
 Recall that a [rational number](https://en.wikipedia.org/wiki/Rational_number) is defined as any number that can be expressed as the quotient of two integers --- that is, \\( \frac{p}{q} \\) for any \\(p, q \in \mathbb{Z} \\). We now have a way to reason about all rational numbers with arbitrary precision!
 
-The key idea is that we compute the numerator and denominators separately, shift the numerator by the necessary number of digits (so that our output is another integer), and only _then_ perform the division. (The one caveat is that we need to remember where to put the decimal place!) Taking a second look at the optimized Chudnovsky algorithm, note that the both the numerator and denominator are just extraordinarily large integers:
+The key idea is that we compute the numerator and denominators separately, shift the numerator by the necessary number of digits (so that our output is another integer), and only _then_ perform the division. (The one caveat is that we need to remember where to put the decimal place!) Taking a second look at the optimized Chudnovsky algorithm, note that both the numerator and denominator are just extraordinarily large integers:
 
 $$ {\displaystyle {\frac {426880{\sqrt {10005}}}{\pi }}=\sum _{q=0}^{\infty }{\frac {(6q)!(545140134q+13591409)}{(3q)!(q!)^{3}\left(-262537412640768000\right)^{q}}}} $$
 
@@ -139,11 +139,11 @@ let result = "0." + (numerator / denominator).toString();
 console.log(result) // => 0.999999999999999999999999189999998380...
 ```
 
-And there we have it! JavaScript outputs a number with more than 30 digits of precision --- _far_ more precise than what is possible with JavaScript's floating point numbers. We give up some ergonomics and performance when using this approach, but it works! And it's hardly a hack: everything we're doing is mathematically sound, and would work for any number. (I realize this example doesn't involve irrational numbers; the point is just to illustrate precision beyond what's possible with floating points.)
+And there we have it! JavaScript outputs a number with more than 30 digits of precision --- _far_ more precise than what is possible with JavaScript's floating-point numbers. We give up some ergonomics and performance when using this approach, but it works! And it's hardly a hack: everything we're doing is mathematically sound and would work for any number. (I realize this example doesn't involve irrational numbers; the point is just to illustrate precision beyond what's possible with floating points.)
 
 So have fun! How fast can your computer compute 1,000 digits of pi? How about 100,000? Can you get a million? Does the performance change when your device is plugged in compared to when it's on battery? I'm able to comfortably compute 100,000 digits in a little over one second with throttling disabled --- but your computer could probably beat mine.
 
-### Acknowledgements
+### Acknowledgments
 
 My JavaScript implementation of Chudnovsky's algorithm was heavily based on Arthur Vause's [implementation](https://pi-calculator.netlify.app/); I don't mention it earlier, but I also use his arbitrary-precision implementation for finding the square root of `10005`.
 
