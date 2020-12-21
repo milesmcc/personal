@@ -65,7 +65,7 @@ You can play with it below, then we'll explore how it works. If you're curious a
     <span id="pi-output">Digits will appear here...</span>
 </div>
 
-Because this is pure JavaScript, it can get a bit wieldy when working with more than around 100,000 digits --- it's hard to display that many digits on the page at once! As a result, this implementation doesn't strictly follow the asymptotic time complexity of the Chudnovsky algorithm, \\( {\displaystyle O(n\log(n)^{3})} \\).
+Because this is pure JavaScript, it can get a bit unwieldy when working with more than around 100,000 digits --- it's hard to display that many digits on the page at once! As a result, this implementation doesn't strictly follow the asymptotic time complexity of the Chudnovsky algorithm, \\( {\displaystyle O(n\log(n)^{3})} \\).
 
 On my computer, Chromium and WebKit-based browsers are about twice as fast as Firefox. Note that the times shown _exclude_ throttling, but might include some browser overhead that is only present when throttling is enabled (e.g., updating the progress bar and output). If you're using this as some kind of benchmark, be sure to disable throttling by setting it to `AFAP` (as fast as possible).
 
