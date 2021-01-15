@@ -12,7 +12,7 @@ icon:
 ---
 I'm interested in systems of justice, tech policy, cybersecurity, disinformation, governance, and human-centered design. My projects, research, and commentary have appeared in several outlets including the *Washington Post*, the *New York Times*, *NBC News*, *TIME*, *Foreign Affairs*, Brookings, and the *Nightly News* with Lester Holt. I'm in my first year at Stanford.
 
-Some of the projects I'm most proud of are [PrivacySpy](https://privacyspy.org), [Shynet](https://github.com/milesmcc/shynet), [PolitiTweet](https://polititweet.org), my work at the [Stanford Internet Observatory](https://io.stanford.edu), and [a17t](https://a17t.miles.land). I help teach [CS 106S](http://web.stanford.edu/class/cs106s/) at Stanford, I worked on cyber policy for a major [2020 presidential campaign](/portfolio/politics), and I'm a non-resident fellow at the Cornell [Tech Policy Lab](https://tpl.as.cornell.edu).
+Some of the projects I'm most proud of are [PrivacySpy](https://privacyspy.org), [Shynet](https://github.com/milesmcc/shynet), [PolitiTweet](https://polititweet.org), my work at the [Stanford Internet Observatory](https://io.stanford.edu), and [a17t](https://a17t.miles.land). I help teach [CS 106S](http://web.stanford.edu/class/cs106s/) at Stanford, I worked on cyber policy during the [2020 presidential campaign](/portfolio/politics), and I'm a non-resident fellow at the Cornell [Tech Policy Lab](https://tpl.as.cornell.edu).
 
 And finally, for the obligatory apostrophe soup: PA &rsquo;19, [RC S1 &rsquo;20](https://www.recurse.com/scout/click?t=e62336f0f378bcf03a96d441d015db88), [Stanford &rsquo;24](https://stanford.edu/~mccain/), [EOT](https://en.wikipedia.org/wiki/End-of-Transmission_character). More details are in my [portfolio](/portfolio/).
 
