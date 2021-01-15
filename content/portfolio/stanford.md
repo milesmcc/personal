@@ -13,7 +13,8 @@ weight: 1
 Since September 2020, I've been an undergraduate at [Stanford](https://stanford.edu).
 
 ### Work
-* **RA at the [Stanford Internet Observatory](https://io.stanford.edu)** (October 2020 –). Working on the Tech Team and with the [Election Integrity Partnership](https://www.eipartnership.net/).
+* **RA at the [Stanford Internet Observatory](https://io.stanford.edu)** (October 2020 –). Working on the Tech Team and with the [Election Integrity Partnership](https://www.eipartnership.net/). Studied Wikipedia in a series of two blog posts ([part 1](https://cyber.fsi.stanford.edu/io/news/wikipedia-part-one), [part 2](https://cyber.fsi.stanford.edu/io/news/wikipedia-part-two)). Quoted in [TIME magazine](https://time.com/5930061/wikipedia-birthday/).
+
 * **CS 106S Team** (January 2020 –). Helping teach [CS 106S](cs106s.stanford.edu), a supplemental 1-unit add-on to Stanford's famous CS intro class (CS 106A) focusing on programming for social good.
 
 ### Organizations
