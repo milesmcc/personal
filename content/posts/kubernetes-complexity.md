@@ -12,9 +12,9 @@ In February, my Google Cloud free credits will expire, so yesterday I decided to
 
 For almost everyone, [Kubernetes](https://kubernetes.io)—the popular container-based infrastructure orchestration tool—is overkill. I'm no exception; it's overkill for me too. But because I want experience with it, I use Kubernetes to host almost all of my projects. I don't _need_ to do this, but most public clouds have such good managed Kubernetes offerings that it doesn't make my life much more difficult.
 
-As a bonus, Kubernetes lets me cram all of my projects on a single small VM when traffic is low but automatically scale up when traffic is high using spot/preemptible instances—meaning that I end up paying significantly less on hosting than I otherwise would.
+As a bonus, Kubernetes lets me cram all of my projects on a single small VM when traffic is low but automatically scale up when traffic is high using spot/preemptible instances—meaning that I end up paying significantly less on hosting than I otherwise would. (Even when using the managed Kubernetes offerings, I don't have to pay for the cluster itself—just the nodes that make it up.)
 
-And finally, a bonus of using Kubernetes is that I have significantly less vendor lock-in. Instead of using managed services (like Google's Memorystore), I just run a Redis instance in Kubernetes and wire everything together using Kubernetes' cluster network management. This is the biggest reason why migrating from Google Cloud to Microsoft Azure took so little time.
+And finally, a bonus of using Kubernetes is that I have less vendor lock-in. Instead of using managed services (like Google's Memorystore), I just run a Redis instance in Kubernetes and wire everything together using Kubernetes' cluster network management. This is the biggest reason why migrating from Google Cloud to Microsoft Azure took so little time.
 
 ### So what did I actually migrate?
 
