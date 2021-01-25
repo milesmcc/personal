@@ -41,7 +41,7 @@ And then I was done.
 
 I didn't have to change how the webserver nodes connected to Redis—it's the same local host (`redis://shynet-redis.default.svc.cluster.local/1`). I only had to change the database host and update the DNS. And then everything was alive.
 
-To be clear, I'm almost certainly not using Kubernetes to its full potential, so feel free to let me know if you see clear areas where I could improve. [Here](https://github.com/milesmcc/shynet/tree/master/kubernetes) are my Shynet Kubernetes config files. I'm a bit hesitant about running the database inside Kubernetes as well, but that _would_ be a neat next step—Azure's managed database is expensive and not that good.
+To be clear, I'm almost certainly not using Kubernetes to its full potential, so feel free to let me know if you see clear areas where I could improve. [Here](https://github.com/milesmcc/shynet/tree/dev/kubernetes) are my Shynet Kubernetes config files. I'm a bit hesitant about running the database inside Kubernetes as well, but that _would_ be a neat next step—Azure's managed database is expensive and not that good.
 
 ### Ok, so what?
 
