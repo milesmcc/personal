@@ -19,7 +19,7 @@ Here are a few more projects that I've worked on over the past few years. A numb
 - [OpenAlerts](https://github.com/news-catalyst/openalerts) --- an open source, intuitive, and low-cost breaking news distribution system for newsrooms (with [News Catalyst](https://newscatalyst.org)).
 - [BibleOrQuran.org](https://bibleorquran.org/) --- a game to combat islamophobia; awarded "most wholesome [game] of 2016" by Reddit WebGames, 250+ upvotes on [post](https://www.reddit.com/r/WebGames/comments/50cwkn/bibleorquran_gives_you_a_random_verse_from_either/)
 - [IEQL](https://github.com/milesmcc/ieql) --- an Internet scanning system I created as part of an independent project course at Phillips Academy.
-- [PollPA](https://pollpa.org/) --- a live polling platform for Phillips Academy.
+- [PollPA](https://pollpa.com/) --- a live polling platform for Phillips Academy.
 - [Introduction to Cybersecurity](https://github.com/milesmcc/cyber101) --- a beginner cybersecurity course I designed for high school and college students.
 - [PARussian](https://parussian.org/) --- a 2nd level textbook I created based on Русский Язык Для Всех for the Phillips Academy Russian Department.
 - [Foia.fyi](https://foia.fyi/) --- a simple website that simplifies the process of submitting a FOIA request.
