@@ -278,6 +278,10 @@
 .highlight .vi { color: var(--color-info-700) } /* Name.Variable.Instance */
 .highlight .il { color: var(--color-info-700) } /* Literal.Number.Integer.Long */
 
+.content pre {
+    background-color: var(--color-neutral-100);
+}
+
 .transition-opacity {
     transition: opacity 100ms ease-in-out;
 }

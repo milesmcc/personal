@@ -54,13 +54,13 @@ You can play with it below, then we'll explore how it works. If you're curious a
 </form>
 
 <div class="flex items-center">
-    <progress class="progress ~urge !high hidden mb-2" value="0" max="1" id="progress-output"></progress>
+    <progress class="progress ~urge hidden mb-2" value="0" max="1" id="progress-output"></progress>
     <p class="font-mono" id="stats-output">All systems go! Press 'Calculate' to run.</p>
 </div>
 
 <aside class="aside ~critical hidden" id="error-output"></aside>
 
-<div class="font-mono section p-4 bg-neutral-200 overflow-y-auto max-h-screen">
+<div class="font-mono section p-4 bg-neutral-100 overflow-y-auto max-h-screen">
     <span id="pi-output">Digits will appear here...</span>
 </div>
 

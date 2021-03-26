@@ -3,7 +3,7 @@ title: "I accidentally broke one of my biggest sites because I used a CDN"
 date: 2020-07-09T16:23:14Z
 draft: false
 tags: ["technical", "a17t", "css", "whoaremyrepresentatives"]
-alias: "/errata/used-a-cdn-wamr/"
+aliases: ["/errata/used-a-cdn-wamr/"]
 ---
 
 I recently redesigned [WhoAreMyRepresentatives](https://whoaremyrepresentatives.org) with help from some [Politiwatch](https://politiwatch.org) volunteers. It's just a simple flask app, and setting up some kind of asset pipeline for the CSS felt like overkill, so I imported a17t (my CSS library) from a CDN.
