@@ -2,7 +2,6 @@
 title: "Shynet will never be a SaaS"
 tags: ["blag", "shynet", "open source"]
 date: 2020-07-09T17:31:45Z
-toc: true
 draft: false
 ---
 

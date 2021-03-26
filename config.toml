@@ -13,28 +13,33 @@ tag = "tags"
 name = "Portfolio"
 url = "/portfolio/"
 weight = 1
+[menu.main.params]
+    style = "critical"
 
 [[menu.main]]
 name = "Micros"
 url = "/micros/"
 weight = 2
-
-[[menu.main]]
-name = "Errata"
-url = "/errata/"
-weight = 3
+[menu.main.params]
+    style = "warning"
 
 [[menu.main]]
 name = "Cool"
 url = "/cool/"
-weight = 4
+weight = 3
+[menu.main.params]
+    style = "positive"
 
 [[menu.main]]
 name = "Posts"
 url = "/posts/"
-weight = 5
+weight = 4
+[menu.main.params]
+    style = "info"
 
 [[menu.main]]
 name = "Letter"
 url = "/letter/"
-weight = 6
+weight = 5
+[menu.main.params]
+    style = "urge"

@@ -2,7 +2,6 @@
 title: "Calculating a slice of pi with trickery"
 tags: ["math", "pi", "interactive", "blag"]
 date: 2020-12-18T11:28:00-05:00
-toc: true
 draft: false
 mathjax: true
 ---

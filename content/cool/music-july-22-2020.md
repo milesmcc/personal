@@ -3,7 +3,6 @@ title: "Music you might like (#1)"
 tags: ["music", "recently"]
 date: 2020-07-27T20:54:06Z
 draft: false
-toc: true
 ---
 
 Here are 39 songs across 117 genres that I've been listening to lately. There's no common theme to this playlist beyond the fact that it's all songs I enjoy.

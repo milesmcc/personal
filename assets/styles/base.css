@@ -3,113 +3,171 @@
 @import 'a17t/dist/tailwind.css';
 
 :root {
-    --color-urge-900-root: #091b00;
-    --color-urge-800-root: #1c3004;
-    --color-urge-700-root: #30451b;
-    --color-urge-600-root: #465b2f;
-    --color-urge-500-root: #5d7245;
-    --color-urge-400-root: #748a5b;
-    --color-urge-300-root: #8da272;
-    --color-urge-200-root: #a6bc8b;
-    --color-urge-100-root: #bfd6a3;
-    --color-urge-50-root: #d9f0bd;
-    --color-urge-000-root: #eaf8d7;
+    --family-secondary: "Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --family-primary: var(--family-secondary);
 
-    --color-urge-000-root: #ffffff;
-    --color-neutral-50-root: #fff8e8;
-    --color-neutral-100-root: #fdf6e3;
-    --color-neutral-200-root: #f5eede;
-    --color-neutral-300-root: #e0dbcb;
-    --color-neutral-400-root: #afab9d;
-    --color-neutral-500-root: #858177;
-    --color-neutral-600-root: #66635a;
-    --color-neutral-700-root: #4e4c45;
-    --color-neutral-800-root: #302e2a;
-    --color-neutral-900-root: #22211e;
-
-    --color-neutral-900: var(--color-neutral-900-root);
-    --color-neutral-800: var(--color-neutral-800-root);
-    --color-neutral-700: var(--color-neutral-700-root);
-    --color-neutral-600: var(--color-neutral-600-root);
-    --color-neutral-500: var(--color-neutral-500-root);
-    --color-neutral-400: var(--color-neutral-400-root);
-    --color-neutral-300: var(--color-neutral-300-root);
-    --color-neutral-200: var(--color-neutral-200-root);
-    --color-neutral-100: var(--color-neutral-100-root);
-    --color-neutral-50: var(--color-neutral-50-root);
-    --color-neutral-000: var(--color-neutral-000-root);
-
-    --color-urge-900: var(--color-urge-900-root);
-    --color-urge-800: var(--color-urge-800-root);
-    --color-urge-700: var(--color-urge-700-root);
-    --color-urge-600: var(--color-urge-600-root);
-    --color-urge-500: var(--color-urge-500-root);
-    --color-urge-400: var(--color-urge-400-root);
-    --color-urge-300: var(--color-urge-300-root);
-    --color-urge-200: var(--color-urge-200-root);
-    --color-urge-100: var(--color-urge-100-root);
-    --color-urge-50: var(--color-urge-50-root);
-    --color-urge-000: var(--color-urge-000-root);
-
-    --code-color: var(--color-urge-700);
-    --code-background: var(--color-neutral-200);
+    --color-neutral-000: #ffffff;
+    --color-neutral-50: #f3f4f6;
+    --color-neutral-100: #e5e7eb;
+    --color-neutral-200: #d1d5db;
+    --color-neutral-300: #9ca3af;
+    --color-neutral-400: #6b7280;
+    --color-neutral-500: #4b5563;
+    --color-neutral-600: #374151;
+    --color-neutral-700: #1f2937;
+    --color-neutral-800: #172136;
+    --color-neutral-900: #0b0f18;
+    
+    --color-critical-000: #fef2f2;
+    --color-critical-50: #fee2e2;
+    --color-critical-100: #fecaca;
+    --color-critical-200: #fca5a5;
+    --color-critical-300: #f87171;
+    --color-critical-400: #ef4444;
+    --color-critical-500: #dc2626;
+    --color-critical-600: #b91c1c;
+    --color-critical-700: #991b1b;
+    --color-critical-800: #7f1d1d;
+    --color-critical-900: #441313;
+    
+    --color-warning-000: #fffbeb;
+    --color-warning-50: #fef3c7;
+    --color-warning-100: #fde68a;
+    --color-warning-200: #fcd34d;
+    --color-warning-300: #fbbf24;
+    --color-warning-400: #f59e0b;
+    --color-warning-500: #d97706;
+    --color-warning-600: #b45309;
+    --color-warning-700: #92400e;
+    --color-warning-800: #783900;
+    --color-warning-900: #411e01;
+    
+    --color-positive-000: #f0fdf4;
+    --color-positive-50: #dcfce7;
+    --color-positive-100: #bbf7d0;
+    --color-positive-200: #86efac;
+    --color-positive-300: #4ade80;
+    --color-positive-400: #22c55e;
+    --color-positive-500: #16a34a;
+    --color-positive-600: #15803d;
+    --color-positive-700: #166534;
+    --color-positive-800: #14532d;
+    --color-positive-900: #0f2e1b;
+    
+    --color-info-000: #eff6ff;
+    --color-info-50: #dbeafe;
+    --color-info-100: #bfdbfe;
+    --color-info-200: #93c5fd;
+    --color-info-300: #60a5fa;
+    --color-info-400: #3b82f6;
+    --color-info-500: #2563eb;
+    --color-info-600: #1d4ed8;
+    --color-info-700: #1e40af;
+    --color-info-800: #1e3a8a;
+    --color-info-900: #14244e;
+    
+    --color-urge-000: #f5f3ff;
+    --color-urge-50: #ede9fe;
+    --color-urge-100: #ddd6fe;
+    --color-urge-200: #c4b5fd;
+    --color-urge-300: #a78bfa;
+    --color-urge-400: #8b5cf6;
+    --color-urge-500: #7c3aed;
+    --color-urge-600: #6d28d9;
+    --color-urge-700: #5b21b6;
+    --color-urge-800: #4c1d95;
+    --color-urge-900: #240e44;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-neutral-000: var(--color-neutral-900-root);
-        --color-neutral-50: var(--color-neutral-800-root);
-        --color-neutral-100: var(--color-neutral-700-root);
-        --color-neutral-200: var(--color-neutral-600-root);
-        --color-neutral-300: var(--color-neutral-500-root);
-        --color-neutral-400: var(--color-neutral-400-root);
-        --color-neutral-500: var(--color-neutral-300-root);
-        --color-neutral-600: var(--color-neutral-200-root);
-        --color-neutral-700: var(--color-neutral-100-root);
-        --color-neutral-800: var(--color-neutral-50-root);
-        --color-neutral-900: var(--color-neutral-000-root);
-
-        --color-urge-000: var(--color-urge-900-root);
-        --color-urge-50: var(--color-urge-800-root);
-        --color-urge-100: var(--color-urge-700-root);
-        --color-urge-200: var(--color-urge-600-root);
-        --color-urge-300: var(--color-urge-500-root);
-        --color-urge-400: var(--color-urge-400-root);
-        --color-urge-500: var(--color-urge-300-root);
-        --color-urge-600: var(--color-urge-200-root);
-        --color-urge-700: var(--color-urge-100-root);
-        --color-urge-800: var(--color-urge-50-root);
-        --color-urge-900: var(--color-urge-000-root);
+        --color-neutral-900: #ffffff;
+        --color-neutral-800: #f3f4f6;
+        --color-neutral-700: #e5e7eb;
+        --color-neutral-600: #d1d5db;
+        --color-neutral-500: #9ca3af;
+        --color-neutral-400: #6b7280;
+        --color-neutral-300: #4b5563;
+        --color-neutral-200: #374151;
+        --color-neutral-100: #1f2937;
+        --color-neutral-50: #172136;
+        --color-neutral-000: #0b0f18;
+        
+        --color-critical-900: #fef2f2;
+        --color-critical-800: #fee2e2;
+        --color-critical-700: #fecaca;
+        --color-critical-600: #fca5a5;
+        --color-critical-500: #f87171;
+        --color-critical-400: #ef4444;
+        --color-critical-300: #dc2626;
+        --color-critical-200: #b91c1c;
+        --color-critical-100: #991b1b;
+        --color-critical-50: #7f1d1d;
+        --color-critical-000: #441313;
+        
+        --color-warning-900: #fffbeb;
+        --color-warning-800: #fef3c7;
+        --color-warning-700: #fde68a;
+        --color-warning-600: #fcd34d;
+        --color-warning-500: #fbbf24;
+        --color-warning-400: #f59e0b;
+        --color-warning-300: #d97706;
+        --color-warning-200: #b45309;
+        --color-warning-100: #92400e;
+        --color-warning-50: #783900;
+        --color-warning-000: #411e01;
+        
+        --color-positive-900: #f0fdf4;
+        --color-positive-800: #dcfce7;
+        --color-positive-700: #bbf7d0;
+        --color-positive-600: #86efac;
+        --color-positive-500: #4ade80;
+        --color-positive-400: #22c55e;
+        --color-positive-300: #16a34a;
+        --color-positive-200: #15803d;
+        --color-positive-100: #166534;
+        --color-positive-50: #14532d;
+        --color-positive-000: #0f2e1b;
+        
+        --color-info-900: #eff6ff;
+        --color-info-800: #dbeafe;
+        --color-info-700: #bfdbfe;
+        --color-info-600: #93c5fd;
+        --color-info-500: #60a5fa;
+        --color-info-400: #3b82f6;
+        --color-info-300: #2563eb;
+        --color-info-200: #1d4ed8;
+        --color-info-100: #1e40af;
+        --color-info-50: #1e3a8a;
+        --color-info-000: #14244e;
+        
+        --color-urge-900: #f5f3ff;
+        --color-urge-800: #ede9fe;
+        --color-urge-700: #ddd6fe;
+        --color-urge-600: #c4b5fd;
+        --color-urge-500: #a78bfa;
+        --color-urge-400: #8b5cf6;
+        --color-urge-300: #7c3aed;
+        --color-urge-200: #6d28d9;
+        --color-urge-100: #5b21b6;
+        --color-urge-50: #4c1d95;
+        --color-urge-000: #240e44;
     }
-}
-
-:root {
-    --color-title: var(--color-urge-600);
-
-    --border-radius-sm: none;
-    --border-radius-default: none;
-    --border-radius-md: none;
-    --border-radius-lg: none;
-    --border-radius-xl: none;
-
-    --border-width-default: 2px;
-    --border-width-2: 3px;
-    --border-width-4: 5px;
-    --border-width-8: 8px;
-
-    --family-secondary: "Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    --family-primary: var(--family-secondary);
 }
 
 .content a {
     transition: all 100ms ease-in;
-    color: var(--color-urge-600-fallback) !important;
-    text-decoration-color: var(--color-urge-300-fallback) !important;
+    color: var(--color-neutral-600) !important;
+    text-decoration-color: var(--color-neutral-400) !important;
 }
 
 .content a:hover {
-    color: var(--color-urge-500-fallback) !important;
-    text-decoration-color: var(--color-urge-200-fallback) !important;
+    color: var(--color-neutral-500) !important;
+    text-decoration-color: var(--color-neutral-200) !important;
+}
+
+.w-prose {
+    width: 65ch;
 }
 
 .vertical {
@@ -126,14 +184,13 @@
     transition: all 100ms ease-in;
     display: block;
 
-    color: var(--color-neutral-400-fallback);
-    border-left: 1.5px solid var(--color-neutral-400-fallback);
+    color: var(--color-neutral-400);
+    border-left: 1.5px solid var(--color-neutral-400);
 }
 
 .toc li a.active {
-    color: var(--color-neutral-600-fallback);
-    border-left-color: var(--color-neutral-600-fallback);
-    /* padding-left: 0.75rem; */
+    color: var(--color-neutral-600);
+    border-left-color: var(--color-neutral-600);
     border-left-width: 3px;
 }
 
@@ -217,3 +274,7 @@
 .highlight .vg { color: var(--color-info-700) } /* Name.Variable.Global */
 .highlight .vi { color: var(--color-info-700) } /* Name.Variable.Instance */
 .highlight .il { color: var(--color-info-700) } /* Literal.Number.Integer.Long */
+
+.transition-opacity {
+    transition: opacity 100ms ease-in-out;
+}

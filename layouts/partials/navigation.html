@@ -1,0 +1,23 @@
+{{ $currentPage := . }}
+<div class="flex justify-between w-full items-center md:block mb-12 md:mb-0">
+  <a class="flex justify-end md:w-full md:mb-12" href="/">
+    {{ $img := resources.Get "images/avatar.jpg" | resources.Minify | resources.Fingerprint }}
+    <img class="rounded-full h-8 w-8 md:h-12 md:w-12" src="{{ $img.Permalink }}" />
+  </a>
+  <nav class="text-right md:-mt-1 {{ if (not (or (eq $currentPage.RelPermalink "/") .IsNode)) }} opacity-50 transition-opacity hover:opacity-100 focus:opacity-100{{ end }}">
+    <div class="md:text-right">
+      <ul class="-ml-2 md:ml-0 flex md:block text-sm md:text-base">
+        {{ range .Site.Menus.main }}
+        <li class="portal ~{{ .Params.style }} {{ if hasPrefix $currentPage.RelPermalink .URL }} active {{ else }} text-{{ .Params.style }}-500 {{ end }}">
+          <a href="{{ .URL }}">
+            {{ .Pre }}
+            <span>{{ .Name }}</span>
+            {{ .Post }}
+          </a>
+        </li>
+        <br>
+        {{ end }}
+      </ul>
+    </div>
+  </nav>
+</div>

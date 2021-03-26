@@ -3,7 +3,6 @@ title: "Music you might like (#6)"
 tags: ["music", "recently"]
 date: 2020-10-20T20:04:46Z
 draft: false
-toc: true
 ---
 
 Here are 35 songs across 132 genres that I've been listening to lately. This is a busy week. I haven't felt this busy in awhile, and I don't like it.

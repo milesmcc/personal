@@ -26,7 +26,7 @@
       </span>
       {{ range (.GetTerms "tags") }}
       {{ if (not (eq (.Param "hidden") true))}}
-      <span class="badge {{ default "~neutral" (.Param "class") }} !normal inline">{{ .Title }}</span>
+      <span class="badge {{ default "~neutral" (.Param "class") }} !normal bg-neutral-100 font-normal inline">{{ .Title }}</span>
       {{ end }}
       {{ end }}
     </div>
