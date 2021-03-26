@@ -3,6 +3,7 @@ title: "Couldn't figure out why my CSS changes weren't being applied (turns out 
 tags: ["frusturating", "debugging"]
 date: 2020-07-11T19:45:50Z
 draft: false
+alias: "/errata/wasnt-on-localhost/"
 ---
 
 I know this is a pretty common mistake, but I just spent 20 minutes debugging a CSS issue before I realized that I was loading the "production" version of the site and not my local development version.

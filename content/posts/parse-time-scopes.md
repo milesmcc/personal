@@ -4,6 +4,7 @@ subtitle: ""
 tags: ["technical", "turtle", "blag"]
 date: 2020-07-23T16:12:05Z
 draft: false
+alias: "/errata/parse-time-scopes/"
 ---
 
 Over the past week or so, I’ve been working on building my own simple interpreted programming language. My goal is to learn about language design, Lisp, and systems programming—all while building a language that is fun to use (and maybe, just maybe, one day I'll find it useful for something).

@@ -4,6 +4,7 @@ title: Spot the error on the nutrition label...
 tags:
   - not my problem
   - overlooked
+alias: "/errata/spot-the-error-on-the-nutrition-label/"
 ---
 I usually only write about my own mistakes, but here I'm going to be writing about a mistake I noticed an error on the nutrition label of Quaker Oatmeal Squares cereal. The error is extremely minor (at least as far as I can tell), but it made me think—this label has been printed and seen probably millions of times, and yet this error remains on the box to this day (as of mid-August 2020).
 

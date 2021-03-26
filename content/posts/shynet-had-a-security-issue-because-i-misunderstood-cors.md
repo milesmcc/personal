@@ -5,6 +5,7 @@ tags:
   - technical
   - blag
   - shynet
+alias: "/errata/shynet-had-a-security-issue-because-i-misunderstood-cors/"
 ---
 When I built [Shynet](https://github.com/milesmcc/shynet), my self-hosted analytics tool, one of my top priorities was making sure it didn’t require visitors to have JavaScript enabled. While Shynet will try to log visits using a JavaScript [tracker](https://shynet.rmrm.io/ingress/aa93dbb3-7d36-4de1-8642-5074c7e33c92/script.js), it will fall back to a 1x1 transparent tracking pixel if JavaScript isn’t enabled. Here is the Shynet tracking code for this site, for example:
 
