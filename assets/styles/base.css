@@ -206,6 +206,10 @@
     transform: rotate(10deg);
 }
 
+code, kbd, pre {
+    font-size: 0.8em;
+}
+
 .MathJax {
     overflow-x: auto;
     overflow-y: hidden;
