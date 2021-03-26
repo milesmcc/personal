@@ -169,10 +169,6 @@
     text-decoration-color: var(--color-neutral-200) !important;
 }
 
-.w-prose {
-    width: 65ch;
-}
-
 .vertical {
     writing-mode: vertical-rl;
 }

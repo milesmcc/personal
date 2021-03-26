@@ -10,7 +10,7 @@
         <aside>
           {{ partial "navigation.html" . }}
         </aside>
-        <div class="lg:w-prose md:min-w-2xl md:max-w-2xl md:mx-16">
+        <div class="md:min-w-xl md:max-w-xl md:mx-16">
           {{ if (not (eq ($.Param "redirect") nil)) }}
           <aside class="aside ~urge !normal">
             <strong>You're probably looking for a different page.</strong> Click <a href="{{ $.Param "redirect" }}">here</a> if you are not redirected automatically.
