@@ -17,7 +17,7 @@
 {{ range .AlternativeOutputFormats -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $title | safeHTML }}
 {{ end -}}
-{{ $icon := resources.Get "images/dithered_rounded_avatar.png" | resources.Fingerprint }}
+{{ $icon := resources.Get "images/avatar.jpg" | resources.Fingerprint }}
 <link rel='icon' type='image/png' href='{{ $icon.Permalink }}' />
 {{ $style := resources.Get "styles/base.css" | postCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
