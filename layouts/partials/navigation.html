@@ -4,7 +4,7 @@
     {{ $img := resources.Get "images/avatar.jpg" | resources.Minify | resources.Fingerprint }}
     <img class="rounded-full h-8 w-8 md:h-12 md:w-12" src="{{ $img.Permalink }}" />
   </a>
-  <nav class="text-right md:-mt-1 {{ if (not (or (eq $currentPage.RelPermalink "/") .IsNode)) }} opacity-50 transition-opacity hover:opacity-100 focus:opacity-100{{ end }}">
+  <nav class="text-right md:-mt-1 {{ if (not (or (eq $currentPage.RelPermalink "/") .IsNode)) }}md:opacity-50 transition-opacity hover:opacity-100 focus:opacity-100{{ end }}">
     <div class="md:text-right">
       <ul class="-ml-2 md:ml-0 flex md:block text-sm md:text-base">
         {{ range .Site.Menus.main }}
