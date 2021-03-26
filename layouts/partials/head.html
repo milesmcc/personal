@@ -19,7 +19,7 @@
 {{ end -}}
 {{ $icon := resources.Get "images/avatar.jpg" | resources.Fingerprint }}
 <link rel='icon' type='image/png' href='{{ $icon.Permalink }}' />
-{{ $style := resources.Get "styles/base.css" | postCSS | minify | fingerprint }}
+{{ $style := resources.Get "styles/base.css" | postCSS | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
 {{ $script := resources.Get "scripts/base.js" | resources.Minify | resources.Fingerprint }}
 <script async defer src="{{ $script.Permalink }}"></script>
