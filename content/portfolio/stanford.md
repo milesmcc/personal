@@ -23,12 +23,21 @@ Since September 2020, I've been an undergraduate at [Stanford](https://stanford.
 
 (I want to get involved with more organizations once I'm on campus in-person.)
 
-### Courses
+### Academics
+
+I plan to major in [Symbolic Systems](https://symsys.stanford.edu), though I'm still undeclared. I like Symbolic Systems because it allows me to complement my love of computer science with coursework in design, philosophy, math, psychology, and linguistics—all of which are fields I'm fascinated with.
+
+##### Winter 2021
+* **CS 147** — Intro to Human-Computer Interaction
+* **CS 109** — Intro to Probability for Computer Scientists
+* **LINGUIST 30N** — Linguistic Meaning and the Law
+* **THINK 66** — Design that Understands Us
+* **CS 199P** — Independent Project (teaching CS106S; non-graded)
 
 ##### Fall 2020
 * **CS 107** - Computer Organization and Systems
 * **SYMSYS 1** - Minds and Machines
 * **MATH 51** - Linear Algebra, Multivariable Calculus, and Modern Applications
 * **INTLPOL 268D** - Online Open Source Investigation
-* **CSRE 157B** - Election 2020 (speaker series; CR/NC)
-* **CS 547** - Human-Computer Interaction Seminar (speaker series; CR/NC)
+* **CSRE 157B** - Election 2020 (speaker series; non-graded)
+* **CS 547** - Human-Computer Interaction Seminar (speaker series; non-graded)
