@@ -10,6 +10,8 @@ highlightSubtitle: true
 weight: 5
 ---
 
+You can see an overview of all my research on my [Google Scholar page](https://scholar.google.com/citations?hl=en&user=lrKeJiUAAAAJ) (though note that some entries are missing).
+
 ## Perceptions of Privacy in the COVID-19 Pandemic (December 2020)
 
 In this paper, [Dr. Baobao Zhang](https://baobaofzhang.github.io/), [Dr. Sarah Kreps](https://en.wikipedia.org/wiki/Sarah_Kreps), [Nina McMurry](https://polisci.mit.edu/people/nina-mcmurry), and I explored public perceptions of privacy towards COVID-19 contact tracing apps. I don't want to overstate my involvement, though—I only contributed some additional framing, prose, and final touches to the project. It was published in [PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0242652) in December 2020.
