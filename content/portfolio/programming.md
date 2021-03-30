@@ -12,8 +12,8 @@ weight: 2
 
 I love computing; I enjoy building systems, as well as just programming for programming's sake. (The [Joy of Computing](https://joy.recurse.com)!)
 
-I am experienced with Python, Rust, Java, and Haskell, as well as the typical assortment web technologies (HTML, JavaScript, CSS, React, Vue, Svelte, and Angular). I'm also comfortable using Docker, Kubernetes, Git, Linux, and other systems.
+I am experienced with Python, Rust, and Java, as well as the typical assortment web technologies (HTML, JavaScript, CSS, React, Vue, Svelte, and Angular). I'm also comfortable using Docker, Kubernetes, Git, Linux, SQL, and other "core" systems. I have a special love for Elixir and the Erlang ecosystem, even though I haven't used it in production yet. I'm familiar with C, Haskell, C++, and many other programming languages.
 
-I have some experience with cryptography and the network stack.
+I have some experience with cryptography, the network stack, database theory, and distributed systems.
 
 For more information about my programming background, check out my [GitHub profile](https://github.com/milesmcc/).
