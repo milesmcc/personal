@@ -4,7 +4,7 @@
     "a17t": "^0.5.1",
     "autoprefixer": "^10.2.5",
     "cssnano": "^4.1.10",
-    "postcss": "^8.2.8",
+    "postcss": "^8.2.10",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.0",
     "postcss-preset-env": "^6.7.0"
