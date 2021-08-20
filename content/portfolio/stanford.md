@@ -10,7 +10,7 @@ highlightSubtitle: true
 weight: 1
 ---
 
-Since September 2020, I've been an undergraduate at [Stanford](https://stanford.edu). I'm planning on majoring in Symbolic Systems.
+Since September 2020, I've been an undergraduate at [Stanford](https://stanford.edu). I'm planning on majoring in [Symbolic Systems](https://symsys.stanford.edu).
 
 ### Work
 * **RA at the [Stanford Internet Observatory](https://io.stanford.edu)** (October 2020 –). Working on the Tech Team and with the [Election Integrity Partnership](https://www.eipartnership.net/). Studied Wikipedia in a series of two blog posts ([part 1](https://cyber.fsi.stanford.edu/io/news/wikipedia-part-one), [part 2](https://cyber.fsi.stanford.edu/io/news/wikipedia-part-two)). Built [GoGettr](https://github.com/stanfordio/gogettr). Quoted in [TIME magazine](https://time.com/5930061/wikipedia-birthday/), with research mentioned in many more outlets. Built out the core data analysis and ingest tooling.
