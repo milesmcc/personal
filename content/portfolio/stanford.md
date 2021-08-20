@@ -10,10 +10,10 @@ highlightSubtitle: true
 weight: 1
 ---
 
-Since September 2020, I've been an undergraduate at [Stanford](https://stanford.edu).
+Since September 2020, I've been an undergraduate at [Stanford](https://stanford.edu). I'm planning on majoring in Symbolic Systems.
 
 ### Work
-* **RA at the [Stanford Internet Observatory](https://io.stanford.edu)** (October 2020 –). Working on the Tech Team and with the [Election Integrity Partnership](https://www.eipartnership.net/). Studied Wikipedia in a series of two blog posts ([part 1](https://cyber.fsi.stanford.edu/io/news/wikipedia-part-one), [part 2](https://cyber.fsi.stanford.edu/io/news/wikipedia-part-two)). Built [GoGettr](https://github.com/stanfordio/gogettr). Quoted in [TIME magazine](https://time.com/5930061/wikipedia-birthday/). Built out the core data analysis and ingest tooling.
+* **RA at the [Stanford Internet Observatory](https://io.stanford.edu)** (October 2020 –). Working on the Tech Team and with the [Election Integrity Partnership](https://www.eipartnership.net/). Studied Wikipedia in a series of two blog posts ([part 1](https://cyber.fsi.stanford.edu/io/news/wikipedia-part-one), [part 2](https://cyber.fsi.stanford.edu/io/news/wikipedia-part-two)). Built [GoGettr](https://github.com/stanfordio/gogettr). Quoted in [TIME magazine](https://time.com/5930061/wikipedia-birthday/), with research mentioned in many more outlets. Built out the core data analysis and ingest tooling.
 
 * **CS 106S Team** (January 2020 –). Helping teach [CS 106S](cs106s.stanford.edu), a supplemental 1-unit add-on to Stanford's famous CS intro class (CS 106A) focusing on programming for social good.
 
@@ -26,6 +26,9 @@ Since September 2020, I've been an undergraduate at [Stanford](https://stanford.
 ### Academics
 
 I plan to major in [Symbolic Systems](https://symsys.stanford.edu), though I'm still undeclared. I like Symbolic Systems because it allows me to complement my love of computer science with coursework in design, philosophy, math, psychology, and linguistics—all of which are fields I'm fascinated with.
+
+##### Summer 2021
+* **CS 161** — Design and Analysis of Algorithms
 
 ##### Spring 2021
 * **PHIL 13N** — Justice Across Borders (Philosophy)
