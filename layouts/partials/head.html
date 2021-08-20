@@ -10,7 +10,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="{{ $title }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="canonical" href="https://miles.land{{ .Permalink }}" />
 {{ if (not (eq ($.Param "redirect") nil)) }}
 <meta http-equiv="refresh" content="0; URL={{ $.Param "redirect" }}" />
 {{ end }}

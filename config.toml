@@ -1,4 +1,4 @@
-baseURL = "https://miles.land/"
+baseURL = "/"
 languageCode = "en-us"
 title = "R. Miles McCain"
 pygmentsUseClasses = true
