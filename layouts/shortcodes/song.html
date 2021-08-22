@@ -7,7 +7,13 @@
     @mouseleave="hovered = false; playing = false;"
     >
     <div class="flex">
-        <div class="w-2/12 relative self-start cursor-pointer" tabindex="0" @focus="hovered = true" @keydown.enter="playing = !playing" @blur="hovered = false; playing = false" @click="playing = !playing" aria-label="An album cover and audio preview for &ldquo;{{ .Get "title" }}&rdquo; by {{.Get "artists"}}. Press enter to toggle audio preview.">
+        <div class="w-2/12 relative self-start cursor-pointer" tabindex="0" @focus="hovered = true" @keydown.enter="playing = !playing" @blur="hovered = false; playing = false" @click="playing = !playing"
+            {{ if eq (.Get "preview") "None" }}
+                aria-label="An album cover {{ .Get "title" }}&rdquo; by {{.Get "artists"}}. Audio preview not available."
+            {{ else }}
+                aria-label="An album cover and audio preview for &ldquo;{{ .Get "title" }}&rdquo; by {{.Get "artists"}}. Press enter to toggle audio preview."
+            {{ end }}
+        >
             <img src="{{ .Get "image"}}" alt="The album cover for {{ .Get "title" }} by {{.Get "artists"}}."> 
             {{ $playingAnimation := resources.Get "images/audio.svg" | resources.Minify | resources.Fingerprint }}
             <div x-cloak x-show="playing || hovered" class="w-full h-full bg-neutral-900 opacity-50 flex items-center content-center place-content-around absolute top-0 left-0">
