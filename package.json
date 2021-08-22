@@ -8,5 +8,8 @@
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.0",
     "postcss-preset-env": "^6.7.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.2.4"
   }
 }
