@@ -34,7 +34,7 @@
         {{ end }}
         {{ range (.GetTerms "tags") }}
         {{ if (not (eq (.Param "hidden") true))}}
-        <a class="chip ~neutral !normal bg-neutral-100 mb-2 mr-2" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+        <a class="chip ~neutral !normal bg-neutral-100 mb-2 mr-2" href="{{ .Permalink }}" aria-label="tagged under {{ .LinkTitle }}">{{ .LinkTitle }}</a>
         {{ end }}
         {{ end }}
     </div>
