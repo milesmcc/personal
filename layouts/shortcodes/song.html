@@ -1,7 +1,25 @@
-<article class="card ~neutral shadow-none bg-neutral-100">
+<article class="card ~neutral shadow-none bg-neutral-50"
+    x-data='{audio: {{ if eq (.Get "preview") "None" }} null {{ else }} new Audio("{{ .Get "preview"}}") {{end}}, playing: false, hovered: false}'
+    {{ if not (eq (.Get "preview") "None") }}
+    x-effect="(() => {if (playing) { audio.loop = true; audio.play() } else { audio.pause(); audio.currentTime = 0; }})();"
+    {{ end }}
+    @mouseover="hovered = true"
+    @mouseleave="hovered = false; playing = false;"
+    >
     <div class="flex">
-        <div class="w-2/12">
-            <img src="{{ .Get "image"}}">
+        <div class="w-2/12 relative self-start cursor-pointer" tabindex="0" @focus="hovered = true" @keydown.enter="playing = !playing" @blur="hovered = false; playing = false" @click="playing = !playing" aria-label="An album cover and audio preview for &ldquo;{{ .Get "title" }}&rdquo; by {{.Get "artists"}}. Press enter to toggle audio preview.">
+            <img src="{{ .Get "image"}}" alt="The album cover for {{ .Get "title" }} by {{.Get "artists"}}."> 
+            {{ $playingAnimation := resources.Get "images/audio.svg" | resources.Minify | resources.Fingerprint }}
+            <div x-cloak x-show="playing || hovered" class="w-full h-full bg-neutral-900 opacity-50 flex items-center content-center place-content-around absolute top-0 left-0">
+                <div>
+                    {{ if eq (.Get "preview") "None" }}
+                    <p class="heading text-sm text-white text-center">Preview Not Available</p>
+                    {{ else }}
+                    <p x-show="!playing" class="heading text-3xl text-white text-center" aria-hidden="true">▶</p>
+                    <img x-show="playing" src="{{ $playingAnimation.Permalink }}" width="25" aria-hidden="true">
+                    {{ end }}
+                </div>
+            </div>
         </div>
         <div class="w-10/12 pl-4">
             <p class="label">
@@ -37,8 +55,9 @@
                         Play
                     </p>
                     <p class="text-xs">
-                        <a href="{{.Get "url"}}">Spotify&nbsp;&nearr;</a>
-                        <a href="https://www.youtube.com/results?search_query={{.Get "title" | safeURL }}+{{ .Get "artists" | safeURL }}">YouTube&nbsp;&nearr;</a>
+                        <a href="{{.Get " url"}}">Spotify&nbsp;&nearr;</a>
+                        <a href="https://www.youtube.com/results?search_query={{.Get " title" | safeURL }}+{{
+                            .Get "artists" | safeURL }}">YouTube&nbsp;&nearr;</a>
                     </p>
                 </div>
             </div>

@@ -285,3 +285,5 @@ code, kbd, pre {
 .transition-opacity {
     transition: opacity 100ms ease-in-out;
 }
+
+[x-cloak] { display: none !important; }
