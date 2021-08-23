@@ -16,7 +16,7 @@
         >
             <img src="{{ .Get "image"}}" alt="The album cover for {{ .Get "title" }} by {{.Get "artists"}}."> 
             {{ $playingAnimation := resources.Get "images/audio.svg" | resources.Minify | resources.Fingerprint }}
-            <div x-cloak x-show="playing || hovered" class="w-full h-full bg-neutral-900 opacity-50 flex items-center content-center place-content-around absolute top-0 left-0">
+            <div x-cloak x-show="playing || hovered" class="w-full h-full bg-black opacity-50 flex items-center content-center place-content-around absolute top-0 left-0">
                 <div>
                     {{ if eq (.Get "preview") "None" }}
                     <p class="heading text-sm text-white text-center">Preview Not Available</p>
