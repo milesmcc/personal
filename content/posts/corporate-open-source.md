@@ -2,7 +2,7 @@
 title: "Sometimes open source maintainers do owe you something"
 tags: ["open source", "responsibility"]
 date: 2021-08-30T15:12:41Z
-draft: true
+draft: false
 ---
 
 Open source maintainers [owe you nothing](https://mikemcquaid.com/2018/03/19/open-source-maintainers-owe-you-nothing/). Being a maintainer is hard work and often thankless. Despite maintainers being volunteers, they often feel an obligation to provide unpaid support for their projects --- I certainly do --- and over time, some users of the software feel entitled to the maintainers' time. Other users submit feature requests and expect the maintainers to implement what they need. This is wrong. And yet I do think there are some cases when open source maintainers *do* owe their users something.
