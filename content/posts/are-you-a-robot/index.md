@@ -72,10 +72,10 @@ data from which I could estimate. A similar issue exists for
 data *conditioned* on uniformity, but we have no insight into the
 unconditioned case.
 
-At a glance, this conundrum looks like a great place for bootstrapping
-some kind of \\(p\\)-value using the methods we have seen in class.
-Unfortunately, our in-class approaches are not much help here: they
-consider the *sample mean* and other simple attributes of a distribution
+At a glance, this conundrum looks like a great place for [bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_(statistics))
+some kind of \\(p\\)-value.
+Unfortunately, that approach is not much help here: it
+considers the *sample mean* and other attributes of a distribution
 (e.g., variance), while we are more broadly interested in *goodness of
 fit*. A human might successfully produce numbers that average to 4.5 ---
 the expected value of our uniform distribution --- but that does not
@@ -173,7 +173,7 @@ draw the line on the website.[^8]
 Using the power of simulation, we now have a probabilistically-sound way
 to evaluate the raw digit frequency distributions! Interestingly, I
 believe the function defined above is actually the (simulated) CDF of
-the Kolgomorov distribution---a beautiful distribution that captures the
+the [Kolgomorov distribution](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test#Kolmogorov_distribution)---a beautiful distribution that captures the
 probability of a random sample having a particular K-S test value.[^9]
 While a detailed explanation of the Kolmogorov distribution is beyond
 the scope of this project, it is too cool not to mention!
