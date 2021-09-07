@@ -5,17 +5,15 @@ date: 2021-09-06T15:12:41Z
 draft: false
 ---
 
-In general, open source maintainers [owe you nothing](https://mikemcquaid.com/2018/03/19/open-source-maintainers-owe-you-nothing/). Being a maintainer is hard work and often thankless. Despite maintainers often being volunteers, they sometimes feel obliged to provide unpaid support for their projects. Some users begin to feel entitled to maintainers' time, submitting feature requests and expecting the maintainers to implement whatever they want. This is wrong.
+In general, open source maintainers [owe you nothing](https://mikemcquaid.com/2018/03/19/open-source-maintainers-owe-you-nothing/). Being a maintainer is hard work and often thankless. Despite maintainers often being volunteers, some users feel entitled to maintainers' time, submitting feature requests and expecting the maintainers to implement whatever they want. This is wrong.
 
 But these refrains don't apply to all types of open source maintainers: Recently, I've been frustrated by the way that certain well-resourced corporate open source projects shift the burden of maintainence --- and improvement --- to users.
 
-I'm talking about officially-maintained corporate open source "clients" for proprietary products. These sort of projects include the official [Stripe Python client](https://github.com/stripe/stripe-python) (which you must be a Stripe customer to use) and the Google-maintained [BigQuery components](https://github.com/apache/beam/tree/master/sdks/python/apache_beam/io/gcp) of the Apache Beam open source project (which is only useful to Google Cloud customers), to give just two examples.
-
-These projects are open source "wrappers" that make it possible for you to integrate proprietary products (that *you* pay for!) into your application. (I'll acknowledge that it's unclear whether these projects are really open source in any meaningful sense, but that's a topic for another post.)
+I'm talking about officially-maintained corporate open source "clients" for proprietary products. These sort of projects include the official [Stripe Python client](https://github.com/stripe/stripe-python) (which you must be a Stripe customer to use) and the Google-maintained [BigQuery components](https://github.com/apache/beam/tree/master/sdks/python/apache_beam/io/gcp) of the Apache Beam open source project (which is only useful to Google Cloud customers), to give just two examples. These projects are open source "wrappers" that make it possible for you to integrate proprietary products (that *you* pay for!) into your application.
 
 If you run into a bug in one of these projects, I'd be frustrated if the maintainers suggested that you fix the issue yourself (or ignored the bug entirely). To use these wrapper projects, you must be a customer of the companies that maintain them, and these projects are *part* of those companies' product offerings. The way I see it, it's on the company to fix the bugs --- not on you.
 
-### An example: Google and Apache Beam
+### Google and Apache Beam
 
 This post was prompted by my recent experience with [Apache Beam](https://beam.apache.org/). Beam is an open source project that provides "an advanced unified programming model" for writing "batch and streaming data processing jobs that run on any execution engine."
 
@@ -29,7 +27,7 @@ But if this issue goes unresolved for a long period of time, **my employer might
 
 While I'm lucky that my employer encourages contributing fixes and improvements to the open source projects we use, those projects are essentially always maintained by volunteers. I don't think it's our responsibility to fix the BigQuery integration in Beam.
 
-Some of the Beam maintainers are volunteers, to be clear, and I don't think the responsibility to fix this issue falls on them either. Google contributed the BigQuery code to Beam as part of their Dataflow and BigQuery products, so I think the maintenance burden for those contributions should fall to Google. Just because the specific code that's broken is open source doesn't mean that you should accept the maintenance burden yourself.
+Some of the Beam maintainers are volunteers, to be clear, and I don't think the responsibility to fix this issue falls on them either. Google contributed the BigQuery code to Beam as part of their Dataflow and BigQuery products, so I think the maintenance burden for those contributions falls to Google. Just because the specific code that's broken is open source doesn't mean that you should accept the maintenance burden yourself.
 
 There's a broader question, which is whether Google transferred Beam to Apache to outsource the maintenance burden for the project as a whole to, as a friend of mine put it, "a community made of volunteers who don't owe you anything." But that's a topic for another post.
 
@@ -43,13 +41,13 @@ Now imagine something broke in the Stripe Python client library, and you submitt
 
 By submitting an issue, you're already providing your work to Stripe for free. (Perhaps their quality assurance team should have caught the issue!) By submitting a pull request, you would be essentially improving their product for them. Stripe could respond by saying that the issue isn't a priority, but it's certainly not *your responsibility* to fix their bugs.
 
-Fortunately, this isn't what Stripe does. They are incredibly responsive and work with users to resolve issues (even when those [issues](https://github.com/stripe/stripe-python/issues/716) aren't necessarily with the Stripe client itself). They don't respond to feature requests by saying that they'd accept a pull request making the change. They understand that unlike, say, the Python maintainers, they do owe their users something. After all, the Stripe Python client library just an open source wrapper for their core, proprietary offering. 
+Fortunately, this isn't what Stripe does. They are incredibly responsive and work with users to resolve issues (even when those [issues](https://github.com/stripe/stripe-python/issues/716) aren't necessarily with the Stripe client itself). They don't respond to feature requests by saying that they'd accept a pull request making the change.
 
 Stripe appears to treat triaging, responding, and supporting the users of their Python library as another form of their (exceptional) customer support. They recognize that their Python library is an important part of their product, so supporting the users of the library is an important part of their customer support.
 
 ### What can you do?
 
-Not all companies manage their open source wrapper projects like Stripe. So what can you do when you're running into an issue with an officially-maintained corporate open source "client" for a proprietary product (that isn't Stripe)? You can hope that the company will notice your issue and fix it themselves. Or you can vote with your wallet and move to a different provider (though this often isn't practical). Or you can give in and contribute a fix yourself, as I might soon have to do with BigQuery in Beam. 
+Not all companies manage their open source wrapper projects like Stripe. So what can you do when you're running into an issue with an officially-maintained corporate open source "client" for a proprietary product? You can hope that the company will notice your issue and fix it themselves. Or you can vote with your wallet and move to a different provider (though this often isn't practical). Or you can give in and contribute a fix yourself, as I might soon have to do with BigQuery in Beam. 
 
 To be clear, I don't think that that helping large corporations directly or indirectly is somehow wrong, and I have nothing against proprietary software (though I'll always prefer open surce software to a proprietary equivalent). If you want to go ahead and submit a pull request to the Stripe Python client library or to the BigQuery integration in Beam, go ahead --- that's your choice! I'm just frustrated that a large, well-resourced corporation is shifting the maintenance burdens of its product to customers. And I worry this isn't uncommon.
 
