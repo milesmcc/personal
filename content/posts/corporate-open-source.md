@@ -47,10 +47,10 @@ Stripe appears to treat triaging, responding, and supporting the users of their 
 
 ### What can you do?
 
-Not all companies manage their open source wrapper projects like Stripe. So what can you do when you're running into an issue with an officially-maintained corporate open source "client" for a proprietary product? You can hope that the company will notice your issue and fix it themselves. Or you can vote with your wallet and move to a different provider (though this often isn't practical). Or you can give in and contribute a fix yourself, as I might soon have to do with BigQuery in Beam. 
+Not all companies manage their open source wrapper projects like Stripe. So what can you do when you're running into an issue with an officially-maintained corporate open source "client" for a proprietary product? You can hope that the company will notice your issue and fix it themselves. Or you can vote with your wallet and move to a different provider (though this often isn't practical). Or you can give in and contribute a fix yourself, as I might soon have to do with BigQuery in Beam.
 
 To be clear, I don't think that that helping large corporations directly or indirectly is somehow wrong, and I have nothing against proprietary software (though I'll always prefer open surce software to a proprietary equivalent). If you want to go ahead and submit a pull request to the Stripe Python client library or to the BigQuery integration in Beam, go ahead --- that's your choice! I'm just frustrated that a large, well-resourced corporation is shifting the maintenance burdens of its product to customers. And I worry this isn't uncommon.
 
-_Aside: I recognize it's unclear whether these open source wrapper library are open source in any meaningful sense. As one reviewer argued, if you can't cut the vendor out entirely and run the project entirely yourself, it's not really "open source" at all._
+_Aside: I recognize it's unclear whether these open source wrapper libraries are open source in any meaningful sense. As one reviewer argued, if you can't cut the vendor out entirely and run the project entirely yourself, it's not really "open source" at all._
 
 _Thank you to everyone who provided valuable feedback on earlier drafts of this post, many of whom are [Recursers](https://recurse.com)._
