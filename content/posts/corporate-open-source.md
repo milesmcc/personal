@@ -1,6 +1,6 @@
 ---
 title: "“It's open source! We’ll let our customers fix it.”"
-tags: ["open source", "responsibility"]
+tags: ["open source", "responsibility", "blag"]
 date: 2021-09-07T18:15:00Z
 draft: false
 ---
