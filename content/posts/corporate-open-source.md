@@ -5,7 +5,7 @@ date: 2021-09-06T15:12:41Z
 draft: false
 ---
 
-In general, open source maintainers [owe you nothing](https://mikemcquaid.com/2018/03/19/open-source-maintainers-owe-you-nothing/). Being a maintainer is hard work and often thankless. Despite maintainers often being volunteers, some users feel entitled to maintainers' time, submitting feature requests and expecting the maintainers to implement whatever they want. This is wrong.
+In general, open source maintainers [owe you nothing](https://mikemcquaid.com/2018/03/19/open-source-maintainers-owe-you-nothing/). Despite maintainers often being volunteers, some users feel entitled to maintainers' time, submitting feature requests and expecting the maintainers to implement whatever they want. This is wrong. I repeat, open source maintainers owe you nothing.
 
 But these refrains don't apply to all types of open source maintainers: Recently, I've been frustrated by the way that certain well-resourced corporate open source projects shift the burden of maintainence --- and improvement --- to users.
 
