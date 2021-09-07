@@ -18,4 +18,4 @@ I'm currently taking a few classes on Zoom, working at the Stanford Internet Obs
 
 ### Contact
 
-You can email me at [hey@miles.land](mailto:hey@miles.land). On GitHub, I am [milesmcc](https://github.com/milesmcc); this is where most of my projects live. On Twitter, I am [@MilesMcCain](https://twitter.com/MilesMcCain), but I don't post frequently (I write [micros](/micros/) instead). You can also find me on [HN](https://news.ycombinator.com/user?id=epoch_100), [Reddit](https://reddit.com/u/epoch_100), and [Lobsters](https://lobste.rs/u/rmrm). My PGPs are he/him/his.
+You can email me at [hey@miles.land](mailto:hey@miles.land). On GitHub, I am [milesmcc](https://github.com/milesmcc); this is where most of my projects live. On Twitter, I am [@MilesMcCain](https://twitter.com/MilesMcCain), but I don't post frequently. You can also find me on [HN](https://news.ycombinator.com/user?id=epoch_100), [Reddit](https://reddit.com/u/epoch_100), and [Lobsters](https://lobste.rs/u/rmrm). My PGPs are he/him/his.

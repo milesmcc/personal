@@ -10,7 +10,7 @@ I usually only write about my own mistakes, but here I'm going to be writing abo
 
 I've included a photo of the label below. Can you see the error (or, really, inconsistency)?
 
-![The nutrition label of the cereal box.](/media/quaker_nutrition_label.png)
+![The nutrition label of the cereal box.](quaker_nutrition_label.png)
 
 Don't see it? Compare the percent daily value (% DV) for protein across the "cereal alone" and "with 1/2 cup of milk" categories. The cereal alone has 6 grams of protein, corresponding to 7% DV; the cereal with half a cup of milk has 10 grams of protein, corresponding to 16% DV.
 
