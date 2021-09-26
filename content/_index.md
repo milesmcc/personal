@@ -14,7 +14,7 @@ And finally, for the obligatory apostrophe soup: PA &rsquo;19, [RC S1 &rsquo;20]
 
 ### Currently
 
-I'm currently taking a few classes on Zoom, working at the Stanford Internet Observatory, and enjoying summer. Right now, I'm in New York City.
+I'm currently at Stanford, where I'm finally taking classes in-person. I'm also working at the Stanford Internet Observatory. 
 
 ### Contact
 
