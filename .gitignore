@@ -3,3 +3,4 @@ node_modules
 public/*
 _site/*
 */_gen/*
+.hugo_build.lock
