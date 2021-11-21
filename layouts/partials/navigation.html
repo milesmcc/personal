@@ -1,7 +1,7 @@
 {{ $currentPage := . }}
 <nav class="flex justify-between w-full items-center md:block mb-12 md:mb-0" aria-label="navigation">
   <a class="flex justify-end md:w-full md:mb-12" href="/">
-    {{ $img := resources.Get "images/avatar.jpg" | resources.Minify | resources.Fingerprint }}
+    {{ $img := resources.Get "images/avatar.jpg" | resources.Fingerprint }}
     <img class="rounded-full h-8 w-8 md:h-12 md:w-12" alt="A circular photo of Miles; links to home." src="{{ $img.Permalink }}" />
   </a>
   <div class="text-right md:-mt-1 {{ if (not (or (eq $currentPage.RelPermalink "/") .IsNode)) }}md:opacity-50 transition-opacity hover:opacity-100 focus:opacity-100{{ end }}">
