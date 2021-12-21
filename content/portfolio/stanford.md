@@ -21,11 +21,14 @@ Since September 2020, I've been an undergraduate at [Stanford](https://stanford.
 * [**CS+Social Good**](https://cs4good.com/) - Using CS in a way that's socially mindful and equitable.
 * [**SymSys Society**](http://www.symsyssociety.org/) - An organization for students who love symbolic systems!
 
-(I want to get involved with more organizations once I'm on campus in-person.)
-
 ### Academics
 
-I plan to major in [Symbolic Systems](https://symsys.stanford.edu), though I'm still undeclared. I like Symbolic Systems because it allows me to complement my love of computer science with coursework in design, philosophy, math, psychology, and linguistics—all of which are fields I'm fascinated with.
+I plan to major in [Symbolic Systems](https://symsys.stanford.edu), though I'm still undeclared. I like Symbolic Systems because it allows me to complement my love of computer science with coursework in design, philosophy, math, psychology, and linguistics.
+
+##### Fall 2021
+* **CS 221** — Artificial Intelligence: Principles and Techniques
+* **PHIL 171** — Justice (Political Philosophy)
+* **INTNLREL 63Q** — International Organizations and Accountability
 
 ##### Summer 2021
 * **CS 161** — Design and Analysis of Algorithms
