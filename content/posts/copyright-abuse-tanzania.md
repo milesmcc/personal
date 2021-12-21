@@ -1,17 +1,17 @@
 ---
 title: "Copyright trolls, inspect element, and the online abuse ecosystem"
-tags: ["safety", "copyright", "abuse"]
-date: 2021-12-16T12:00:00-05:00
-draft: true
+tags: ["safety", "copyright", "abuse", "blag"]
+date: 2021-12-21T11:52:00-05:00
+draft: false
 ---
 
 When you think of a state-sponsored online influence operation, you might picture large sprawling networks of high-follower accounts spreading disinformation. To give one canonical example, Russia's Internet Research Agency [impersonated](https://medium.com/dfrlab/how-a-russian-troll-fooled-america-80452a4806d1) the Tennessee GOP on Twitter in the lead-up to the 2016 election, amassing over 130,000 followers before being taken down.
 
 But most social media abuse operations are different. In this post, I want to talk about a [fascinating campaign](https://twitter.com/shelbygrossman/status/1466395068080615426) conducted by a pro-Tanzanian government network on Twitter. This network abused copyright reporting mechanisms to silence activists with moderate success until Twitter caught on to their scheme.
 
-None of its accounts amassed any significant following, nor did any of their tweets have any meaningful reach. But it was quite successful in (temporarily) silencing criticism of the government. How did they do it?
+None of their accounts amassed any significant following, nor did any of their tweets have any meaningful reach. But it was quite successful in (temporarily) silencing government criticism. How did they do it?
 
-<div class="aside ~positive content">
+<div class="aside ~info content">
 <p class="supra font-semibold">Two Important Disclaimers ⚖️</p>
 <p class="text-sm">First, I can't attribute this operation to the Tanzanian government itself. For all I know, this operation could have been run by individuals who just really wanted to stifle government criticism.</p>
 <p class="text-sm">Second, I'm writing this post in my individual capacity. Although I played a (small) role in investigating this network at the Stanford Internet Observatory, this post is my own. If I get something wrong, that's my problem &mdash; not theirs.</p>
@@ -21,13 +21,13 @@ The operation itself was quite simple. Here's how it worked:
 
 1.  The operatives found some accounts they wanted taken down. Maybe they wanted to take down the accounts because they criticized the Tanzanian government; maybe they just wanted to harass some activists.
 
-2.  They copied tweets from those accounts onto a WordPress website as new posts, which they manually backdated to before the tweet was published. That way, it would look like their versions came first. Perhaps you can see where this is going.
+2.  They copied tweets from those accounts onto a WordPress website as new posts, which they manually backdated to before the tweet was published. That way, it would look like their versions came first. (Perhaps you can see where this is going.)
 
-3.  They submitted a copyright violation complaint to Twitter, claiming that the original author had copied *them*. Not recognizing the abuse, Twitter then took down the original posts. In two more extreme cases, Twitter even suspended activists' accounts. (To Twitter's credit, they've handled this really well: once they learned about the scheme, they restored the accounts and referred the network to us at the Internet Observatory to investigate.)
+3.  They submitted a copyright violation complaint to Twitter, claiming that the original author had copied *them*. Not recognizing the abuse, Twitter then took down the original posts. In two more extreme cases, Twitter even suspended activists' accounts. (To Twitter's credit, they've handled this really well: once they learned about the scheme, they restored the accounts and referred the network to us at the [Stanford Internet Observatory](https://io.stanford.edu) to investigate.)
 
 If you're interested in learning more about this network, you can read the Internet Observatory's [official report](https://github.com/stanfordio/publications/blob/main/20211202-tz-twitter-takedown.pdf) and this [great Twitter thread](https://twitter.com/shelbygrossman/status/1466395068080615426).
 
-What makes this operation interesting to me? Two things. First, it didn't involve "content" or "reach" in any traditional sense, challenging the typical conception of a coordinated abuse operation (disinformation campaigns are what you usually see in the news). Second, the network was hilariously amateurish, which made it trivial to uncover and document their scheme.
+What makes this operation interesting to me? Two things. First, it didn't involve "content" or "reach" in any traditional sense, challenging the typical conception of a coordinated abuse operation (usually, what you see in the news are disinformation campaigns). Second, the network was hilariously amateurish, which made it trivial to uncover and document their scheme.
 
 ## Online abuse ≠ disinformation
 
@@ -39,7 +39,7 @@ Every feature is a potential vector for abuse. In the case of this pro-Tanzanian
 
 Adversarial reporting is deceptively common. In August 2020, Facebook suspended a [network of accounts](https://cyber.fsi.stanford.edu/io/news/reporting-duty) that used adversarial reporting to silence critics of Islam and the Pakistani government. In December 2021, Facebook [announced](https://about.fb.com/wp-content/uploads/2021/12/Metas-Adversarial-Threat-Report.pdf) they took down a network in Vietnam that also used adversarial reporting.
 
-But despite the prevalence and impact of adversarial mass reporting, it's not a particularly well-known tactic. It doesn't get the same sort of coverage that, say, disinformation campaigns get. That's understandable---a far-reaching disinformation campaign directly affects more people---but the consequences of a targeted reporting attack are still severe. The pro-Tanzanian government operation caused Twitter to suspend two high-profile activists.
+But despite the prevalence and impact of adversarial mass reporting, it's not a particularly well-known tactic. It doesn't get the same sort of coverage that, say, disinformation campaigns get. That's understandable---a far-reaching disinformation campaign directly affects more people---but the consequences of a targeted reporting attack are still severe. This pro-Tanzanian government operation caused Twitter to suspend two high-profile activists.
 
 ## Influence sans content or reach
 
@@ -55,7 +55,7 @@ Content plays a central role in some operations, but not all. Indeed, content-ba
 
 Moreover, this network successfully suppressed the activists' posts without any meaningful reach. Each Twitter account in the network account had an average of nine followers, and 166 had no followers at all. Unlike more traditional content-based operations, adversarial copyright reporting doesn't require massive reach to be successful.
 
-At this point I should note that it's not entirely correct to say that the network did not produce any content. The false copyright claims were only one part of the operation; the other part involved the operatives replying to activists tweets with (often childish) spam and harassment. (In one case, they told an activist they had an "empty head.")
+At this point I should note that it's not entirely correct to say that the network did not produce any content. The false copyright claims were only one part of the operation; the other part involved the operatives replying to activists tweets with (often childish) spam and harassment. (In one case, they told an activist they had an "empty head.") Still, the central component of this operation was the adversarial reporting.
 
 ## A global governance detour
 
@@ -73,7 +73,7 @@ Recall that this operation worked by copying activists' tweets, posting them on 
 
 How do we know they spoofed the dates on the posts? Well, the network's operators didn't know how to *actually* spoof dates, so they left a trail of evidence in the pages' metadata. They didn't realize their WordPress site also embedded the *last update time* in the source code of each page through invisible `<time>` HTML tags.
 
-When we compared the claimed publication of the posts to the actual modification date, their scheme became clear. On one page, the publication date was 2:19 pm on Sep 27. The last updated date was 2:21 pm on Oct 2. Why are the times so similar? They created the page at 2:19 pm on Oct 2. Then, they manually set the date back to Sep 27 --- but they didn't bother to change the hour/minute fields. (Or they just didn't notice.) Then they inserted the activists' tweets into the post, and clicked "save" two minutes later.
+When we compared the claimed publication of the posts to the actual modification date, their scheme became clear. On one page, the publication date was 2:19 pm on Sep 27. The last updated date was 2:21 pm on Oct 2. Why are the times so similar? They created the page at 2:19 pm on Oct 2. Then, they manually set the date back to Sep 27---but they didn't bother to change the hour/minute fields. (Or they just didn't notice.) Then they inserted the activists' tweets into the post, and clicked "save" two minutes later.
 
 With just these two timestamps, we could confidently say the dates were spoofed. There's nothing special about what we did here. It really was as simple as clicking "inspect element." (And despite what the Governor of Missouri might [claim](https://www.nytimes.com/2021/10/15/us/missouri-st-louis-post-teachers-hack.html), that's not very advanced!) But even simple techniques like this one can be incredibly revealing.
 
