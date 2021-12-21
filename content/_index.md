@@ -22,4 +22,4 @@ I'm currently at Stanford, where I'm finally taking classes in-person. I'm also 
 
 You can email me at [hey@miles.land](mailto:hey@miles.land). On GitHub, I am [milesmcc](https://github.com/milesmcc); this is where most of my projects live. On Twitter, I am [@MilesMcCain](https://twitter.com/MilesMcCain), but I don't post frequently. You can also find me on [HN](https://news.ycombinator.com/user?id=epoch_100), [Reddit](https://reddit.com/u/epoch_100), and [Lobsters](https://lobste.rs/u/rmrm). My PGPs are he/him/his.
 
-Need help with one of my open source project? Want to chat about safety, privacy, security, or something else? Stop by my <a href="/officehours">office hours</a>.
+Need help with one of my open source projects? Want to chat about safety, privacy, security, or something else? Stop by my <a href="/officehours">office hours</a>.
