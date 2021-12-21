@@ -39,7 +39,7 @@ Every feature is a potential vector for abuse. In the case of this pro-Tanzanian
 
 Adversarial reporting is deceptively common. In August 2020, Facebook suspended a [network of accounts](https://cyber.fsi.stanford.edu/io/news/reporting-duty) that used adversarial reporting to silence critics of Islam and the Pakistani government. In December 2021, Facebook [announced](https://about.fb.com/wp-content/uploads/2021/12/Metas-Adversarial-Threat-Report.pdf) they took down a network in Vietnam that also used adversarial reporting.
 
-But despite the prevalence and impact of adversarial mass reporting, it's not a particularly well-known tactic. It doesn't get the same sort of coverage that, say, disinformation campaigns get. That's understandable---a far-reaching disinformation campaign directly affects more people---but the consequences of a targeted reporting attack are still severe. This pro-Tanzanian government operation caused Twitter to suspend two high-profile activists.
+But despite the prevalence and impact of adversarial mass reporting, it's not a particularly well-known tactic outside the communities affected by it. It doesn't get the same sort of coverage that, say, disinformation campaigns get. That's understandable---a far-reaching disinformation campaign directly affects more people---but the consequences of a targeted reporting attack are still severe. This pro-Tanzanian government operation caused Twitter to suspend two high-profile activists.
 
 ## Influence sans content or reach
 
