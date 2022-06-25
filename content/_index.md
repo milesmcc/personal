@@ -18,7 +18,7 @@ And finally, for the obligatory apostrophe soup: PA &rsquo;19, [RC S1 &rsquo;20]
 
 ### Currently
 
-I'm currently at Stanford, where I'm finally taking classes in-person. I'm also working at the Stanford Internet Observatory.
+I'm currently working on [privacy at Apple](https://apple.com/privacy). In the fall, I'll return to Stanford and the Internet Observatory.
 
 ### Contact
 
