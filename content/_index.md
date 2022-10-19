@@ -11,14 +11,14 @@ I have a strong technical background and a passion for digital safety and govern
 
 My projects, research, and commentary have appeared in several outlets including the *New York Times*, the *Washington Post*, *NBC News*, *TIME*, *Foreign Affairs*, Brookings *TechStream*, and the *Nightly News* with Lester Holt. I'm an undergraduate at Stanford.
 
-Some of the projects I'm most proud of are [PrivacySpy](https://privacyspy.org), [Atlos](https://atlos.org), [Shynet](https://github.com/milesmcc/shynet), [PolitiTweet](https://polititweet.org), my work at the [Stanford Internet Observatory](https://io.stanford.edu), and [a17t](https://a17t.miles.land). I teach [CS 106S](http://web.stanford.edu/class/cs106s/) at Stanford, I worked on cyber policy for a [2020 presidential campaign](/portfolio/politics), I'm a non-resident undergraduate fellow at the Cornell [Tech Policy Lab](https://tpl.as.cornell.edu), I'm an alum of the [Recurse Center](https://www.recurse.com/scout/click?t=e62336f0f378bcf03a96d441d015db88), and I've done some [research](https://scholar.google.com/citations?user=lrKeJiUAAAAJ).
+Some of the projects I'm most proud of are [Atlos](https://atlos.org), [PrivacySpy](https://privacyspy.org), [Shynet](https://github.com/milesmcc/shynet), [PolitiTweet](https://polititweet.org), my work at the [Stanford Internet Observatory](https://io.stanford.edu), and [a17t](https://a17t.miles.land). I teach [CS 106S](http://web.stanford.edu/class/cs106s/) at Stanford, I worked on cyber policy for a [2020 presidential campaign](/portfolio/politics), I'm a non-resident undergraduate fellow at the Cornell [Tech Policy Lab](https://tpl.as.cornell.edu), I'm an alum of the [Recurse Center](https://www.recurse.com/scout/click?t=e62336f0f378bcf03a96d441d015db88), and I've done some [research](https://scholar.google.com/citations?user=lrKeJiUAAAAJ).
 
 And finally, for the obligatory apostrophe soup: PA &rsquo;19, [RC S1 &rsquo;20](https://www.recurse.com/scout/click?t=e62336f0f378bcf03a96d441d015db88), [Stanford &rsquo;24](https://stanford.edu/~mccain/). More details are in my [portfolio](/portfolio/).
 
 
 ### Currently
 
-I'm currently working on [privacy at Apple](https://apple.com/privacy). In the fall, I'll return to Stanford and the Internet Observatory.
+I'm in my junior year at Stanford, and I'm working on [Atlos](https://atlos.org). I'm also working at the [Stanford Internet Observatory](https://io.stanford.edu).
 
 ### Contact
 
