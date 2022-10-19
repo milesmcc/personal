@@ -7,7 +7,7 @@ dateOverride: "S ’19 –"
 showRelatedTag: privacyspy
 date: 2019-07-10T21:49:08Z
 highlightSubtitle: true
-weight: 1
+weight: 2
 ---
 
 [PrivacySpy](https://privacyspy.org) rates companies' privacy policies on a ten-point [scale]((https://privacyspy.org/about/) ), so you can easily understand how your data is being treated online. I started PrivacySpy with [Igor Barakaiev](https://igor.fyi) in the summer of 2019.
