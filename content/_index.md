@@ -9,16 +9,15 @@ draft: false
 
 I have a strong technical background and a passion for digital safety and governance. I'm especially interested in tech policy, trust & safety, cybersecurity, digital infrastructure, privacy engineering, OSINT, artificial intelligence, and open source software.
 
-My projects, research, and commentary have appeared in several outlets including the *New York Times*, the *Washington Post*, *NBC News*, *TIME*, *Foreign Affairs*, Brookings *TechStream*, and the *Nightly News* with Lester Holt. I'm an undergraduate at Stanford.
+My projects, research, and commentary have appeared in several outlets including the _New York Times_, the _Washington Post_, _NBC News_, _TIME_, _Foreign Affairs_, Brookings _TechStream_, and the _Nightly News_ with Lester Holt. I'm an undergraduate at Stanford.
 
 Some of the projects I'm most proud of are [Atlos](https://atlos.org), [PrivacySpy](https://privacyspy.org), [Shynet](https://github.com/milesmcc/shynet), [PolitiTweet](https://polititweet.org), my work at the [Stanford Internet Observatory](https://io.stanford.edu), and [a17t](https://a17t.miles.land). I teach [CS 106S](http://web.stanford.edu/class/cs106s/) at Stanford, I worked on cyber policy for a [2020 presidential campaign](/portfolio/politics), I'm a non-resident undergraduate fellow at the Cornell [Tech Policy Lab](https://tpl.as.cornell.edu), I'm an alum of the [Recurse Center](https://www.recurse.com/scout/click?t=e62336f0f378bcf03a96d441d015db88), and I've done some [research](https://scholar.google.com/citations?user=lrKeJiUAAAAJ).
 
 And finally, for the obligatory apostrophe soup: PA &rsquo;19, [RC S1 &rsquo;20](https://www.recurse.com/scout/click?t=e62336f0f378bcf03a96d441d015db88), [Stanford &rsquo;24](https://stanford.edu/~mccain/). More details are in my [portfolio](/portfolio/).
 
-
 ### Currently
 
-I'm in my junior year at Stanford and working on [Atlos](https://atlos.org). I'm also continuing my research at the [Stanford Internet Observatory](https://io.stanford.edu).
+I'm in my junior year at Stanford and working on [Atlos](https://atlos.org). I'm also working part time at [CISA](https://cisa.gov/) and continuing my research at the [Stanford Internet Observatory](https://io.stanford.edu).
 
 ### Contact
 
