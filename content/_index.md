@@ -17,7 +17,7 @@ And finally, for the obligatory apostrophe soup: PA &rsquo;19, [RC S1 &rsquo;20]
 
 ### Currently
 
-I'm in my junior year at Stanford and working on [Atlos](https://atlos.org). I'm also working part time at [CISA](https://cisa.gov/) and continuing my research at the [Stanford Internet Observatory](https://io.stanford.edu).
+I'm in my junior year at Stanford. I'm working primarily on [Atlos](https://atlos.org), as well as part time at [CISA](https://cisa.gov/). Some other things are happening, too.
 
 ### Contact
 
