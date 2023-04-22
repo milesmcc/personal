@@ -16,7 +16,7 @@ module.exports = {
     },
     fontFamily: {
       'sans': ['Inter', 'system-ui', 'sans-serif'],
-      'serif': ['Crimson Text', 'PT Serif', '\"Source Serif 4\"', 'serif'],
+      'serif': ['Crimson Text', 'serif'],
     }
   },
   plugins: [
