@@ -11,11 +11,11 @@ But most social media abuse operations are different. In this post, I want to ta
 
 None of their accounts amassed any significant following, nor did any of their tweets have any meaningful reach. But it was quite successful in (temporarily) silencing government criticism. How did they do it?
 
-<div class="aside ~info content">
-<p class="supra font-semibold">Two Important Disclaimers ⚖️</p>
-<p class="text-sm">First, I can't attribute this operation to the Tanzanian government itself. For all I know, this operation could have been run by individuals who just really wanted to stifle government criticism.</p>
-<p class="text-sm">Second, I'm writing this post in my individual capacity. Although I played a (small) role in investigating this network at the Stanford Internet Observatory, this post is my own. If I get something wrong, that's my problem &mdash; not theirs.</p>
-</div>
+> **Two Important Disclaimers**
+>
+> First, I can't attribute this operation to the Tanzanian government itself. For all I know, this operation could have been run by individuals who just really wanted to stifle government criticism.
+>
+> Second, I'm writing this post in my individual capacity. Although I played a (small) role in investigating this network at the Stanford Internet Observatory, this post is my own. If I get something wrong, that's my problem &mdash; not theirs.
 
 The operation itself was quite simple. Here's how it worked:
 

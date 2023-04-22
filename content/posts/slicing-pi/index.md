@@ -2,7 +2,7 @@
 title: "Calculating a slice of pi with trickery"
 tags: ["math", "pi", "interactive", "blag"]
 date: 2020-12-18T11:28:00-05:00
-draft: false
+draft: true
 mathjax: true
 ---
 
@@ -42,13 +42,13 @@ You can play with it below, then we'll explore how it works. If you're curious a
     </div>
     <div class="flex flex-wrap">
         <div class="flex-shrink mr-2 mb-2">
-            <button class="button ~urge !high" id="button-input" type="submit">Calculate</button>
+            <button class="button ~urge @high" id="button-input" type="submit">Calculate</button>
         </div>
         <div class="flex-shrink mr-2 mb-2">
             <button class="button ~urge" onclick="document.querySelector('#pi-output').textContent = '(Output cleared!)';"  type="button">Clear</button>
         </div>
         <div class="flex-shrink mr-2 mb-2">
-            <button class="button ~critical !high hidden" onclick="haltCalculations()" id="halt-input" type="button">Halt</button>
+            <button class="button ~critical @high hidden" onclick="haltCalculations()" id="halt-input" type="button">Halt</button>
         </div>
     </div>
 </form>

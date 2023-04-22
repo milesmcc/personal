@@ -1,383 +1,261 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
-@import 'a17t/dist/a17t.css';
-@import 'a17t/dist/tailwind.css';
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
 
-:root {
-    --family-secondary: "Source Sans Pro", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    --family-primary: var(--family-secondary);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-    --code-color: var(--color-neutral-800);
-    --code-background: var(--color-neutral-100);
+@layer components {
+  .prose a {
+    @apply underline decoration-neutral-400 dark:decoration-neutral-500 transition-all;
+  }
 
-    --color-neutral-000: #ffffff;
-    --color-neutral-50: #f3f4f6;
-    --color-neutral-100: #e5e7eb;
-    --color-neutral-200: #d1d5db;
-    --color-neutral-300: #9ca3af;
-    --color-neutral-400: #6b7280;
-    --color-neutral-500: #4b5563;
-    --color-neutral-600: #374151;
-    --color-neutral-700: #1f2937;
-    --color-neutral-800: #172136;
-    --color-neutral-900: #0b0f18;
-    
-    --color-critical-000: #fef2f2;
-    --color-critical-50: #fee2e2;
-    --color-critical-100: #fecaca;
-    --color-critical-200: #fca5a5;
-    --color-critical-300: #f87171;
-    --color-critical-400: #ef4444;
-    --color-critical-500: #dc2626;
-    --color-critical-600: #b91c1c;
-    --color-critical-700: #991b1b;
-    --color-critical-800: #7f1d1d;
-    --color-critical-900: #441313;
-    
-    --color-warning-000: #fffbeb;
-    --color-warning-50: #fef3c7;
-    --color-warning-100: #fde68a;
-    --color-warning-200: #fcd34d;
-    --color-warning-300: #fbbf24;
-    --color-warning-400: #f59e0b;
-    --color-warning-500: #d97706;
-    --color-warning-600: #b45309;
-    --color-warning-700: #92400e;
-    --color-warning-800: #783900;
-    --color-warning-900: #411e01;
-    
-    --color-positive-000: #f0fdf4;
-    --color-positive-50: #dcfce7;
-    --color-positive-100: #bbf7d0;
-    --color-positive-200: #86efac;
-    --color-positive-300: #4ade80;
-    --color-positive-400: #22c55e;
-    --color-positive-500: #16a34a;
-    --color-positive-600: #15803d;
-    --color-positive-700: #166534;
-    --color-positive-800: #14532d;
-    --color-positive-900: #0f2e1b;
-    
-    --color-info-000: #eff6ff;
-    --color-info-50: #dbeafe;
-    --color-info-100: #bfdbfe;
-    --color-info-200: #93c5fd;
-    --color-info-300: #60a5fa;
-    --color-info-400: #3b82f6;
-    --color-info-500: #2563eb;
-    --color-info-600: #1d4ed8;
-    --color-info-700: #1e40af;
-    --color-info-800: #1e3a8a;
-    --color-info-900: #14244e;
-    
-    --color-urge-000: #f5f3ff;
-    --color-urge-50: #ede9fe;
-    --color-urge-100: #ddd6fe;
-    --color-urge-200: #c4b5fd;
-    --color-urge-300: #a78bfa;
-    --color-urge-400: #8b5cf6;
-    --color-urge-500: #7c3aed;
-    --color-urge-600: #6d28d9;
-    --color-urge-700: #5b21b6;
-    --color-urge-800: #4c1d95;
-    --color-urge-900: #240e44;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-neutral-900: #ffffff;
-        --color-neutral-800: #f3f4f6;
-        --color-neutral-700: #e5e7eb;
-        --color-neutral-600: #d1d5db;
-        --color-neutral-500: #9ca3af;
-        --color-neutral-400: #6b7280;
-        --color-neutral-300: #4b5563;
-        --color-neutral-200: #374151;
-        --color-neutral-100: #1f2937;
-        --color-neutral-50: #172136;
-        --color-neutral-000: #0b0f18;
-        
-        --color-critical-900: #fef2f2;
-        --color-critical-800: #fee2e2;
-        --color-critical-700: #fecaca;
-        --color-critical-600: #fca5a5;
-        --color-critical-500: #f87171;
-        --color-critical-400: #ef4444;
-        --color-critical-300: #dc2626;
-        --color-critical-200: #b91c1c;
-        --color-critical-100: #991b1b;
-        --color-critical-50: #7f1d1d;
-        --color-critical-000: #441313;
-        
-        --color-warning-900: #fffbeb;
-        --color-warning-800: #fef3c7;
-        --color-warning-700: #fde68a;
-        --color-warning-600: #fcd34d;
-        --color-warning-500: #fbbf24;
-        --color-warning-400: #f59e0b;
-        --color-warning-300: #d97706;
-        --color-warning-200: #b45309;
-        --color-warning-100: #92400e;
-        --color-warning-50: #783900;
-        --color-warning-000: #411e01;
-        
-        --color-positive-900: #f0fdf4;
-        --color-positive-800: #dcfce7;
-        --color-positive-700: #bbf7d0;
-        --color-positive-600: #86efac;
-        --color-positive-500: #4ade80;
-        --color-positive-400: #22c55e;
-        --color-positive-300: #16a34a;
-        --color-positive-200: #15803d;
-        --color-positive-100: #166534;
-        --color-positive-50: #14532d;
-        --color-positive-000: #0f2e1b;
-        
-        --color-info-900: #eff6ff;
-        --color-info-800: #dbeafe;
-        --color-info-700: #bfdbfe;
-        --color-info-600: #93c5fd;
-        --color-info-500: #60a5fa;
-        --color-info-400: #3b82f6;
-        --color-info-300: #2563eb;
-        --color-info-200: #1d4ed8;
-        --color-info-100: #1e40af;
-        --color-info-50: #1e3a8a;
-        --color-info-000: #14244e;
-        
-        --color-urge-900: #f5f3ff;
-        --color-urge-800: #ede9fe;
-        --color-urge-700: #ddd6fe;
-        --color-urge-600: #c4b5fd;
-        --color-urge-500: #a78bfa;
-        --color-urge-400: #8b5cf6;
-        --color-urge-300: #7c3aed;
-        --color-urge-200: #6d28d9;
-        --color-urge-100: #5b21b6;
-        --color-urge-50: #4c1d95;
-        --color-urge-000: #240e44;
-    }
-}
-
-
-/* Sidenode code adapted from https://github.com/edwardtufte/tufte-css/blob/gh-pages/tufte.css */
-body {
-    counter-reset: sidenote-counter;
-}
-
-.sidenote,
-.marginnote {
-    float: right;
-    clear: right;
-    margin-right: -60%;
-    width: 50%;
-    margin-top: 0.3rem;
-    margin-bottom: 0;
-    font-size: small;
-    color: var(--color-neutral-500);
-    vertical-align: baseline;
-    position: relative;
-}
-
-.sidenote-number {
-    counter-increment: sidenote-counter;
-}
-
-.sidenote-number:after,
-.sidenote:before {
-    position: relative;
-    vertical-align: baseline;
-}
-
-.sidenote-number:after {
-    content: counter(sidenote-counter);
-    font-size: smaller;
-    color: var(--color-neutral-500);
-    top: -0.3rem;
-}
-
-.sidenote:before {
-    content: counter(sidenote-counter) " ";
-    top: -0.3rem;
-}
-
-blockquote .sidenote,
-blockquote .marginnote {
-    margin-right: -82%;
-    min-width: 59%;
-    text-align: left;
-}
-
-.marginnote > code,
-.sidenote > code {
-    font-size: 1rem;
-}
-
-
-input.margin-toggle {
-    display: none;
-}
-
-label.sidenote-number {
-    display: inline-block;
-    max-height: 2rem; /* should be less than or equal to paragraph line-height */
-}
-
-label.margin-toggle:not(.sidenote-number) {
-    display: none;
-}
-
-@media (max-width: 1280px) {
-    label.margin-toggle:not(.sidenote-number) {
-        display: inline;
-    }
-
-    .sidenote,
-    .marginnote {
-        display: none;
-    }
-
-    .margin-toggle:checked + .sidenote,
-    .margin-toggle:checked + .marginnote {
-        display: block;
-        float: left;
-        left: 1rem;
-        clear: both;
-        width: 95%;
-        margin: 1rem 2.5%;
-        position: relative;
-    }
-
-    label {
-        cursor: pointer;
-    }
-}
-
-.content a {
-    transition: all 100ms ease-in;
-    color: var(--color-neutral-600) !important;
-    text-decoration-color: var(--color-neutral-400) !important;
-}
-
-.content a:hover {
-    color: var(--color-neutral-500) !important;
-    text-decoration-color: var(--color-neutral-200) !important;
-}
-
-.vertical {
+  .prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"] *))::before {
+    content: "" !important;
+  }
+  
+  .prose a:hover {
+    @apply !text-neutral-500 dark:!text-neutral-300 decoration-neutral-300 dark:decoration-neutral-600;
+  }
+  
+  .vertical {
     writing-mode: vertical-rl;
-}
-
-.sticky-top {
+  }
+  
+  .sticky-top {
     position: sticky;
     top: 1rem;
-}
-
-.toc li a {
-    padding: 0.25rem 0.5rem;
-    transition: all 100ms ease-in;
-    display: block;
-
-    color: var(--color-neutral-400);
-    border-left: 1.5px solid var(--color-neutral-400);
-}
-
-.toc li a.active {
-    color: var(--color-neutral-600);
-    border-left-color: var(--color-neutral-600);
-    border-left-width: 3px;
-}
-
-.toc ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.hover-rotate {
-    transition: transform 100ms ease-in;
-}
-
-.hover-rotate:hover {
-    transform: rotate(10deg);
-}
-
-code, kbd, pre {
+  }
+  
+  code,
+  kbd,
+  pre {
     font-size: 0.8em;
+  }
 }
 
 .MathJax {
-    overflow-x: auto;
-    overflow-y: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 /* Syntax highlighting */
-.highlight .hll { background-color: var(--color-warning-100) }
-.highlight .c { color: var(--color-neutral-600); font-style: italic } /* Comment */
-.highlight .err { color: var(--color-warning-700); background-color: #e3d2d2 } /* Error */
-.highlight .k { color: var(--color-neutral-900); font-weight: bold } /* Keyword */
-.highlight .o { color: var(--color-neutral-900); font-weight: bold } /* Operator */
-.highlight .cm { color: var(--color-neutral-600); font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: var(--color-neutral-600); font-weight: bold; font-style: italic } /* Comment.Preproc */
-.highlight .c1 { color: var(--color-neutral-600); font-style: italic } /* Comment.Single */
-.highlight .cs { color: var(--color-neutral-600); font-weight: bold; font-style: italic } /* Comment.Special */
-.highlight .gd { color: var(--color-neutral-900); background-color: #ffdddd } /* Generic.Deleted */
-.highlight .ge { color: var(--color-neutral-900); font-style: italic } /* Generic.Emph */
-.highlight .gr { color: var(--color-warning-500) } /* Generic.Error */
-.highlight .gh { color: var(--color-neutral-600) } /* Generic.Heading */
-.highlight .gi { color: var(--color-neutral-900); background-color: #ddffdd } /* Generic.Inserted */
-.highlight .go { color: var(--color-neutral-700) } /* Generic.Output */
-.highlight .gp { color: var(--color-neutral-700) } /* Generic.Prompt */
-.highlight .gs { font-weight: bold } /* Generic.Strong */
-.highlight .gu { color: var(--color-neutral-700) } /* Generic.Subheading */
-.highlight .gt { color: var(--color-warning-500) } /* Generic.Traceback */
-.highlight .kc { color: var(--color-neutral-900); font-weight: bold } /* Keyword.Constant */
-.highlight .kd { color: var(--color-neutral-900); font-weight: bold } /* Keyword.Declaration */
-.highlight .kn { color: var(--color-neutral-900); font-weight: bold } /* Keyword.Namespace */
-.highlight .kp { color: var(--color-neutral-900); font-weight: bold } /* Keyword.Pseudo */
-.highlight .kr { color: var(--color-neutral-900); font-weight: bold } /* Keyword.Reserved */
-.highlight .kt { color: var(--color-urge-800); font-weight: bold } /* Keyword.Type */
-.highlight .m { color: var(--color-info-700) } /* Literal.Number */
-.highlight .s { color: var(--color-positive-600) } /* Literal.String */
-.highlight .na { color: var(--color-info-700) } /* Name.Attribute */
-.highlight .nb { color: var(--color-info-700) } /* Name.Builtin */
-.highlight .nc { color: var(--color-urge-800); font-weight: bold } /* Name.Class */
-.highlight .no { color: var(--color-info-700) } /* Name.Constant */
-.highlight .nd { color: var(--color-neutral-700); font-weight: bold } /* Name.Decorator */
-.highlight .ni { color: var(--color-urge-700) } /* Name.Entity */
-.highlight .ne { color: var(--color-critical-600); font-weight: bold } /* Name.Exception */
-.highlight .nf { color: var(--color-critical-600); font-weight: bold } /* Name.Function */
-.highlight .nl { color: var(--color-critical-600); font-weight: bold } /* Name.Label */
-.highlight .nn { color: var(--color-neutral-700) } /* Name.Namespace */
-.highlight .nt { color: var(--color-info-800) } /* Name.Tag */
-.highlight .nv { color: var(--color-info-700) } /* Name.Variable */
-.highlight .ow { color: var(--color-neutral-900); font-weight: bold } /* Operator.Word */
-.highlight .w { color: var(--color-info-900) } /* Text.Whitespace */
-.highlight .mf { color: var(--color-info-700) } /* Literal.Number.Float */
-.highlight .mh { color: var(--color-info-700) } /* Literal.Number.Hex */
-.highlight .mi { color: var(--color-info-700) } /* Literal.Number.Integer */
-.highlight .mo { color: var(--color-info-700) } /* Literal.Number.Oct */
-.highlight .sb { color: var(--color-positive-600) } /* Literal.String.Backtick */
-.highlight .sc { color: var(--color-positive-600) } /* Literal.String.Char */
-.highlight .sd { color: var(--color-positive-600) } /* Literal.String.Doc */
-.highlight .s2 { color: var(--color-positive-600) } /* Literal.String.Double */
-.highlight .se { color: var(--color-positive-600) } /* Literal.String.Escape */
-.highlight .sh { color: var(--color-positive-600) } /* Literal.String.Heredoc */
-.highlight .si { color: var(--color-positive-600) } /* Literal.String.Interpol */
-.highlight .sx { color: var(--color-positive-600) } /* Literal.String.Other */
-.highlight .sr { color: var(--color-positive-700) } /* Literal.String.Regex */
-.highlight .s1 { color: var(--color-positive-600) } /* Literal.String.Single */
-.highlight .ss { color: var(--color-critical-800) } /* Literal.String.Symbol */
-.highlight .bp { color: var(--color-neutral-600) } /* Name.Builtin.Pseudo */
-.highlight .vc { color: var(--color-info-700) } /* Name.Variable.Class */
-.highlight .vg { color: var(--color-info-700) } /* Name.Variable.Global */
-.highlight .vi { color: var(--color-info-700) } /* Name.Variable.Instance */
-.highlight .il { color: var(--color-info-700) } /* Literal.Number.Integer.Long */
+.highlight .hll {
+  background-color: var(--color-warning-100);
+}
+.highlight .c {
+  color: var(--color-neutral-600);
+  font-style: italic;
+} /* Comment */
+.highlight .err {
+  color: var(--color-warning-700);
+  background-color: #e3d2d2;
+} /* Error */
+.highlight .k {
+  color: var(--color-neutral-900);
+  font-weight: bold;
+} /* Keyword */
+.highlight .o {
+  color: var(--color-neutral-900);
+  font-weight: bold;
+} /* Operator */
+.highlight .cm {
+  color: var(--color-neutral-600);
+  font-style: italic;
+} /* Comment.Multiline */
+.highlight .cp {
+  color: var(--color-neutral-600);
+  font-weight: bold;
+  font-style: italic;
+} /* Comment.Preproc */
+.highlight .c1 {
+  color: var(--color-neutral-600);
+  font-style: italic;
+} /* Comment.Single */
+.highlight .cs {
+  color: var(--color-neutral-600);
+  font-weight: bold;
+  font-style: italic;
+} /* Comment.Special */
+.highlight .gd {
+  color: var(--color-neutral-900);
+  background-color: #ffdddd;
+} /* Generic.Deleted */
+.highlight .ge {
+  color: var(--color-neutral-900);
+  font-style: italic;
+} /* Generic.Emph */
+.highlight .gr {
+  color: var(--color-warning-500);
+} /* Generic.Error */
+.highlight .gh {
+  color: var(--color-neutral-600);
+} /* Generic.Heading */
+.highlight .gi {
+  color: var(--color-neutral-900);
+  background-color: #ddffdd;
+} /* Generic.Inserted */
+.highlight .go {
+  color: var(--color-neutral-700);
+} /* Generic.Output */
+.highlight .gp {
+  color: var(--color-neutral-700);
+} /* Generic.Prompt */
+.highlight .gs {
+  font-weight: bold;
+} /* Generic.Strong */
+.highlight .gu {
+  color: var(--color-neutral-700);
+} /* Generic.Subheading */
+.highlight .gt {
+  color: var(--color-warning-500);
+} /* Generic.Traceback */
+.highlight .kc {
+  color: var(--color-neutral-900);
+  font-weight: bold;
+} /* Keyword.Constant */
+.highlight .kd {
+  color: var(--color-neutral-900);
+  font-weight: bold;
+} /* Keyword.Declaration */
+.highlight .kn {
+  color: var(--color-neutral-900);
+  font-weight: bold;
+} /* Keyword.Namespace */
+.highlight .kp {
+  color: var(--color-neutral-900);
+  font-weight: bold;
+} /* Keyword.Pseudo */
+.highlight .kr {
+  color: var(--color-neutral-900);
+  font-weight: bold;
+} /* Keyword.Reserved */
+.highlight .kt {
+  color: var(--color-urge-800);
+  font-weight: bold;
+} /* Keyword.Type */
+.highlight .m {
+  color: var(--color-info-700);
+} /* Literal.Number */
+.highlight .s {
+  color: var(--color-positive-600);
+} /* Literal.String */
+.highlight .na {
+  color: var(--color-info-700);
+} /* Name.Attribute */
+.highlight .nb {
+  color: var(--color-info-700);
+} /* Name.Builtin */
+.highlight .nc {
+  color: var(--color-urge-800);
+  font-weight: bold;
+} /* Name.Class */
+.highlight .no {
+  color: var(--color-info-700);
+} /* Name.Constant */
+.highlight .nd {
+  color: var(--color-neutral-700);
+  font-weight: bold;
+} /* Name.Decorator */
+.highlight .ni {
+  color: var(--color-urge-700);
+} /* Name.Entity */
+.highlight .ne {
+  color: var(--color-critical-600);
+  font-weight: bold;
+} /* Name.Exception */
+.highlight .nf {
+  color: var(--color-critical-600);
+  font-weight: bold;
+} /* Name.Function */
+.highlight .nl {
+  color: var(--color-critical-600);
+  font-weight: bold;
+} /* Name.Label */
+.highlight .nn {
+  color: var(--color-neutral-700);
+} /* Name.Namespace */
+.highlight .nt {
+  color: var(--color-info-800);
+} /* Name.Tag */
+.highlight .nv {
+  color: var(--color-info-700);
+} /* Name.Variable */
+.highlight .ow {
+  color: var(--color-neutral-900);
+  font-weight: bold;
+} /* Operator.Word */
+.highlight .w {
+  color: var(--color-info-900);
+} /* Text.Whitespace */
+.highlight .mf {
+  color: var(--color-info-700);
+} /* Literal.Number.Float */
+.highlight .mh {
+  color: var(--color-info-700);
+} /* Literal.Number.Hex */
+.highlight .mi {
+  color: var(--color-info-700);
+} /* Literal.Number.Integer */
+.highlight .mo {
+  color: var(--color-info-700);
+} /* Literal.Number.Oct */
+.highlight .sb {
+  color: var(--color-positive-600);
+} /* Literal.String.Backtick */
+.highlight .sc {
+  color: var(--color-positive-600);
+} /* Literal.String.Char */
+.highlight .sd {
+  color: var(--color-positive-600);
+} /* Literal.String.Doc */
+.highlight .s2 {
+  color: var(--color-positive-600);
+} /* Literal.String.Double */
+.highlight .se {
+  color: var(--color-positive-600);
+} /* Literal.String.Escape */
+.highlight .sh {
+  color: var(--color-positive-600);
+} /* Literal.String.Heredoc */
+.highlight .si {
+  color: var(--color-positive-600);
+} /* Literal.String.Interpol */
+.highlight .sx {
+  color: var(--color-positive-600);
+} /* Literal.String.Other */
+.highlight .sr {
+  color: var(--color-positive-700);
+} /* Literal.String.Regex */
+.highlight .s1 {
+  color: var(--color-positive-600);
+} /* Literal.String.Single */
+.highlight .ss {
+  color: var(--color-critical-800);
+} /* Literal.String.Symbol */
+.highlight .bp {
+  color: var(--color-neutral-600);
+} /* Name.Builtin.Pseudo */
+.highlight .vc {
+  color: var(--color-info-700);
+} /* Name.Variable.Class */
+.highlight .vg {
+  color: var(--color-info-700);
+} /* Name.Variable.Global */
+.highlight .vi {
+  color: var(--color-info-700);
+} /* Name.Variable.Instance */
+.highlight .il {
+  color: var(--color-info-700);
+} /* Literal.Number.Integer.Long */
 
 .content pre {
-    background-color: var(--color-neutral-100);
+  background-color: var(--color-neutral-100);
 }
 
 .transition-opacity {
-    transition: opacity 100ms ease-in-out;
+  transition: opacity 100ms ease-in-out;
 }
 
-[x-cloak] { display: none !important; }
+[x-cloak] {
+  display: none !important;
+}

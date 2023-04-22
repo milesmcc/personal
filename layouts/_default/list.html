@@ -9,7 +9,7 @@
 {{ define "main" }}
 <main>
     {{ if (gt (len .Content) 0) }}
-    <section class="mb-12 content">
+    <section class="mb-12 prose dark:prose-invert">
         {{ .Content }}
     </section>
     {{ end }}

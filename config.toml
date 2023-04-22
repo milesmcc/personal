@@ -14,25 +14,21 @@ name = "Portfolio"
 url = "/portfolio/"
 weight = 1
 [menu.main.params]
-    style = "critical"
+    style = "text-critical-600"
+    style_active = "bg-critical-100 dark:bg-critical-800 dark:bg-opacity-[30%]"
 
 [[menu.main]]
 name = "Posts"
 url = "/posts/"
 weight = 2
 [menu.main.params]
-    style = "warning"
-
-[[menu.main]]
-name = "Cool"
-url = "/cool/"
-weight = 3
-[menu.main.params]
-    style = "info"
+    style = "text-info-600"
+    style_active = "bg-info-100 dark:bg-info-800 dark:bg-opacity-[30%]"
 
 [[menu.main]]
 name = "Letter"
 url = "/letter/"
 weight = 4
 [menu.main.params]
-    style = "positive"
+    style = "text-positive-600"
+    style_active = "bg-positive-100 dark:bg-positive-800 dark:bg-opacity-[30%]"

@@ -2,7 +2,7 @@
 title: "Goodbye, old posts!"
 tags: ["meta", "short"]
 date: 2020-07-05T15:09:08-04:00
-draft: false
+draft: true
 toc: false
 ---
 

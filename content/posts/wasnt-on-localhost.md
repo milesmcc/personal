@@ -2,7 +2,7 @@
 title: "Couldn't figure out why my CSS changes weren't being applied (turns out I was in prod)"
 tags: ["frusturating", "debugging"]
 date: 2020-07-11T19:45:50Z
-draft: false
+draft: true
 aliases: ["/errata/wasnt-on-localhost/"]
 ---
 

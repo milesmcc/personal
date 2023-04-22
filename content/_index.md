@@ -1,6 +1,6 @@
 ---
 supertitle: R. Miles McCain | About, contact, and portfolio
-title: Hey, I'm Miles.
+title: Hey, I'm Miles
 description: I enjoy designing, breaking, and studying systems. Working on
   trust and safety, privacy, tech policy, and positive computing.
 url: /

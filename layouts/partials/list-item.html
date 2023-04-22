@@ -1,11 +1,11 @@
-<li class="mb-4">
+<li class="mb-5">
   <a {{ if (not (eq ($.Param "link") nil))}}href="{{ $.Param "link" }}" rel="nofollow noopener" {{else}} href="{{ .Permalink }}" {{end}} class="md:flex">
     <div class="md:w-9/12">
-      <h3 class="heading text-base font-normal content text-neutral-800">
       {{ if .Title }}
+      <h3 class="text-base text-neutral-800 dark:text-neutral-100 leading-tight mb-px">
       {{ .Title }}
       {{ if (eq ($.Param "highlightSubtitle") true) }}
-      <span class="text-neutral-500">
+      <span class="text-neutral-500 dark:text-neutral-400">
         &mdash; {{ $.Param "subtitle" }}
       </span>
       {{ end }}
@@ -17,7 +17,7 @@
       {{ end }}
       {{ if (not (eq ($.Param "link") nil))}}&nearr;{{end}}
       </h3>
-      <span class="md:hidden pl-0 badge ~neutral !low inline">
+      <span class="md:hidden text-xs inline mr-1 dark:text-neutral-100 text-neutral-700">
         {{ if (not (eq ($.Param "dateOverride") nil))}}
         {{ $.Param "dateOverride" }}
         {{ else }}
@@ -26,11 +26,11 @@
       </span>
       {{ range (.GetTerms "tags") }}
       {{ if (not (eq (.Param "hidden") true))}}
-      <span class="badge {{ default "~neutral" (.Param "class") }} !normal bg-neutral-100 font-normal inline">{{ .Title }}</span>
+      <span class="text-[10px] rounded py-px px-1 bg-neutral-200 dark:bg-neutral-700 dark:text-neutral-300 mr-1 font-normal inline">{{ .Title }}</span>
       {{ end }}
       {{ end }}
     </div>
-    <div class="hidden md:block support family-secondary md:w-3/12 text-right md:pl-2 mt-0 text-neutral-600">
+    <div class="hidden md:block dark:text-neutral-100 text-xs md:w-3/12 text-right md:pl-2 mt-0 text-neutral-700">
       {{ if (not (eq ($.Param "dateOverride") nil))}}
       {{ $.Param "dateOverride" }}
       {{ else }}

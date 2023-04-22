@@ -3,7 +3,7 @@ title: "Fundamental concepts of programming"
 tags: ["mcip", "java", "technical"]
 date: 2020-06-08T17:50:13Z
 toc: false
-draft: false
+draft: true
 ---
 
 > **Note:** this short post is intended to be a brief introduction to the idea of programming. It's written for students in my AP CS course, but I've decided to share it with the world as well.

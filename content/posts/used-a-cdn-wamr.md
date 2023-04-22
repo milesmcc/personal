@@ -1,7 +1,7 @@
 ---
 title: "I accidentally broke one of my biggest sites because I used a CDN"
 date: 2020-07-09T16:23:14Z
-draft: false
+draft: true
 tags: ["technical", "a17t", "css", "whoaremyrepresentatives"]
 aliases: ["/errata/used-a-cdn-wamr/"]
 ---
