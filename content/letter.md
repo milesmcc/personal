@@ -23,7 +23,7 @@ If this is something you're interested in, sign up using the form below. If an e
                     <path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z" />
                 </svg>
             </div>
-            <input type="email" name="email" id="bd-email" class="block dark:text-white dark:bg-neutral-800 transition-all w-full rounded-md border-0 py-1.5 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 dark:ring-gray-600 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-urge-600 sm:text-sm sm:leading-6" placeholder="you@example.com">
+            <input type="email" name="email" id="bd-email" class="block dark:text-white dark:bg-neutral-800 transition-all w-full rounded-md border-0 py-1 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 dark:ring-gray-600 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-urge-600 sm:text-sm sm:leading-6" placeholder="you@example.com">
         </div>
     </div>
     <button class="rounded-md bg-urge-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-urge-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all focus-visible:outline-urge-600 h-full" type="submit">Subscribe</button>
