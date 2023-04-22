@@ -17,7 +17,7 @@ I want to make the world more secure, transparent, and safe. I'm a student at St
 
 ### Previously
 
-I've worked on election security at [CISA/DHS](https://cisa.gov), privacy engineering at [Apple](/portfolio/apple), trust and safety at the [Stanford Internet Observatory](https://io.stanford.edu), cyber policy for a [2020 presidential campaign](/portfolio/politics), tech policy with the [Cornell Tech Policy Institute](https://tpi.as.cornell.edu), and digital infrastructure in some [newsrooms](https://newscatalyst.org/).
+I've worked on election security at [CISA/DHS](https://cisa.gov), privacy engineering at [Apple](/portfolio/apple), trust and safety at the [Stanford Internet Observatory](https://io.stanford.edu), cyber policy for a [2020 presidential campaign](/portfolio/politics), tech policy with the [Cornell Tech Policy Institute](https://tpi.as.cornell.edu), and digital infrastructure with some [newsrooms](https://newscatalyst.org/).
 
 My projects, research, and commentary have appeared in several outlets including the _New York Times_, the _Washington Post_, _NBC News_, _TIME_, _Foreign Affairs_, Brookings _TechStream_, the _Nightly News_ with Lester Holt, and elsewhere.
 
