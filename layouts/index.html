@@ -11,7 +11,7 @@
     {{ range ((first 3 (where site.RegularPages "Type" "in" (slice "posts"))).GroupByDate "Jan ’06") }}
     <div class="flex">
       <div class="self-start pr-4 md:pr-8 sticky-top vertical mt-px">
-        <h3 class="leading-none text-neutral-500 dark:text-neutral-400 pb-2 toc-include mt-px" id="{{ .Key | urlize }}">{{ .Key | title }}</h3>
+        <h3 class="leading-none text-neutral-500 dark:text-neutral-400 pb-2 toc-include mt-1" id="{{ .Key | urlize }}">{{ .Key | title }}</h3>
       </div>
       <div class="flex-grow flex-grow">
         <ul>
