@@ -7,35 +7,30 @@
             {{ $icon := resources.Get ($.Param "icon.url") | resources.Minify | resources.Fingerprint }}
             <img class="float-right h-32 hover-rotate pl-4" src="{{ $icon.Permalink }}" alt="{{ $.Param "icon.alt" }}">
             {{ end }}
-            <h3 class="inline font-bold !leading-tight dark:text-white text-3xl md:text-4xl">
+            <h3 class="inline font-medium !leading-tight dark:text-white text-xl">
                 {{ .Title | safeHTML }}
                 {{if (not (eq ($.Param "link") nil))}}
                 &nearr;
                 {{end}}
             </h3>
-            <h3 class="inline font-bold !leading-tight dark:text-neutral-400 text-neutral-400 text-3xl md:text-4xl">
+            <h3 class="inline font-medium !leading-tight dark:text-neutral-400 text-neutral-400 text-xl">
                 {{if (not (eq ($.Param "subtitle") nil))}}
                 <br>{{ $.Param "subtitle" | safeHTML }}
                 {{end}}
+                {{ if (not (eq ($.Param "dateOverride") nil))}}
+                <br>
+                <span>
+                    {{ $.Param "dateOverride" }}
+                </span>
+                {{ else if (not (eq ($.Param "date") nil))}}
+                <br>
+                <span>
+                    {{ .Date.Format "Jan 2, 2006" }}
+                </span>
+                {{ end }}
             </h3>
             {{if (not (eq ($.Param "link") nil))}}
         </a>
         {{end}}
-    </div>
-    <div class="mt-4 text-xs flex flex-wrap gap-3 items-center dark:text-neutral-100">
-        {{ if (not (eq ($.Param "dateOverride") nil))}}
-        <span>
-            {{ $.Param "dateOverride" }}
-        </span>
-        {{ else if (not (eq ($.Param "date") nil))}}
-        <span>
-            {{ .Date.Format "Jan 2, 2006" }}
-        </span>
-        {{ end }}
-        {{ range (.GetTerms "tags") }}
-        {{ if (not (eq (.Param "hidden") true))}}
-        <a class="rounded px-2 py-1 bg-neutral-200 dark:bg-neutral-700 dark:text-neutral-300" href="{{ .Permalink }}" aria-label="tagged under {{ .LinkTitle }}">{{ .LinkTitle }}</a>
-        {{ end }}
-        {{ end }}
     </div>
 </section>

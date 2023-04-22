@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "R. Miles McCain"
 pygmentsUseClasses = true
+summaryLength = 15
 
 [markup.goldmark.renderer]
 unsafe = true

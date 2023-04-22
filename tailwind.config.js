@@ -2,11 +2,11 @@
 let colors = require("tailwindcss/colors")
 
 module.exports = {
-  content: ['./layouts/**/*.html', './content/**/*.md', './content/**/*.html', './**/*.toml'],
+  content: ['./layouts/**/*.html', './**/*.md', './content/**/*.html', './**/*.toml'],
   theme: {
     extend: {
       colors: {
-        neutral: colors.gray,
+        neutral: colors.stone, // Strictly speaking, redundant (this is here to map to the old a17t ~neutral)
         positive: colors.green,
         urge: colors.blue,
         warning: colors.yellow,
@@ -15,7 +15,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      'sans': ['Source Sans Pro', 'system-ui', 'sans-serif']
+      'sans': ['Inter', 'system-ui', 'sans-serif'],
+      'serif': ['Crimson Text', 'PT Serif', '\"Source Serif 4\"', 'serif'],
     }
   },
   plugins: [

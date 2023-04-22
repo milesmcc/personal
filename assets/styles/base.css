@@ -1,19 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,300;0,700;1,300;1,700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
-  .prose a {
+  .content {
+    @apply prose prose-neutral text-[18px] leading-relaxed dark:prose-invert max-w-full prose-headings:font-sans prose-headings:text-base prose-headings:mb-6 prose-headings:mt-12 prose-headings:font-medium font-serif opacity-[90%] prose-a:text-neutral-700 dark:prose-a:text-neutral-300 prose-a:decoration-2;
+  }
+
+  .content a {
     @apply underline decoration-neutral-400 dark:decoration-neutral-500 transition-all;
   }
 
-  .prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"] *))::before {
+  .content :where(blockquote p:first-of-type):not(:where([class~="not-prose"] *))::before {
     content: "" !important;
   }
   
-  .prose a:hover {
+  .content a:hover {
     @apply !text-neutral-500 dark:!text-neutral-300 decoration-neutral-300 dark:decoration-neutral-600;
   }
   
