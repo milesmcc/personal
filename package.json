@@ -1,14 +1,12 @@
 {
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.10",
     "postcss-cli": "^10.1.0",
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.7",
     "tailwindcss": "^3.3.1",
-    "@tailwindcss/typography": "^0.5.9"
-  },
-  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
     "alpinejs": "^3.2.4"
   }
 }
