@@ -1,4 +1,4 @@
-<section>
+<section class="-mt-1">
     <div>
         {{if (not (eq ($.Param "link") nil))}}
         <a href="{{ $.Param "link" }}">
@@ -7,13 +7,13 @@
             {{ $icon := resources.Get ($.Param "icon.url") | resources.Minify | resources.Fingerprint }}
             <img class="float-right h-32 hover-rotate pl-4" src="{{ $icon.Permalink }}" alt="{{ $.Param "icon.alt" }}">
             {{ end }}
-            <h3 class="inline font-medium !leading-tight dark:text-white text-xl">
+            <h3 class="inline font-medium !leading-snug dark:text-white text-xl">
                 {{ .Title | safeHTML }}
                 {{if (not (eq ($.Param "link") nil))}}
                 &nearr;
                 {{end}}
             </h3>
-            <h3 class="inline font-medium !leading-tight dark:text-neutral-400 text-neutral-400 text-xl">
+            <h3 class="inline font-medium !leading-snug dark:text-neutral-400 text-neutral-400 text-xl">
                 {{if (not (eq ($.Param "subtitle") nil))}}
                 <br>{{ $.Param "subtitle" | safeHTML }}
                 {{end}}
