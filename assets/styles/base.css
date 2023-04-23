@@ -5,6 +5,34 @@
 @tailwind utilities;
 
 @layer components {
+  .fade-in {
+      animation-name: fade-in,from-bottom-10px;
+      animation-duration: .55s;
+      animation-timing-function: cubic-bezier(.4,0,.2,1);
+      animation-fill-mode: none;
+      will-change: transform,opacity;
+  }
+
+  @keyframes fade-in {
+    0% {
+        opacity:0
+    }
+
+    to {
+        opacity:100
+    }
+  }
+
+  @keyframes from-bottom-10px {
+    0% {
+        transform:translateY(10px)
+    }
+
+    to {
+        transform:translateY(0)
+    }
+  }
+  
   .content {
     @apply prose prose-neutral text-[18px] leading-relaxed dark:prose-invert max-w-full prose-headings:font-sans prose-headings:text-base prose-headings:mb-6 prose-headings:mt-12 prose-headings:font-medium font-serif opacity-[90%] prose-a:text-neutral-700 dark:prose-a:text-neutral-300 prose-a:decoration-2;
   }

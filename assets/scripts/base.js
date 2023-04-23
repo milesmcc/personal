@@ -1,3 +1,5 @@
-import Alpine from 'alpinejs'
-window.Alpine = Alpine
-Alpine.start()
+import {listen} from 'quicklink';
+
+window.addEventListener('load', () => {
+    listen();
+});

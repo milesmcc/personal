@@ -10,7 +10,7 @@
         <aside class="self-start md:sticky-top md:top-12 overflow-visible">
           {{ partial "navigation.html" . }}
         </aside>
-        <div class="md:min-w-xl md:max-w-xl md:mx-16">
+        <div class="md:min-w-xl md:max-w-xl md:mx-16 fade-in">
           {{ if (not (eq ($.Param "redirect") nil)) }}
           <aside class="content">
             <strong>You're probably looking for a different page.</strong> Click <a href="{{ $.Param "redirect" }}">here</a> if you are not redirected automatically.
