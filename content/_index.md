@@ -11,9 +11,8 @@ I want to make the world more secure, transparent, and safe. I'm a student at St
 
 ### Currently
 
-- I run [Atlos](https://atlos.org), a platform for human rights investigations at scale. To my knowledge, Atlos powers the [largest public investigation](https://ukraine.bellingcat.com) into civilian harm in Ukraine.
-- I [maintain](https://github.com/milesmcc) several open source projects, including [Shynet](https://github.com/milesmcc/shynet), [a17t](https://github.com/milesmcc/a17t), [Badness.ai](https://badness.ai), and [PrivacySpy](https://privacyspy.org).
-- I'm building safety and observability infrastructure with my good friend [Rhythm](https://rhythmgarg.com). Our work is supported by [Floodgate Reactor](https://floodgate.com/reactor).
+- I run [Atlos](https://atlos.org), a platform for human rights investigations at scale. Though our partnership with Bellingcat, Atlos powers one of the [largest public investigations](https://ukraine.bellingcat.com) into civilian harm in Ukraine.
+- I [maintain](https://github.com/milesmcc) several open source projects, including [Shynet](https://github.com/milesmcc/shynet), [a17t](https://github.com/milesmcc/a17t), and [PrivacySpy](https://privacyspy.org).
 
 ### Previously
 
