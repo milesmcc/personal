@@ -25,9 +25,9 @@ In only a few hours, we were able to gain full read and write access to their da
 
 ## Disclosing the vulnerability to Fizz
 
-So we did what any good security researcher does: we responsibly disclosed what we found. We wrote a detailed vulnerability disclosure report. We suggested remediations. And we proactively agreed not to talk about our findings publicly before an embargo date to give them time to fix the issues. And then we sent them the report via email. 
+So we did what any good security researcher does: We responsibly disclosed what we found. We wrote a detailed vulnerability disclosure report. We suggested remediations. And we proactively agreed not to talk about our findings publicly before an embargo date to give them time to fix the issues. And then we sent them the report via email. 
 
-At first, they were grateful. They thanked us for our report and said that fixing the issues was their top priority. Then a few weeks passed. They sent us a few updates.
+At first, they were grateful. They thanked us for our report and said that fixing the issues was their top priority. Then a few weeks passed. They sent us some updates.
 
 And then, one day, they sent us a threat. A *crazy* threat. I remember it vividly. I was just finishing a run when the email came in. And my heart rate went *up* after I stopped running. That’s not what’s supposed to happen.
 
@@ -45,7 +45,7 @@ Here’s the first thing my friend Cooper said in our disclosure group chat when
 
 We started asking for help in our network, and within a few days, we were connected with Kurt and Andrew at the Electronic Frontier Foundation. Kurt and Andrew generously agreed to represent us in our response to the letter pro bono.
 
-We walked them through our disclosure and all our documentation. And with their advice, we made the decision not to cave to their threats. That’s why I’m here on stage right now talking to you.
+We walked them through our disclosure and all our documentation. And with their advice, we made the decision not to cave to Fizz's threats. That’s why I’m here on stage right now talking to you.
 
 Kurt and Andrew drafted a response to Fizz. They really shut it down. As an aside, The Stanford Daily [published](https://stanforddaily.com/2022/11/01/opinion-fizz-previously-compromised-its-users-privacy-it-may-do-so-again/) Fizz’s threat and EFF’s response. I really recommend that you read these docs if you haven’t already. They're crazy.
 
@@ -53,11 +53,13 @@ The Fizz team then asked to meet, and we were able to resolve the situation amic
 
 ## Relecting on a stressful time
 
-Now let’s take a quick step back. Getting a legal threat for our good-faith security research was incredibly stressful. And the fact that it came from our classmates added insult to injury. And I have three key takeaways from this experience I want to share.
+Now let’s take a quick step back. Getting a legal threat for our good-faith security research was incredibly stressful. And the fact that it came from our classmates added insult to injury.
+
+I have three key takeaways from this experience I want to share.
 
 1. _Keep your research above-board and well-documented._ Ahead of time, think about what you’re trying to accomplish with your research and make sure that you’re not crossing any ethical lines. A big reason why we were able to resolve this amicably — and why EFF was able to respond to Fizz’s threat so thoroughly — was that we played by the rules.
 
-   We didn’t save or leak the data we had access to. We didn’t mess with anyone’s account. We didn’t cause any damage. And we kept detailed documented of everything we did. That clean documentation was incredibly helpful for us as we wrote up our vulnerability disclosure report. And I imagine it also made Kurt and Andrew’s job representing us a lot easier.
+   We didn’t save or leak the data we had access to. We didn’t mess with anyone’s account. We didn’t cause any damage. And we kept detailed documented of everything we did. That clean documentation was incredibly helpful for us as we wrote up our vulnerability disclosure report. I imagine it also made Kurt and Andrew’s job representing us a lot easier.
 
 2. _Stay calm._ I can’t tell you how much I wanted to curse out the Fizz team over email. But no. We had to keep it professional — even as they resorted to legal scare tactics.
 
