@@ -43,7 +43,7 @@ They wanted to scare us into silence.
 
 What do you do when you get a letter like this? Well, I kind of freaked out. I was angry and scared.
 
-Here’s the first thing my friend Cooper said in our disclosure group chat when we got the threat: “Stay calm. Don’t do anything fucking stupid. We’re going to need a lawyer.” If you can’t tell from his wisdom: It was not Cooper’s first time dealing with legal threats.
+Here’s the first thing my friend Cooper said in our disclosure group chat when we got the threat: “Stay calm. Don’t do anything fucking stupid. We’re going to need a lawyer.” If you can’t tell from his wisdom, it was not Cooper’s first time dealing with legal threats.
 
 We started asking for help in our network, and within a few days, we were connected with Kurt and Andrew at the Electronic Frontier Foundation. Kurt and Andrew generously agreed to represent us in our response to the letter pro bono.
 
