@@ -5,7 +5,7 @@ date: 2023-08-28T09:38:00-07:00
 draft: false
 ---
 
-A few weeks ago, I was part of a talk at DEF CON 31 called [The Hackers, The Lawyers, and the Defense Fund](https://forum.defcon.org/node/245742). I was asked to share my experience receiving a legal threat for good-faith security research from my classmates and discuss my takeaways.
+A few weeks ago, I was part of a talk at DEF CON 31 called [The Hackers, The Lawyers, and the Defense Fund](https://forum.defcon.org/node/245742). I was asked to share my experience receiving a legal threat for good-faith security research from my classmates.
 
 This story has been told before (e.g., by my [classmate Aditya](https://saligrama.io/blog/post/firebase-insecure-by-default/) who was also involved and by the [Stanford Daily](https://stanforddaily.com/2022/11/01/opinion-fizz-previously-compromised-its-users-privacy-it-may-do-so-again/)), but I wanted to share my talk here for posterity.
 
