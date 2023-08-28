@@ -69,6 +69,6 @@ Now let’s take a quick step back. Getting a legal threat for our good-faith se
 
 Thank you.
 
-![A photo of us after the talk. From left to right: Charley Snyder (Google), me, Harley Geiger (Venable), Kurt Opsahl (Filecoin Foundation), Hannah Zhao (EFF)](talk.jpeg)
+![A photo of us after the talk. From left to right: Charley Snyder (Google), me, Harley Geiger (Venable), Kurt Opsahl (Filecoin Foundation), Hannah Zhao (EFF)](classmates-legal-threat-fizz-defcon-media/talk.jpeg)
 
 _I then handed things off to [Charley Snyder](https://twitter.com/charley_snyder_), the Head of Security Policy at Google, who spoke about his experience on the other side of the vulnerability disclosure process._
