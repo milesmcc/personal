@@ -27,7 +27,7 @@ In only a few hours, we were able to gain full read and write access to their da
 
 ## Disclosing the vulnerability to Fizz
 
-So we did what any good security researcher does: We responsibly disclosed what we found. We wrote a detailed vulnerability disclosure report. We suggested remediations. And we proactively agreed not to talk about our findings publicly before an embargo date to give them time to fix the issues. And then we sent them the report via email. 
+So we did what any good security researcher does: We responsibly disclosed what we found. We wrote a detailed vulnerability disclosure report. We suggested remediations. And we proactively agreed not to talk about our findings publicly before an embargo date to give them time to fix the issues. Then we sent them the report via email. 
 
 At first, they were grateful. They thanked us for our report and said that fixing the issues was their top priority. Then a few weeks passed. They sent us some updates.
 
