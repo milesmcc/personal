@@ -49,7 +49,7 @@ We started asking for help in our network, and within a few days, we were connec
 
 We walked them through our disclosure and all our documentation. And with their advice, we made the decision not to cave to Fizz's threats. That’s why I’m here on stage right now talking to you.
 
-Kurt and Andrew drafted a response to Fizz. They really shut it down. As an aside, The Stanford Daily [published](https://stanforddaily.com/2022/11/01/opinion-fizz-previously-compromised-its-users-privacy-it-may-do-so-again/) Fizz’s threat and EFF’s response. I really recommend that you read these docs if you haven’t already. They're crazy.
+Kurt and Andrew drafted a response to Fizz. They really shut it down. (The Stanford Daily [published](https://stanforddaily.com/2022/11/01/opinion-fizz-previously-compromised-its-users-privacy-it-may-do-so-again/) Fizz’s threat and EFF’s response. I really recommend that you read these docs if you haven’t already. They're crazy.)
 
 The Fizz team then asked to meet, and we were able to resolve the situation amicably. We pushed Fizz to proactively disclose the issues to their own users, which they eventually did.
 
