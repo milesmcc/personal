@@ -53,7 +53,7 @@ Kurt and Andrew drafted a response to Fizz. They really shut it down. (The Stanf
 
 The Fizz team then asked to meet, and we were able to resolve the situation amicably. We pushed Fizz to proactively disclose the issues to their own users, which they eventually did.
 
-## Relecting on a stressful time
+## Reflecting on a stressful time
 
 Now let’s take a quick step back. Getting a legal threat for our good-faith security research was incredibly stressful. And the fact that it came from our classmates added insult to injury.
 
