@@ -19,7 +19,7 @@ But first, shoutout to [Adi](https://saligrama.io) and the whole Applied Cyberse
 
 Last October, a Stanford student startup called Fizz started getting popular on campus. It was an anonymous social media app that claimed to be something like “100% secure”. What could go wrong?
 
-Well, a me and few security-minded friends were drawn like moths to a flame when we heard that. Our classmates were posting quite sensitive stories on Fizz, and we wanted to make sure their information was secure.
+Well, me and few security-minded friends were drawn like moths to a flame when we heard that. Our classmates were posting quite sensitive stories on Fizz, and we wanted to make sure their information was secure.
 
 So one Friday night, we decided to explore whether Fizz was really “100% secure” like they claimed. Well, dear reader, Fizz was not 100% secure. In fact, they hardly had any security protections at all.  
 
