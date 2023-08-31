@@ -27,7 +27,7 @@ I'm not an expert in child safety investigations, but I did help develop and mai
 
 * Finally, NCMEC then flags actionable and/or high-priority reports to law enforcement for further investigation. A key factor in the priority of a report is the degree to which it suggests that a child is in imminent danger. In 2022, NCMEC [submitted](https://www.missingkids.org/cybertiplinedata#reports) roughly 49,000 of these "urgent" reports.
 
-A key part of triage is whether the reported CSAM has been previously seen. After all, content that has been recirculating for years likely doesn't indicate hands-on abuse, while newly seen content might. This important triage mechanism relies on the assumption that all images showing abuse are showing real abuse. But what happens when that assumption breaks down?
+A key part of triage is whether the reported CSAM has been previously seen. After all, content that has been recirculating for years likely doesn't indicate active hands-on abuse, while newly seen content might. This important triage mechanism relies on the assumption that all depicted abuse actually happened. But what happens when that assumption breaks down?
 
 ## Child safety investigations meet AI image generation
 
@@ -47,7 +47,7 @@ As CG-CSAM becomes more common, it will constitute an increasingly large proport
 
 But unlike non-CG-CSAM, this content does _not_ document hands-on abuse or necessarily suggest that a child is in imminent danger. Absent other information, investigators will not know whether the depicted victim is a real person.
 
-As CG-CSAM becomes more common, the sheer volume of reports will overwhelm law enforcement, platforms, and NGOs; NCMEC will also lose a high-fidelity signal in their triage process.
+As CG-CSAM becomes more common, the sheer volume of reports will [overwhelm](https://www.washingtonpost.com/technology/2023/06/19/artificial-intelligence-child-sex-abuse-images/) law enforcement, platforms, and NGOs; NCMEC will also lose a high-fidelity signal in their triage process.
 
 Their already-hard job is about to get a lot harder.
 
