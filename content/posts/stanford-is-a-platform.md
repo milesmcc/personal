@@ -80,7 +80,7 @@ Maybe the answer is that you think BASES might help you get your dream summer jo
 
 I don’t want to over-intellectualize this. Just try things, be honest with yourself about your values, narrow in on what brings you value and joy, and then go deep. It’s like [stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent). And this framework applies to classes, projects, fields, and perhaps even relationships.
 
-The important thing is that your reward function is intrinsic, not extrinsic. Avoid chasing status or playing other people’s games. Instead, reflect on what brings you joy or a sense of fulfillment. And do that.
+The important thing is that your reward function is intrinsic, not extrinsic. Avoid chasing status or playing other people’s games. Instead, reflect on what brings you joy or a sense of fulfillment, and do that.
 
 I’ve found that Stanford finds a way to amplify and accelerate whatever I’m doing. If I’m interested in open source journalism, amazing; there’s a class for that. Funding for a new project? It’s available. No matter what you want to do, there’s probably a way that Stanford will help you do it.
 
