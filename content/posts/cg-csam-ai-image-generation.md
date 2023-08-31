@@ -1,7 +1,7 @@
 ---
 title: "AI image generators threaten child safety investigations"
 tags: ["safety", "ai", "ncmec", "blag"]
-date: 2023-08-12:05:00-07:00
+date: 2023-08-31T12:05:00-07:00
 draft: false
 ---
 
