@@ -74,7 +74,7 @@ Take joining a club like BASES. You might tell yourself that you’re joining BA
 
 One helpful way to get a more honest sense of your motivation is to think about opportunity costs. Ask yourself why you want to join BASES rather than, say, joining an intramural soccer team or helping organize an event like TreeHacks or Puzzle Hunt.
 
-Maybe the answer is that you think BASES might help you get your dream summer job, and organizing Puzzle Hunt won’t — that’s totally fine! Professional considerations are totally reasonable. But if the answer is “BASES will impress my classmates, and Puzzle Hunt won’t,” you should reconsider.
+Maybe the answer is that you think BASES might help you get your dream summer job, and organizing Puzzle Hunt won’t — that’s fine! Professional considerations are totally reasonable. But if the answer is “BASES will impress my classmates, and Puzzle Hunt won’t,” you should reconsider.
 
 ## Treat it like a platform
 
