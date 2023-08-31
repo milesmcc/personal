@@ -17,7 +17,7 @@ _A quick note: The challenge that AI image generation tools pose for child safet
 
 ## The old online child safety pipeline
 
-I'm not an expert in child safety investigations, but I did help develop and maintain a child sexual abuse material (CSAM) monitoring and reporting system at the [Stanford Internet Observatory](https://cyber.fsi.stanford.edu/io). I'm also somewhat familiar with how large platforms monitor and block the spread of CSAM. Here's a rough overview of how the process works in the United States:
+I'm not an expert in child safety investigations, but I did help develop and maintain a child sexual abuse material (CSAM) monitoring and reporting system at the [Stanford Internet Observatory](https://cyber.fsi.stanford.edu/io). Though other trust and safety work, I'm also somewhat familiar with how large platforms monitor and block the spread of CSAM. Here's a rough overview of how the process works in the United States:
 
 * When a user posts media on a platform, automated systems scan that media to make sure that it is not CSAM. Two of the most prominent scanning systems are Microsoft's[  PhotoDNA](https://en.wikipedia.org/wiki/PhotoDNA) and Google's [Content Safety API](https://protectingchildren.google/#tools-to-fight-csam). PhotoDNA checks content against a database of known CSAM, while Google's Content Safety API can detect previously-unseen CSAM. Users can also report CSAM through in-platform reporting flows.
 
@@ -67,4 +67,4 @@ But more broadly, any long-term solution must tackle the issue systemically. Her
 
 There's only one thing I know with certainty: The harms of generative AI are not far-off and hypothetical. They're real --- and they're here. We need to get to work.
 
-<!-- _Thank you to David and Rhythm for reviewing drafts of this post. All errors remain my own._ -->
+_Thank you to David and Rhythm for reviewing drafts of this post. All errors remain my own._
