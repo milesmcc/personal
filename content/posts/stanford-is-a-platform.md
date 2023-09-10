@@ -1,7 +1,7 @@
 ---
 title: "Stanford is a platform"
 tags: ["stanford", "growth", "advice"]
-date: 2023-09-01T09:15:00-07:00
+date: 2023-09-10T09:15:00-07:00
 draft: false
 ---
 
