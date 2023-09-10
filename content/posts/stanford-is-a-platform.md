@@ -1,8 +1,8 @@
 ---
 title: "Stanford is a platform"
 tags: ["stanford", "growth", "advice"]
-date: 2023-08-31T09:37:00-07:00
-draft: true
+date: 2023-09-01T09:15:00-07:00
+draft: false
 ---
 
 I love talking to incoming students at Stanford. When I do, I always emphasize that Stanford is a platform, not a destination. Sure, they have a magical time ahead. They’ll make amazing friends, and they’ll enjoy unbelievably good weather.
