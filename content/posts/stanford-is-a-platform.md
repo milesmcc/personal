@@ -42,7 +42,7 @@ You don’t need to pursue only one thing. Explore! Branch out into new discipli
 
 For example, I came into Stanford caring deeply about digital privacy, security, and tech policy. The [Stanford Internet Observatory](https://io.stanford.edu) does a lot of security- and policy-adjacent work, so I decided to take a class they offered called [Online Open Source Investigations](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=Online+Open+Source+Investigations&collapse=). I loved it, and about three weeks later I started working at the Internet Observatory. The Internet Observatory led me to the world of digital safety and open source intelligence, which inspired [Atlos](https://atlos.org). I found meaningful work.
 
-It doesn’t always work out this way. For example, I approached Stanford thinking I would double major in computer science and political science. But when I sat in on some political science classes, it just didn’t click. I didn’t see myself enjoying four years of political science coursework. No big deal. I learned that I didn’t want to major in political science.
+It doesn’t always work out this way. For example, I approached Stanford thinking I would double major in computer science and political science. But when I sat in on some political science classes, it just didn’t click. I didn’t see myself enjoying four years of political science coursework. No big deal.
 
 If you don’t know what to do, pick something that piques your interest and try it out. (College might be one place where “move fast and break things” — intellectually, at least — is good advice.) You’ll learn no matter what.
 
@@ -58,7 +58,7 @@ If you aren’t sure what you’re interested in, it’s easy to start taking co
 
 Preprofessional clubs like BASES, one of Stanford’s larger “business” clubs, are also high-gravity. New students arrive on campus and hear that all their classmates are applying to join BASES’ “frosh battalion” (this is real), and so they figure they might as well join too.
 
-There’s nothing wrong with joining BASES. But if you join, do so with some kind of intrinsic intention. That reason might be “it seems like a great way to meet people” or “I’m interested in business.” That reason is *not* “everyone else seems to be doing it” or “I think it’ll give me social status.” The important thing is intention.
+There’s nothing wrong with joining BASES. But if you join, do so with some kind of intrinsic intention. That reason might be “it seems like a great way to meet people” or “I’m interested in business.” That reason is *not* “everyone else seems to be doing it” or “I think it’ll give me social status.”
 
 Do things that make you happy and push you forward, whatever your definition of forward might be. That could mean hard math problems, rowing, spending quality time with friends, leading a club like BASES, or anything else.
 
@@ -74,11 +74,11 @@ Take joining a club like BASES. You might tell yourself that you’re joining BA
 
 One helpful way to get a more honest sense of your motivation is to think about opportunity costs. Ask yourself why you want to join BASES rather than, say, joining an intramural soccer team or helping organize an event like TreeHacks or Puzzle Hunt.
 
-Maybe the answer is that you think BASES might help you get your dream summer job, and organizing Puzzle Hunt won’t — that’s fine! Professional considerations are totally reasonable. But if the answer is “BASES will impress my classmates, and Puzzle Hunt won’t,” you should reconsider.
+Maybe the answer is that you think BASES might help you get your dream summer job, and organizing Puzzle Hunt won’t — that’s fine! Professional considerations are perfectly reasonable. But if the answer is “BASES will impress my classmates, and Puzzle Hunt won’t,” you should reconsider.
 
 ## Treat it like a platform
 
-I don’t want to over-intellectualize this. Just try things, be honest with yourself about your values, narrow in on what brings you value and joy, and then go deep. It’s like [stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent). And this framework applies to classes, projects, fields, and perhaps even relationships.
+I don’t want to over-intellectualize this. Just try things, be honest with yourself about your values, narrow in on what brings you value and joy, and then go deep. It’s kind of like [stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent). And this framework applies to classes, projects, fields, and perhaps even relationships.
 
 The important thing is that your reward function is intrinsic, not extrinsic. Avoid chasing status or playing other people’s games. Instead, reflect on what brings you joy or a sense of fulfillment, and do that.
 
