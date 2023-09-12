@@ -38,7 +38,7 @@ Stanford isn’t a great place to wander. Unlike some liberal arts colleges, the
 
 But Stanford is amazing if you have a sense of direction. Pick a field or topic — anything that interests you, really — and pursue it. Take some classes. Go to office hours. Maybe do some research. And see what you think. If you like it, awesome! You’ll be shocked by the opportunities that fall out of the woodwork. If not, switch it up. You still learned something.
 
-You don’t need to pursue only one thing. Explore! Branch out into new disciplines and take unfamiliar seminars. But when you find something you like, don’t be afraid do go deep.
+You don’t need to pursue only one thing. Explore! Branch out into new disciplines and take unfamiliar seminars. But when you find something you like, don’t be afraid to go deep.
 
 For example, I came into Stanford caring deeply about digital privacy, security, and tech policy. The [Stanford Internet Observatory](https://io.stanford.edu) does a lot of security- and policy-adjacent work, so I decided to take a class they offered called [Online Open Source Investigations](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=Online+Open+Source+Investigations&collapse=). I loved it, and about three weeks later I started working at the Internet Observatory. The Internet Observatory led me to the world of digital safety and open source intelligence, which inspired [Atlos](https://atlos.org). I found meaningful work.
 
