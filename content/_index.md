@@ -11,7 +11,7 @@ I want to make the world more secure, transparent, and safe. I'm a student at St
 
 ### Currently
 
-- I support open source investigations at scale via [Atlos](https://atlos.org). My work is made possible by the [Brown Institute](https://brown.stanford.edu) and [National Geographic](https://blog.nationalgeographic.org/2023/05/02/introducing-the-national-geographic-societys-2023-young-explorers/).
+- I support open source investigations at scale via [Atlos](https://atlos.org). My work is made possible by the [Brown Institute](https://brown.stanford.edu), [National Geographic](https://blog.nationalgeographic.org/2023/05/02/introducing-the-national-geographic-societys-2023-young-explorers/), and [Microsoft](https://www.microsoft.com/en-us/corporate-responsibility/democracy-forward?activetab=pivot1%3aprimaryr5).
 - I [maintain](https://github.com/milesmcc) a few open source projects, including [Shynet](https://github.com/milesmcc/shynet) and [a17t](https://github.com/milesmcc/a17t).
 - I teach [CS 106S](https://cs106s.stanford.edu) (Coding for Social Good), and I research trust & safety at the [Stanford Internet Observatory](https://io.stanford.edu).
 
