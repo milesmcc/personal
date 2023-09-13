@@ -32,7 +32,7 @@ But if you continue to think about Stanford as a destination, you might flounder
 
 People often tell me that college is an opportunity to explore and pursue curiosity for its own sake. I think that’s true. But I also think that it’s important to have some sense of directionality, especially at Stanford.
 
-Be ready to exert effort even if you don’t know exactly what you want. Keep trying things, and don’t sit still. Work towards something. For example, have a field you want to explore, or a project you want to complete.
+Be ready to exert effort even if you don’t know exactly what you want. Keep trying things and work towards something. For example, have a field you want to explore, or a project you want to complete.
 
 Stanford isn’t a great place to sit still. Unlike some liberal arts colleges, there’s no real core curriculum here, so you’ll really only be exposed to areas that you actively seek out. And unlike many European universities that require you to apply into a particular program, Stanford lets you pursue just about any field you want. I think that’s great, but the sheer freedom can cause paralysis.
 
