@@ -18,7 +18,7 @@ Why is action with intention so critical at Stanford? For two reasons:
 
 ## Not an end unto itself
 
-Many of the incoming students I speak with are overachievers who spent a lot of time in high school thinking about how to get into a great college. They strategized their extracurriculars. They optimized their grades. They published novel research. (To an extent, that was me.)
+Many of the incoming students I speak with are overachievers who spent a lot of time in high school thinking about how to get into a great college. They strategized their extracurriculars and optimized their grades. (To an extent, that was me.)
 
 Ideally much of this work is intrinsically motivated and fulfilling. But let’s be real: Some of it is oriented towards college admissions. They crafted narratives about themselves for admissions officers, which they packaged into a box with a bow on top.
 
@@ -34,11 +34,11 @@ People often tell me that college is an opportunity to explore and pursue curios
 
 Be ready to exert effort even if you don’t know exactly what you want. Keep trying things, and don’t sit still. Work towards something. For example, have a field you want to explore, or a project you want to complete.
 
-Stanford isn’t a great place to wander. Unlike some liberal arts colleges, there’s no real core curriculum here, so you’ll really only be exposed to areas that you actively seek out. And unlike many European universities that require you to apply into a particular program, Stanford lets you pursue just about any field you want. I think that’s great, but the sheer freedom can cause paralysis.
+Stanford isn’t a great place to sit still. Unlike some liberal arts colleges, there’s no real core curriculum here, so you’ll really only be exposed to areas that you actively seek out. And unlike many European universities that require you to apply into a particular program, Stanford lets you pursue just about any field you want. I think that’s great, but the sheer freedom can cause paralysis.
 
-But Stanford is amazing if you have a sense of direction. Pick a field or topic — anything that interests you, really — and pursue it. Take some classes. Go to office hours. Maybe do some research. And see what you think. If you like it, awesome! You’ll be shocked by the opportunities that fall out of the woodwork. If not, switch it up. You still learned something.
+But Stanford is amazing if you have a sense of direction. Pick a field or topic — anything that interests you, really — and pursue it. Take some classes. Go to office hours. Maybe do some research. And see what you think. If you like it — whether for the topic, the people, or something else -- awesome! You’ll be shocked by the opportunities that fall out of the woodwork. If not, switch it up. You still learned something.
 
-You don’t need to pursue only one thing. Explore! Branch out into new disciplines and take unfamiliar seminars. But when you find something you like, don’t be afraid to go deep.
+You definitely don’t need to pursue only one thing. Explore! Branch out into new disciplines and take unfamiliar seminars. But when you find something you like, don’t be afraid to go deep.
 
 For example, I came into Stanford caring deeply about digital privacy, security, and tech policy. The [Stanford Internet Observatory](https://io.stanford.edu) does a lot of security- and policy-adjacent work, so I decided to take a class they offered called [Online Open Source Investigations](https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&academicYear=&q=Online+Open+Source+Investigations&collapse=). I loved it, and about three weeks later I started working at the Internet Observatory. The Internet Observatory led me to the world of digital safety and open source intelligence, which inspired [Atlos](https://atlos.org). I found meaningful work.
 
@@ -68,11 +68,11 @@ In retrospect, I could have approached my first year at Stanford with more inten
 
 If you’re at Stanford, you’re likely somewhat of an overachiever, even if you may not always feel that way. You probably excelled in high school, where much of the exercise was chasing “gold stars” — be they leadership positions in extracurriculars, perfect grades, athletic victory, olympiad wins, and so on.
 
-That puts you at risk of [insecure overachievement](https://www.ft.com/content/ba0c9234-a2d7-11e7-9e4f-7f5e6a7c98a2) and status-seeking. Of doing things simply for the sake of impressing others. Extrinsic motivators. So when you’re assessing whether your intentions are intrinsic or extrinsic, you have to be honest with yourself.
+That puts you at risk of [insecure overachievement](https://www.ft.com/content/ba0c9234-a2d7-11e7-9e4f-7f5e6a7c98a2) and status-seeking. Of doing things simply for the sake of impressing others. So when you’re assessing whether your intentions are intrinsic or extrinsic, you have to be honest with yourself.
 
-Take joining a club like BASES. You might tell yourself that you’re joining BASES to meet new people and learn about starting a business. But that’s a great way to mask an underlying desire to just be a part of a “high-status group.”
+Take joining a club like BASES. You might tell yourself that you’re joining BASES to meet new people and learn about starting a business. But that’s a great way to mask an underlying desire for status.
 
-One helpful way to get a more honest sense of your motivation is to think about opportunity costs. Ask yourself why you want to join BASES rather than, say, joining an intramural soccer team or helping organize an event like TreeHacks or Puzzle Hunt.
+One helpful way to get a more honest sense of your motivation is to think about opportunity costs. Ask yourself why you want to join BASES rather than, say, joining an intramural soccer team, spending more time with friends, or helping organize an event like TreeHacks or Puzzle Hunt.
 
 Maybe the answer is that you think BASES might help you get your dream summer job, and organizing Puzzle Hunt won’t — that’s fine! Professional considerations are perfectly reasonable. But if the answer is “BASES will impress my classmates, and Puzzle Hunt won’t,” you should reconsider.
 
@@ -84,7 +84,7 @@ The important thing is that your reward function is intrinsic, not extrinsic. Av
 
 I’ve found that Stanford finds a way to amplify and accelerate whatever I’m doing. If I’m interested in open source journalism, amazing; there’s a class for that. Funding for a new project? It’s available. No matter what you want to do, there’s probably a way that Stanford will help you do it.
 
-You just need to pick something and execute with intention. But no one will tell you what to do, so some sense of directionality is important (otherwise you'll succumb to gravity). Think critically about what interests you, what you value, and what you enjoy. Then pursue that, and see what happens.
+You just need to pick something and execute with intention. Think critically about what interests you, what you value, and what you enjoy. Then pursue that — and don't be afraid to switch things up if it doesn't click. Just don't succumb to gravity.
 
 If you approach Stanford with this mindset, I think you’ll be shocked at how quickly you’ll move — and how far you’ll be able to go. Most importantly, you’ll enjoy the process.
 
