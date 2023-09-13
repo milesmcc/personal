@@ -88,4 +88,6 @@ You just need to pick something and execute with intention. But no one will tell
 
 If you approach Stanford with this mindset, I think you’ll be shocked at how quickly you’ll move — and how far you’ll be able to go. Most importantly, you’ll enjoy the process.
 
+*Want more unsolicited advice? [Give me your email.](https://miles.land/letter/)*
+
 *Thank you to Isabelle, Rhythm, and Kevin for reviewing drafts of this post.*
