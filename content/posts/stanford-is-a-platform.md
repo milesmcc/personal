@@ -36,7 +36,7 @@ Be ready to exert effort even if you don’t know exactly what you want. Keep tr
 
 Stanford isn’t a great place to sit still. Unlike some liberal arts colleges, there’s no real core curriculum here, so you’ll really only be exposed to areas that you actively seek out. And unlike many European universities that require you to apply into a particular program, Stanford lets you pursue just about any field you want. I think that’s great, but the sheer freedom can cause paralysis.
 
-But Stanford is amazing if you have a sense of direction. Pick a field or topic — anything that interests you, really — and pursue it. Take some classes. Go to office hours. Maybe do some research. And see what you think. If you like it — whether for the topic, the people, or something else -- awesome! You’ll be shocked by the opportunities that fall out of the woodwork. If not, switch it up. You still learned something.
+But Stanford is amazing if you have a sense of direction. Pick a field or topic — anything that interests you, really — and pursue it. Take some classes. Go to office hours. Maybe do some research. And see what you think. If you like it — whether for the topic, the people, or something else — awesome! You’ll be shocked by the opportunities that fall out of the woodwork. If not, switch it up. You still learned something.
 
 You definitely don’t need to pursue only one thing. Explore! Branch out into new disciplines and take unfamiliar seminars. But when you find something you like, don’t be afraid to go deep.
 
@@ -78,7 +78,7 @@ Maybe the answer is that you think BASES might help you get your dream summer jo
 
 ## Treat it like a platform
 
-I don’t want to over-intellectualize this. Just try things, be honest with yourself about your values, narrow in on what brings you value and joy, and then go deep. It’s kind of like [stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent). And this framework applies to classes, projects, fields, and perhaps even relationships.
+I don’t want to over-intellectualize this. Just try things, be honest with yourself about your values, narrow in on what brings you fulfillment and joy, and then go deep. It’s kind of like [stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent). And this framework applies to classes, projects, fields, and perhaps even relationships.
 
 The important thing is that your reward function is intrinsic, not extrinsic. Avoid chasing status or playing other people’s games. Instead, reflect on what brings you joy or a sense of fulfillment, and do that.
 
