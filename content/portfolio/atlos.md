@@ -10,7 +10,7 @@ showRelatedTag: atlos
 weight: 1
 ---
 
-[Atlos](https://atlos.org) is an open source platform for visual investigations. It helps journalists, human rights organizations, and OSINT investigators collaborate at scale.
+[Atlos](https://atlos.org) is a platform for open source visual investigations. It helps journalists, human rights organizations, and OSINT investigators collaborate at scale.
 
 Atlos isn't just a prototype: it already powers Bellingcat's pioneering investigatory work in Ukraine, through their Global Authentication Project.
 
