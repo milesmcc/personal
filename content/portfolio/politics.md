@@ -1,7 +1,7 @@
 ---
 date: 2019-011-11T03:44:30Z
 title: Politics
-subtitle: campaigns and policy
+subtitle: Campaigns and policy
 category: Work
 tags:
   - politics
