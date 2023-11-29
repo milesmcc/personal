@@ -10,7 +10,7 @@ highlightSubtitle: true
 weight: 5
 ---
 
-You can see an overview of all my research on my [Google Scholar page](https://scholar.google.com/citations?hl=en&user=lrKeJiUAAAAJ) (though note that some entries are missing).
+You can see an overview of my research on my [Google Scholar page](https://scholar.google.com/citations?hl=en&user=lrKeJiUAAAAJ).
 
 ## [An Investigation of Social Media Labeling Decisions Preceding the 2020 U.S. Election (November 2023)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0289683)
 
