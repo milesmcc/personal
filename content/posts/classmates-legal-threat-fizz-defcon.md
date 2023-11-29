@@ -1,6 +1,6 @@
 ---
 title: "When your classmates threaten you with felony charges"
-tags: ["security", "legal threats", "fizz", "defcon", "blag"]
+tags: ["security", "legal threats", "fizz", "defcon", "blag", "speaking"]
 date: 2023-08-28T09:38:00-07:00
 draft: false
 ---
