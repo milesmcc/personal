@@ -23,7 +23,7 @@ I'm an alum of the [Recurse Center](https://www.recurse.com/scout/click?t=e62336
 
 ### Broadly
 
-My projects, research, and commentary have appeared in several outlets including the _New York Times_, the _Washington Post_, _NBC News_, _TIME_, _Foreign Affairs_, Brookings _TechStream_, the _Nightly News_ with Lester Holt, and elsewhere. I've also [spoken](/portfolio/speaking) at a few conferences, including [DEF CON](/posts/classmates-legal-threat-fizz-defcon/) and [RightsCon](https://twitter.com/bellingcat/status/1668644662976888832).
+My projects, research, and commentary have appeared in several outlets including the _New York Times_, the _Washington Post_, _NBC News_, _TIME_, _Foreign Affairs_, Brookings _TechStream_, _Lawfare_, the _Nightly News_ with Lester Holt, and elsewhere. I've also [spoken](/portfolio/speaking) at a few conferences, including [DEF CON](/posts/classmates-legal-threat-fizz-defcon/) and [RightsCon](https://twitter.com/bellingcat/status/1668644662976888832).
 
 I've enjoyed [good music](https://mottlane.com), [good trouble](https://stanforddaily.com/2022/11/01/opinion-fizz-previously-compromised-its-users-privacy-it-may-do-so-again/), and [good design](https://a17t.miles.land). For more information, check out my [portfolio](/portfolio).
 
