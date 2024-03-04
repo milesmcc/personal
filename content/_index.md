@@ -12,7 +12,6 @@ I'm a sophomore at Florida State University, where I study Computer Science and 
 ### Currently
 
 - I am an incoming Software Engineering intern at Walmart Global Tech in Sunnyvale, CA.
-- I am the director 
 
 ### Previously
 
