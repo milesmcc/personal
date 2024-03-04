@@ -2,7 +2,7 @@
 supertitle: Gabriel Romanini de Barros | About, contact, and portfolio
 title: Gabriel Romanini de Barros
 subtitle: Miami
-description: I'm a sophomore at Florida State University, where I study Computer Science and Applied Math. I am interested in distributed and low-latency sytems.
+description: I'm a sophomore at Florida State University, where I study Computer Science and Applied Math. I am interested in distributed and low-latency systems.
 url: /
 draft: false
 ---
