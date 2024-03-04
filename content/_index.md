@@ -7,7 +7,7 @@ url: /
 draft: false
 ---
 
-I'm a sophomore at Florida State University, where I study Computer Science and Applied Math. I am interested in distributed and low-latency sytems.
+I'm a sophomore at Florida State University, where I study Computer Science and Applied Math. I am interested in distributed and low-latency systems.
 
 ### Currently
 
@@ -17,7 +17,9 @@ I'm a sophomore at Florida State University, where I study Computer Science and 
 
 During my freshman summer I worked as an SWE Intern at [Mills](https://www.mills.com.br/), a construction equipment rental company located in my home country, Brazil. I helped train and build infrastructure for a Computer Vision model used to identify damage in construction machinery.
 
-In high school, I was the VP of the world's largest DECA Chapter at Cypress Bay High. In addition to directly managing 120 club officers I also competed for our chapter, winning 9th place at [ICDC](https://www.deca.org/conferences/icdc) in the Business Finance category.
+During my freshman year I was an officer and international competitor at FSU's [Case Competition Club](https://www.linkedin.com/company/fsu-case-competition-club/about/). I represented FSU at the [Scotiabank International Case Competition](https://www.ivey-sicc.com/) hosted by [Ivey Business School](https://www.ivey.uwo.ca/), along with [Pedro](https://www.linkedin.com/in/pedromartinsaffonso/), [Bruno](https://www.linkedin.com/in/brunobdelnero/), and [Cole](https://www.linkedin.com/in/coleclemons/). I treasure this amazing opportunity for cultural and intellectual exchange with students from Asia, Europe, and Latin America, even though my team didn't make it to finals. I'd encourage anyone to pursue an equivalent opportunity in their field of interest during their college career.
+
+In high school, I was the VP of the world's largest DECA Chapter at Cypress Bay High. In addition to directly managing 120 club officers I also competed for our chapter, winning 9th place at [ICDC](https://www.deca.org/conferences/icdc) in the Business Finance category during my senior year and placing 2nd in the state in the [Stock Market Game](https://www.deca.org/compete/stock-market-game) during my sophomore year.
 
 ### Broadly
 
