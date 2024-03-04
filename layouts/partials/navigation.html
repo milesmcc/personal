@@ -1,6 +1,6 @@
 {{ $currentPage := . }}
 <nav class="flex justify-between w-full group items-center md:block mb-12 md:mb-0" aria-label="navigation">
-  <a class="flex justify-end md:w-full md:mb-12" href="/">
+  <a class="flex justify-end md:w-full md:mb-12" href="/personal">
     {{ $img := resources.Get "images/avatar.jpg" | resources.Fingerprint }}
     <img class="rounded-full group-hover:rotate-12 duration-500 transition-all h-8 w-8 md:h-12 md:w-12" alt="A circular photo of Miles; links to home." src="{{ $img.Permalink }}" />
   </a>
