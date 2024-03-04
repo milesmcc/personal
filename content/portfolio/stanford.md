@@ -1,58 +1,44 @@
 ---
-title: "Stanford University"
-subtitle: "Class of ’24"
+title: "Florida State University"
+subtitle: "Class of ’26"
 category: Education
 tags: ["college", "zoom"]
-dateOverride: "F ’20 –"
-showRelatedTag: stanford
-date: 2020-07-11T02:41:51Z
+dateOverride: "F ’22 –"
+showRelatedTag: fsu
+date: 2024-03-04T18:25:08.478Z
 highlightSubtitle: true
 weight: 1
 ---
 
-Since September 2020, I've been an undergraduate at [Stanford](https://stanford.edu). I'm planning on majoring in [Symbolic Systems](https://symsys.stanford.edu).
-
-### Work
-* **RA at the [Stanford Internet Observatory](https://io.stanford.edu)** (October 2020 –). Working on the Tech Team and with the [Election Integrity Partnership](https://www.eipartnership.net/). Studied Wikipedia in a series of two blog posts ([part 1](https://cyber.fsi.stanford.edu/io/news/wikipedia-part-one), [part 2](https://cyber.fsi.stanford.edu/io/news/wikipedia-part-two)). Built [GoGettr](https://github.com/stanfordio/gogettr). Quoted in [TIME magazine](https://time.com/5930061/wikipedia-birthday/), with research mentioned in many more outlets. Built out the core data analysis and ingest tooling.
-
-* **CS 106S Team** (January 2020 –). Helping teach [CS 106S](cs106s.stanford.edu), a supplemental 1-unit add-on to Stanford's famous CS intro class (CS 106A) focusing on programming for social good.
-
-### Organizations
-* [**CS+Social Good**](https://cs4good.com/) - Using CS in a way that's socially mindful and equitable.
-* [**SymSys Society**](http://www.symsyssociety.org/) - An organization for students who love symbolic systems!
+Since August 2022, I've been an undergraduate at [Florida State University](https://www.fsu.edu/). I'm majoring in Computer Science and Applied Math.
 
 ### Academics
 
-I plan to major in [Symbolic Systems](https://symsys.stanford.edu), though I'm still undeclared. I like Symbolic Systems because it allows me to complement my love of computer science with coursework in design, philosophy, math, psychology, and linguistics.
+I like the CS + Math combo because it provides me with a rigorous foundation at the logical and engineering levels - the rest, I am more comfortable learning outside of classes.
 
-##### Fall 2021
-* **CS 221** — Artificial Intelligence: Principles and Techniques
-* **PHIL 171** — Justice (Political Philosophy)
-* **INTNLREL 63Q** — International Organizations and Accountability
+##### Spring 2024
+* **COP 4610** - Operating Systems
+* **COP 4521** - Concurrent and Distributed Programming
+* **MGF 3301** - Intro to Advanced Math (Proofs)
+* **MAD 3105** - Discrete Math II
 
-##### Summer 2021
-* **CS 161** — Design and Analysis of Algorithms
+##### Fall 2023
+* **COP 4530** - Data Structures & Algorithms II
+* **STA 4321** - Intro to Mathematical Statistics
+* **COP 3250** - Advanced Java
+* **MAP 2302** - Ordinary Differential Equations
+* **CIS 3250** - Ethics and Computer Science
 
-##### Spring 2021
-* **PHIL 13N** — Justice Across Borders (Philosophy)
-* **CS 110** — Principles of Computer Systems
-* **CS 103** — Mathematical Foundations of Computing
-* **PWR 1EE** — Writing ("Prowling Toward Certainty")
-* **CS 199P** — Independent Project (teaching CS106S; non-graded)
-* **ME 110** — Design Sketching (non-graded)
-* **INTLPOL 261** — Current Topics in Technology Platform Policy (speaker series; non-graded)
+##### Spring 2023
+* **CDA 3100** - Computer Organization
+* **MAS 3105** - Linear Algebra
+* **MAC 2313** - Multivariable Calculus (H)
+* **COP 3330** - Data Structures & Algorithms I
+* **REL 2121** - Religion in the U.S. (H)
 
-##### Winter 2021
-* **CS 147** — Intro to Human-Computer Interaction
-* **CS 109** — Intro to Probability for Computer Scientists
-* **LINGUIST 30N** — Linguistic Meaning and the Law
-* **THINK 66** — Design that Understands Us
-* **CS 199P** — Independent Project (teaching CS106S; non-graded)
-
-##### Fall 2020
-* **CS 107** - Computer Organization and Systems
-* **SYMSYS 1** - Minds and Machines
-* **MATH 51** - Linear Algebra, Multivariable Calculus, and Modern Applications
-* **INTLPOL 268D** - Online Open Source Investigation
-* **CSRE 157B** - Election 2020 (speaker series; non-graded)
-* **CS 547** - Human-Computer Interaction Seminar (speaker series; non-graded)
+##### Fall 2022
+* **COP 3363** - Intro to Programming in C++
+* **MAC 2312** - Calculus 2
+* **MAD 2104** - Discrete Math I
+* **ACG 2021** - Financial Accounting 
+* **ENC 2135** - Research, Genre, and Context

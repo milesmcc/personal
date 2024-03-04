@@ -16,9 +16,9 @@ I'm a sophomore at Florida State University, where I study Computer Science and 
 
 ### Previously
 
-I worked as an SWE Intern at [Mills](https://www.mills.com.br/), a construction equipment rental company located in my home country, Brazil. I helped train and build infrastructure for a Computer Vision model used to identify damage in construction machinery.
+During my freshman summer I worked as an SWE Intern at [Mills](https://www.mills.com.br/), a construction equipment rental company located in my home country, Brazil. I helped train and build infrastructure for a Computer Vision model used to identify damage in construction machinery.
 
-I was the VP of the world's largest DECA Chapter at Cypress Bay High. In addition to directly managing 120 club officers I also competed for our chapter, achieving 9th place at [ICDC](https://www.deca.org/conferences/icdc) in the Business Finance category.
+In high school, I was the VP of the world's largest DECA Chapter at Cypress Bay High. In addition to directly managing 120 club officers I also competed for our chapter, winning 9th place at [ICDC](https://www.deca.org/conferences/icdc) in the Business Finance category.
 
 ### Broadly
 
