@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "/personal/"
 languageCode = "en-us"
 title = "Gabriel Romanini de Barros"
 pygmentsUseClasses = true
