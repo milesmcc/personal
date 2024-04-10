@@ -23,7 +23,7 @@ During my freshman year I was an officer and international competitor at FSU's [
 
 In my free time I enjoy reading, working out, and spending time with my friends.
 
-My favorite hobby, is going road trips. I once drove from Florida to California, as well as from Toronto to Maine. Through road trips I get to better know the world, my travel companions, and myself. I want to expand my passion for traveling to the international realm during the rest of my college career - and I'm always open to suggestions!
+My favorite hobby is going on road trips. I once drove from Florida to California, as well as from Toronto to Maine. Through road trips I get to better know the world, my travel companions, and myself. I want to expand my passion for traveling to the international realm during the rest of my college career - and I'm always open to suggestions!
 
 ### Contact
 
