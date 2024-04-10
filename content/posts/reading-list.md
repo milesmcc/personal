@@ -6,8 +6,6 @@ toc: false
 draft: false
 ---
 
-I've been an avid reader since I was a kid, and I found much of my favorite literature through others' suggestions. I hope I can add value to readers in a similar fashion by listing some of my favorite reads in no particular order. 
-
 - The Rise of Theodore Roosevelt, by Edmund Morris
 - Thinking Fast and Slow, by Daniel Kahneman
 - The Absolutely True Diary of a Part-Time Indian, by Sherman Alexie

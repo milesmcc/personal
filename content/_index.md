@@ -19,13 +19,11 @@ During my freshman summer I worked as an SWE Intern at [Mills](https://www.mills
 
 During my freshman year I was an officer and international competitor at FSU's [Case Competition Club](https://www.linkedin.com/company/fsu-case-competition-club/about/). I represented FSU at the [Scotiabank International Case Competition](https://www.ivey-sicc.com/) hosted by [Ivey Business School](https://www.ivey.uwo.ca/), along with [Pedro](https://www.linkedin.com/in/pedromartinsaffonso/), [Bruno](https://www.linkedin.com/in/brunobdelnero/), and [Cole](https://www.linkedin.com/in/coleclemons/). I treasure this amazing opportunity for cultural and intellectual exchange with students from Asia, Europe, and Latin America, even though my team didn't make it to finals. I'd encourage anyone to pursue an equivalent opportunity in their field of interest during their college career.
 
-In high school, I was the VP of the world's largest DECA Chapter at Cypress Bay High. In addition to directly managing 120 club officers I also competed for our chapter, winning 9th place at [ICDC](https://www.deca.org/conferences/icdc) in the Business Finance category during my senior year and placing 2nd in the state in the [Stock Market Game](https://www.deca.org/compete/stock-market-game) during my sophomore year.
-
 ### Broadly
 
 In my free time I enjoy reading, working out, and spending time with my friends.
 
-My favorite hobby, when time allows, is making road trips. I once drove from Florida to California, as well as from Toronto to Maine. Through road trips I get to better know the world, my travel companions, and myself. I want to expand my passion for traveling to the international realm during the rest of my college career - and I'm always open to suggestions!
+My favorite hobby, is going road trips. I once drove from Florida to California, as well as from Toronto to Maine. Through road trips I get to better know the world, my travel companions, and myself. I want to expand my passion for traveling to the international realm during the rest of my college career - and I'm always open to suggestions!
 
 ### Contact
 
