@@ -29,6 +29,6 @@ I've enjoyed [good music](https://mottlane.com), [good trouble](https://stanford
 
 ### Contact
 
-You can email me at [miles@rmrm.io](mailto:miles@rmrm.io). I'm on [GitHub](https://github.com/milesmcc), [Twitter](https://twitter.com/MilesMcCain), [LinkedIn](https://www.linkedin.com/in/r-miles-mccain-a215b1199/), and the [orange website](https://news.ycombinator.com/user?id=epoch_100). Need help with one of my open source projects? Stop by my <a href="/officehours">office hours</a>.
+You can email me at [coldinbound@sendmiles.email](mailto:coldinbound@sendmiles.email). I'm on [GitHub](https://github.com/milesmcc) and [Twitter](https://twitter.com/MilesMcCain). Need help with one of my open source projects? Stop by my <a href="/officehours">office hours</a>.
 
 ### Recent Writing
