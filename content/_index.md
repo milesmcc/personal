@@ -19,9 +19,7 @@ I want to make the world more secure, transparent, and safe. Right now, I'm focu
 
 I worked on election security at [CISA/DHS](https://cisa.gov), privacy engineering at [Apple](/portfolio/apple), trust and safety at the [Stanford Internet Observatory](https://io.stanford.edu), AI policy in [collaboration](https://arxiv.org/abs/1908.09203) with [OpenAI](https://openai.com/research/gpt-2-6-month-follow-up) and the [Cornell Tech Policy Institute](https://publicpolicy.cornell.edu/btpi/), and digital infrastructure with some [newsrooms](https://newscatalyst.org/).
 
-At [Stanford](/portfolio/stanford), I taught [CS 106S](https://cs106s.stanford.edu) (Coding for Social Good), I researched trust & safety at the [Stanford Internet Observatory](https://io.stanford.edu), and I co-directed the [Stanford Security Clinic](https://securityclinic.org).
-
-I'm an alum of the [Recurse Center](https://www.recurse.com/scout/click?t=e62336f0f378bcf03a96d441d015db88), I had an [app](https://paxo.ai) (but [we](https://rhythmgarg.com) sold the business), I worked on cyber policy for a [2020 presidential campaign](/portfolio/politics), and I co-authored some [papers](https://scholar.google.com/citations?user=lrKeJiUAAAAJ).
+At [Stanford](/portfolio/stanford), I taught [CS 106S](https://cs106s.stanford.edu) (Coding for Social Good) and I co-directed the [Stanford Security Clinic](https://securityclinic.org). I'm an alum of the [Recurse Center](https://www.recurse.com/scout/click?t=e62336f0f378bcf03a96d441d015db88), I had an [app](https://paxo.ai) (but [we](https://rhythmgarg.com) sold the business), and I worked on cyber policy for a [2020 presidential campaign](/portfolio/politics).
 
 ### Broadly
 
