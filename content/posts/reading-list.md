@@ -8,7 +8,7 @@ draft: false
 
 - The Rise of Theodore Roosevelt, by Edmund Morris
 - Thinking Fast and Slow, by Daniel Kahneman
-- The Absolutely True Diary of a Part-Time Indian, by Sherman Alexie
 - Animal Farm, by George Orwell
 - [Paul Graham's Essays](https://paulgraham.com/articles.html)
-- I,Robot, by Isaac Asimov
+- Isaac Asimov's Robot series
+- Godel, Escher, Bach: an Eternal Golden Braid, by Douglas Hofstaetder
