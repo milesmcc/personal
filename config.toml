@@ -1,4 +1,5 @@
-baseURL = "https://gabrielbarros36.github.io/personal/"
+#baseURL = "https://gabrielbarros36.github.io/personal/"
+baseURL = "https://gabe.build/"
 languageCode = "en-us"
 title = "Gabriel Romanini de Barros"
 pygmentsUseClasses = true
