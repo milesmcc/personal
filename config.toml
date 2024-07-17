@@ -27,6 +27,9 @@ weight = 2
     style = "text-info-600"
     style_active = "bg-info-100 dark:bg-info-800 dark:bg-opacity-[30%]"
 
+name = "Log"
+url = "/log/"
+weight = 3
 # [[menu.main]] 
 # name = "Letter"
 # url = "/letter/"
