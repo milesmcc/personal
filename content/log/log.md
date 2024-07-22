@@ -5,6 +5,11 @@ toc: false
 draft: false
 ---
 
+#### Jul 21
+- Did 5 LC
+- Lift (back and bi)
+- Groceries
+
 #### Jul 18
 - Mailed Stadium Center key to Nick
 - Morning lift (back and bis)
