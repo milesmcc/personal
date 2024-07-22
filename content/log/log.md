@@ -6,7 +6,7 @@ draft: false
 ---
 
 #### Jul 21
-- Did 5 LC
+- Did 7 LC
 - Lift (back and bi)
 - Groceries
 
