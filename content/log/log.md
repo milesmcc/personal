@@ -5,6 +5,16 @@ toc: false
 draft: false
 ---
 
+#### Jul 23
+- 2 LC
+    - Valid Parentheses
+    - Merge Two Sorted Lists
+    - Invert binary tree
+    - Flood fill
+    - Binary search
+    - Lowest common ancestor of a BST
+    -
+
 #### Jul 21
 - Did 7 LC
 - Lift (back and bi)
