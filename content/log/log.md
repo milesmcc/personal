@@ -6,7 +6,7 @@ draft: false
 ---
 
 #### Jul 25
-- 5 LC
+- 15 LC
     - Balanced Binary Tree
     - First Bad Version
     - Ransom Note
@@ -15,6 +15,14 @@ draft: false
     - Diameter of Binary Tree
     - Middle of the Linked List
     - Maximum Depth of Binary Tree
+    - Backspace String Compare
+    - Same Tree
+    - Longest Common Prefix
+    - Single Number - Interesting Solution
+    - Palindrome Linked List
+    - Symmetric Tree
+    - Missing Number
+    - (extra) Review Longest Substring Without Repeating Characters
 - Progress on RemoveDuplicate task
 - 2 PRs merged to SNP
 
