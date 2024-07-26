@@ -5,15 +5,27 @@ toc: false
 draft: false
 ---
 
+#### Jul 25
+- 1 LC
+    - Balanced Binary Tree
+    -
+- Progress on RemoveDuplicate task
+- 2 PRs merged to SNP
+
+#### Jul 24
+- SNP Unit tests
+- Unblocked "remove duplicate" task
+
 #### Jul 23
-- 2 LC
+- 6 LC
     - Valid Parentheses
     - Merge Two Sorted Lists
     - Invert binary tree
     - Flood fill
     - Binary search
     - Lowest common ancestor of a BST
-    -
+    - (extra) Reviewed 3Sum
+- Mock with Fe
 
 #### Jul 21
 - Did 7 LC
