@@ -6,13 +6,21 @@ draft: false
 ---
 
 #### Jul 25
-- 1 LC
+- 5 LC
     - Balanced Binary Tree
-    -
+    - First Bad Version
+    - Ransom Note
+    - Longest Palindrome
+    - Reverse Linked List
+    - Diameter of Binary Tree
+    - Middle of the Linked List
+    - Maximum Depth of Binary Tree
 - Progress on RemoveDuplicate task
 - 2 PRs merged to SNP
 
 #### Jul 24
+- 1LC
+    - Linked List Cycle
 - SNP Unit tests
 - Unblocked "remove duplicate" task
 
