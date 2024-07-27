@@ -5,6 +5,17 @@ toc: false
 draft: false
 ---
 
+![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
+
+#### Jul 27
+- 1 LC
+    - Validate Binary Search Tree
+    - Number of Islands
+
+#### Jul 26
+- SNP Grafana Dashboard
+- Mock with Fe
+
 #### Jul 25
 - 15 LC
     - Balanced Binary Tree
