@@ -8,9 +8,13 @@ draft: false
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
 #### Jul 27
-- 1 LC
+- 3 LC
     - Validate Binary Search Tree
     - Number of Islands
+    - Binary Tree Level Order Traversal
+    - Evaluate Reverse Polish Notation
+    - Maximum Subarray
+- Snowflake OA
 
 #### Jul 26
 - SNP Grafana Dashboard
