@@ -7,13 +7,23 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Jul 29
+- 2 Mocks with Fe
+    - Rank Teams by Vote (meh)
+    - Top K Frequent Elements (excellent)
+
+#### Jul 28
+- Meeting with Farouq Alsalih (Atlassian interview guidance)
+- Meeting with Jeffrey Ma (Atlassian)
+
 #### Jul 27
-- 3 LC
+- 6 LC
     - Validate Binary Search Tree
     - Number of Islands
     - Binary Tree Level Order Traversal
     - Evaluate Reverse Polish Notation
     - Maximum Subarray
+    - Insert Interval
 - Snowflake OA
 
 #### Jul 26
