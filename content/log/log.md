@@ -7,6 +7,28 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Aug 4
+- Atlassian offer!!!
+    - Among first 2/3 students to get Atlassian in the country
+
+#### Aug 3
+- ColorStack summit - talked to Joshua Gutierrez and Corey Twitty from Netflix
+    - Corey replied to my email few days later
+
+#### Aug 2
+- Atlassian behavioral interview
+    - Went pretty well, interviewer offered to end it ~20 minutes in
+    - Interviewer: Alfredo Huitron
+- ColorStack Summit opening session
+
+#### Jul 31
+- Atlassian Technical Interview
+    - Crushed it, got behavioral 30 minutes later
+    - Interviewer: Gordon Su
+
+#### Jul 30 
+- 3 Mocks with Fe
+
 #### Jul 29
 - 2 Mocks with Fe
     - Rank Teams by Vote (meh)
