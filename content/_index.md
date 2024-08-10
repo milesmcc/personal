@@ -7,13 +7,13 @@ url: /
 draft: false
 ---
 
-I want to make the world more secure, transparent, and safe. Right now, I'm focusing on AI safety, integrity, and "sociotechnical alignment."
+I want to make the world more secure, transparent, and safe. I care about "sociotechnical alignment," trust and safety, and a lot of other things.
 
 ### Currently
 
+- I work at [Anthropic](https://anthropic.com). 
 - I support human rights investigations at scale via [Atlos](https://atlos.org). My work is made possible by [National Geographic](https://blog.nationalgeographic.org/2023/05/02/introducing-the-national-geographic-societys-2023-young-explorers/), the [Brown Institute at Stanford](https://brown.stanford.edu), and [Microsoft](https://www.microsoft.com/en-us/corporate-responsibility/democracy-forward?activetab=pivot1%3aprimaryr5).
 - I [maintain](https://github.com/milesmcc) a number of open source projects, including [Shynet](https://github.com/milesmcc/shynet) and [a17t](https://github.com/milesmcc/a17t).
-- I begin a new job in July. I'm very excited about it and will have more to say soon.
 
 ### Previously
 
