@@ -10,7 +10,7 @@ highlightSubtitle: true
 weight: 1
 ---
 
-From September 2020 to June 2024, I've was an undergraduate at [Stanford](https://stanford.edu). I majored in [Symbolic Systems](https://symsys.stanford.edu) with an individually designed concentration in _Digital Safety, Security, and Society_.
+From September 2020 to June 2024, I was an undergraduate at [Stanford](https://stanford.edu). I majored in [Symbolic Systems](https://symsys.stanford.edu) with an individually designed concentration in _Digital Safety, Security, and Society_.
 
 ### Honors and Awards
 
