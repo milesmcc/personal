@@ -7,9 +7,8 @@ url: /
 draft: false
 ---
 
-- Incoming SWE Intern at Atlassian (Summer 2025)
-- Incoming SWE Intern at Turso (Fall 2024)
-- SWE Intern at Walmart Global Tech working on the Spark Driver app (stress testing infrastructure + unit test coverage)
+- SWE Intern at Turso (Fall 2024)
+- Past SWE Intern at Walmart Global Tech working on the Spark Driver app (stress testing infrastructure + unit test coverage)
 
 ### Previously
 

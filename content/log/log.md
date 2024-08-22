@@ -7,6 +7,29 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Aug 17
+- Last day @ Walmart
+- Grafana PR + duplicate PR hand down to Raymond
+- 1 Codeforces (800)
+
+#### Aug 15
+- ~15 pages of Bacon to Kant
+- 
+
+#### Aug 8
+- 3 Codeforces questions (900 rating)
+
+#### Aug 6
+- Grafana dashboard PR
+- 6 Codeforces questions (~800 rating)
+- Leg day
+- [Raycaster research](https://lodev.org/cgtutor/raycasting.html)
+
+#### Aug 5
+- Unwind
+- 1 LC (C++)
+    - Group Anagrams 
+
 #### Aug 4
 - Atlassian offer!!!
     - Among first 2/3 students to get Atlassian in the country
