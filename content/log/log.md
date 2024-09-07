@@ -7,6 +7,18 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Sep 6
+- Finished C# Project 1
+
+#### Sep 5
+- Back + bis
+- Netflix app submitted
+- Work on C# project
+
+#### Sep 4
+- 15 pages of Ordinary Men
+- Chest day
+
 #### Aug 17
 - Last day @ Walmart
 - Grafana PR + duplicate PR hand down to Raymond
