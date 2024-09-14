@@ -7,6 +7,23 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Sep 13
+- Datadog OA
+- Back + bis
+- 15 pages of Ordinary Men
+- Implemented registration & login on receipt scanner (missing profile data class)
+
+#### Sep 12
+- 20 pages of Ordinary Men
+
+#### Sep 11
+- Built receipt recognition MVP in Django
+- 15 pages of Ordinary Men
+- Chest + tris
+
+#### Sep 10
+- Robinhood OA
+
 #### Sep 6
 - Finished C# Project 1
 
