@@ -7,6 +7,14 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Sep 27
+- 40 pages of This Way for The Gas
+- Finished booking Whistler trip
+
+#### Sep 14
+- 30 pages of Ordinary Men
+- Tennis
+
 #### Sep 13
 - Datadog OA
 - Back + bis
