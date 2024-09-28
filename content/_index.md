@@ -23,7 +23,7 @@ At [Stanford](/portfolio/stanford), I taught [CS 106S](https://cs106s.stanford.e
 
 ### Broadly
 
-My projects, research, and commentary have appeared in several outlets including the _New York Times_, the _Washington Post_, _NBC News_, _TIME_, _Foreign Affairs_, Brookings _TechStream_, _Lawfare_, the _Nightly News_ with Lester Holt, and elsewhere. I've also [spoken](/portfolio/speaking) at a few conferences, including [DEF CON](/posts/classmates-legal-threat-fizz-defcon/) and [RightsCon](https://twitter.com/bellingcat/status/1668644662976888832).
+My projects, research, and commentary have appeared in several outlets including the _New York Times_, the _Washington Post_, _NBC News_, _TIME_, _Foreign Affairs_, Brookings _TechStream_, _Lawfare_, the _Nightly News_ with Lester Holt, and elsewhere. I've also [spoken](/portfolio/speaking) at a few conferences, including [DEF CON](/posts/classmates-legal-threat-fizz-defcon/), [TSRC](https://conferences.law.stanford.edu/tsrc/), and [RightsCon](https://twitter.com/bellingcat/status/1668644662976888832).
 
 For more information, check out my [portfolio](/portfolio).
 
