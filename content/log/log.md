@@ -7,9 +7,51 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Oct 9
+- Chest and tris
+- 
+
+#### Oct 8
+- Back and bis
+
+#### Oct 7
+- SWE Midterm
+- CV Assignment 1
+- Unix Tools HW3
+- Chest and Tris
+
+#### Oct 6
+- Reviewed for SWE exam
+- Read ByteByteGo articles 0-4
+- Interview Pen API Design
+- Watched Amazon SD Interview
+
+#### Oct 5
+- Finished SWE Class Essay
+- Interview Pen networks video notes
+
+#### Oct 4
+- Got Netflix 2nd round!
+- Interview Pen introductory video
+
+#### Oct 3
+- Tennis w/ Fe (lost 6(7)-6(10))
+
+#### Oct 2
+- Work on CV  Assignment 1
+- Back + bis
+
+#### Oct 1
+- Netflix interview (unsuccessful)
+
 #### Sep 27
-- 40 pages of This Way for The Gas
-- Finished booking Whistler trip
+- 40 pgs of This Way for The Gas
+- Booked everything for Whistler
+- Talked to Joshua Lopes (Netflix Intern)
+
+#### Sep 22
+- Started C# UI, started refactoring Proj. 1
+- 1 LC
 
 #### Sep 14
 - 30 pages of Ordinary Men
