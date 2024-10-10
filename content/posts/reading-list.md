@@ -6,6 +6,8 @@ toc: false
 draft: false
 ---
 
+- This Way for the Gas, Ladies and Gentlemen, by Tadeusz Borowski
+- Ordinary Men, by Christopher Browning
 - There is no Antimemetics Division, by qntm
 - Godel, Escher, Bach: an Eternal Golden Braid, by Douglas Hofstaetder
 - The Rise of Theodore Roosevelt, by Edmund Morris
