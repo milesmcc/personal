@@ -7,9 +7,55 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Nov 4
+
+#### Oct 25
+- Built neural network, trained on MNIST
+
+#### Oct 24
+- Tennis w/ Fe and Edgar
+
+#### Oct 23
+- Back + bis
+- Leo BNY interview prep
+
+#### Oct 22
+- Chest + tris
+- Tennis + Pickleball w/ Rafa and Lari
+
+#### Oct 21
+- CV Assignment 2
+
+#### Oct 20
+- Back + bis
+- Tennis
+
+#### Oct 19
+- Chest + tris
+
+#### Oct 18
+- Leo visit
+
+#### Oct 16
+- Back + bis
+
+#### Oct 15
+- Netflix Interviews
+- Chest + tris
+
+#### Oct 11
+- SWE Class Progress Report
+- SWE Class Teammate Evaluation
+- Mock interview w/ Fe
+
+#### Oct 10
+- Review Unix Quizlet + ChatGPT  + take Unix midterm
+- Finish InterviewPen Fundamentals Video
+- ByteByteGo Rate Limiter
+- Exponent Video - Design TikTok
+
 #### Oct 9
 - Chest and tris
-- 
 
 #### Oct 8
 - Back and bis

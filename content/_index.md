@@ -7,9 +7,6 @@ url: /
 draft: false
 ---
 
-- SWE Intern at Turso (Fall 2024)
-- Past SWE Intern at Walmart Global Tech working on the Spark Driver app (stress testing infrastructure + unit test coverage)
-
 ### Previously
 
 During the summer of 2023 I worked as an SWE Intern at [Mills](https://www.mills.com.br/), a Brazilian construction equipment rental company. I helped train and build infrastructure for a CV model used to identify damage in construction machinery.
