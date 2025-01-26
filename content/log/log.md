@@ -1,4 +1,5 @@
 ---
+
 title: "Log"
 tags: []
 toc: false
@@ -7,7 +8,23 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
-#### Nov 4
+#### Jan 25
+- Switched gchat server to async
+- Ran 3 miles
+
+#### Jan 16
+- Math logic HW 3 + reading
+- Rust book half of ch. 4
+
+#### Jan 15
+- Math logic HW 1 & 2 + readings
+
+#### Jan 14
+- Real analysis HW4 + reading
+- Back + bis
+
+#### Jan 13
+- Rust book chapter 3
 
 #### Oct 25
 - Built neural network, trained on MNIST
