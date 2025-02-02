@@ -16,6 +16,19 @@ Since August 2022, I've been an undergraduate at [Florida State University](http
 
 I like the CS + Math combo because it provides me with a rigorous foundation at the logical and engineering levels - the rest, I am more comfortable learning outside of classes.
 
+##### Spring 2025
+* **MAA 4226** - Real Analysis
+* **MHF 4302** - Mathematical Logic
+* **COP 4710** - Databases
+* **CIS 4360** - Computer Security
+
+##### Fall 2024
+* **CEN 4020** - Software Engineering
+* **CIS 4090** - Computer Vision
+* **COP 4870** - C# Development
+* **INS 4100** - Human Rights Violations in the 20th Century
+* **COP 4342** - Unix Tools
+
 ##### Spring 2024
 * **COP 4610** - Operating Systems
 * **COP 4521** - Concurrent and Distributed Programming

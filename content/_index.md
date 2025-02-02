@@ -1,13 +1,15 @@
 ---
 supertitle: Gabriel Romanini de Barros | About, contact, and portfolio
 title: Gabriel Romanini de Barros
-subtitle: Miami
-description: I'm a sophomore at Florida State University, where I study CS and Applied Math. 
+subtitle: Miami & Tallahassee
+description: I'm a Junior at Florida State University, where I study CS and Applied Math. 
 url: /
 draft: false
 ---
 
 ### Previously
+
+In the summer of 2024 I interned at Walmart Global Tech in the Spark Driver App team (Walmart's version of Doordash). I worked exclusively on backend - half my time was spent making unit tests and the other half was distributed among creating some APIs for internal use and doing some tasks on the team's backlog.
 
 During the summer of 2023 I worked as an SWE Intern at [Mills](https://www.mills.com.br/), a Brazilian construction equipment rental company. I helped train and build infrastructure for a CV model used to identify damage in construction machinery.
 

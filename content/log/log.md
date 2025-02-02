@@ -8,6 +8,24 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Jan 30
+- CIS Lab 1
+- Tennis
+
+#### Jan 29
+- Chest day
+- Worked on CIS Lab 1
+
+#### Jan 28
+- Implemented gchat frontend
+- Deployed [gchat](https://www.gchat.cloud/)!
+
+#### Jan 27
+- Leg day
+
+#### Jan 26
+- Real analysis HW6
+
 #### Jan 25
 - Switched gchat server to async
 - Ran 3 miles

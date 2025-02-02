@@ -6,6 +6,7 @@ toc: false
 draft: false
 ---
 
+- O Alienista, by Machado de Assis
 - This Way for the Gas, Ladies and Gentlemen, by Tadeusz Borowski
 - Ordinary Men, by Christopher Browning
 - There is no Antimemetics Division, by qntm
