@@ -8,6 +8,10 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Feb 2
+- MHF HW 5-8
+- Back + bis
+
 #### Jan 30
 - CIS Lab 1
 - Tennis
