@@ -8,6 +8,15 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Feb 4
+- gchat:
+    - Set up HTTP server with Axum
+    - Set up Nginx
+
+#### Feb 3
+- Set up Postgres in gchat
+- Leg day
+
 #### Feb 2
 - MHF HW 5-8
 - Back + bis
