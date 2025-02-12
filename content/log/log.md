@@ -8,6 +8,21 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Feb 9
+- Leg day
+- Real analysis HW 10 + 11 + 12
+
+#### Feb 8
+- Run 2 miles
+- Play tennis w/ Fe (won 6-3)
+
+#### Feb 6
+- Real analysis HW8 + 9
+
+#### Feb 5
+- Real Analysis HW7 + most of HW8
+- Tried and failed to use pgadmin with Nginx
+
 #### Feb 4
 - gchat:
     - Set up HTTP server with Axum
