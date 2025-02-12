@@ -7,7 +7,7 @@ dateOverride: "F ’22 –"
 showRelatedTag: fsu
 date: 2024-03-04T18:25:08.478Z
 highlightSubtitle: true
-weight: 1
+weight: 0
 ---
 
 Since August 2022, I've been an undergraduate at [Florida State University](https://www.fsu.edu/). I'm majoring in Computer Science and Applied Math.
