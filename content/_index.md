@@ -30,5 +30,3 @@ For more information, check out my [portfolio](/portfolio).
 ### Contact
 
 You can email me at [miles@matcherror.com](mailto:miles@matcherror.com). I'm on [GitHub](https://github.com/milesmcc) and [Twitter](https://twitter.com/MilesMcCain). Need help with one of my open source projects? Stop by my <a href="/officehours">office hours</a>.
-
-### Recent Writing
