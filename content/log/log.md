@@ -8,6 +8,32 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Feb 17
+- Math logic HW13
+
+#### Feb 16
+- Human geo assignment
+- Real analysis HW15
+
+#### Feb 15
+- Real analysis HW14
+- Math logic HW12
+
+#### Feb 13
+- Databases HW1
+
+#### Feb 12
+- Math logic HW11
+- Initial gchat writeup
+- Human geo Essay 1
+
+#### Feb 11
+- Real analysis HW13
+- Chest day
+
+#### Feb 10
+- Security fundamentals Lab 2
+
 #### Feb 9
 - Leg day
 - Real analysis HW 10 + 11 + 12
