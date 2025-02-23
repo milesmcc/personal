@@ -8,8 +8,30 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Feb 22
+- Human Geo: Globalization & Development Assignment
+
+#### Feb 21
+- Security Fundamentals Lab 3
+- Databases State 2
+
+#### Feb 20
+- Fixed gauth DB connection
+
+#### Feb 19
+- Halting Problem presentation
+
+#### Feb 18
+- Leg day
+- Real analysis HW16
+- Math logic HW 14
+- Started gauth
+
 #### Feb 17
 - Math logic HW13
+- Back + bis
+- Work on halting problem presentation
+- Rust book: some of chapter 4
 
 #### Feb 16
 - Human geo assignment
