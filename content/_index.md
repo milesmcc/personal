@@ -12,6 +12,8 @@ draft: false
 - Right now I'm working on [gchat](https://gabe.build/portfolio/gchat/) and [gauth](https://github.com/GabrielBarros36/gauth)
 - Looking for interesting things to work on before my internship starts in June - if you have any ideas please reach out!
 
+My current interests are Rust and the design of streaming pipelines. Things I plan on exploring soon include Haskell/applied Category Theory, FPGAs, and Reinforcement Learning (especially with GRPO).
+
 ### Previously
 
 In the summer of 2024 I interned at Walmart Global Tech in the Spark Driver App team (Walmart's version of Doordash). I worked exclusively on backend - my time was spent making unit tests creating some APIs for internal use, and doing some tasks on the team's backlog.
