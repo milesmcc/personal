@@ -8,8 +8,12 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Feb 23
+
+
 #### Feb 22
 - Human Geo: Globalization & Development Assignment
+- Back + bis
 
 #### Feb 21
 - Security Fundamentals Lab 3
