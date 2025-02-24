@@ -7,13 +7,18 @@ url: /
 draft: false
 ---
 
+### Currently
+- Junior at Florida State studying Math and CS
+- Right now I'm working on [gchat](https://gabe.build/portfolio/gchat/) and [gauth](https://github.com/GabrielBarros36/gauth)
+- Looking for interesting things to work on before my internship starts in June - if you have any ideas please reach out!
+
 ### Previously
 
-In the summer of 2024 I interned at Walmart Global Tech in the Spark Driver App team (Walmart's version of Doordash). I worked exclusively on backend - half my time was spent making unit tests and the other half was distributed among creating some APIs for internal use and doing some tasks on the team's backlog.
+In the summer of 2024 I interned at Walmart Global Tech in the Spark Driver App team (Walmart's version of Doordash). I worked exclusively on backend - my time was spent making unit tests creating some APIs for internal use, and doing some tasks on the team's backlog.
 
 During the summer of 2023 I worked as an SWE Intern at [Mills](https://www.mills.com.br/), a Brazilian construction equipment rental company. I helped train and build infrastructure for a CV model used to identify damage in construction machinery.
 
-During my freshman year I was an international competitor at FSU's [Case Competition Club](https://www.linkedin.com/company/fsu-case-competition-club/about/). I represented FSU at the [Scotiabank International Case Competition](https://www.ivey-sicc.com/) hosted by [Ivey Business School](https://www.ivey.uwo.ca/), along with [Pedro](https://www.linkedin.com/in/pedromartinsaffonso/), [Bruno](https://www.linkedin.com/in/brunobdelnero/), and [Cole](https://www.linkedin.com/in/coleclemons/). 
+In my freshman year I was an international competitor at FSU's [Case Competition Club](https://www.linkedin.com/company/fsu-case-competition-club/about/). I represented FSU at the [Scotiabank International Case Competition](https://www.ivey-sicc.com/) hosted by [Ivey Business School](https://www.ivey.uwo.ca/), along with [Pedro](https://www.linkedin.com/in/pedromartinsaffonso/), [Bruno](https://www.linkedin.com/in/brunobdelnero/), and [Cole](https://www.linkedin.com/in/coleclemons/). 
 
 ### Broadly
 
