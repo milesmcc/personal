@@ -1,9 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 subtitle: ""
-category: Projects
+category: 2-Projects
 tags: []
-dateOverride: "Sp ’16 –"
+dateOverride: "Sp '16 –"
 showRelatedTag: null
 date: {{ .Date }}
 highlightSubtitle: true

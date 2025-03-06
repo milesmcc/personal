@@ -8,8 +8,37 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
-#### Feb 23
+#### Mar 3
+- Leg day
+- gchat: first gauth integration!
+- CIS Lab 4
 
+#### Mar 2
+- Back + bis
+- Review education transactions & send to Stan
+- MAA HW19
+- Databases exam review (intro + ER decks)
+- gauth: worked on JWT implementation
+
+#### Mar 1
+- Chest + tris
+- Human Geo movie review
+- Meal prep
+
+#### Feb 28
+- Bar hopping
+
+#### Feb 27
+- Leg day
+- Databases HW2
+- gauth: started implementing JWTs
+
+#### Feb 26
+- Real Analysis Exam (got 100%)
+
+#### Feb 25
+- Sent all tax info to Stan
+- Reviewed Rudin ch. 2
 
 #### Feb 22
 - Human Geo: Globalization & Development Assignment

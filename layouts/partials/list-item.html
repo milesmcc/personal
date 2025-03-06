@@ -16,5 +16,9 @@
     {{ end }}
     {{ if (not (eq ($.Param "link") nil))}}&nearr;{{end}}
     </h3>
+    
+    <div class="text-base text-neutral-600 dark:text-neutral-400 mt-2 overflow-hidden font-serif" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+      {{ .Summary | plainify | htmlUnescape | truncate 120 }}
+    </div>
   </a>
 </li>

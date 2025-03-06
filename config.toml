@@ -12,8 +12,8 @@ unsafe = true
 tag = "tags"
 
 [[menu.main]]
-name = "Portfolio"
-url = "/portfolio/"
+name = "Experience"
+url = "/experience/"
 weight = 1
 [menu.main.params]
     style = "text-critical-600"
@@ -27,13 +27,26 @@ weight = 2
     style = "text-info-600"
     style_active = "bg-info-100 dark:bg-info-800 dark:bg-opacity-[30%]"
 
-name = "Log"
-url = "/log/"
+# [[menu.main]]
+# name = "Log"
+# url = "/log/"
+# weight = 3
+# [menu.main.params]
+#     style = "text-warning-600"
+#     style_active = "bg-warning-100 dark:bg-warning-800 dark:bg-opacity-[30%]"
+
+[[menu.main]]
+name = "Reading"
+url = "/reading/"
 weight = 3
+[menu.main.params]
+   style = "text-positive-600"
+   style_active = "bg-positive-100 dark:bg-positive-800 dark:bg-opacity-[30%]"
+
 # [[menu.main]] 
 # name = "Letter"
 # url = "/letter/"
-# weight = 4
+# weight = 5
 # [menu.main.params]
 #    style = "text-positive-600"
 #    style_active = "bg-positive-100 dark:bg-positive-800 dark:bg-opacity-[30%]"
