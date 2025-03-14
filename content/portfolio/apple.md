@@ -1,5 +1,5 @@
 ---
-date: 2022-6-9T03:44:30Z
+date: 2022-06-09T03:44:30Z
 title: Apple
 subtitle: Privacy Engineering
 category: Work

@@ -4,7 +4,7 @@ subtitle: "AI meeting notes"
 category: Projects
 tags: ["ai", "app", "project"]
 dateOverride: "Sp ’23"
-date: 2023-3-24T17:14:47-04:00
+date: 2023-03-24T17:14:47-04:00
 highlightSubtitle: true
 showRelatedTag: paxo
 weight: 2

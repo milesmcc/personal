@@ -1,5 +1,5 @@
 ---
-date: 2019-011-11T03:44:30Z
+date: 2019-11-11T03:44:30Z
 title: Politics
 subtitle: Campaigns and policy
 category: Work

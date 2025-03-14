@@ -5,7 +5,7 @@ category: Work
 tags: ["news", "programming", "product"]
 dateOverride: "F ’19"
 showRelatedTag: null
-date: 2019-10-8T04:00:59Z
+date: 2019-10-08T04:00:59Z
 highlightSubtitle: true
 weight: 3
 ---

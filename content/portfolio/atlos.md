@@ -4,7 +4,7 @@ subtitle: "Visual investigations at scale"
 category: Projects
 tags: ["osint", "security", "politiwatch"]
 dateOverride: "Sp ’22 –"
-date: 2022-3-24T17:14:47-04:00
+date: 2022-03-24T17:14:47-04:00
 highlightSubtitle: true
 showRelatedTag: atlos
 weight: 1
