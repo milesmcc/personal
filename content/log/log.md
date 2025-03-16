@@ -8,6 +8,9 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Mar 13 - 17
+- NYC(Evan, Cole, Joel, Nuñez) + DC (Tete)
+
 #### Mar 5
 - Visit Leo & Cristi, drive home
 
