@@ -1,7 +1,7 @@
 ---
 title: "gchat"
 subtitle: "A real-time chat app in Rust"
-category: Projects
+category: 2-Projects
 dateOverride: "S ’25"
 showRelatedTag:
 date: 2025-02-01
