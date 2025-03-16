@@ -1,7 +1,7 @@
 ---
 title: "gchat"
 subtitle: "A real-time chat app in Rust"
-category: 2-Projects
+category: Projects
 dateOverride: "S ’25"
 showRelatedTag:
 date: 2025-02-01
@@ -9,15 +9,14 @@ highlightSubtitle: true
 weight: 1
 ---
 
-gchat is a real-time chat platform.
-
-You can access the source code [here](https://github.com/GabrielBarros36/gchat) and use it [here](https://www.gchat.cloud/).
+gchat is a real-time chat platform. It uses [gauth](https://github.com/GabrielBarros36/gauth), my (non-prod!) auth library.
+- Access the source code [here](https://github.com/GabrielBarros36/gchat)
+-  Use it [here](https://www.gchat.cloud/)
 
 Its backend is written in Rust, with:
 - Tokio for async support
-- Axum for REST APIs
-- Websockets for all chat functionalities
-
-Its frontend is built in Typescript with Next.js.
-
-gchat is deployed on a Digital Ocean droplet, with self-hosted PostgreSQL as a database and Nginx as a reverse proxy.
+- Axum for all API endpoints
+- Websockets for all live chat functionalities
+- Postgres for user management and message storage
+- Next.js for frontend, hosted in Vercel
+- DigitalOcean as a VPS

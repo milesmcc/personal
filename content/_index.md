@@ -14,14 +14,6 @@ draft: false
 
 My most recent interest is Rust. Things I plan on exploring soon include Haskell/applied Category Theory, FPGAs, and Reinforcement Learning (especially with GRPO).
 
-### Previously
-
-I've been a SWE intern at [Walmart](https://gabe.build/experience/walmart/) and [Mills](https://gabe.build/experience/mills/).
-
-### Broadly
-
-My favorite hobby is going on road trips and traveling in general. I've driven from Florida to California, as well as from Toronto to Maine. Last year I also traveled through Paris, the Netherlands, and Germany. I want to expand my passion for traveling to Africa and Asia this year - and I'm always open to suggestions!
-
 ### Contact
 
 You can email me at [gabrielsacademics@gmail.com](mailto:gabrielsacademics@gmail.com). I'm on [GitHub](https://github.com/GabrielBarros36) and on [LinkedIn](https://www.linkedin.com/in/gabrielrbarros/).
