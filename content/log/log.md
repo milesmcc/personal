@@ -8,8 +8,14 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+#### Mar 5
+- Visit Leo & Cristi, drive home
+
+#### Mar 4
+- Restructure personal website
+
 #### Mar 3
-- Leg day
+
 - gchat: first gauth integration!
 - CIS Lab 4
 
