@@ -12,6 +12,7 @@ draft: false
 - Self Reliance, by Ralph Waldo Emerson
 
 ## Articles
+- [Horace He - Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html)
 - [Horace He - Why PyTorch is an amazing place to work... and Why I'm Joining Thinking Machines](https://www.thonking.ai/p/why-pytorch-is-an-amazing-place-to?r=hjfy1&utm_medium=email)
 - [Farnam Street - Chesterton's Fence](https://fs.blog/chestertons-fence/)
 - [Aaron Swartz - HOWTO: Be more productive](http://www.aaronsw.com/weblog/productivity)
