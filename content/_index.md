@@ -2,7 +2,7 @@
 supertitle: R. Miles McCain | About, contact, and portfolio
 title: R. Miles McCain
 subtitle: New York & San Francisco
-description: I want to make the world more secure, transparent, and safe. 
+description: I want to make the world more secure, transparent, and safe.
 url: /
 draft: false
 ---
@@ -11,7 +11,7 @@ I want to make the world more secure, transparent, and safe.
 
 ### Currently
 
-- I'm a Member of Technical Staff at [Anthropic](https://anthropic.com). 
+- I'm a Member of Technical Staff at [Anthropic](https://anthropic.com).
 - I support human rights investigations at scale via [Atlos](https://atlos.org). My work is made possible by [National Geographic](https://blog.nationalgeographic.org/2023/05/02/introducing-the-national-geographic-societys-2023-young-explorers/), the [Brown Institute at Stanford](https://brown.stanford.edu), and [Microsoft](https://www.microsoft.com/en-us/corporate-responsibility/democracy-forward?activetab=pivot1%3aprimaryr5).
 - I [maintain](https://github.com/milesmcc) a number of open source projects, including [Shynet](https://github.com/milesmcc/shynet) and [a17t](https://github.com/milesmcc/a17t).
 
@@ -23,7 +23,7 @@ At [Stanford](/portfolio/stanford), I taught [CS 106S](https://cs106s.stanford.e
 
 ### Broadly
 
-My projects, research, and commentary have appeared in several outlets including the _New York Times_, the _Washington Post_, _NBC News_, _TIME_, _Foreign Affairs_, Brookings _TechStream_, _Lawfare_, the _Nightly News_ with Lester Holt, and elsewhere. I've also [spoken](/portfolio/speaking) at a few conferences, including [DEF CON](/posts/classmates-legal-threat-fizz-defcon/), [TSRC](https://conferences.law.stanford.edu/tsrc/), and [RightsCon](https://twitter.com/bellingcat/status/1668644662976888832).
+My projects, research, and commentary have appeared in several outlets including the _New York Times_, the _Washington Post_, _NBC News_, _TIME_, _Axios_, _Platformer_, _Foreign Affairs_, Brookings _TechStream_, _Lawfare_, the _Nightly News_ with Lester Holt, and elsewhere. I've also [spoken](/portfolio/speaking) at a few conferences, including [DEF CON](/posts/classmates-legal-threat-fizz-defcon/), [TSRC](https://conferences.law.stanford.edu/tsrc/), and [RightsCon](https://twitter.com/bellingcat/status/1668644662976888832).
 
 For more information, check out my [portfolio](/portfolio).
 
