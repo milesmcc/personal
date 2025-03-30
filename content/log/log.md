@@ -8,8 +8,76 @@ draft: false
 
 ![title](/images/WhatDidYouGetDoneThisWeek.jpeg)
 
+### **Week Mar 24 - Mar 29**
+- Goals
+    x Make functioning Haskell program ("linter")
+    x Add math major (waiting for advisor)
+
+#### Mar 29
+- Human Geo Assignment
+
+#### Mar 28
+- Chest + Tris
+- Flip
+
+#### Mar 27
+- Work on Haskell journal builder
+- Rudin up to Theorem 3.20: read + take notes
+- Back + bis
+
+#### Mar 26
+- Leg day
+- Honors advising
+- Rudin up to Theorem 3.15: read + take notes
+- MAA HW 21
+- Walk-in Math advising (add major + stats question)
+- Get Programming with Haskell (lessons 5-6)
+- Start building Inventory Manager
+- Atlassian Intern Form
+- Send Corey email
+
+#### Mar 25
+- Chest + tris
+- Rudin up to Theorem 3.8: read + notes
+- Real Analysis HW20
+
+#### Mar 24
+- Back + bis
+- Read: Get Programming with Haskell (Lessons 1-4)
+- Read: The Lean Startup
+- Organize week
+- Schedule Honors advising meeting + discuss Honors DIS
+
+#### Mar 23
+- MAA HW24
+- gchat
+    - Add profile picture (also gauth)
+    - Try and fail to solve CORS issue
+
+#### Mar 22
+- Chest + tris
+
+#### Mar 21
+- NM Renewal Form
+- Back + bis
+
+#### Mar 20
+- Security Fundamentals HW 1
+- Help Ryan with OA
+- Databases Project State 3
+- Leg day
+
+#### Mar 19
+- Real Analysis HW 22
+- Made Cursor rules, started developing inventory manager w/ Cursor
+- Chest day
+
+#### Mar 18
+- (Company) intern intake form 
+
 #### Mar 13 - 17
-- NYC(Evan, Cole, Joel, Nuñez) + DC (Tete)
+- NYC (Evan, Cole, Joel, Nuñez) + DC (Tete)
+- (16): add password encryption to gauth
 
 #### Mar 5
 - Visit Leo & Cristi, drive home
