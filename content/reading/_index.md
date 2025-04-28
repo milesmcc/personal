@@ -23,9 +23,10 @@ draft: false
 - [Paul Graham's Essays](https://paulgraham.com/articles.html)
 
 ## Books
-
-- Thinking in Systems: A Primer, by Donella Meadows
-- The Old Man and the Sea, by Ernest Hemingway
+|Title|Author|
+|-----|------|
+|Thinking in Systems: A Primer|Donella Meadows|
+|The Old Man and the Sea|Ernest Hemingway|
 - There is no Antimemetics Division, by qntm
 - Godel, Escher, Bach: an Eternal Golden Braid, by Douglas Hofstaetder
 - The Rise of Theodore Roosevelt, by Edmund Morris
