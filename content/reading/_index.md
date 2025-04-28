@@ -27,8 +27,8 @@ draft: false
 |-----|------|
 |Thinking in Systems: A Primer|Donella Meadows|
 |The Old Man and the Sea|Ernest Hemingway|
-- There is no Antimemetics Division, by qntm
-- Godel, Escher, Bach: an Eternal Golden Braid, by Douglas Hofstaetder
-- The Rise of Theodore Roosevelt, by Edmund Morris
-- Animal Farm, by George Orwell
-- Isaac Asimov's Robot series
+|There is no Antimemetics Division|qntm|
+|Godel, Escher, Bach: an Eternal Golden Braid|Douglas|Hofstaetder|
+|The Rise of Theodore Roosevelt|Edmund Morris|
+|Animal Farm|George Orwell|
+|Robot Series|Isaac Asimov|
