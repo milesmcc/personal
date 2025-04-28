@@ -10,8 +10,8 @@ draft: false
 
 ### **Week Mar 24 - Mar 29**
 - Goals
-    x Make functioning Haskell program ("linter")
-    x Add math major (waiting for advisor)
+    - Make functioning Haskell program ("linter")
+    - Add math major (waiting for advisor)
 
 #### Mar 29
 - Human Geo Assignment
