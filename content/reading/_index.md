@@ -12,6 +12,7 @@ draft: false
 - Self Reliance, by Ralph Waldo Emerson
 
 ## Blogs/Articles
+- [Patrick Collison's Bookshelf](https://patrickcollison.com/bookshelf)
 - [Mark Andreessen's Guide to Career Planning](https://pmarchive.com/guide_to_career_planning_part0.html)
 - [Intelligence Arbitrage](https://sdan.io/blog/intelligence-arbitrage)
 - [Haskell in Production - Mercury](https://serokell.io/blog/haskell-in-production-mercury)

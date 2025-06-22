@@ -8,11 +8,7 @@ draft: false
 ---
 
 ### Currently
-- Junior at Florida State studying Math and CS
-- Working on [gchat](https://gabe.build/experience/gchat/) and [gauth](https://github.com/GabrielBarros36/gauth)
-- Looking for interesting things to work on - if you have any ideas please reach out!
-
-My most recent interest is Rust. Things I plan on exploring soon include Haskell/applied Category Theory, FPGAs, and Reinforcement Learning (especially with GRPO).
+I'm an intern at Netflix in the Video Algorithms Systems team. I just finished my 3rd year studying Math and CS at Florida State University, and I'm looking for interesting things to work on - if you have any ideas please reach out!
 
 ### Contact
 
