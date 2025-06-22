@@ -18,7 +18,9 @@
     </h3>
     
     <div class="text-base text-neutral-600 dark:text-neutral-400 mt-2 overflow-hidden font-serif" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-      {{ .Summary | plainify | htmlUnescape | truncate 120 }}
+      {{ $content := .Summary | plainify | htmlUnescape }}
+      {{ $firstSentence := index (split $content ".") 0 }}
+      {{ if gt (len $firstSentence) 0 }}{{ $firstSentence }}.{{ else }}{{ $content | truncate 120 }}{{ end }}
     </div>
   </a>
 </li>
