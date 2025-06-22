@@ -19,13 +19,14 @@ weight = 1
     style = "text-critical-600"
     style_active = "bg-critical-100 dark:bg-critical-800 dark:bg-opacity-[30%]"
 
-[[menu.main]]
-name = "Posts"
-url = "/posts/"
-weight = 2
-[menu.main.params]
-    style = "text-info-600"
-    style_active = "bg-info-100 dark:bg-info-800 dark:bg-opacity-[30%]"
+# Posts section - uncomment to show posts tab in navigation
+# [[menu.main]]
+# name = "Posts"
+# url = "/posts/"
+# weight = 2
+# [menu.main.params]
+#     style = "text-info-600"
+#     style_active = "bg-info-100 dark:bg-info-800 dark:bg-opacity-[30%]"
 
 # [[menu.main]]
 # name = "Log"
