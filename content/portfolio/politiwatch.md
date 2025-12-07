@@ -6,13 +6,14 @@ category: Work
 tags:
   - politics
   - oversight
-dateOverride: F ’16 –
+dateOverride: F '16 –
 showRelatedTag: politiwatch
 highlightSubtitle: true
-weight: 1
+weight: 8
 ---
-[Politiwatch](https://politiwatch.org) is a non-profit that technology to promote political accountability, digital rights, and social awareness. I founded Politiwatch as a way to distance myself from some of my more [controversial projects](https://polititweet.org). (They weren't *that* controversial, but I didn't feel comfortable putting my name on them.)
+[Politiwatch](https://politiwatch.org) is a nonprofit I founded in high school that uses technology to promote political accountability and digital rights.
 
-If you find the work I do as Politiwatch impactful, please consider [donating](https://donorbox.org/whoaremyrepresentatives).
-
-Politiwatch's sponsors include Google (via their Google for Nonprofits program), Microsoft (though their nonprofit grants program), ProtonMail, and DigitalOcean.
+**Key projects:**
+- [PolitiTweet](https://polititweet.org) — archived public figures' deleted tweets; cited by NBC News, CNN, the Daily Beast, and Bellingcat in coverage of Russian influence operations
+- [PrivacySpy](https://privacyspy.org) — rates privacy policies on a ten-point scale; named a "Tip of the Week" by the New York Times
+- [WhoAreMyRepresentatives](https://whoaremyrepresentatives.org) — lookup tool for U.S. government representatives; used over 1 million times
