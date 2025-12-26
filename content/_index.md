@@ -1,7 +1,7 @@
 ---
 supertitle: R. Miles McCain | About, contact, and portfolio
 title: R. Miles McCain
-subtitle: New York & San Francisco
+subtitle:
 description: I want to make the world more secure, transparent, and safe.
 url: /
 draft: false
